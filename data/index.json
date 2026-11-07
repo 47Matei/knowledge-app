@@ -1,0 +1,340 @@
+{
+"version": 1,
+"built": "2026-10-25",
+"domains": [
+{
+"id": "masini",
+"title": "Mașini",
+"sub": "Mărci, modele, sigle, Formula 1, tehnică",
+"icon": "car",
+"hue": 12,
+"source": "Pachet generat și verificat de Claude (octombrie 2026), pe baza surselor enciclopedice publice.",
+"count": 345,
+"intrus": {
+"by": "a",
+"item": "q",
+"skip": [
+"Mărci",
+"Sigle",
+"Formula 1",
+"Tehnică auto",
+"Mărci de supercaruri și electrice"
+]
+},
+"map": null
+},
+{
+"id": "ceasuri",
+"title": "Ceasuri",
+"sub": "Mărci, modele, mecanisme, complicații, termeni",
+"icon": "watch",
+"hue": 38,
+"source": "Pachet generat și verificat de Claude (octombrie 2026), pe baza surselor enciclopedice publice.",
+"count": 284,
+"intrus": {
+"by": "sub",
+"item": "auto",
+"skip": [
+"Porecle și coduri",
+"Ceasuri și oameni celebri",
+"Istoria ceasului",
+"Mecanisme celebre"
+]
+},
+"map": null
+},
+{
+"id": "comportament",
+"title": "Psihologie și comportament",
+"sub": "Culorile DISC, personalitate, emoții, persuasiune",
+"icon": "people",
+"hue": 300,
+"source": "Culorile DISC: sinteză proprie a modelului descris de Thomas Erikson (textele nu sunt citate din carte). Restul: pachet generat și verificat de Claude.",
+"count": 168,
+"intrus": {
+"by": "a",
+"item": "q",
+"skip": [
+"Despre model"
+]
+},
+"map": null
+},
+{
+"id": "capitale",
+"title": "Țări și capitale",
+"sub": "195 de state, fluvii, munți, mări",
+"icon": "capital",
+"hue": 210,
+"source": "Date: setul deschis mledoze/countries (derivat din Wikipedia) și CLDR pentru numele românești; capitalele verificate în octombrie 2026.",
+"count": 230,
+"intrus": {
+"by": "sub",
+"item": "q",
+"skip": [
+"Fluvii, munți și mări"
+]
+},
+"map": "world"
+},
+{
+"id": "localizare",
+"title": "Localizare țări",
+"sub": "Pe harta lumii",
+"icon": "globe",
+"hue": 175,
+"source": "Hartă: Natural Earth (domeniu public), prin world-atlas.",
+"count": 195,
+"intrus": {
+"by": "sub",
+"item": "a",
+"skip": []
+},
+"map": "world"
+},
+{
+"id": "judete",
+"title": "Județele României",
+"sub": "Reședințe, hartă, râuri, munți, orașe",
+"icon": "romania",
+"hue": 50,
+"source": "Granițe: Natural Earth (domeniu public); vecinii sunt calculați din granițe.",
+"count": 205,
+"intrus": {
+"by": "f:Regiune istorică",
+"item": "q",
+"skip": [
+"Pe hartă",
+"Indicative auto",
+"Râuri",
+"Munți",
+"Orașe"
+]
+},
+"map": "romania"
+},
+{
+"id": "steaguri",
+"title": "Steagurile lumii",
+"sub": "Recunoaște țara după steag",
+"icon": "flag",
+"hue": 0,
+"source": "Date: mledoze/countries; steagurile sunt afișate cu emoji-urile telefonului.",
+"count": 195,
+"intrus": {
+"by": "sub",
+"item": "q",
+"skip": []
+},
+"map": null
+},
+{
+"id": "avioane",
+"title": "Aviație",
+"sub": "Avioane, elicoptere, companii, cum zboară",
+"icon": "plane",
+"hue": 200,
+"source": "Pachet generat și verificat de Claude (octombrie 2026), pe baza surselor enciclopedice publice.",
+"count": 165,
+"intrus": {
+"by": "a",
+"item": "q",
+"skip": [
+"Pionieri și repere",
+"Pionieri",
+"Termeni de aviație",
+"Cum zboară un avion",
+"Aeroporturi (coduri IATA)",
+"Companii aeriene",
+"Recorduri și curiozități",
+"Meserii și reguli în aviație",
+"Drone și viitorul aviației"
+]
+},
+"map": null
+},
+{
+"id": "elemente",
+"title": "Tabelul periodic",
+"sub": "118 elemente, compuși, utilizări",
+"icon": "atom",
+"hue": 160,
+"source": "Date: Periodic-Table-JSON (Bowserinator, CC BY-SA), nume românești și carduri suplimentare adăugate de Claude.",
+"count": 183,
+"intrus": {
+"by": "sub",
+"item": "qa",
+"skip": [
+"Utilizări",
+"Compuși uzuali",
+"Recorduri",
+"Despre tabel"
+]
+},
+"map": null
+},
+{
+"id": "astronomie",
+"title": "Astronomie",
+"sub": "Planete, sateliți, stele, misiuni",
+"icon": "planet",
+"hue": 255,
+"source": "Pachet generat și verificat de Claude (octombrie 2026), pe baza surselor enciclopedice publice.",
+"count": 164,
+"intrus": {
+"by": "sub",
+"item": "a",
+"skip": [
+"Sistemul Solar și Universul",
+"Explorare spațială",
+"Misiuni",
+"Galaxii și Univers",
+"Recorduri în Sistemul Solar",
+"Viața în spațiu",
+"Pe cerul nopții"
+]
+},
+"map": null
+},
+{
+"id": "istorie",
+"title": "Istoria României",
+"sub": "Domnitori, date-cheie, personalități",
+"icon": "crown",
+"hue": 25,
+"source": "Pachet generat și verificat de Claude (octombrie 2026), pe baza surselor enciclopedice publice.",
+"count": 153,
+"intrus": {
+"by": "sub",
+"item": "a",
+"skip": [
+"Repere contemporane",
+"Simboluri naționale",
+"După 1989",
+"Războaie și bătălii"
+]
+},
+"map": null
+},
+{
+"id": "corp",
+"title": "Corpul uman",
+"sub": "Organe, sisteme, hormoni, genetică",
+"icon": "heart",
+"hue": 350,
+"source": "Pachet generat și verificat de Claude (octombrie 2026), pe baza surselor enciclopedice publice.",
+"count": 162,
+"intrus": {
+"by": "sub",
+"item": "a",
+"skip": [
+"Corpul în cifre",
+"Sănătate",
+"Somn și creier",
+"Descoperiri medicale",
+"Oase și mușchi",
+"Mușchi și schelet",
+"Sânge și imunitate",
+"Simțuri și sisteme",
+"Imunitate și boli",
+"Respirație și circulație",
+"Celule și genetică",
+"Vitamine și nutriție"
+]
+},
+"map": null
+},
+{
+"id": "biasuri",
+"title": "Erori de gândire",
+"sub": "Biasuri, erori logice, modele mentale",
+"icon": "brain",
+"hue": 280,
+"source": "Pachet generat și verificat de Claude (octombrie 2026), pe baza surselor enciclopedice publice.",
+"count": 157,
+"intrus": {
+"by": "sub",
+"item": "a",
+"skip": []
+},
+"map": null
+},
+{
+"id": "finante",
+"title": "Educație financiară",
+"sub": "Taxe, buget, investiții, economie",
+"icon": "coin",
+"hue": 140,
+"source": "Pachet generat și verificat de Claude (octombrie 2026), pe baza surselor enciclopedice publice. Cotele fiscale verificate în octombrie 2026.",
+"count": 155,
+"intrus": {
+"by": "sub",
+"item": "a",
+"skip": [
+"Salariu și taxe în România",
+"Bani în viața de zi cu zi",
+"Economia lumii"
+]
+},
+"map": null
+},
+{
+"id": "monumente",
+"title": "Monumente",
+"sub": "Clădiri celebre din România și lume",
+"icon": "arch",
+"hue": 30,
+"source": "Pachet generat și verificat de Claude (octombrie 2026), pe baza surselor enciclopedice publice.",
+"count": 172,
+"intrus": {
+"by": "sub",
+"item": "q",
+"skip": [
+"Cele 7 minuni ale lumii antice",
+"Statui celebre"
+]
+},
+"map": null
+},
+{
+"id": "arhitectura",
+"title": "Arhitectură",
+"sub": "Stiluri, elemente, arhitecți, urbanism",
+"icon": "columns",
+"hue": 190,
+"source": "Pachet generat și verificat de Claude (octombrie 2026), pe baza surselor enciclopedice publice.",
+"count": 186,
+"intrus": {
+"by": "sub",
+"item": "a",
+"skip": [
+"Recunoaște stilul",
+"Construcții și urbanism",
+"Arhitectură românească",
+"Arhitecți români",
+"Clădiri moderne celebre"
+]
+},
+"map": null
+},
+{
+"id": "vocabular",
+"title": "Vocabular englez",
+"sub": "Cuvinte avansate, phrasal verbs, expresii",
+"icon": "book",
+"hue": 225,
+"source": "Pachet generat și verificat de Claude (octombrie 2026), pe baza surselor enciclopedice publice.",
+"count": 176,
+"intrus": {
+"by": "sub",
+"item": "q",
+"skip": [
+"Expresii",
+"Prieteni falși",
+"Cuvinte ușor de confundat"
+]
+},
+"map": null
+}
+]
+}
