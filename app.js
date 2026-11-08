@@ -1993,30 +1993,31 @@ VIEWS.settings = async (v = {}) => {
   return root;
 };
 
-// ---------- tastatura: întrebarea rămâne vizibilă când scrii răspunsul ----------
-// Pe telefon, când apare tastatura, browserul derulează pagina ca să arate câmpul și împinge întrebarea sub bara de sus.
-// Cât timp câmpul are focus: cardul se strânge (html.typing) și așezăm pagina cu întrebarea sub bară și câmpul deasupra tastaturii.
+// ---------- tastatura: pagina nu mai coboară când scrii răspunsul ----------
+// Pe telefon, când atingi câmpul de răspuns, apare tastatura și browserul derulează singur pagina în jos.
+// La atingere notăm poziția paginii; cât timp tastatura se deschide (aproximativ o secundă), orice derulare făcută
+// de browser e anulată imediat, readucând pagina exact unde era. Cardul se și strânge (html.typing), ca să încapă mai mult.
 const TYPE_FIELDS = '#typed, #ans, #mapans';
-function fitTyping(input) {
-  if (document.activeElement !== input) return;
-  const card = $('#app .card'); if (!card) return;
-  const bar = $('#app .topbar'), barH = bar ? bar.getBoundingClientRect().bottom : 0;
-  const vv = window.visualViewport, viewBottom = vv ? vv.offsetTop + vv.height : innerHeight;
-  let dy = card.getBoundingClientRect().top - barH - 6;                      // întrebarea imediat sub bară
-  const over = input.getBoundingClientRect().bottom - dy - (viewBottom - 8);   // câmpul trebuie să rămână deasupra tastaturii
-  if (over > 0) dy += over;
-  if (Math.abs(dy) > 2) window.scrollBy(0, dy);
-}
-let typingOff = null;
+const KEEP_MS = 1200;            // cât timp după atingere anulăm derularea automată
+let keepY = null, keepUntil = 0, typingOff = null;
+const holdScroll = () => { if (keepY !== null && Date.now() < keepUntil && Math.abs(window.scrollY - keepY) > 1) window.scrollTo(0, keepY); };
+document.addEventListener('pointerdown', e => {
+  const input = e.target.closest && e.target.closest(TYPE_FIELDS);
+  if (input && document.activeElement !== input) { keepY = window.scrollY; keepUntil = Date.now() + KEEP_MS; }
+}, true);
 document.addEventListener('focusin', e => {
   const input = e.target.closest && e.target.closest(TYPE_FIELDS); if (!input) return;
   clearTimeout(typingOff); document.documentElement.classList.add('typing');
-  const fit = () => fitTyping(input);
-  [0, 120, 320, 650].forEach(ms => setTimeout(fit, ms));
-  if (window.visualViewport && !input._fitBound) { input._fitBound = true; visualViewport.addEventListener('resize', fit); input.addEventListener('focusout', () => visualViewport.removeEventListener('resize', fit), { once: true }); }
+  if (keepY === null || Date.now() > keepUntil) { keepY = window.scrollY; keepUntil = Date.now() + KEEP_MS; }
+  [0, 30, 80, 160, 300, 500, 800, 1100].forEach(ms => setTimeout(holdScroll, ms));
 });
+document.addEventListener('submit', () => { keepY = null; }, true);   // după „Verifică" pagina poate coborî la răspuns
+window.addEventListener('scroll', holdScroll, { passive: true });
+window.addEventListener('resize', holdScroll);
+if (window.visualViewport) visualViewport.addEventListener('resize', holdScroll);
 document.addEventListener('focusout', e => {
   if (!(e.target.closest && e.target.closest(TYPE_FIELDS))) return;
+  keepY = null;
   // întârziere mică: dacă apeși „Verifică", butonul nu se mută sub deget
   typingOff = setTimeout(() => document.documentElement.classList.remove('typing'), 300);
 });

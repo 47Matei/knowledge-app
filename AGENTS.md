@@ -217,7 +217,7 @@ question | answer | details | english name | Key=Value; Key2=Value2 | mnemonic |
 cd tools && npm install && npx playwright install chromium && cd ..   # once
 npm --prefix tools test                       # decks + answers + models + PWA files (about 30 s)
 python3 -m http.server 8765 &                 # then:
-npm --prefix tools run test:ui                # 15 UI + 18 PWA + 11 keyboard checks in Chromium, Pixel 7 emulation
+npm --prefix tools run test:ui                # 15 UI + 18 PWA + 17 keyboard checks in Chromium, Pixel 7 emulation
 ```
 
 - **`test_decks.js`** checks data integrity: index and deck files match, ids are unique, there are no duplicate cards, every picture and pack key exists, licenses are present, pairs are valid, and the file count is at most 512.
@@ -225,7 +225,7 @@ npm --prefix tools run test:ui                # 15 UI + 18 PWA + 11 keyboard che
 - **`test_models.js`** checks the same-brand image quiz and the thresholds.
 - **`ui_test.js`** checks pins, colors, sticky buttons, "1 oră" and the scroll reset. Screenshots go to `tools/test/out/`.
 - **`test_pwa.js`** checks the manifest, the icon sizes, that every service-worker shell file exists, and that the worker is registered only outside Claude.
-- **`ui_keyboard_test.js`** simulates the phone keyboard (430 px tall viewport) and checks that the question and the answer field both stay visible while typing (learn and written quiz). The fix: `html.typing` shrinks the card and `fitTyping()` in app.js places the question under the top bar; the viewport meta has `interactive-widget=resizes-content`.
+- **`ui_keyboard_test.js`** simulates the phone keyboard (tap the field, shrink the viewport to 430 px, let the browser scroll to the field) and checks that the page does not move and the question stays visible (learn on text, flag and map cards, quick session, written quiz). How it works (Ciprian's choice, 8 November 2026): on touch, app.js notes the scroll position and for 1.2 s cancels any scroll the browser makes (`holdScroll`); `html.typing` also shrinks the card; the viewport meta has `interactive-widget=resizes-content`. Known trade-off: on tall map cards the answer field can stay under the keyboard.
 - **`ui_pwa_test.js`** checks the service worker, offline start, the install guide, the monthly backup reminder, and that none of it runs when `window.claude` exists.
 
 All must pass before a PR. When you add a feature, add its test.
