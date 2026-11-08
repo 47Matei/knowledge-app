@@ -25,6 +25,8 @@ for (const dm of index.domains) {
   for (const c of d.cards) {
     if (cid.has(c.id)) bad.push('duplicate id ' + c.id); cid.add(c.id);
     if (!c.id || !c.sub || (!c.q && !c.map && !c.romap && !c.rl && !c.flag) || !c.a) bad.push('missing field in ' + c.id);
+    for (const key of ['q', 'a', 'd', 'en', 'm']) if (typeof c[key] === 'string' && c[key].includes('|')) bad.push(`"|" in ${key} of ${c.id} (shifted field?)`);
+    for (const x of [...(c.alt || []), ...Object.entries(c.f || {}).flat()]) if (String(x).includes('|')) bad.push(`"|" in alt/f of ${c.id}`);
     const k = (c.q || '') + '|' + c.a; if (c.q && qa.has(k.toLowerCase())) bad.push('duplicate card ' + k); qa.add(k.toLowerCase());
     if (c.img) {
       if (c.img.p) { const pk = pack(c.img.p); if (!pk || !pk[c.img.f]) bad.push(`missing packed picture ${c.img.p}/${c.img.f}`); }

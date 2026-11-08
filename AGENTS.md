@@ -158,6 +158,7 @@ question | answer | details | english name | Key=Value; Key2=Value2 | mnemonic |
 ```
 
 - Fields are separated by ` | ` (space, pipe, space). Trailing fields can be omitted.
+- Empty fields in the middle are fine (`| |`). Until 8 November 2026 the builder split only on ` | `, so `| |` shifted the following fields (English name inside the details, alternatives inside the mnemonic); it now splits on every `|`, so `|` cannot appear inside a field.
 - `@append 1` merges cards into an existing deck.
 - **`tools/src-reference/`** holds the original sources of the text decks.
   - These sources do **not** contain the pictures, maps or Round 2 image tags. The JSON files in `data/` are the source of truth.
