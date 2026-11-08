@@ -1,0 +1,16 @@
+/* Concept C - "Mono": alb și gri, fără culori pe domenii, un singur accent albastru. Liniștit și foarte curat. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+:root:root:root{
+  --bg:#FAFAFA; --surface:#FFFFFF; --surface-2:#F4F4F5; --ink:#0A0A0B; --muted:#71717A; --line:#E7E7EA;
+  --accent:#2563EB; --accent-ink:#FFFFFF; --ok:#16A34A; --ok-bg:#E9F7EE; --warn:#B45309; --warn-bg:#FDF3E3; --bad:#DC2626; --bad-bg:#FDECEC;
+  --shadow:none; --f-display:"Inter",system-ui,sans-serif; --f-body:"Inter",system-ui,sans-serif; --f-mono:"Inter",system-ui,sans-serif;
+  --tab-s:0%; --tab-l:30%; --tab-bg-l:95%; color-scheme:light;
+}
+.tile{border-radius:12px}
+.tile::before{display:none}
+.bar{height:3px;border:0}.bar>i{background:var(--accent)}
+.label{text-transform:none;letter-spacing:0;font-size:12px}
+.hero.primary .label{color:rgba(255,255,255,.7)}
+.topbar h1{font-weight:800;letter-spacing:-.02em}
+.tile .ic{background:var(--surface-2);color:var(--ink)}
+.pill.new{background:var(--surface-2);color:var(--muted)}
