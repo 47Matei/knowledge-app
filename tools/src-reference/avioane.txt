@@ -1,0 +1,196 @@
+@id avioane
+@prompt Cine produce acest avion?
+## Avioane de linie
+Boeing 747 | Boeing (SUA) | „Regina cerului", primul avion cu fuselaj lat și etaj superior (1969); a dus transportul aerian în masă. | Boeing 747 | Primul zbor=1969; Motoare=4; Tip=fuselaj lat
+Boeing 737 | Boeing (SUA) | Cel mai vândut avion de linie din istorie, în serviciu din 1968; varianta 737 MAX a fost oprită la sol în 2019-2020. | Boeing 737 | Primul zbor=1967; Motoare=2; Tip=fuselaj îngust
+Boeing 787 Dreamliner | Boeing (SUA) | Primul avion de linie mare cu fuselaj din materiale compozite (fibră de carbon), în serviciu din 2011. | Boeing 787 Dreamliner | Primul zbor=2009; Motoare=2; Material=compozit
+Boeing 777 | Boeing (SUA) | Cel mai mare bimotor de linie; primul avion proiectat integral pe calculator (CATIA). | Boeing 777 | Primul zbor=1994; Motoare=2
+Airbus A380 | Airbus (Europa) | Cel mai mare avion de pasageri din lume, cu două punți complete; producția s-a încheiat în 2021. | Airbus A380 | Primul zbor=2005; Motoare=4; Capacitate=până la 853 locuri
+Airbus A320 | Airbus (Europa) | Primul avion de linie cu comenzi „fly-by-wire" digitale (1988); familia A320 a depășit 737 la comenzi. | Airbus A320 | Primul zbor=1987; Motoare=2; Tip=fuselaj îngust
+Airbus A350 | Airbus (Europa) | Avion cu fuselaj lat din compozite, rivalul lui Boeing 787; recunoscut după „masca" neagră din jurul geamurilor cabinei. | Airbus A350 | Primul zbor=2013; Motoare=2
+Concorde | Aérospatiale și BAC (Franța și Marea Britanie) | Avion supersonic de pasageri, zbura la Mach 2,04; traversa Atlanticul în aproximativ 3,5 ore. Retras în 2003. | Concorde | Primul zbor=1969; Viteză=Mach 2,04; Retras=2003
+Tupolev Tu-144 | Tupolev (URSS) | Primul avion supersonic de pasageri care a zburat (decembrie 1968), cu câteva luni înaintea Concorde. | Tupolev Tu-144 | Primul zbor=1968
+Embraer E-Jet | Embraer (Brazilia) | Familie de avioane regionale (E170-E195); Embraer este al treilea mare producător de avioane comerciale. | Embraer E-Jet | Primul zbor=2002; Țară=Brazilia
+ATR 72 | ATR (Franța și Italia) | Turbopropulsor regional, folosit de TAROM pe rute interne. | ATR 72 | Primul zbor=1988; Motoare=2 turbopropulsoare
+Comac C919 | Comac (China) | Primul avion de linie cu fuselaj îngust dezvoltat în China, în serviciu din 2023. | Comac C919 | Primul zbor=2017; Țară=China
+## Avioane militare
+F-16 Fighting Falcon | General Dynamics / Lockheed Martin (SUA) | Avion de vânătoare multirol; România îl folosește din 2016. Poreclit „Viper". | F-16 Fighting Falcon | Primul zbor=1974; Motoare=1
+F-35 Lightning II | Lockheed Martin (SUA) | Avion de vânătoare stealth de generația a cincea; România a semnat achiziția a 32 de bucăți în 2024. | F-35 Lightning II | Primul zbor=2006; Tip=stealth multirol
+F-22 Raptor | Lockheed Martin (SUA) | Primul avion de vânătoare de generația a cincea intrat în serviciu (2005); folosit doar de SUA. | F-22 Raptor | Primul zbor=1997
+SR-71 Blackbird | Lockheed (SUA) | Avion de recunoaștere, cel mai rapid avion cu reacție cu pilot (peste Mach 3,2). | SR-71 Blackbird | Primul zbor=1964; Viteză=Mach 3,3
+MiG-21 | Mikoyan-Gurevich (URSS) | Cel mai produs avion supersonic de vânătoare; România l-a folosit (versiunea LanceR) până în 2023. | MiG-21 | Primul zbor=1955
+Su-27 | Suhoi (URSS) | Avion de superioritate aeriană celebru pentru manevra „Cobra lui Pugaciov". | Sukhoi Su-27 | Primul zbor=1977
+Eurofighter Typhoon | Consorțiu Airbus, BAE Systems, Leonardo (Europa) | Avion de vânătoare dezvoltat de Germania, Marea Britanie, Italia și Spania. | Eurofighter Typhoon | Primul zbor=1994
+Dassault Rafale | Dassault Aviation (Franța) | Avion de vânătoare multirol francez, folosit și pe portavioane. | Dassault Rafale | Primul zbor=1986
+Saab JAS 39 Gripen | Saab (Suedia) | Avion de vânătoare ușor, proiectat să decoleze de pe porțiuni de autostradă. | Saab Gripen | Primul zbor=1988
+B-2 Spirit | Northrop Grumman (SUA) | Bombardier stealth în formă de „aripă zburătoare". | B-2 Spirit | Primul zbor=1989
+IAR-93 Vultur | IAR și SOKO (România și Iugoslavia) | Avion de atac la sol dezvoltat în comun de România și Iugoslavia în anii '70. | IAR-93 | Primul zbor=1974
+C-130 Hercules | Lockheed (SUA) | Avion de transport militar cu patru turbopropulsoare, produs continuu din anii '50; folosit și de România. | C-130 Hercules | Primul zbor=1954
+## Pionieri și repere | Răspunde la întrebare
+Cine a realizat primul zbor controlat cu un avion cu motor (17 decembrie 1903)? | Frații Wright (Orville și Wilbur) | La Kitty Hawk, Carolina de Nord; primul zbor a durat 12 secunde. | Wright brothers | An=1903; Loc=Kitty Hawk
+Ce român a decolat în 1906 la Paris cu un avion pe roți, fără catapultă? | Traian Vuia | A zburat pe 18 martie 1906 cu aparatul „Vuia I", decolând doar cu mijloace proprii. | Traian Vuia | An=1906
+Ce român a construit Coandă-1910, considerat de unii primul avion cu reacție? | Henri Coandă | A descoperit și „efectul Coandă", tendința unui jet de fluid de a urma o suprafață curbă. | Henri Coanda | Efect=Coandă
+Ce pionier român a impresionat la mitingul aviatic de la Aspern (Viena, 1912) cu avionul „A Vlaicu II"? | Aurel Vlaicu | Inginer și pionier al aviației; a murit în 1913, încercând să traverseze Carpații în zbor. | Aurel Vlaicu | Avion=A Vlaicu II (1911)
+Cine a traversat primul Atlanticul în zbor solo, fără escală (1927)? | Charles Lindbergh | Cu avionul „Spirit of St. Louis", de la New York la Paris, în 33,5 ore. | Charles Lindbergh | An=1927
+Prima femeie care a traversat Atlanticul în zbor solo (1932) | Amelia Earhart | A dispărut în 1937 deasupra Pacificului, încercând ocolul lumii. | Amelia Earhart | An=1932
+Cine a spart primul bariera sunetului (1947)? | Chuck Yeager | Cu avionul-rachetă Bell X-1, la 14 octombrie 1947. | Chuck Yeager | An=1947
+Care a fost primul avion de linie cu reacție (1949)? | de Havilland Comet | Britanic; problemele de oboseală a metalului au dus la ferestrele rotunjite folosite azi. | de Havilland Comet | An=1949
+## Termeni de aviație | Ce înseamnă termenul?
+Mach 1 | Viteza sunetului (aproximativ 1.235 km/h la nivelul mării) | Numit după fizicianul austriac Ernst Mach. | Mach number
+Fly-by-wire | Comenzile pilotului sunt transmise electronic, nu mecanic | Calculatorul interpretează comenzile și protejează avionul de manevre periculoase. | Fly-by-wire
+Fuselaj | Corpul principal al avionului | Găzduiește cabina, pasagerii și marfa. | Fuselage
+Eleron | Suprafață mobilă la capătul aripii care rotește avionul pe axa longitudinală (ruliu) | Eleroanele se mișcă în sensuri opuse pe cele două aripi. | Aileron
+Profundor | Suprafață mobilă de pe coada orizontală care controlează urcarea și coborârea (tangaj) | | Elevator
+Direcție (cârmă) | Suprafață mobilă verticală de pe coadă care controlează girația | | Rudder
+Winglet | Prelungire verticală la vârful aripii care reduce turbulența și consumul | Poate economisi câteva procente din combustibil. | Winglet
+Stealth | Tehnologie care face avionul greu de detectat de radar | Folosește forme speciale și materiale care absorb undele radar. | Stealth
+Cutie neagră | Înregistrator de zbor, de fapt portocaliu, pentru a fi găsit ușor | Există două: înregistratorul de date (FDR) și cel de voce din cabină (CVR). | Black box (flight recorder)
+~ Boeing 747 ~ Airbus A380 ~ 747 are cocoașa doar în față (etaj parțial); A380 are două punți pe toată lungimea.
+~ Boeing 737 ~ Airbus A320 ~ 737 are vârful botului ascuțit și motoare turtite jos; A320 are botul rotunjit și trenul de aterizare mai înalt.
+~ Boeing 787 Dreamliner ~ Airbus A350 ~ 787 are marginile motoarelor zimțate (chevrons) și geamuri de cabină netede; A350 are „masca" neagră la geamurile cabinei.
+~ Concorde ~ Tupolev Tu-144 ~ Tu-144 a zburat primul (1968), dar Concorde a avut o carieră mult mai lungă și mai sigură; Tu-144 avea aripioare retractabile în față (canard).
+~ F-16 Fighting Falcon ~ F-35 Lightning II ~ F-16: priză de aer sub fuselaj, generația a 4-a. F-35: stealth, prize laterale, generația a 5-a.
+~ Traian Vuia ~ Aurel Vlaicu ~ Vuia a zburat primul (1906, Paris). Vlaicu a construit A Vlaicu II (1911) și a murit în 1913.
+## Alte avioane de linie | Cine produce acest avion?
+Boeing 707 | Boeing (SUA) | Primul avion de linie cu reacție de mare succes comercial (1958); a deschis „era jetului". | Boeing 707 | Primul zbor=1957; Motoare=4
+Boeing 727 | Boeing (SUA) | Trimotor cu toate motoarele în spate, produs între 1963 și 1984. | Boeing 727 | Motoare=3
+Boeing 757 | Boeing (SUA) | Bimotor cu fuselaj îngust, lung și subțire, produs între 1981 și 2004. | Boeing 757 | Motoare=2
+Boeing 767 | Boeing (SUA) | Primul bimotor cu fuselaj lat al Boeing (1981); varianta militară e avion-cisternă. | Boeing 767 | Motoare=2
+Boeing 777X | Boeing (SUA) | Varianta nouă a lui 777, cu vârfurile aripilor pliabile, ca să încapă la porțile aeroporturilor. | Boeing 777X | Particularitate=aripi pliabile
+Airbus A220 | Airbus (Europa), proiectat de Bombardier | Proiectat în Canada ca Bombardier CSeries și preluat de Airbus în 2018. | Airbus A220 | Primul zbor=2013
+Airbus A300 | Airbus (Europa) | Primul avion Airbus și primul bimotor cu fuselaj lat din lume (1972). | Airbus A300 | Primul zbor=1972
+Airbus A330 | Airbus (Europa) | Bimotor cu fuselaj lat pentru rute lungi, din 1992. | Airbus A330 | Motoare=2
+Airbus A340 | Airbus (Europa) | Cvadrimotor cu fuselaj lat pentru rute foarte lungi (1991-2011). | Airbus A340 | Motoare=4
+Airbus A321XLR | Airbus (Europa) | Avion cu fuselaj îngust și rază foarte lungă (peste 8.000 km), care poate traversa Atlanticul. | Airbus A321XLR | Intrare în serviciu=2024
+Douglas DC-3 | Douglas (SUA) | Avion cu elice din 1935 care a făcut transportul aerian profitabil; unele încă zboară. | Douglas DC-3 | Primul zbor=1935
+McDonnell Douglas DC-10 | McDonnell Douglas (SUA) | Trimotor cu fuselaj lat, cu un motor încorporat în deriva verticală. | McDonnell Douglas DC-10 | Motoare=3
+Lockheed L-1011 TriStar | Lockheed (SUA) | Trimotor cu fuselaj lat, rivalul lui DC-10. | Lockheed L-1011 TriStar | Motoare=3
+Antonov An-225 Mriya | Antonov (Ucraina) | Cel mai greu avion construit vreodată; unicul exemplar a fost distrus în 2022, la Hostomel. | Antonov An-225 | Motoare=6; Exemplare=1
+Antonov An-124 Ruslan | Antonov (Ucraina) | Avion de transport greu, folosit pentru încărcături gigantice. | Antonov An-124 | Motoare=4
+Airbus Beluga | Airbus (Europa) | Avion-cargo cu fuselaj umflat, care transportă bucăți de avioane între fabricile Airbus. | Airbus Beluga | Bază=A300 / A330
+Tupolev Tu-154 | Tupolev (URSS) | Trimotor sovietic foarte răspândit; a fost folosit și de TAROM. | Tupolev Tu-154 | Motoare=3
+Ilyushin Il-62 | Ilyushin (URSS) | Cvadrimotor cu motoarele în spate; a fost avionul de lungă distanță al TAROM. | Ilyushin Il-62 | Motoare=4
+Bombardier Dash 8 Q400 | De Havilland Canada / Bombardier (Canada) | Turbopropulsor regional rapid și silențios. | Dash 8 Q400 | Tip=turbopropulsor
+Rombac One-Eleven | Rombac (România), sub licență BAC | Avion de linie britanic BAC 1-11 produs sub licență la București (Băneasa), în 9 exemplare (1982-1989). | Rombac One-Eleven | Exemplare=9; Loc=București
+## Avioane militare istorice | Cine produce acest avion?
+Supermarine Spitfire | Supermarine (Marea Britanie) | Avion de vânătoare emblematic al Bătăliei Angliei (1940), cu aripi eliptice. | Supermarine Spitfire | Primul zbor=1936
+Messerschmitt Bf 109 | Messerschmitt (Germania) | Cel mai produs avion de vânătoare din istorie (peste 33.000); folosit și de România în al Doilea Război Mondial. | Messerschmitt Bf 109 | Exemplare=peste 33.000
+Messerschmitt Me 262 | Messerschmitt (Germania) | Primul avion de vânătoare cu reacție operațional (1944). | Messerschmitt Me 262 | An=1944
+North American P-51 Mustang | North American (SUA) | Avion de escortă cu rază lungă, celebru în al Doilea Război Mondial. | P-51 Mustang
+Mitsubishi A6M Zero | Mitsubishi (Japonia) | Avionul de vânătoare japonez de pe portavioane din al Doilea Război Mondial. | Mitsubishi A6M Zero
+IAR 80 | IAR Brașov (România) | Avion de vânătoare proiectat și produs în România (1939); a apărat Ploieștiul în 1943. | IAR 80 | Primul zbor=1939
+MiG-15 | Mikoyan-Gurevich (URSS) | Avion cu reacție cu aripi în săgeată, protagonist în Războiul din Coreea. | MiG-15
+Boeing B-52 Stratofortress | Boeing (SUA) | Bombardier strategic cu 8 motoare, în serviciu din 1955 și planificat să zboare până după 2050. | B-52 Stratofortress | Motoare=8
+Lockheed F-117 Nighthawk | Lockheed (SUA) | Primul avion stealth operațional, cu suprafețe plane fațetate. | F-117 Nighthawk | Intrare în serviciu=1983
+## Avioane militare moderne | Cine produce acest avion?
+F-15 Eagle | McDonnell Douglas / Boeing (SUA) | Avion de superioritate aeriană din 1976, cu un palmares de lupte aeriene fără pierderi. | F-15 Eagle
+F/A-18 Hornet | McDonnell Douglas / Boeing (SUA) | Avion multirol pentru portavioanele americane. | F/A-18 Hornet
+F-14 Tomcat | Grumman (SUA) | Avion cu geometrie variabilă a aripilor, celebru din filmul „Top Gun" (1986). | F-14 Tomcat
+A-10 Thunderbolt II | Fairchild Republic (SUA) | Avion de atac la sol construit în jurul unui tun rotativ de 30 mm. | A-10 Thunderbolt II
+MiG-29 | Mikoyan (URSS / Rusia) | Avion de vânătoare sovietic; România l-a folosit între 1989 și 2003. | MiG-29
+Su-57 | Suhoi (Rusia) | Avion de vânătoare stealth rusesc de generația a cincea. | Sukhoi Su-57
+Chengdu J-20 | Chengdu (China) | Primul avion stealth chinez operațional. | Chengdu J-20
+Harrier | Hawker Siddeley / BAE (Marea Britanie) | Avion cu decolare și aterizare verticală, prin orientarea jeturilor. | Harrier Jump Jet
+IAR 99 Șoim | IAR Craiova / Avioane Craiova (România) | Avion românesc de antrenament cu reacție, folosit de Forțele Aeriene Române. | IAR 99 Soim
+Lockheed C-5 Galaxy | Lockheed (SUA) | Unul dintre cele mai mari avioane militare de transport. | C-5 Galaxy
+Boeing C-17 Globemaster III | Boeing (SUA) | Avion militar de transport greu, capabil să aterizeze pe piste scurte. | C-17 Globemaster III
+Boeing E-3 Sentry (AWACS) | Boeing (SUA) | Avion de supraveghere radar, cu un „disc" rotativ pe fuselaj. | E-3 Sentry
+Lockheed U-2 | Lockheed (SUA) | Avion spion de mare altitudine (peste 21 km); unul a fost doborât deasupra URSS în 1960. | Lockheed U-2
+## Elicoptere | Cine produce acest elicopter?
+Sikorsky VS-300 | Sikorsky (SUA) | Primul elicopter practic cu un singur rotor principal (1939), creat de Igor Sikorsky. | Sikorsky VS-300 | An=1939
+Bell UH-1 Iroquois „Huey" | Bell (SUA) | Elicopterul emblematic al Războiului din Vietnam. | Bell UH-1 Iroquois
+Boeing AH-64 Apache | Boeing / Hughes (SUA) | Elicopter de atac, cu senzorii deasupra rotorului (varianta Longbow). | AH-64 Apache
+Boeing CH-47 Chinook | Boeing (SUA) | Elicopter de transport greu cu doi rotori în tandem. | CH-47 Chinook | Rotori=2 în tandem
+Sikorsky UH-60 Black Hawk | Sikorsky (SUA) | Elicopter militar utilitar, înlocuitorul lui Huey în armata SUA. | UH-60 Black Hawk
+Mil Mi-24 | Mil (URSS) | Elicopter de atac care poate transporta și 8 soldați. | Mil Mi-24
+Mil Mi-8 / Mi-17 | Mil (URSS / Rusia) | Cel mai produs elicopter din lume. | Mil Mi-8
+IAR 330 Puma | IAR Brașov, sub licență Aérospatiale | Elicopter de transport produs la Ghimbav-Brașov; varianta SOCAT are armament modernizat. | IAR 330 Puma | Loc=Ghimbav (Brașov)
+Bell Boeing V-22 Osprey | Bell și Boeing (SUA) | Convertiplan: decolează ca elicopter și zboară ca avion, rotind motoarele. | V-22 Osprey | Tip=convertiplan
+Robinson R44 | Robinson (SUA) | Elicopter ușor cu 4 locuri, foarte folosit pentru școli de zbor. | Robinson R44
+## Companii aeriene | Din ce țară este compania?
+TAROM | România | Compania aeriană națională a României; numele vine de la „Transporturile Aeriene Române". | TAROM | Țară=România; Bază=București Otopeni
+Wizz Air | Ungaria | Companie low-cost fondată în 2003; cea mai mare companie aeriană care operează în România după numărul de pasageri. | Wizz Air | Fondare=2003; Sediu=Budapesta
+Ryanair | Irlanda | Cea mai mare companie low-cost din Europa. | Ryanair | Fondare=1984
+Lufthansa | Germania | | Lufthansa | Sediu=Köln / Frankfurt
+KLM | Țările de Jos | Cea mai veche companie aeriană care funcționează încă sub numele original (1919). | KLM | Fondare=1919
+Emirates | Emiratele Arabe Unite | Cel mai mare operator de Airbus A380, cu baza la Dubai. | Emirates | Bază=Dubai
+Qatar Airways | Qatar | | Qatar Airways | Bază=Doha
+Turkish Airlines | Turcia | Compania care zboară spre cele mai multe țări din lume. | Turkish Airlines | Bază=Istanbul
+Singapore Airlines | Singapore | Primul operator al lui Airbus A380 (2007). | Singapore Airlines
+Delta Air Lines | SUA | Cu baza principală la Atlanta. | Delta Air Lines
+Air France | Franța | | Air France
+British Airways | Regatul Unit | A operat Concorde împreună cu Air France. | British Airways
+HiSky | Republica Moldova / România | Companie aeriană care a început zborurile în 2020, cu baze la Chișinău și Cluj-Napoca. | HiSky | Primele zboruri=2020
+## Aeroporturi (coduri IATA) | Ce aeroport are acest cod?
+OTP | București Henri Coandă (Otopeni) | Cel mai mare aeroport din România. | Bucharest Henri Coandă International Airport
+CLJ | Cluj-Napoca „Avram Iancu" | | Cluj International Airport
+TSR | Timișoara „Traian Vuia" | | Timișoara Traian Vuia International Airport
+IAS | Iași | | Iași International Airport
+SBZ | Sibiu | | Sibiu International Airport
+CND | Constanța „Mihail Kogălniceanu" | | Constanța Mihail Kogălniceanu Airport
+LHR | Londra Heathrow | | London Heathrow Airport
+CDG | Paris Charles de Gaulle | | Paris Charles de Gaulle Airport
+JFK | New York John F. Kennedy | | John F. Kennedy International Airport
+DXB | Dubai International | Cel mai aglomerat aeroport din lume la pasageri internaționali. | Dubai International Airport
+ATL | Atlanta Hartsfield-Jackson | Ani la rând cel mai aglomerat aeroport din lume ca număr total de pasageri. | Hartsfield-Jackson Atlanta International Airport
+FRA | Frankfurt am Main | | Frankfurt Airport
+IST | Istanbul | Aeroportul nou, deschis în 2018-2019. | Istanbul Airport
+## Cum zboară un avion | Cum se numește?
+Forța care împinge aripa în sus, generată de curgerea aerului | Portanță | Cele patru forțe ale zborului: portanță, greutate, tracțiune și rezistență la înaintare. | Lift
+Forța produsă de motoare care împinge avionul înainte | Tracțiune | | Thrust
+Forța aerului care se opune înaintării | Rezistență la înaintare (drag) | | Drag
+Unghiul dintre aripă și direcția curentului de aer | Unghi de atac | | Angle of attack
+Pierderea bruscă a portanței când unghiul de atac devine prea mare | Angajare (stall) | Nu are legătură cu oprirea motorului. | Stall
+Suprafețe mobile de pe bordul de fugă al aripii, coborâte la decolare și aterizare | Flapsuri | Măresc portanța la viteze mici. | Flaps
+Motor cu un ventilator mare în față, prin care trece cea mai mare parte a aerului ocolind miezul | Turboventilator (turbofan) | Motorul tipic al avioanelor de linie moderne. | Turbofan
+Motor cu turbină care antrenează o elice | Turbopropulsor | Eficient pe distanțe scurte. | Turboprop
+Mic motor din coada avionului care dă curent și aer condiționat la sol | APU (unitate auxiliară de putere) | | Auxiliary power unit
+Sistemul de ghidare radio pentru aterizare de precizie | ILS (sistem de aterizare instrumentală) | | Instrument landing system
+Codul transponder 7700 | Urgență generală | 7600 = pierderea comunicației radio; 7500 = deturnare. | Squawk 7700
+Apelul radio „Mayday" | Pericol grav și iminent | „Pan-pan" anunță o urgență mai puțin gravă. Vine din francezul „m'aider". | Mayday
+Unitatea de viteză în aviație: o milă marină pe oră | Nod | 1 nod = 1,852 km/h. | Knot
+Ce înseamnă „FL350"? | Nivel de zbor 350: aproximativ 35.000 de picioare (circa 10,7 km) | | Flight level
+Curent puternic de aer de la mare altitudine, care scurtează zborurile spre est | Curentul-jet (jet stream) | | Jet stream
+## Alți pionieri | Răspunde la întrebare
+Frații francezi care au lansat primul balon cu aer cald cu oameni (1783) | Frații Montgolfier | | Montgolfier brothers | An=1783
+Pionierul german al planorului, cu peste 2.000 de zboruri planate | Otto Lilienthal | A murit în 1896 într-un accident de planor. | Otto Lilienthal
+Primul care a traversat Canalul Mânecii cu avionul (1909) | Louis Blériot | | Louis Blériot | An=1909
+Pionierul brazilian care a zburat cu „14-bis" la Paris (1906) | Alberto Santos-Dumont | | Alberto Santos-Dumont | An=1906
+Prima femeie parașutist din România, cu un record mondial de altitudine în 1932 | Smaranda Brăescu | | Smaranda Brăescu
+Inginerul român, specialist în aerodinamică, cofondator al industriei aeronautice românești | Elie Carafoli | | Elie Carafoli
+~ Bell UH-1 Iroquois „Huey" ~ Sikorsky UH-60 Black Hawk ~ Huey are un rotor cu două pale și boțul rotunjit; Black Hawk are patru pale și e mai mare, mai modern.
+~ Boeing CH-47 Chinook ~ Bell Boeing V-22 Osprey ~ Chinook = doi rotori în tandem (elicopter). Osprey = rotori care se înclină (convertiplan).
+~ Turboventilator (turbofan) ~ Turbopropulsor ~ Turbofan: ventilator carenat în motor (avioane de linie). Turbopropulsor: turbina învârte o elice exterioară (ATR, Q400).
+~ Codul transponder 7700 ~ Apelul radio „Mayday" ~ 7700 se setează în transponder (radar); Mayday se spune la radio. Ambele = urgență.
+~ Messerschmitt Bf 109 ~ Messerschmitt Me 262 ~ Bf 109 = cu elice (cel mai produs vânător); Me 262 = primul vânător cu reacție operațional.
+~ Antonov An-225 Mriya ~ Antonov An-124 Ruslan ~ An-225: 6 motoare, un singur exemplar (distrus în 2022). An-124: 4 motoare, zeci de exemplare.
+## Recorduri și curiozități | Răspunde la întrebare
+Cel mai rapid avion cu pilot din istorie (cu motor rachetă, 1967) | North American X-15 | Mach 6,7 (aproximativ 7.270 km/h). | North American X-15 | Viteză=Mach 6,7
+Cel mai lung zbor comercial direct regulat | Singapore - New York (Singapore Airlines) | Aproximativ 18-19 ore. | Longest flight
+Cel mai aglomerat aeroport al României | București Henri Coandă (Otopeni) | | Otopeni busiest
+Aeronava solară care a înconjurat Pământul fără combustibil (2015-2016) | Solar Impulse 2 | | Solar Impulse 2
+Avionul cu cea mai mare anvergură construit vreodată | Scaled Composites Stratolaunch | Aproximativ 117 m - mai mult decât un teren de fotbal. | Stratolaunch
+Hidroavionul uriaș din lemn al lui Howard Hughes (1947), care a zburat o singură dată | Hughes H-4 Hercules („Spruce Goose") | | Hughes H-4 Hercules
+Primul zbor transatlantic fără escală (1919), cu doi piloți britanici | Alcock și Brown | | Alcock and Brown | An=1919
+Primul zbor în jurul lumii fără escală și fără realimentare (1986) | Rutan Voyager | | Rutan Voyager | An=1986
+## Meserii și reguli în aviație | Ce înseamnă?
+Comandantul aeronavei | Pilotul responsabil de zbor, așezat de obicei în stânga | Copilotul (primul ofițer) stă în dreapta. | Captain (aviation)
+Controlorul de trafic aerian | Persoana care dirijează avioanele la sol și în aer, prin radio | | Air traffic controller
+Cutia neagră a fost inventată de australianul... | David Warren | | David Warren (inventor)
+Ce limbă e obligatorie în comunicarea aviatică internațională? | Engleza | | Aviation English
+Alfabetul fonetic: A, B, C | Alfa, Bravo, Charlie | Folosit ca să se evite confuziile prin radio. | NATO phonetic alphabet
+Ce înseamnă „Roger" la radio? | Mesaj recepționat | „Wilco" = voi executa. | Roger (radio)
+Ce este ETOPS? | Reglementarea care permite bimotoarelor să zboare departe de aeroporturi alternative, peste oceane | | ETOPS
+Ce face „pilotul automat"? | Menține automat direcția, altitudinea și viteza programate | Pilotul rămâne responsabil și supraveghează. | Autopilot
+De ce trebuie modul avion pe telefon? | Pentru a evita interferențele cu echipamentele de navigație și comunicare | | Airplane mode
+De ce se golesc urechile la decolare? | Pentru că presiunea din cabină se schimbă | Înghițitul sau căscatul egalizează presiunea. | Ear barotrauma
+La ce altitudine zboară de obicei avioanele de linie? | Aproximativ 10-12 km (33.000-40.000 de picioare) | | Cruise altitude
+Ce sunt „dârele" albe din urma avioanelor? | Vapori de apă din gazele de eșapament, înghețați în aerul rece | Se numesc „contrails". | Contrail
+## Drone și viitorul aviației | Ce este?
+Aeronavă fără pilot la bord | Dronă (UAV) | | Unmanned aerial vehicle
+Aeronave electrice cu decolare verticală pentru transport urban | eVTOL („taxiuri aeriene") | | eVTOL
+Combustibil de aviație produs din resurse regenerabile | SAF (combustibil sustenabil de aviație) | | Sustainable aviation fuel
+Avion supersonic civil experimental dezvoltat de NASA pentru a reduce „bubuitura sonică" | X-59 QueSST | | Lockheed Martin X-59
+Compania americană care dezvoltă un avion supersonic de pasageri („Overture") | Boom Supersonic | | Boom Supersonic
+~ Dronă (UAV) ~ eVTOL („taxiuri aeriene") ~ Drona n-are pilot la bord; eVTOL-ul e o aeronavă electrică cu decolare verticală, de obicei cu pasageri.
+~ North American X-15 ~ SR-71 Blackbird ~ X-15: avion-rachetă, Mach 6,7 (cel mai rapid cu pilot). SR-71: cel mai rapid avion cu reacție (Mach 3,3).

@@ -1,0 +1,201 @@
+@id monumente
+@prompt În ce oraș și țară se află?
+## Europa
+Turnul Eiffel | Paris, Franța | Construit de Gustave Eiffel pentru Expoziția Universală din 1889; are aproximativ 330 m. | Eiffel Tower | Finalizat=1889; Înălțime=aprox. 330 m; Stil=construcție metalică
+Colosseumul | Roma, Italia | Amfiteatru roman inaugurat în anul 80 d.Hr., cu aproximativ 50.000 de locuri. | Colosseum | Finalizat=80 d.Hr.; Stil=roman
+Sagrada Família | Barcelona, Spania | Bazilica proiectată de Antoni Gaudí, în construcție din 1882; cea mai înaltă biserică din lume. | Sagrada Familia | Început=1882; Arhitect=Antoni Gaudí; Stil=modernism catalan
+Partenonul | Atena, Grecia | Templu dedicat zeiței Atena, pe Acropole, finalizat în 438 î.Hr. | Parthenon | Finalizat=438 î.Hr.; Stil=doric
+Turnul înclinat | Pisa, Italia | Clopotnița catedralei din Pisa; a început să se încline încă din timpul construcției (1173). | Leaning Tower of Pisa | Început=1173; Înclinare=aprox. 4°
+Big Ben (Turnul Elisabeta) | Londra, Regatul Unit | Big Ben este de fapt numele clopotului cel mare; turnul a fost redenumit Elizabeth Tower în 2012. | Big Ben | Finalizat=1859; Stil=neogotic
+Catedrala Notre-Dame | Paris, Franța | Capodoperă gotică; a ars în aprilie 2019 și a fost redeschisă în decembrie 2024. | Notre-Dame de Paris | Început=1163; Stil=gotic
+Poarta Brandenburg | Berlin, Germania | Simbolul reunificării Germaniei; finalizată în 1791. | Brandenburg Gate | Finalizat=1791; Stil=neoclasic
+Castelul Neuschwanstein | Bavaria, Germania | Construit de regele Ludwig al II-lea; a inspirat castelul din filmele Disney. | Neuschwanstein Castle | Început=1869; Stil=romantic
+Alhambra | Granada, Spania | Palat și fortăreață maură din secolele XIII-XIV. | Alhambra | Stil=maur (islamic)
+Stonehenge | Wiltshire, Regatul Unit | Monument megalitic construit în etape, aproximativ între 3000 și 2000 î.Hr. | Stonehenge | Vechime=aprox. 5.000 de ani
+Catedrala Sfântul Vasile | Moscova, Rusia | Biserica cu cupole colorate în formă de ceapă din Piața Roșie, finalizată în 1561. | Saint Basil's Cathedral | Finalizat=1561
+Bazilica Sfântul Petru | Vatican | Una dintre cele mai mari biserici din lume; cupola a fost proiectată de Michelangelo. | St. Peter's Basilica | Finalizat=1626; Stil=Renaștere și baroc
+Atomium | Bruxelles, Belgia | Structură în forma unui cristal de fier mărit de 165 de miliarde de ori, construită pentru Expo 58. | Atomium | Finalizat=1958
+Hagia Sofia | Istanbul, Turcia | Construită ca bazilică bizantină în 537, transformată în moschee în 1453, muzeu în 1934 și din nou moschee în 2020. | Hagia Sophia | Finalizat=537; Stil=bizantin
+## România
+Castelul Peleș | Sinaia, România | Construit pentru regele Carol I (1873-1883, extinderi până în 1914); unul dintre primele castele din Europa cu electricitate proprie. | Peles Castle | Început=1873; Stil=neorenascentist
+Castelul Bran | Bran (Brașov), România | Cetate din 1388 asociată popular cu Dracula; a fost reședința reginei Maria. | Bran Castle | Construit=1388
+Palatul Parlamentului | București, România | Una dintre cele mai mari clădiri administrative din lume, început în 1984. | Palace of the Parliament | Început=1984; Suprafață=peste 340.000 m²
+Coloana Infinitului | Târgu Jiu, România | Opera lui Constantin Brâncuși (1938), parte din ansamblul dedicat eroilor din Primul Război Mondial. | Endless Column | Finalizat=1938; Autor=Constantin Brâncuși; Înălțime=aprox. 29 m
+Biserica Neagră | Brașov, România | Cea mai mare biserică gotică din sud-estul Europei; numele vine de la incendiul din 1689 care i-a înnegrit zidurile. | Black Church | Stil=gotic
+Mănăstirea Voroneț | Voroneț (Suceava), România | Ctitorie a lui Ștefan cel Mare (1488); albastrul său este numit „albastru de Voroneț". | Voronet Monastery | Construit=1488; UNESCO=da
+Castelul Corvinilor | Hunedoara, România | Unul dintre cele mai mari castele gotice din Europa, legat de Iancu de Hunedoara. | Corvin Castle | Stil=gotic
+Cetatea Sighișoara | Sighișoara, România | Una dintre puținele cetăți medievale încă locuite din Europa; locul nașterii lui Vlad Țepeș. | Sighisoara Citadel | UNESCO=da
+Ateneul Român | București, România | Sală de concerte inaugurată în 1888, sediul Filarmonicii George Enescu. | Romanian Athenaeum | Finalizat=1888; Stil=neoclasic
+## Restul lumii
+Marele Zid Chinezesc | China | Sistem de fortificații de peste 20.000 km construit de-a lungul a două milenii. | Great Wall of China | Lungime=peste 21.000 km
+Taj Mahal | Agra, India | Mausoleu din marmură albă ridicat de împăratul Shah Jahan pentru soția sa, Mumtaz Mahal (finalizat în 1653). | Taj Mahal | Finalizat=1653; Stil=mogul
+Machu Picchu | Cusco, Peru | Cetate incașă din secolul XV, în Anzi, la peste 2.400 m altitudine. | Machu Picchu | Construit=sec. XV; Altitudine=2.430 m
+Piramidele din Giza | Giza, Egipt | Marea Piramidă a lui Keops, singura dintre cele 7 minuni ale lumii antice care încă există. | Pyramids of Giza | Construit=aprox. 2560 î.Hr.
+Statuia Libertății | New York, SUA | Dar al Franței (1886); structura interioară a fost proiectată de Gustave Eiffel. | Statue of Liberty | Finalizat=1886
+Opera din Sydney | Sydney, Australia | Proiectată de danezul Jørn Utzon, cu acoperișuri ca niște pânze; inaugurată în 1973. | Sydney Opera House | Finalizat=1973; Arhitect=Jørn Utzon
+Hristos Mântuitorul | Rio de Janeiro, Brazilia | Statuie Art Deco de 30 m pe muntele Corcovado, finalizată în 1931. | Christ the Redeemer | Finalizat=1931
+Petra | Iordania | Oraș săpat în stâncă de nabateeni, celebru pentru fațada Al-Khazneh. | Petra | Vechime=sec. IV î.Hr.
+Angkor Wat | Siem Reap, Cambodgia | Cel mai mare complex religios din lume, construit în secolul XII. | Angkor Wat | Construit=sec. XII
+Burj Khalifa | Dubai, Emiratele Arabe Unite | Cea mai înaltă clădire din lume (828 m), inaugurată în 2010. | Burj Khalifa | Finalizat=2010; Înălțime=828 m
+Chichén Itzá | Yucatán, Mexic | Oraș maya cu piramida El Castillo, ale cărei trepte creează la echinocții umbra unui șarpe. | Chichen Itza | Civilizație=maya
+Golden Gate | San Francisco, SUA | Pod suspendat inaugurat în 1937, vopsit în „International Orange". | Golden Gate Bridge | Finalizat=1937
+Moai | Insula Paștelui, Chile | Aproape 1.000 de statui monolitice sculptate de poporul Rapa Nui. | Moai | Civilizație=Rapa Nui
+Orașul Interzis | Beijing, China | Palatul imperial al dinastiilor Ming și Qing, cu aproximativ 9.000 de încăperi. | Forbidden City | Finalizat=1420
+~ Turnul Eiffel ~ Atomium ~ Ambele construite pentru expoziții universale: Eiffel la Paris (1889), Atomium la Bruxelles (1958).
+~ Bazilica Sfântul Petru ~ Hagia Sofia ~ Sfântul Petru (Vatican) e o bazilică catolică renascentistă; Hagia Sofia (Istanbul) e o construcție bizantină, azi moschee.
+~ Castelul Peleș ~ Castelul Bran ~ Peleș (Sinaia) - palat regal din secolul XIX. Bran (Brașov) - cetate medievală din 1388, asociată cu Dracula.
+~ Castelul Corvinilor ~ Castelul Bran ~ Corvinilor (Hunedoara) - castel gotic cu pod de lemn peste șanț. Bran (Brașov) - cetate pe o stâncă, legată de legenda lui Dracula.
+~ Machu Picchu ~ Chichén Itzá ~ Machu Picchu: incași, Peru, în munți. Chichén Itzá: maya, Mexic, în peninsula Yucatán.
+~ Catedrala Notre-Dame ~ Sagrada Família ~ Notre-Dame: gotic medieval, Paris. Sagrada Família: modernism Gaudí, Barcelona, încă neterminată.
+## Europa (II)
+Acropola | Atena, Grecia | Cetatea antică pe care se află Partenonul, Erechteionul și Propileele. | Acropolis of Athens | Stil=grec antic
+Panteonul | Roma, Italia | Templu roman cu cea mai mare cupolă din beton nearmat din lume, cu un oculus în vârf (circa 125 d.Hr.). | Pantheon Rome | Finalizat=aprox. 125 d.Hr.
+Fântâna Trevi | Roma, Italia | Cea mai mare fântână barocă din Roma; tradiția spune că dacă arunci o monedă, te vei întoarce. | Trevi Fountain | Finalizat=1762; Stil=baroc
+Domul din Florența (Santa Maria del Fiore) | Florența, Italia | Cupola construită de Filippo Brunelleschi (1436) fără schelă de susținere. | Florence Cathedral | Stil=gotic și Renaștere
+Bazilica San Marco | Veneția, Italia | Bazilică bizantină cu mozaicuri aurii. | St Mark's Basilica | Stil=bizantin
+Palatul Dogilor | Veneția, Italia | Palat gotic venețian, sediul fostei Republici a Veneției. | Doge's Palace | Stil=gotic venețian
+Domul din Milano | Milano, Italia | Una dintre cele mai mari catedrale gotice din lume, construită în aproape șase secole. | Milan Cathedral | Stil=gotic
+Versailles | Versailles, Franța | Palatul regal al lui Ludovic al XIV-lea, cu Galeria Oglinzilor. | Palace of Versailles | Stil=baroc francez
+Mont-Saint-Michel | Normandia, Franța | Mănăstire pe o insulă stâncoasă înconjurată de maree. | Mont-Saint-Michel
+Arcul de Triumf | Paris, Franța | Comandat de Napoleon în 1806, în capătul bulevardului Champs-Élysées. | Arc de Triomphe | Finalizat=1836
+Muzeul Luvru (piramida) | Paris, Franța | Cel mai vizitat muzeu din lume; piramida de sticlă a fost proiectată de I. M. Pei (1989). | Louvre Pyramid | Piramida=1989
+Catedrala din Köln | Köln, Germania | Catedrală gotică construită între 1248 și 1880, cu turnuri de 157 m. | Cologne Cathedral | Stil=gotic
+Turnul Londrei | Londra, Regatul Unit | Fortăreață din secolul XI care păstrează bijuteriile Coroanei. | Tower of London
+Tower Bridge | Londra, Regatul Unit | Pod basculant cu două turnuri neogotice (1894); adesea confundat cu London Bridge. | Tower Bridge | Finalizat=1894
+Palatul Buckingham | Londra, Regatul Unit | Reședința oficială a monarhului britanic. | Buckingham Palace
+Abația Westminster | Londra, Regatul Unit | Locul încoronărilor monarhilor britanici din 1066. | Westminster Abbey | Stil=gotic
+Podul Carol | Praga, Cehia | Pod gotic din secolul XIV, cu 30 de statui baroce. | Charles Bridge
+Parlamentul Ungariei | Budapesta, Ungaria | Clădire neogotică pe malul Dunării, finalizată în 1904. | Hungarian Parliament Building | Stil=neogotic
+Palatul Schönbrunn | Viena, Austria | Reședința de vară a Habsburgilor. | Schönbrunn Palace | Stil=baroc
+Kremlinul | Moscova, Rusia | Fortăreață cu catedrale și palate, sediul puterii ruse. | Moscow Kremlin
+Ermitajul (Palatul de Iarnă) | Sankt Petersburg, Rusia | Unul dintre cele mai mari muzee de artă din lume. | Winter Palace | Stil=baroc
+Torre de Belém | Lisabona, Portugalia | Turn de apărare manuelin din secolul XVI, simbol al Marilor Descoperiri. | Belém Tower
+Catedrala Sfântul Vitus | Praga, Cehia | Catedrală gotică din incinta Castelului Praga. | St. Vitus Cathedral
+Mica Sirenă | Copenhaga, Danemarca | Statuie din bronz (1913) inspirată de basmul lui Hans Christian Andersen. | The Little Mermaid statue
+Manneken Pis | Bruxelles, Belgia | Mică statuie din bronz a unui băiețel care face pipi. | Manneken Pis
+Moscheea-catedrală din Córdoba | Córdoba, Spania | Fostă moschee cu sute de coloane și arcade bicolore, transformată în catedrală. | Mosque–Cathedral of Córdoba | Stil=maur
+Catedrala Sf. Paul | Londra, Regatul Unit | Catedrală cu cupolă, proiectată de Christopher Wren după Marele Incendiu din 1666. | St Paul's Cathedral | Arhitect=Christopher Wren
+## România (II) | Unde se află?
+Palatul Culturii | Iași, România | Clădire neogotică (1906-1925), azi complex muzeal. | Palace of Culture Iași | Stil=neogotic
+Biserica Trei Ierarhi | Iași, România | Biserică din 1639 cu fațada sculptată integral în piatră. | Trei Ierarhi Monastery
+Mănăstirea Curtea de Argeș | Curtea de Argeș, România | Ctitoria lui Neagoe Basarab (1517), legată de legenda Meșterului Manole; necropolă regală. | Curtea de Argeș Cathedral
+Palatul Mogoșoaia | Mogoșoaia (Ilfov), România | Palat în stil brâncovenesc construit de Constantin Brâncoveanu (1702). | Mogoșoaia Palace | Stil=brâncovenesc
+Mănăstirea Horezu | Horezu (Vâlcea), România | Ctitorie a lui Constantin Brâncoveanu, patrimoniu UNESCO. | Horezu Monastery | Stil=brâncovenesc
+Arcul de Triumf | București, România | Construit în forma actuală în 1936, după planurile lui Petre Antonescu, în cinstea Marii Uniri. | Arcul de Triumf Bucharest | Finalizat=1936
+Palatul CEC | București, România | Clădire eclectică pe Calea Victoriei (1900), cu cupolă de sticlă și metal. | CEC Palace | Arhitect=Paul Gottereau
+Biserica Stavropoleos | București, România | Mică biserică în stil brâncovenesc (1724), în Centrul Vechi. | Stavropoleos Monastery | Stil=brâncovenesc
+Cazinoul din Constanța | Constanța, România | Clădire Art Nouveau (1910) pe faleza Mării Negre. | Constanța Casino | Stil=Art Nouveau
+Catedrala Mântuirii Neamului | București, România | Catedrală patriarhală, una dintre cele mai înalte biserici ortodoxe din lume; altarul a fost sfințit în 2018. | People's Salvation Cathedral
+Biserica fortificată din Biertan | Biertan (Sibiu), România | Biserică săsească fortificată, patrimoniu UNESCO. | Biertan fortified church | UNESCO=da
+Biserica fortificată din Viscri | Viscri (Brașov), România | Sat săsesc cu biserică fortificată, patrimoniu UNESCO. | Viscri fortified church | UNESCO=da
+Cetatea Alba Carolina | Alba Iulia, România | Cetate bastionară în stil Vauban, construită între 1715 și 1738. | Alba Carolina Citadel
+Palatul Bánffy | Cluj-Napoca, România | Palat baroc din Piața Unirii (1785), azi Muzeul de Artă. | Bánffy Palace | Stil=baroc
+Biserica Sfântul Mihail | Cluj-Napoca, România | Biserică gotică din Piața Unirii, cu cel mai înalt turn din Transilvania. | St. Michael's Church Cluj
+Palatul Vulturul Negru | Oradea, România | Complex Art Nouveau (1908) cu un pasaj acoperit cu vitraliu. | Black Eagle Palace Oradea | Stil=Art Nouveau
+Cimitirul Vesel | Săpânța (Maramureș), România | Cruci colorate din lemn cu epitafuri umoristice. | Merry Cemetery
+Barajul Vidraru | Argeș, România | Baraj în arc (1966) pe Argeș, la capătul Transfăgărășanului. | Vidraru Dam | Finalizat=1966
+Sarmizegetusa Regia (sanctuarele) | Munții Orăștiei (Hunedoara), România | Capitala dacilor, cu sanctuarul mare circular. | Sarmizegetusa Regia
+Turnul Sfatului | Sibiu, România | Turn medieval care leagă Piața Mare de Piața Mică. | Council Tower Sibiu
+## Asia (II)
+Templul Kinkaku-ji (Pavilionul de Aur) | Kyoto, Japonia | Pavilion zen acoperit cu foiță de aur. | Kinkaku-ji
+Muntele Fuji | Honshu, Japonia | Vulcan de 3.776 m, simbolul Japoniei. | Mount Fuji
+Fushimi Inari | Kyoto, Japonia | Sanctuar shintoist cu mii de porți torii portocalii. | Fushimi Inari-taisha
+Armata de teracotă | Xi'an, China | Mii de soldați de lut îngropați cu primul împărat al Chinei (sec. III î.Hr.). | Terracotta Army
+Palatul Potala | Lhasa, Tibet (China) | Fosta reședință a Dalai Lama, la 3.700 m altitudine. | Potala Palace
+Borobudur | Java, Indonezia | Cel mai mare templu budist din lume (sec. IX). | Borobudur
+Shwedagon | Yangon, Myanmar | Pagodă aurită de aproape 100 m. | Shwedagon Pagoda
+Marele Palat | Bangkok, Thailanda | Fosta reședință a regilor Thailandei, cu templul Buddha de Smarald. | Grand Palace Bangkok
+Moscheea Sheikh Zayed | Abu Dhabi, EAU | Moschee din marmură albă cu unul dintre cele mai mari covoare din lume. | Sheikh Zayed Grand Mosque
+Moscheea Albastră (Sultanahmet) | Istanbul, Turcia | Moschee din 1616, cu șase minarete și faianță albastră de Iznik. | Sultan Ahmed Mosque
+Cappadocia | Anatolia Centrală, Turcia | Formațiuni de rocă („coșurile zânelor") și biserici săpate în stâncă. | Cappadocia
+Marina Bay Sands | Singapore | Trei turnuri unite în vârf de o „navă" cu piscină. | Marina Bay Sands | Finalizat=2010
+Turnurile Petronas | Kuala Lumpur, Malaezia | Cele mai înalte clădiri din lume între 1998 și 2004. | Petronas Towers | Finalizat=1998
+Templul de Aur (Harmandir Sahib) | Amritsar, India | Cel mai important lăcaș al religiei sikh. | Golden Temple
+Zidul Plângerii | Ierusalim | Rămășiță a zidului ce înconjura al Doilea Templu. | Western Wall
+Domul Stâncii | Ierusalim | Sanctuar islamic cu cupolă aurie (691 d.Hr.). | Dome of the Rock
+## Africa și Orientul Mijlociu
+Marele Sfinx din Giza | Giza, Egipt | Statuie cu corp de leu și cap de om, lângă piramide. | Great Sphinx of Giza
+Abu Simbel | Asuan, Egipt | Temple ale lui Ramses al II-lea, mutate în anii '60 pentru a nu fi inundate de lacul Nasser. | Abu Simbel
+Templul Karnak | Luxor, Egipt | Cel mai mare complex de temple din Egiptul antic. | Karnak
+Valea Regilor | Luxor, Egipt | Necropola faraonilor, unde a fost găsit mormântul lui Tutankhamon (1922). | Valley of the Kings
+Marea Moschee din Djenné | Djenné, Mali | Cea mai mare clădire din chirpici din lume. | Great Mosque of Djenné
+Muntele Masei | Cape Town, Africa de Sud | Munte cu vârf plat care domină orașul. | Table Mountain
+Bisericile săpate în stâncă din Lalibela | Lalibela, Etiopia | Unsprezece biserici monolitice din secolele XII-XIII. | Rock-Hewn Churches of Lalibela
+Persepolis | Fars, Iran | Capitala ceremonială a Imperiului Persan ahemenid. | Persepolis
+## Americi (II)
+Empire State Building | New York, SUA | Zgârie-nori Art Deco (1931), cea mai înaltă clădire din lume timp de aproape 40 de ani. | Empire State Building | Finalizat=1931; Stil=Art Deco
+Muntele Rushmore | Dakota de Sud, SUA | Fețele a patru președinți americani sculptate în granit. | Mount Rushmore
+Capitoliul | Washington, D.C., SUA | Sediul Congresului american, cu cupolă neoclasică. | United States Capitol
+Casa Albă | Washington, D.C., SUA | Reședința președintelui SUA (1800). | White House
+Gateway Arch | St. Louis, SUA | Arc din oțel inoxidabil de 192 m (1965). | Gateway Arch
+CN Tower | Toronto, Canada | Turn de telecomunicații de 553 m (1976). | CN Tower
+Teotihuacán (Piramida Soarelui) | Mexic | Oraș precolumbian cu una dintre cele mai mari piramide din lume. | Teotihuacan
+Tikal | Guatemala | Oraș maya cu temple-piramidă în junglă. | Tikal
+Catedrala din Brasília | Brasília, Brazilia | Catedrală hiperboloidă din beton și sticlă de Oscar Niemeyer (1970). | Cathedral of Brasília | Arhitect=Oscar Niemeyer
+Cartierul La Boca (Caminito) | Buenos Aires, Argentina | Străduță cu case colorate, leagănul tangoului. | Caminito
+## Cele 7 minuni ale lumii antice | Unde se afla această minune?
+Grădinile suspendate | Babilon (Irak) | Existența lor reală e pusă la îndoială de istorici. | Hanging Gardens of Babylon
+Statuia lui Zeus | Olimpia, Grecia | Statuie din aur și fildeș realizată de Fidias. | Statue of Zeus at Olympia
+Templul lui Artemis | Efes (Turcia) | | Temple of Artemis
+Mausoleul din Halicarnas | Halicarnas (Bodrum, Turcia) | De la el vine cuvântul „mausoleu". | Mausoleum at Halicarnassus
+Colosul din Rodos | Rodos, Grecia | Statuie uriașă a zeului soarelui Helios, distrusă de un cutremur în 226 î.Hr. | Colossus of Rhodes
+Farul din Alexandria | Alexandria, Egipt | Unul dintre cele mai înalte edificii ale Antichității. | Lighthouse of Alexandria
+Care este singura minune antică încă existentă? | Marea Piramidă din Giza | | Great Pyramid of Giza
+~ Tower Bridge ~ Turnul Londrei ~ Tower Bridge e podul cu două turnuri peste Tamisa; Turnul Londrei e fortăreața de lângă el.
+~ Moscheea Albastră (Sultanahmet) ~ Hagia Sofia ~ Moscheea Albastră (1616) are șase minarete; Hagia Sofia (537) e fostă bazilică bizantină, vizavi de ea.
+~ Domul din Milano ~ Catedrala din Köln ~ Milano: gotic cu sute de turnulețe albe. Köln: gotic cu două turnuri uriașe, închise la culoare.
+~ Palatul Mogoșoaia ~ Castelul Peleș ~ Mogoșoaia: brâncovenesc (1702). Peleș: neorenascentist, palat regal (1883).
+## Muzee celebre | În ce oraș se află?
+Muzeul Luvru (Mona Lisa) | Paris, Franța | Cel mai vizitat muzeu de artă din lume. | Louvre Museum
+Muzeul Prado | Madrid, Spania | Picturi de Velázquez, Goya, El Greco. | Museo del Prado
+Muzeele Vaticanului și Capela Sixtină | Vatican | Frescele lui Michelangelo de pe tavanul Capelei Sixtine (1508-1512). | Sistine Chapel
+Galeria Uffizi | Florența, Italia | „Nașterea lui Venus" de Botticelli. | Uffizi Gallery
+British Museum | Londra, Regatul Unit | Aici se află Piatra de la Rosetta. | British Museum
+Rijksmuseum | Amsterdam, Țările de Jos | „Rondul de noapte" de Rembrandt. | Rijksmuseum
+Metropolitan Museum of Art („The Met") | New York, SUA | | Metropolitan Museum of Art
+Muzeul Ermitaj | Sankt Petersburg, Rusia | | Hermitage Museum
+Muzeul Național de Artă al României (fostul Palat Regal) | București, România | | National Museum of Art of Romania
+Muzeul Satului „Dimitrie Gusti" | București, România | Muzeu în aer liber, fondat în 1936. | Dimitrie Gusti National Village Museum
+Muzeul ASTRA (Dumbrava Sibiului) | Sibiu, România | Unul dintre cele mai mari muzee în aer liber din Europa. | ASTRA National Museum Complex
+Muzeul Egiptean | Cairo, Egipt | Tezaurul lui Tutankhamon a fost mutat treptat în noul Grand Egyptian Museum de lângă Giza. | Egyptian Museum
+## Zgârie-nori și turnuri | În ce oraș se află?
+Shanghai Tower | Shanghai, China | Una dintre cele mai înalte clădiri din lume (632 m), cu formă răsucită. | Shanghai Tower
+Taipei 101 | Taipei, Taiwan | Cea mai înaltă clădire din lume între 2004 și 2010. | Taipei 101
+One World Trade Center | New York, SUA | Construit pe locul Turnurilor Gemene; 541 m (1.776 de picioare, anul Declarației de Independență). | One World Trade Center
+Chrysler Building | New York, SUA | Zgârie-nori Art Deco (1930) cu vârf din oțel inoxidabil. | Chrysler Building
+Flatiron Building | New York, SUA | Clădire triunghiulară din 1902. | Flatiron Building
+Tokyo Skytree | Tokyo, Japonia | Cel mai înalt turn de telecomunicații din lume (634 m). | Tokyo Skytree
+Space Needle | Seattle, SUA | Turn futurist construit pentru Expoziția Universală din 1962. | Space Needle
+Turnul de televiziune din Berlin (Fernsehturm) | Berlin, Germania | | Berlin TV Tower
+Sky Tower | București, România | Cea mai înaltă clădire din România (137 m). | Sky Tower Bucharest
+## Poduri celebre | În ce oraș se află?
+Ponte Vecchio | Florența, Italia | Pod medieval cu prăvălii de bijutieri pe el. | Ponte Vecchio
+Podul Rialto | Veneția, Italia | Cel mai vechi pod peste Canal Grande. | Rialto Bridge
+Podul Suspinelor | Veneția, Italia | Legătura dintre Palatul Dogilor și închisoare. | Bridge of Sighs
+Podul Brooklyn | New York, SUA | Unul dintre primele poduri suspendate cu cabluri de oțel (1883). | Brooklyn Bridge
+Podul Sydney Harbour | Sydney, Australia | Supranumit „The Coathanger" (umerașul). | Sydney Harbour Bridge
+Podul cu Lanțuri (Széchenyi) | Budapesta, Ungaria | Primul pod permanent peste Dunăre la Budapesta (1849). | Széchenyi Chain Bridge
+Viaductul Millau | Millau, Franța | Cel mai înalt pod din lume pentru mașini (un pilon are 343 m). | Millau Viaduct
+Podul Anghel Saligny (Cernavodă) | Cernavodă, România | Construit în 1895 de inginerul Anghel Saligny, la vremea lui cel mai lung pod din Europa continentală. | Anghel Saligny Bridge
+Podul Minciunilor | Sibiu, România | Pod din fontă din 1859, în Piața Mică. | Bridge of Lies
+## Piețe și locuri celebre | Unde se află?
+Piața Roșie | Moscova, Rusia | | Red Square
+Piața Sfântul Marcu | Veneția, Italia | | St Mark's Square
+Times Square | New York, SUA | | Times Square
+Piața Tiananmen | Beijing, China | | Tiananmen Square
+Plaza Mayor | Madrid, Spania | | Plaza Mayor Madrid
+Grand-Place | Bruxelles, Belgia | Piață înconjurată de clădiri ale breslelor, patrimoniu UNESCO. | Grand-Place
+Piața Mare | Sibiu, România | | Great Square Sibiu
+Piața Unirii | Cluj-Napoca, România | Cu Biserica Sfântul Mihail și statuia lui Matia Corvin. | Union Square Cluj
+Champs-Élysées | Paris, Franța | | Champs-Élysées
+## Statui celebre | Unde se află?
+Davidul lui Michelangelo (1504) | Florența, Italia | | David (Michelangelo)
+Gânditorul (Rodin) | Paris, Franța | | The Thinker
+Statuia Unității | Gujarat, India | Cea mai înaltă statuie din lume (182 m), dedicată lui Sardar Patel. | Statue of Unity
+Lupoaica Capitolina | Roma, Italia | Lupoaica care îi alăptează pe Romulus și Remus. | Capitoline Wolf
+Statuia lui Ștefan cel Mare | Iași, România | | Statue of Stephen the Great Iași
+Chipul lui Decebal | Dubova (Mehedinți), România | Cea mai înaltă sculptură în piatră din Europa (55 m), terminată în 2004. | Rock sculpture of Decebalus
+Sfinxul din Bucegi | Munții Bucegi, România | Formațiune naturală de rocă erodată de vânt. | Bucegi Sphinx
+~ Ponte Vecchio ~ Podul Rialto ~ Ponte Vecchio: Florența, peste Arno. Rialto: Veneția, peste Canal Grande.
+~ Podul Brooklyn ~ Golden Gate ~ Brooklyn (New York, 1883): turnuri de piatră cu arcade gotice. Golden Gate (San Francisco, 1937): roșu-portocaliu.
+~ Chrysler Building ~ Empire State Building ~ Ambele Art Deco în New York. Chrysler are vârful din oțel inoxidabil cu arcade; Empire State are o antenă înaltă.

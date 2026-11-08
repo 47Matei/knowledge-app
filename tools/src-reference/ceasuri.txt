@@ -1,0 +1,318 @@
+@id ceasuri
+@prompt Ce marcă produce acest model?
+## Mărci | Țara de origine și anul fondării
+Rolex | Elveția, 1905 | Fondată la Londra de Hans Wilsdorf și mutată la Geneva; a creat primul ceas de mână rezistent la apă, Oyster (1926). | Rolex - Switzerland | Fondare=1905; Sediu=Geneva; Proprietar=Fundația Hans Wilsdorf | Coroana cu cinci vârfuri.
+Patek Philippe | Elveția, 1839 | Una dintre cele mai prestigioase manufacturi din lume, încă deținută de o familie (Stern). | Patek Philippe - Switzerland | Fondare=1839; Sediu=Geneva | Sloganul: nu deții niciodată cu adevărat un Patek, doar îl păstrezi pentru generația următoare.
+Audemars Piguet | Elveția, 1875 | Manufactură din Le Brassus (Vallée de Joux), încă în mâinile familiilor fondatoare. | Audemars Piguet - Switzerland | Fondare=1875; Sediu=Le Brassus
+Vacheron Constantin | Elveția, 1755 | Cea mai veche manufactură de ceasuri cu activitate neîntreruptă din lume. | Vacheron Constantin - Switzerland | Fondare=1755; Sediu=Geneva; Grup=Richemont | Crucea de Malta în siglă.
+Omega | Elveția, 1848 | Ceasul care a ajuns pe Lună (Speedmaster, 1969) și cronometrorul oficial al Jocurilor Olimpice. | Omega - Switzerland | Fondare=1848; Sediu=Biel/Bienne; Grup=Swatch Group | Litera grecească Ω.
+TAG Heuer | Elveția, 1860 | Fondată de Edouard Heuer; specialist în cronografe și sporturi cu motor. TAG s-a adăugat în 1985. | TAG Heuer - Switzerland | Fondare=1860; Grup=LVMH
+Breitling | Elveția, 1884 | Strâns legată de aviație; cronografe pentru piloți. | Breitling - Switzerland | Fondare=1884; Sediu=Grenchen
+IWC Schaffhausen | Elveția, 1868 | Fondată de americanul Florentine Ariosto Jones; singura manufactură elvețiană importantă din estul Elveției. | IWC - Switzerland | Fondare=1868; Sediu=Schaffhausen; Grup=Richemont
+Jaeger-LeCoultre | Elveția, 1833 | Numită „ceasornicarul ceasornicarilor"; a furnizat mecanisme multor mărci celebre. | Jaeger-LeCoultre - Switzerland | Fondare=1833; Sediu=Le Sentier; Grup=Richemont
+Cartier | Franța, 1847 | Bijutier parizian care a creat unul dintre primele ceasuri de mână pentru bărbați, Santos (1904). | Cartier - France | Fondare=1847; Sediu=Paris; Grup=Richemont
+Tudor | Elveția, 1926 | Marca soră a Rolex, fondată de Hans Wilsdorf ca alternativă mai accesibilă. | Tudor - Switzerland | Fondare=1926; Proprietar=Fundația Hans Wilsdorf
+Longines | Elveția, 1832 | Cunoscută pentru sigla cu clepsidră înaripată, una dintre cele mai vechi mărci înregistrate. | Longines - Switzerland | Fondare=1832; Sediu=Saint-Imier; Grup=Swatch Group
+Tissot | Elveția, 1853 | Marcă accesibilă din Swatch Group, din Le Locle. | Tissot - Switzerland | Fondare=1853; Grup=Swatch Group
+Swatch | Elveția, 1983 | Ceasuri din plastic, colorate, care au salvat industria elvețiană în fața concurenței cuarțului japonez. | Swatch - Switzerland | Fondare=1983; Grup=Swatch Group | Swatch = Swiss + watch („second watch").
+Hublot | Elveția, 1980 | A pionierat combinarea aurului cu cauciucul; designul seamănă cu un hublou de navă. | Hublot - Switzerland | Fondare=1980; Grup=LVMH
+Panerai | Italia, 1860 | Fondată la Florența; a făcut ceasuri pentru comandourile marinei italiene. Carcase mari, cu pod de protecție pentru coroană. | Panerai - Italy | Fondare=1860; Sediu=Florența (producție în Neuchâtel); Grup=Richemont
+A. Lange & Söhne | Germania, 1845 | Manufactură din Glashütte, Saxonia, renăscută în 1990 după reunificarea Germaniei. | A. Lange & Sohne - Germany | Fondare=1845; Sediu=Glashütte; Grup=Richemont
+Seiko | Japonia, 1881 | A lansat primul ceas de mână cu cuarț din lume, Astron (1969), și a creat mecanismul Spring Drive. | Seiko - Japan | Fondare=1881; Sediu=Tokyo
+Grand Seiko | Japonia, 1960 | Linia de lux a Seiko, separată ca marcă în 2017; renumită pentru finisajul „zaratsu". | Grand Seiko - Japan | Fondare=1960
+Casio | Japonia, 1946 | Producător de electronice; seria G-Shock (1983) e emblematică pentru rezistența la șocuri. | Casio - Japan | Fondare=1946; Sediu=Tokyo
+Citizen | Japonia, 1918 | A creat tehnologia Eco-Drive (1995), alimentare cu lumină. | Citizen - Japan | Fondare=1918; Sediu=Tokyo
+Breguet | Franța/Elveția, 1775 | Fondată la Paris de Abraham-Louis Breguet, inventatorul tourbillonului (brevet 1801). | Breguet - Switzerland | Fondare=1775; Sediu=Vallée de Joux; Grup=Swatch Group
+Blancpain | Elveția, 1735 | Cea mai veche marcă de ceasuri înregistrată; creatoarea ceasului de scufundări modern Fifty Fathoms. | Blancpain - Switzerland | Fondare=1735; Grup=Swatch Group
+Richard Mille | Elveția, 2001 | Ceasuri foarte ușoare, din materiale de înaltă tehnologie, purtate de sportivi precum Rafael Nadal. | Richard Mille - Switzerland | Fondare=2001; Sediu=Les Breuleux
+## Modele iconice
+Submariner | Rolex | Ceas de scufundări lansat în 1953, rezistent la 100 m la lansare; purtat de Sean Connery ca James Bond. | Rolex Submariner | Tip=scufundări; Lansare=1953
+Daytona | Rolex | Cronograf creat în 1963 pentru curse; exemplarul lui Paul Newman s-a vândut cu 17,8 milioane de dolari în 2017. | Rolex Cosmograph Daytona | Tip=cronograf; Lansare=1963
+GMT-Master | Rolex | Creat în 1954 pentru piloții Pan Am; afișează două fusuri orare. Varianta albastru-roșu e poreclită „Pepsi". | Rolex GMT-Master | Tip=GMT (două fusuri); Lansare=1954
+Datejust | Rolex | Lansat în 1945, primul ceas de mână automatic cu dată schimbată instantaneu la miezul nopții. | Rolex Datejust | Tip=clasic cu dată; Lansare=1945
+Speedmaster Professional | Omega | „Moonwatch", calificat de NASA și purtat pe Lună în 1969 de Buzz Aldrin. | Omega Speedmaster | Tip=cronograf; Lansare=1957
+Seamaster | Omega | Linie de ceasuri de scufundări, ceasul lui James Bond din 1995 încoace. | Omega Seamaster | Tip=scufundări; Lansare=1948
+Nautilus | Patek Philippe | Ceas sport de lux din oțel, proiectat de Gérald Genta în 1976, cu carcasă inspirată de un hublou. | Patek Philippe Nautilus | Tip=sport de lux; Lansare=1976; Designer=Gérald Genta
+Calatrava | Patek Philippe | Ceas elegant rotund, lansat în 1932, considerat arhetipul ceasului de seară. | Patek Philippe Calatrava | Tip=elegant (dress); Lansare=1932
+Royal Oak | Audemars Piguet | Ceas sport de lux din oțel, lansat în 1972, cu ramă octogonală și 8 șuruburi hexagonale; designer Gérald Genta. | Audemars Piguet Royal Oak | Tip=sport de lux; Lansare=1972; Designer=Gérald Genta
+Overseas | Vacheron Constantin | Ceas sport de lux, cu ramă inspirată de crucea de Malta. | Vacheron Constantin Overseas | Tip=sport de lux; Lansare=1996
+Monaco | TAG Heuer | Primul cronograf automatic cu carcasă pătrată rezistentă la apă (1969), purtat de Steve McQueen în filmul „Le Mans". | TAG Heuer Monaco | Tip=cronograf; Lansare=1969
+Carrera | TAG Heuer | Cronograf lansat în 1963, numit după cursa Carrera Panamericana. | TAG Heuer Carrera | Tip=cronograf; Lansare=1963
+Navitimer | Breitling | Cronograf pentru piloți din 1952, cu riglă de calcul circulară pe ramă. | Breitling Navitimer | Tip=cronograf de pilot; Lansare=1952
+Reverso | Jaeger-LeCoultre | Ceas Art Deco din 1931 cu carcasă care se întoarce pe spate, gândit pentru jucătorii de polo. | Jaeger-LeCoultre Reverso | Tip=elegant, carcasă reversibilă; Lansare=1931
+Santos | Cartier | Creat în 1904 pentru aviatorul brazilian Alberto Santos-Dumont, unul dintre primele ceasuri de mână pentru bărbați. | Cartier Santos | Tip=elegant; Lansare=1904
+Tank | Cartier | Ceas rectangular din 1917, inspirat de tancurile Renault din Primul Război Mondial. | Cartier Tank | Tip=elegant; Lansare=1917
+Luminor | Panerai | Ceas militar cu carcasă mare și pod cu pârghie care protejează coroana. | Panerai Luminor | Tip=scufundări militar; Lansare=1950
+Black Bay | Tudor | Ceas de scufundări inspirat de modelele Tudor din anii '50, lansat în 2012. | Tudor Black Bay | Tip=scufundări; Lansare=2012
+Lange 1 | A. Lange & Söhne | Lansat în 1994, cu afișaj descentrat și dată mare („big date"). | A. Lange & Sohne Lange 1 | Tip=elegant; Lansare=1994
+Portugieser | IWC Schaffhausen | Creat în anii '30 la cererea a doi comercianți portughezi care voiau un ceas de mână precis ca un ceas de buzunar. | IWC Portugieser | Tip=elegant; Lansare=1939
+Fifty Fathoms | Blancpain | Considerat primul ceas de scufundări modern (1953), creat pentru scafandrii marinei franceze. | Blancpain Fifty Fathoms | Tip=scufundări; Lansare=1953
+G-Shock DW-5000C | Casio | Primul G-Shock (1983), proiectat să reziste unei căderi de 10 metri. | Casio G-Shock | Tip=digital rezistent; Lansare=1983
+Astron | Seiko | Primul ceas de mână cu cuarț din lume, lansat în decembrie 1969. | Seiko Astron | Tip=cuarț; Lansare=1969
+Snowflake | Grand Seiko | Ceas Spring Drive cu cadran texturat ca zăpada și carcasă din titan. | Grand Seiko Snowflake | Tip=elegant; Mecanism=Spring Drive
+## Tipuri de mecanisme | Ce tip de mecanism este?
+Ceasul își mișcă indicatoarele datorită unui arc întors manual din coroană, zilnic sau la câteva zile | Mecanic cu remontare manuală | Cel mai vechi tip de mecanism de ceas de mână; nu are rotor. | Manual-wind mechanical | Sursa energiei=arc întors de mână; Precizie tipică=±5-20 s/zi
+Un rotor semicircular se învârte cu mișcările mâinii și întoarce automat arcul | Mecanic automatic | Numit și „cu întoarcere automată"; se oprește dacă nu e purtat câteva zile. | Automatic (self-winding) | Sursa energiei=rotor acționat de mișcarea brațului; Precizie tipică=±5-15 s/zi
+Un cristal de cuarț vibrează de 32.768 de ori pe secundă, alimentat de o baterie | Cuarț | Foarte precis (aproximativ ±15 s/lună) și ieftin; a provocat „criza cuarțului" pentru industria elvețiană în anii '70-'80. | Quartz | Sursa energiei=baterie; Precizie tipică=±15 s/lună
+Arc mecanic, dar regularizat de un circuit electronic cu cuarț; secundarul alunecă fără sacadare | Spring Drive | Inventat de Seiko (lansat în 1999); combină mecanicul cu precizia cuarțului. | Spring Drive | Inventator=Seiko; Precizie=±1 s/zi
+Ceas cu cuarț alimentat de o celulă solară, care încarcă un acumulator | Solar (Eco-Drive) | Citizen a lansat Eco-Drive în 1995; Seiko are seria Solar. | Solar quartz | Sursa energiei=lumină
+O mișcare a brațului rotește un generator care încarcă un condensator ce alimentează un cuarț | Kinetic (cuarț automatic) | Tehnologie Seiko lansată în 1988. | Kinetic | Sursa energiei=mișcare transformată în electricitate
+Ceas care primește semnal radio de la un ceas atomic și se sincronizează singur | Radio-controlat | Popular la Casio (Waveceptor) și Junghans; în Europa, semnalul DCF77 vine din Germania. | Radio-controlled | Precizie=practic perfectă, dacă are semnal
+## Tipuri de ceasuri | Ce tip de ceas este?
+Rezistent la cel puțin 100-200 m, cu ramă rotativă unidirecțională pentru a măsura timpul petrecut sub apă | Ceas de scufundări (diver) | Standardul ISO 6425 definește cerințele pentru ceasurile de scufundări. | Dive watch | Exemple=Rolex Submariner, Omega Seamaster, Blancpain Fifty Fathoms
+Are un cronometru integrat, cu butoane (pushere) pentru start, stop și resetare | Cronograf | Nu confunda cu „cronometru", care e o certificare de precizie. | Chronograph | Exemple=Omega Speedmaster, Rolex Daytona, TAG Heuer Carrera
+Ceas subțire și sobru, de obicei cu curea de piele, gândit pentru costum | Ceas elegant (dress watch) | Regula clasică: trebuie să încapă sub manșeta cămășii. | Dress watch | Exemple=Patek Philippe Calatrava, Cartier Tank
+Ceas din oțel, cu brățară integrată în carcasă, care combină eleganța cu robustețea | Ceas sport de lux | Categorie creată de Gérald Genta cu Royal Oak (1972). | Luxury sports watch | Exemple=AP Royal Oak, Patek Philippe Nautilus, VC Overseas
+Cadran foarte lizibil, numerale mari, adesea al doilea fus orar sau riglă de calcul | Ceas de pilot | Originile: ceasurile pentru observatorii din aviația militară („B-Uhr"). | Pilot watch | Exemple=Breitling Navitimer, IWC Big Pilot
+Afișează un al doilea fus orar cu un indicator de 24 de ore | Ceas GMT | GMT = Greenwich Mean Time. | GMT watch | Exemplu=Rolex GMT-Master
+Robust, mat, lizibil, adesea pe curea textilă | Ceas de teren (field watch) | Derivat din ceasurile soldaților din Primul Război Mondial. | Field watch | Exemple=Hamilton Khaki Field
+Ceas cu ecran, senzori de puls și GPS și notificări de la telefon | Smartwatch | Apple Watch (2015) a devenit cel mai vândut ceas din lume ca volum. | Smartwatch | Exemple=Apple Watch, Garmin, Samsung Galaxy Watch
+## Complicații | Cum se numește această complicație?
+Ansamblul balansier-ancoră se rotește într-o cușcă, de obicei o dată pe minut, pentru a anula efectul gravitației | Tourbillon | Inventat și brevetat de Abraham-Louis Breguet în 1801. | Tourbillon | Inventator=Abraham-Louis Breguet; An=1801 | Tourbillon = „vârtej" în franceză.
+Sună orele, sferturile și minutele la cerere, cu ciocănele pe gonguri | Repetiție minute | Una dintre cele mai dificile complicații; inițial folosită ca să afli ora pe întuneric. | Minute repeater | Utilitate=ora auzită în întuneric
+Afișează corect data, inclusiv lunile scurte și anii bisecți, fără reglaj până în 2100 | Calendar perpetuu | Se reglează manual o dată la 100 de ani (excepția din calendarul gregorian). | Perpetual calendar
+Afișează data, ziua și luna, dar necesită o corecție o dată pe an, la sfârșitul lui februarie | Calendar anual | Introdus de Patek Philippe în 1996. | Annual calendar
+Arată forma Lunii pe cer, printr-un disc vizibil într-o fereastră | Fază lunară | Un ciclu complet durează 29,5 zile. | Moon phase
+Indică ce rezervă de energie mai are arcul, în ore | Indicator de rezervă de energie | Numit și „réserve de marche". | Power reserve indicator
+Cronograf care, la o apăsare, își resetează și repornește imediat secundarul | Flyback | Gândit pentru piloți, care trebuiau să cronometreze rapid secțiuni succesive. | Flyback chronograph
+Cronograf cu două secundare suprapuse, pentru a măsura timpi intermediari | Rattrapante (split-seconds) | Rattraper = „a ajunge din urmă" în franceză. | Split-seconds chronograph
+Ceas cu cele mai multe complicații posibile într-un singur mecanism | Grande complication | Recordul aparține Vacheron Constantin „Berkley Grand Complication" (2024), cu 63 de complicații. | Grand complication
+Afișează ora în toate cele 24 de fusuri orare ale lumii, cu nume de orașe pe ramă | Ora universală (world time) | Sistem creat de Louis Cottier în anii '30. | World timer
+## Modele haute horlogerie
+Gondolo | Patek Philippe | Colecția de ceasuri dreptunghiulare și tonneau, inspirată din stilul Art Deco; numele vine de la un vechi client brazilian, Gondolo & Labouriau. | Patek Philippe Gondolo | Formă=dreptunghiulară/tonneau
+Golden Ellipse | Patek Philippe | Ceas elegant din 1968, cu carcasă de formă intermediară între cerc și dreptunghi, bazată pe proporția de aur. | Patek Philippe Golden Ellipse | Lansare=1968
+Code 11.59 | Audemars Piguet | Colecție lansată în 2019, cu carcasă rotundă și mijloc octogonal. | Audemars Piguet Code 11.59 | Lansare=2019 | Ora 11:59 - un minut înainte de „mâine".
+Millenary | Audemars Piguet | Colecție cu carcasă ovală, lansată în anii '90. | Audemars Piguet Millenary | Formă=ovală
+Jules Audemars | Audemars Piguet | Colecție clasică, numită după unul dintre fondatori, cu ceasuri elegante și complicate. | Audemars Piguet Jules Audemars
+Historiques | Vacheron Constantin | Colecție de reeditări ale modelelor istorice ale mărcii, precum 222 (1977). | Vacheron Constantin Historiques | | | Historique/222
+Fiftysix | Vacheron Constantin | Colecție lansată în 2018, inspirată de modelul de referință 6073 din 1956. | Vacheron Constantin Fiftysix | Lansare=2018; Inspirație=ref. 6073 (1956) | | FiftySix/Fifty Six
+Classique | Breguet | Colecția clasică, cu cadran guilloché și acele „Breguet" cu vârf în formă de lună. | Breguet Classique
+Type XX | Breguet | Cronograf de pilot creat în anii '50 pentru aviația franceză. | Breguet Type XX | Tip=cronograf de pilot
+Tradition | Breguet | Colecție care lasă la vedere mecanismul pe partea cadranului, inspirată de ceasurile de buzunar ale lui Breguet. | Breguet Tradition
+Reine de Naples | Breguet | Colecție pentru femei cu carcasă ovală, inspirată de un ceas făcut în 1810 pentru Caroline Murat, regina Neapolelui. | Breguet Reine de Naples | Inspirație=1810
+Villeret | Blancpain | Colecția clasică, numită după satul în care a fost fondată marca, în 1735. | Blancpain Villeret
+Air Command | Blancpain | Cronograf de pilot, reeditare a unui model din anii '50. | Blancpain Air Command | Tip=cronograf de pilot
+Léman | Blancpain | Colecție sport-elegantă, numită după lacul Geneva (Léman). | Blancpain Léman | | | Leman
+Polo | Piaget | Ceas sport-elegant lansat în 1979, cu brățară integrată. | Piaget Polo | Lansare=1979
+Altiplano | Piaget | Colecție de ceasuri ultraplate; Piaget e celebră pentru mecanisme foarte subțiri. | Piaget Altiplano | Tip=ultraplat
+Alpine Eagle | Chopard | Ceas sport din oțel cu brățară integrată, lansat în 2019. | Chopard Alpine Eagle | Lansare=2019
+Mille Miglia | Chopard | Cronografe inspirate de cursa auto italiană Mille Miglia, al cărei partener e Chopard din 1988. | Chopard Mille Miglia | Partener din=1988
+Master Ultra Thin | Jaeger-LeCoultre | Colecție de ceasuri rotunde, foarte subțiri și elegante. | Jaeger-LeCoultre Master Ultra Thin | Tip=extraplat
+## Modele de lux și sport
+De Ville | Omega | Colecția elegantă a mărcii, lansată ca linie separată în 1967. | Omega De Ville | Lansare=1967
+Seamaster Aqua Terra | Omega | Varianta elegantă, de zi cu zi, a familiei Seamaster. | Omega Seamaster Aqua Terra | | | Aqua Terra
+Pasha | Cartier | Ceas rotund cu capac pe coroană, legat de legenda unui ceas făcut pentru pașa din Marrakech. | Cartier Pasha
+Panthère | Cartier | Ceas-bijuterie pătrat cu brățară suplă, lansat în 1983. | Cartier Panthère | Lansare=1983 | | Panthere
+Aquaracer | TAG Heuer | Colecția de ceasuri de scufundări a mărcii. | TAG Heuer Aquaracer | Tip=scufundări
+Formula 1 | TAG Heuer | Colecție sportivă accesibilă, lansată în 1986, legată de cursele de Formula 1. | TAG Heuer Formula 1 | Lansare=1986
+Chronomat | Breitling | Cronograf lansat în 1941, cu riglă de calcul circulară; reinventat în 1984 cu ramă cu „călăreți". | Breitling Chronomat | Lansare=1941
+Superocean | Breitling | Colecția de ceasuri de scufundări a mărcii, din 1957. | Breitling Superocean | Lansare=1957; Tip=scufundări
+Premier | Breitling | Colecție elegantă, lansată în anii '40. | Breitling Premier
+Avenger | Breitling | Colecție robustă de ceasuri de aviație. | Breitling Avenger | Tip=aviație
+Emergency | Breitling | Ceas cu transmițător radio de urgență pentru piloți, lansat în 1995. | Breitling Emergency | Lansare=1995
+Ingenieur | IWC Schaffhausen | Ceas rezistent la câmpuri magnetice, lansat în 1955; reproiectat de Gérald Genta în 1976. | IWC Ingenieur | Lansare=1955
+Aquatimer | IWC Schaffhausen | Colecția de ceasuri de scufundări, din 1967. | IWC Aquatimer | Lansare=1967; Tip=scufundări
+Portofino | IWC Schaffhausen | Colecție elegantă, rotundă, numită după orașul italian. | IWC Portofino
+Ranger | Tudor | Ceas sport simplu, inspirat de expediția britanică în Groenlanda (1952-1954). | Tudor Ranger | Tip=explorare
+HydroConquest | Longines | Colecția de ceasuri de scufundări. | Longines HydroConquest | Tip=scufundări | | Hydro Conquest
+Conquest | Longines | Colecție sport lansată în 1954. | Longines Conquest | Lansare=1954
+Spirit | Longines | Colecție inspirată de pionierii aviației. | Longines Spirit | Tip=aviație
+Legend Diver | Longines | Reeditare a unui ceas de scufundări din anii '60, cu două coroane. | Longines Legend Diver | Tip=scufundări
+Defy | Zenith | Colecție modernă, cu design îndrăzneț. | Zenith Defy
+Elite | Zenith | Colecție elegantă, cu mecanism automatic subțire. | Zenith Elite
+Aquis | Oris | Colecția de ceasuri de scufundări. | Oris Aquis | Tip=scufundări
+Orion | NOMOS Glashütte | Ceas elegant cu indexuri aplicate, lansat în 1992. | NOMOS Orion | Lansare=1992
+Metro | NOMOS Glashütte | Colecție cu design modern și indicator de rezervă de mers. | NOMOS Metro
+Ludwig | NOMOS Glashütte | Ceas cu cifre romane, clasic. | NOMOS Ludwig
+Senator | Glashütte Original | Colecția clasică, cu ceasuri elegante și complicații. | Glashütte Original Senator
+EZM | Sinn | Seria de ceasuri pentru misiuni (Einsatzzeitmesser), făcute pentru polițiști, salvatori și piloți. | Sinn EZM | | EZM = Einsatzzeitmesser (cronometru de misiune).
+Captain Cook | Rado | Ceas de scufundări din 1962, reeditat în 2017. | Rado Captain Cook | Lansare=1962
+DiaStar | Rado | Primul ceas „imposibil de zgâriat" (1962), cu carcasă din carbură dură. | Rado DiaStar | Lansare=1962 | | Diastar
+Clifton | Baume & Mercier | Colecție clasică, inspirată de modelele anilor '50. | Baume & Mercier Clifton
+Classima | Baume & Mercier | Colecție elegantă și accesibilă. | Baume & Mercier Classima
+Riviera | Baume & Mercier | Ceas sport din 1973, cu ramă cu 12 laturi. | Baume & Mercier Riviera | Lansare=1973
+Capeland | Baume & Mercier | Colecție de cronografe sport. | Baume & Mercier Capeland
+## Modele accesibile
+Seastar | Tissot | Colecția de ceasuri de scufundări. | Tissot Seastar | Tip=scufundări | | Sea Star
+T-Touch | Tissot | Primul ceas cu geam tactil (1999): atingi geamul pentru barometru, altimetru sau busolă. | Tissot T-Touch | Lansare=1999 | | T Touch
+Visodate | Tissot | Reeditare a unui ceas automatic din 1953, cu ziua și data. | Tissot Visodate | Inspirație=1953
+MoonSwatch | Swatch | Colaborare Omega x Swatch din 2022: un Speedmaster din bioceramică, câte unul pentru fiecare planetă. | Omega x Swatch MoonSwatch | Lansare=2022 | | Moon Swatch/MoonSwatch Omega
+Irony | Swatch | Primul Swatch cu carcasă din metal (1994). | Swatch Irony | Lansare=1994
+Skin | Swatch | Ceas Swatch foarte subțire, din 1997. | Swatch Skin | Lansare=1997
+SKX007 | Seiko | Ceas de scufundări automatic, foarte popular și accesibil (1996-2019). | Seiko SKX007 | Tip=scufundări | | SKX 007
+Turtle | Seiko | Poreclă pentru ceasurile de scufundări Seiko cu carcasă în formă de țestoasă (prima versiune în 1976). | Seiko Turtle | Inspirație=1976
+Alpinist | Seiko | Ceas de explorare cu busolă internă, apărut în 1959 pentru alpiniștii japonezi. | Seiko Alpinist | Lansare=1959
+Pro Trek | Casio | Colecție de ceasuri de munte cu altimetru, barometru și busolă. | Casio Pro Trek | | | ProTrek
+Edifice | Casio | Colecție de cronografe din metal, cu temă de motorsport. | Casio Edifice
+Eco-Drive | Citizen | Tehnologia Citizen din 1995: ceasul se încarcă din orice sursă de lumină și nu are nevoie de schimbarea bateriei. | Citizen Eco-Drive | Lansare=1995
+Promaster | Citizen | Colecția de ceasuri profesionale pentru scufundări, aviație și munte. | Citizen Promaster
+Attesa | Citizen | Colecție din titan, cu sincronizare prin radio sau satelit. | Citizen Attesa | Material=titan
+Jazzmaster | Hamilton | Colecția elegantă a mărcii. | Hamilton Jazzmaster
+Khaki Navy | Hamilton | Colecția de ceasuri de scufundări, inclusiv Frogman. | Hamilton Khaki Navy | Tip=scufundări
+Lunar Pilot | Bulova | Reeditare a cronografului purtat de astronautul Dave Scott pe Lună, în misiunea Apollo 15 (1971). | Bulova Lunar Pilot | Pe Lună=1971 (Apollo 15)
+Computron | Bulova | Ceas digital LED din anii '70, cu ecranul pe lateral. | Bulova Computron | Tip=LED
+Ironman | Timex | Ceas digital sportiv din 1986, creat pentru triatlonul Ironman. | Timex Ironman | Lansare=1986
+Weekender | Timex | Ceas simplu, cu curea textilă ușor de schimbat. | Timex Weekender
+Q Timex | Timex | Reeditare a unui ceas cu cuarț din 1979. | Q Timex | Inspirație=1979
+Expedition | Timex | Colecție de ceasuri de exterior, robuste. | Timex Expedition
+Bambino | Orient | Ceas automatic elegant, cu geam bombat, foarte accesibil. | Orient Bambino
+Mako | Orient | Ceas de scufundări automatic, accesibil. | Orient Mako | Tip=scufundări
+Ocean Star | Mido | Colecția de ceasuri de scufundări, din 1944. | Mido Ocean Star | Tip=scufundări
+Commander | Mido | Ceas din 1959 cu carcasă dintr-o singură bucată. | Mido Commander | Lansare=1959
+DS-1 | Certina | Reeditare a modelului DS original din 1959. | Certina DS-1 | Inspirație=1959 | | DS1
+DS Podium | Certina | Colecție de cronografe sport. | Certina DS Podium
+Classic | Daniel Wellington | Ceasul emblematic al mărcii: cadran minimalist și curea textilă în dungi. | Daniel Wellington Classic
+Pro Diver | Invicta | Ceas de scufundări accesibil, cu design asemănător unor modele de lux. | Invicta Pro Diver | Tip=scufundări
+## Modele sovietice și rusești
+Amphibia | Vostok | Ceas de scufundări sovietic din 1967, cu geam care se strânge mai tare sub presiunea apei. | Vostok Amphibia | Lansare=1967
+Komandirskie | Vostok | Ceasul „comandanților" din armata sovietică, lansat în 1965. | Vostok Komandirskie | Lansare=1965
+Aviator | Poljot | Colecție de ceasuri de pilot. | Poljot Aviator
+3133 | Poljot | Calibrul de cronograf mecanic Poljot 3133, folosit în multe ceasuri rusești. | Poljot 3133 | Tip=calibru cronograf
+~ Nautilus ~ Royal Oak ~ Ambele de Gérald Genta. Royal Oak (AP, 1972) are ramă octogonală cu 8 șuruburi; Nautilus (Patek, 1976) are carcasă cu „urechi" laterale ca balamalele unui hublou.
+~ Submariner ~ Seamaster ~ Submariner (Rolex) are cadran negru simplu și indexuri luminoase rotunde; Seamaster modern (Omega) are adesea cadran ondulat și supapă de heliu la ora 10.
+~ Daytona ~ Speedmaster Professional ~ Daytona (Rolex) are tahimetrul pe ramă metalică sau ceramică și e automatic; Speedmaster (Omega) are rama neagră cu tahimetru și remontare manuală.
+~ Monaco ~ Carrera ~ Monaco are carcasă pătrată; Carrera e rotund. Ambele TAG Heuer.
+~ Mecanic automatic ~ Mecanic cu remontare manuală ~ Automaticul are rotor care se mișcă singur; manualul trebuie întors din coroană.
+~ Cronograf ~ Ceas GMT ~ Cronograful măsoară durate (butoane pe lateral); GMT-ul arată un al doilea fus orar (indicator de 24 h).
+~ Calendar perpetuu ~ Calendar anual ~ Perpetuul ține cont de anii bisecți; anualul trebuie corectat la 1 martie în fiecare an.
+~ Flyback ~ Rattrapante (split-seconds) ~ Flyback = reset și repornire dintr-o apăsare. Rattrapante = două secundare pentru timpi intermediari.
+~ Tank ~ Reverso ~ Ambele rectangulare. Tank (Cartier, 1917) are brațele carcasei ca șenilele unui tanc; Reverso (JLC, 1931) se poate întoarce pe spate.
+## Alte mărci | Țara de origine
+Zenith | Elveția, 1865 | Manufactură din Le Locle, celebră pentru calibrul cronograf automatic El Primero (1969). | Zenith - Switzerland | Fondare=1865; Grup=LVMH
+Hamilton | SUA (azi Elveția), 1892 | Fondată în Lancaster, Pennsylvania; a creat primul ceas electric cu baterie, Ventura (1957). Azi face parte din Swatch Group. | Hamilton - USA/Switzerland | Fondare=1892; Grup=Swatch Group
+Oris | Elveția, 1904 | Producător independent care folosește aproape exclusiv mișcări mecanice; sigla are un rotor roșu. | Oris - Switzerland | Fondare=1904; Statut=independent
+Chopard | Elveția, 1860 | Bijutier și ceasornicar; realizează Palme d'Or pentru Festivalul de la Cannes. | Chopard - Switzerland | Fondare=1860
+Piaget | Elveția, 1874 | Specialist în mișcări ultra-subțiri. | Piaget - Switzerland | Fondare=1874; Grup=Richemont
+Ulysse Nardin | Elveția, 1846 | Renumită pentru cronometre de marină. | Ulysse Nardin - Switzerland | Fondare=1846
+Bell & Ross | Franța, 1992 | Ceasuri cu carcasă pătrată inspirate de instrumentele de bord ale avioanelor. | Bell & Ross - France | Fondare=1992
+Junghans | Germania, 1861 | Cel mai mare producător german de ceasuri la începutul secolului XX; linia Max Bill are design Bauhaus. | Junghans - Germany | Fondare=1861; Sediu=Schramberg
+NOMOS Glashütte | Germania, 1990 | Mărcă tânără din Glashütte, cu design minimalist în spirit Bauhaus și mișcări proprii. | NOMOS Glashütte - Germany | Fondare=1990
+Glashütte Original | Germania, 1845 | Moștenitoarea tradiției ceasornicărești din Glashütte, Saxonia. | Glashütte Original - Germany | Grup=Swatch Group
+Sinn | Germania, 1961 | Ceasuri de pilot și instrumente din Frankfurt, testate pentru condiții extreme. | Sinn - Germany | Fondare=1961
+Rado | Elveția, 1917 | Pionier al ceasurilor din ceramică high-tech, rezistentă la zgârieturi. | Rado - Switzerland | Grup=Swatch Group
+Frederique Constant | Elveția, 1988 | Marcă accesibilă de ceasuri elegante, cu mișcări proprii. | Frederique Constant - Switzerland | Fondare=1988
+Bulova | SUA, 1875 | A lansat Accutron (1960), ceasul cu diapazon. Deținută azi de Citizen. | Bulova - USA | Fondare=1875; Proprietar=Citizen
+Timex | SUA, 1854 | Ceasuri ieftine și rezistente; sloganul celebru: „Takes a licking and keeps on ticking". | Timex - USA | Fondare=1854
+Orient | Japonia, 1950 | Ceasuri mecanice accesibile; azi parte din Seiko Epson. | Orient - Japan | Fondare=1950
+Apple Watch | SUA, 2015 | Smartwatch lansat în 2015; cel mai vândut ceas din lume ca număr de bucăți. | Apple Watch | Lansare=2015
+Garmin | SUA / Elveția, 1989 | Ceasuri GPS pentru sport și outdoor. | Garmin | Fondare=1989
+F.P. Journe | Elveția, 1999 | Manufactură independentă a lui François-Paul Journe; producție foarte mică, cerere uriașă. | F.P. Journe - Switzerland | Fondare=1999
+H. Moser & Cie | Elveția, 1828 | Cunoscută pentru cadranele „fumé" fără siglă. | H. Moser & Cie | Fondare=1828
+Fossil | SUA, 1984 | Fondată în Texas; produce și ceasuri sub licență pentru alte mărci de modă. | Fossil - USA | Fondare=1984; Sediu=Richardson (Texas); Grup=Fossil Group
+Mido | Elveția, 1918 | Fondată la Biel de George Schaeren; Multifort (1934) a fost primul ei ceas automatic. | Mido - Switzerland | Fondare=1918; Sediu=Le Locle; Grup=Swatch Group
+Certina | Elveția, 1888 | Fondată la Grenchen de frații Kurth; conceptul DS („Double Security", 1959) a făcut-o celebră pentru ceasuri foarte rezistente. | Certina - Switzerland | Fondare=1888; Sediu=Grenchen; Grup=Swatch Group | DS = Double Security (dublă siguranță).
+Festina | Elveția (azi Spania), 1902 | Fondată la La Chaux-de-Fonds; condusă azi din Spania de grupul Festina Lotus. A fost cronometrorul oficial al Turului Franței (1992-2016). | Festina - Switzerland/Spain | Fondare=1902; Sediu=Madrid; Grup=Festina Lotus
+Maurice Lacroix | Elveția, 1975 | Marcă lansată de o firmă de comerț din Zürich; producție în Jura elvețian, la Saignelégier. | Maurice Lacroix - Switzerland | Fondare=1975; Producție=Saignelégier; Proprietar majoritar=DKSH (din 2011)
+Victorinox | Elveția, 1884 | Producătorul briceagului elvețian (Swiss Army Knife); face și ceasuri sub numele Victorinox Swiss Army. | Victorinox - Switzerland | Fondare=1884; Sediu=Ibach (Schwyz) | Crucea elvețiană din scut, ca pe briceag.
+Daniel Wellington | Suedia, 2011 | Fondată la Stockholm de Filip Tysander; a devenit celebră prin promovare pe Instagram, cu ceasuri minimaliste și curele textile. | Daniel Wellington - Sweden | Fondare=2011; Sediu=Stockholm
+Michael Kors | SUA, 1981 | Casă de modă din New York; ceasurile sunt produse sub licență de Fossil. | Michael Kors - USA | Fondare=1981; Sediu=New York; Grup=Capri Holdings
+Nautica | SUA, 1983 | Marcă de modă cu temă nautică, fondată în New York de David Chu; ceasurile sunt făcute sub licență. | Nautica - USA | Fondare=1983; Proprietar=Authentic Brands Group
+Invicta | Elveția (azi SUA), 1837 | Fondată la La Chaux-de-Fonds; azi e condusă din Florida, iar majoritatea ceasurilor se asamblează în Asia. | Invicta - Switzerland/USA | Fondare=1837; Sediu=Hollywood (Florida)
+Vostok | Rusia, 1942 | Fabrica de la Cistopol (Tatarstan); Komandirskie (1965) și Amphibia (1967) sunt cele mai cunoscute modele. | Vostok - Russia | Fondare=1942 (unele surse: 1941); Sediu=Cistopol
+Poljot | Rusia, 1930 | Marca Primei Fabrici de Ceasuri din Moscova; Gagarin a purtat un Sturmanskie, iar Leonov un cronograf Strela la prima ieșire în spațiu (1965). | Poljot - Russia | Fondare=1930 (fabrica); Marca Poljot din=1964; Sediu=Moscova
+Raketa | Rusia, 1961 | Marca fabricii de la Petrodvoreț, fondată de Petru cel Mare în 1721; numele („rachetă") celebrează zborul lui Gagarin. | Raketa - Russia | Marca din=1961; Fabrica din=1721; Sediu=Peterhof (Sankt Petersburg) | Raketa = rachetă, ca racheta lui Gagarin din 1961.
+Baume & Mercier | Elveția, 1830 | Fondată de frații Baume în Jura elvețian; din 2026 aparține grupului italian Damiani (anterior Richemont). | Baume & Mercier - Switzerland | Fondare=1830; Grup=Damiani (din 2026)
+Montblanc | Germania, 1906 | Celebră pentru stilouri, fondată la Hamburg; face ceasuri din 1997, în manufacturi elvețiene (Le Locle și Villeret). | Montblanc - Germany | Fondare=1906; Sediu=Hamburg; Grup=Richemont | Steaua albă din siglă e vârful înzăpezit al Mont Blanc.
+Girard-Perregaux | Elveția, 1791 | Manufactură din La Chaux-de-Fonds, celebră pentru tourbillonul cu trei punți de aur; din 2022 aparține conducerii sale (grupul Sowind). | Girard-Perregaux - Switzerland | Fondare=1791; Sediu=La Chaux-de-Fonds; Grup=Sowind (independent)
+## Alte modele iconice | Ce marcă produce acest model?
+Explorer | Rolex | Lansat în 1953, asociat cu prima ascensiune pe Everest; cadran cu cifrele 3, 6 și 9. | Rolex Explorer | Tip=sport; Lansare=1953
+Day-Date | Rolex | Primul ceas care afișează ziua scrisă complet (1956); poreclit „President", fiind purtat de mulți președinți ai SUA. | Rolex Day-Date | Lansare=1956; Material=doar metale prețioase
+Sea-Dweller | Rolex | Ceas de scufundări profesionale (1967), cu supapă de heliu. | Rolex Sea-Dweller | Lansare=1967
+Yacht-Master | Rolex | Ceas sport inspirat din navigație, lansat în 1992. | Rolex Yacht-Master | Lansare=1992
+Constellation | Omega | Linie elegantă din 1952, cu „ghearele" de pe ramă. | Omega Constellation | Lansare=1952
+Aquanaut | Patek Philippe | Ceas sport din 1997, cu curea din compozit și model „tabletă de ciocolată" pe cadran. | Patek Philippe Aquanaut | Lansare=1997
+Royal Oak Offshore | Audemars Piguet | Versiunea mai mare și mai sportivă a Royal Oak, lansată în 1993. | Audemars Piguet Royal Oak Offshore | Lansare=1993
+El Primero | Zenith | Unul dintre primele calibre cronograf automatice (1969), cu frecvență mare: 36.000 de alternanțe pe oră. | Zenith El Primero | Lansare=1969; Frecvență=5 Hz
+Khaki Field | Hamilton | Ceas de teren derivat din ceasurile militare americane. | Hamilton Khaki Field | Tip=field watch
+Ventura | Hamilton | Primul ceas de mână electric, cu baterie (1957), cu carcasă asimetrică triunghiulară. | Hamilton Ventura | Lansare=1957
+Accutron | Bulova | Ceas cu diapazon (1960), care zumzăie în loc să ticăie; folosit în programul spațial american. | Bulova Accutron | Lansare=1960
+Pulsar | Hamilton | Primul ceas de mână digital electronic, cu afișaj LED (1972). | Hamilton Pulsar | Lansare=1972
+F-91W | Casio | Ceas digital ieftin lansat în 1989, vândut în zeci de milioane de exemplare. | Casio F-91W | Lansare=1989
+Seiko 5 | Seiko | Serie de ceasuri automatice accesibile, din 1963. | Seiko 5 | Lansare=1963
+Big Pilot | IWC Schaffhausen | Ceas de pilot cu carcasă de 46 mm, inspirat de ceasurile de observator din anii '40. | IWC Big Pilot | Tip=pilot
+Ballon Bleu | Cartier | Ceas rotund (2007) cu coroana protejată de un arc și un cabochon albastru. | Cartier Ballon Bleu | Lansare=2007
+Big Bang | Hublot | Ceas sport de lux (2005) care combină materiale neobișnuite. | Hublot Big Bang | Lansare=2005
+Radiomir | Panerai | Primul ceas Panerai pentru marina italiană (1936), cu cadran luminos pe bază de radiu. | Panerai Radiomir | Lansare=1936
+PRX | Tissot | Ceas cu brățară integrată, relansat în 2021, inspirat de un model din 1978. | Tissot PRX | Lansare=2021
+Max Bill | Junghans | Linie cu design Bauhaus, după arhitectul și designerul Max Bill (1961). | Junghans Max Bill | Lansare=1961
+Tangente | NOMOS Glashütte | Ceas minimalist cu cifre subțiri, inspirat de anii '30. | NOMOS Tangente | Lansare=1992
+Pelagos | Tudor | Ceas de scufundări din titan, cu supapă de heliu. | Tudor Pelagos | Lansare=2012
+Zeitwerk | A. Lange & Söhne | Ceas mecanic cu afișaj digital al orei prin discuri care sar (2009). | A. Lange & Sohne Zeitwerk | Lansare=2009
+Patrimony | Vacheron Constantin | Ceas elegant, minimalist, cu linii pure. | Vacheron Constantin Patrimony | Tip=elegant
+## Termeni și materiale | Ce înseamnă?
+Sticlă de safir | Geam de ceas din safir sintetic, foarte rezistent la zgârieturi | Pe scara Mohs are duritatea 9, după diamant (10). | Sapphire crystal
+Hesalit (plexiglas) | Geam din plastic acrilic, care se poate lustrui | Folosit pe Speedmaster Professional, pentru că nu se sparge în cioburi. | Hesalite (acrylic crystal)
+Oțel 904L | Oțel inoxidabil foarte rezistent la coroziune, folosit de Rolex (Oystersteel) | Majoritatea mărcilor folosesc oțel 316L. | 904L stainless steel
+Bronz (la ceasuri) | Carcasă care capătă în timp o patină unică | | Bronze watch case
+Côtes de Genève | Model decorativ cu dungi paralele pe plăcile mecanismului | Vizibil prin fundul transparent al carcasei. | Geneva stripes
+Perlage | Decor din cercuri mici suprapuse pe plăcile mecanismului | | Perlage
+Guilloché | Decor gravat mecanic pe cadran, cu modele geometrice repetitive | Breguet l-a făcut celebru. | Guilloché
+Lumă (Super-LumiNova) | Vopsea fotoluminescentă care face indicatoarele vizibile pe întuneric | A înlocuit radiul și tritiul radioactive. | Lume (Super-LumiNova)
+Coroană înșurubată | Coroană care se înfiletează pe carcasă pentru etanșeitate | Esențială la ceasurile de scufundări. | Screw-down crown
+Ramă unidirecțională | Ramă care se rotește doar într-un sens | La scufundări, o eroare poate doar scurta timpul calculat, niciodată lungi. | Unidirectional bezel
+Cronometru COSC | Ceas certificat de institutul elvețian COSC ca având o abatere între -4 și +6 secunde pe zi | Nu confunda cu cronograful (funcția de cronometrare). | COSC chronometer | Abatere=-4/+6 s pe zi
+Master Chronometer (METAS) | Certificare mai strictă: 0 până la +5 secunde pe zi și rezistență la câmpuri magnetice de 15.000 gauss | Folosită de Omega. | Master Chronometer | Abatere=0/+5 s pe zi
+Pietre (rubine) într-un mecanism | Rubine sintetice care reduc frecarea în punctele de pivotare | Un mecanism automatic tipic are 21-27 de pietre. | Jewels (watch)
+28.800 alternanțe pe oră | Frecvența de 4 Hz a balansierului, cea mai comună la mișcările moderne | Secundarul face 8 pași pe secundă. | 28,800 vph (4 Hz)
+Balansier și spirală | „Inima" ceasului mecanic, care oscilează și dă ritmul | | Balance wheel and hairspring
+Ancoră (escapement) | Mecanismul care eliberează energia arcului în pași egali | Produce sunetul de tic-tac. | Escapement
+Rezervă de mers | Câte ore funcționează ceasul complet întors | Tipic 38-80 de ore. | Power reserve
+Mișcare „in-house" | Mecanism proiectat și produs de marca însăși | Opusul mișcărilor cumpărate de la furnizori (ETA, Sellita). | In-house movement
+Calibru | Numele sau codul unui anumit tip de mecanism | | Calibre
+Swiss Made | Etichetă care cere, la ceasurile mecanice, ca cel puțin 60% din costul de producție să fie realizat în Elveția | Regula a fost înăsprită în 2017. | Swiss Made | Prag=60% din cost
+Tahimetru | Scală pe ramă sau cadran care calculează viteza dintr-un timp cronometrat pe o distanță cunoscută | | Tachymeter
+Secundar oprit la tragerea coroanei (hacking) | Funcție care permite sincronizarea exactă a ceasului cu secunda | | Hacking seconds
+Curea NATO | Curea textilă dintr-o singură bucată, trecută pe sub carcasă | Originea: standardul militar britanic. | NATO strap
+## Istoria ceasului | Răspunde la întrebare
+Pentru cine a creat Breguet unul dintre primele ceasuri de mână (1810)? | Caroline Murat, regina Neapolelui | Ceasurile de mână au fost la început accesorii pentru femei; bărbații purtau ceasuri de buzunar. | First wristwatch (Breguet)
+Ce a fost „criza cuarțului"? | Prăbușirea industriei elvețiene în anii '70-'80 în fața ceasurilor japoneze ieftine cu cuarț | Numărul de angajați din industria elvețiană a scăzut cu aproape două treimi. | Quartz crisis
+Ce înotătoare a traversat Canalul Mânecii (1927) purtând un Rolex Oyster? | Mercedes Gleitze | A fost prima reclamă de anvergură pentru ceasul etanș. | Mercedes Gleitze | An=1927
+Care este cel mai scump ceas vândut vreodată la licitație? | Patek Philippe Grandmaster Chime 6300A, 31 de milioane de franci elvețieni (2019) | Exemplar unic din oțel, vândut la licitația caritabilă Only Watch. | Patek Philippe Grandmaster Chime | Preț=31 mil. CHF; An=2019
+Ce ceas complicat, făcut pentru bancherul Henry Graves Jr., a fost timp de decenii cel mai complicat ceas de buzunar? | Patek Philippe Supercomplication (1933) | Are 24 de complicații; vândut în 2014 cu peste 23 de milioane de franci. | Henry Graves Supercomplication | An=1933
+Ce companie a lansat primul ceas cu încărcare automată prin rotor (1931)? | Rolex | Sistemul „Perpetual" a devenit standardul ceasurilor automatice. | Rolex Perpetual rotor | An=1931
+Ce ceas a fost primul pe Lună? | Omega Speedmaster Professional | Purtat de Buzz Aldrin în iulie 1969 (Armstrong își lăsase ceasul în modul lunar). | Omega Speedmaster on the Moon | An=1969
+## Mecanisme celebre | Ce tip de mecanism este?
+ETA 2824-2 | Mișcare automatică elvețiană foarte răspândită, folosită de zeci de mărci | Produsă de ETA (Swatch Group); Sellita SW200 este echivalentul ei. | ETA 2824-2 | Tip=automatic; Frecvență=4 Hz
+Valjoux 7750 | Mișcare cronograf automatică elvețiană, foarte robustă | Folosită în multe cronografe de la Breitling, IWC, Tissot. | Valjoux 7750 | Tip=cronograf automatic
+Seiko NH35 | Mișcare automatică japoneză ieftină și fiabilă | Foarte folosită de microbranduri. | Seiko NH35 | Tip=automatic
+Calibrul 3235 (Rolex) | Mișcare automatică Rolex cu rezervă de 70 de ore | A înlocuit calibrul 3135 în 2015. | Rolex calibre 3235 | Rezervă=70 h
+Calibrul 1861 / 3861 (Omega) | Mișcarea cu remontare manuală a lui Speedmaster Professional | 3861 a primit certificarea Master Chronometer în 2021. | Omega calibre 3861 | Tip=cronograf manual
+~ Sticlă de safir ~ Hesalit (plexiglas) ~ Safirul nu se zgârie ușor, dar se poate sparge; hesalitul se zgârie, dar se lustruiește și nu face cioburi.
+~ Cronometru COSC ~ Master Chronometer (METAS) ~ COSC: -4/+6 s pe zi, doar mecanismul. METAS: 0/+5 s pe zi, ceasul întreg, plus 15.000 gauss.
+~ Côtes de Genève ~ Perlage ~ Côtes de Genève = dungi paralele; perlage = cercuri mici suprapuse.
+~ Ventura ~ Accutron ~ Ventura (Hamilton, 1957) = primul ceas cu baterie; Accutron (Bulova, 1960) = primul cu diapazon.
+~ Explorer ~ Day-Date ~ Explorer: oțel, sport, cifre 3-6-9. Day-Date: doar aur sau platină, cu ziua scrisă complet.
+~ ETA 2824-2 ~ Valjoux 7750 ~ 2824-2 = automatic simplu (ora și data); 7750 = automatic cu cronograf.
+## Porecle și coduri | Ce înseamnă?
+Rama „Pepsi" | Ramă GMT pe jumătate albastră, pe jumătate roșie | Prima dată pe Rolex GMT-Master (1954-1955). | Pepsi bezel
+Rama „Batman" | Ramă GMT pe jumătate albastră, pe jumătate neagră | Rolex GMT-Master II, din 2013. | Batman bezel
+Rama „Coke" | Ramă GMT pe jumătate roșie, pe jumătate neagră | | Coke bezel
+„Hulk" | Rolex Submariner cu ramă și cadran verzi (2010-2020) | | Rolex Submariner Hulk
+„Kermit" | Rolex Submariner cu ramă verde și cadran negru (2003) | | Rolex Submariner Kermit
+Cadran „panda" | Cadran alb cu subcadrane negre | Inversul se numește „reverse panda". | Panda dial
+Cadran „tropical" | Cadran negru care, cu anii, s-a decolorat spre maro | Foarte căutat de colecționari. | Tropical dial
+WR 100 m (10 bar) | Rezistent la apă pentru înot, dar nu pentru scufundări | Cifra e o presiune de test în laborator, nu o adâncime reală de folosire. | Water resistance 100 m
+DLC | Strat dur de carbon asemănător diamantului, care înnegrește și protejează carcasa | | Diamond-like carbon coating
+PVD | Depunere de vapori fizici: un strat subțire colorat pe carcasă | | Physical vapor deposition
+Bi-compax | Cronograf cu două subcadrane | Tri-compax are trei. | Bi-compax
+„Dress watch" de 36 mm | Mărime clasică pentru ceasurile elegante | Ceasurile sport moderne au de obicei 40-42 mm. | Classic case size
+Lug-to-lug | Distanța dintre capetele urechilor carcasei - arată cum stă ceasul pe încheietură | | Lug-to-lug
+Microbrand | Mărcă mică, independentă, care vinde mai ales online, în serii limitate | | Microbrand
+## Ceasuri și oameni celebri | Ce ceas purta?
+Ce ceas purta Paul Newman, devenit cel mai cunoscut Daytona? | Rolex Daytona „Paul Newman" (cu cadran exotic) | Exemplarul lui personal s-a vândut cu 17,8 milioane de dolari în 2017. | Paul Newman Daytona
+Ce ceas a purtat Steve McQueen în filmul „Le Mans" (1971)? | TAG Heuer (Heuer) Monaco | | Steve McQueen Monaco
+Ce ceas poartă James Bond în filmele cu Daniel Craig? | Omega Seamaster | Omega este ceasul lui Bond din 1995 (GoldenEye). | James Bond Omega
+Ce ceas a purtat Sean Connery ca James Bond în „Dr. No" (1962)? | Rolex Submariner | | Sean Connery Submariner
+Ce ceas a purtat Buzz Aldrin pe Lună? | Omega Speedmaster Professional | | Buzz Aldrin Speedmaster
+Ce ceas ieftin purta Barack Obama înainte de președinție? | Jorg Gray 6500 | Un cadou de la agenții Serviciului Secret. | Obama Jorg Gray
+Ce ceas purta Che Guevara, după fotografiile celebre? | Rolex GMT-Master | | Che Guevara Rolex
+Ce marcă a creat ceasul cu complicații pentru regina Marie-Antoinette, terminat după moartea ei? | Breguet (ceasul „Marie-Antoinette") | Început în 1783, terminat în 1827. | Breguet Marie Antoinette | Început=1783
+## Alte complicații și afișaje | Cum se numește?
+Afișaj care arată ora printr-un singur indicator ce sare la capătul scalei | Afișaj retrograd | | Retrograde display
+Ora afișată în ferestre, prin discuri care sar | Oră săritoare (jumping hour) | | Jumping hour
+Dată afișată în două ferestre mari, una pentru zeci și una pentru unități | Dată mare (big date) | Semnătura lui A. Lange & Söhne. | Big date
+Sonerie care bate orele automat, ca un ceas de turn | Grande sonnerie | | Grande sonnerie
+O alarmă mecanică pe un ceas de mână | Alarmă (réveil) | Exemplu celebru: Vulcain Cricket, „ceasul președinților". | Mechanical alarm watch
+Afișaj al ecuației timpului (diferența dintre timpul solar real și cel mediu) | Ecuația timpului | | Equation of time
+Mecanism vizibil prin cadran decupat | Ceas scheletat | | Skeleton watch
+Ceas cu două fusuri orare afișate pe același cadran prin două seturi de indicatoare sau subcadran | Dual time | Diferit de GMT, care folosește un indicator de 24 h. | Dual time

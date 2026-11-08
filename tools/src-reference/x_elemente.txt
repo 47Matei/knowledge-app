@@ -1,0 +1,75 @@
+@id elemente
+@append 1
+@prompt Răspunde la întrebare
+## Utilizări | Ce element este?
+Metalul folosit în cablurile electrice, al doilea cel mai bun conductor după argint | Cupru (Cu) | | Copper
+Semiconductorul pe care se bazează cipurile electronice | Siliciu (Si) | De aici numele „Silicon Valley". | Silicon
+Metalul ușor din cutiile de băuturi și fuselajele avioanelor | Aluminiu (Al) | | Aluminium
+Metalul din filamentul becurilor incandescente, cu cel mai înalt punct de topire dintre metale | Wolfram (W) | Se topește la aproximativ 3.422°C. | Tungsten
+Gazul nobil din reclamele luminoase roșu-portocalii | Neon (Ne) | | Neon
+Gazul nobil mai ușor decât aerul, folosit în baloane și în răcirea magneților RMN | Heliu (He) | | Helium
+Elementul adăugat în pasta de dinți pentru protecția smalțului | Fluor (F) | Sub formă de fluoruri. | Fluorine
+Elementul folosit la dezinfectarea apei din piscine | Clor (Cl) | | Chlorine
+Elementul din bateriile telefoanelor și ale mașinilor electrice | Litiu (Li) | | Lithium
+Metalul lichid din termometrele vechi | Mercur (Hg) | Înlocuit din cauza toxicității. | Mercury
+Combustibilul centralelor nucleare | Uraniu (U) | Izotopul fisionabil este uraniu-235. | Uranium
+Elementul folosit pentru datarea fosilelor și a artefactelor | Carbon (C) | Prin izotopul radioactiv carbon-14. | Carbon (radiocarbon dating)
+Elementul de pe chibrituri și din îngrășăminte | Fosfor (P) | | Phosphorus
+Metalul adăugat în oțel pentru a-l face inoxidabil | Crom (Cr) | Oțelul inoxidabil are cel puțin 10,5% crom. | Chromium
+Metalul cu care se acoperă fierul pentru a-l proteja de rugină (galvanizare) | Zinc (Zn) | | Zinc
+Metalul cuprului aliat cu staniul dă... | Bronz (aliaj Cu + Sn) | Alama este aliajul cuprului cu zincul. | Bronze
+Elementul esențial din hemoglobină | Fier (Fe) | | Iron
+Elementul adăugat în sarea de bucătărie pentru prevenirea gușei | Iod (I) | | Iodine
+Gazul care alcătuiește aproximativ 78% din atmosferă | Azot (N) | | Nitrogen
+Gazul care alcătuiește aproximativ 21% din atmosferă | Oxigen (O) | | Oxygen
+Gazul nobil, al treilea cel mai abundent gaz din atmosferă (aproape 1%) | Argon (Ar) | Folosit în becuri și la sudură. | Argon
+Metalul cu cea mai bună conductivitate electrică | Argint (Ag) | | Silver
+Metalul foarte ușor și rezistent folosit în proteze, implanturi și carcase de ceas | Titan (Ti) | | Titanium
+Elementul radioactiv descoperit de Marie Curie și numit după țara ei | Poloniu (Po) | Marie Curie a primit două premii Nobel (fizică 1903, chimie 1911). | Polonium
+Elementul radioactiv izolat de Marie și Pierre Curie, care strălucește în întuneric | Radiu (Ra) | | Radium
+Elementul numit după Dmitri Mendeleev, autorul tabelului periodic (1869) | Mendeleviu (Md) | | Mendelevium
+Elementul numit după Albert Einstein | Einsteiniu (Es) | Descoperit în resturile primei bombe cu hidrogen (1952). | Einsteinium
+Gazul radioactiv care se poate acumula în subsoluri din roci | Radon (Rn) | | Radon
+## Compuși uzuali | Ce substanță are această formulă?
+H₂O | Apă | | Water
+NaCl | Sare de bucătărie (clorură de sodiu) | | Sodium chloride
+CO₂ | Dioxid de carbon | Gazul pe care îl expirăm și pe care îl folosesc plantele în fotosinteză. | Carbon dioxide
+CO | Monoxid de carbon | Gaz inodor și foarte toxic, produs de arderea incompletă. | Carbon monoxide
+CH₄ | Metan | Componenta principală a gazului natural. | Methane
+NH₃ | Amoniac | | Ammonia
+H₂SO₄ | Acid sulfuric | Cel mai produs compus chimic industrial din lume. | Sulfuric acid
+HCl | Acid clorhidric | Există și în sucul gastric. | Hydrochloric acid
+NaHCO₃ | Bicarbonat de sodiu | | Sodium bicarbonate
+CaCO₃ | Carbonat de calciu (calcar, marmură, cretă) | | Calcium carbonate
+C₆H₁₂O₆ | Glucoză | | Glucose
+C₁₂H₂₂O₁₁ | Zaharoză (zahăr de masă) | | Sucrose
+O₃ | Ozon | Stratul de ozon ne protejează de radiațiile ultraviolete. | Ozone
+H₂O₂ | Apă oxigenată (peroxid de hidrogen) | | Hydrogen peroxide
+NaOH | Sodă caustică (hidroxid de sodiu) | Folosită la fabricarea săpunului. | Sodium hydroxide
+C₂H₅OH | Etanol (alcool etilic) | | Ethanol
+CH₃COOH | Acid acetic (oțet) | | Acetic acid
+SiO₂ | Dioxid de siliciu (cuarț, nisip) | | Silicon dioxide
+Fe₂O₃ | Oxid de fier (rugină) | | Iron(III) oxide
+N₂O | Protoxid de azot („gaz ilariant") | | Nitrous oxide
+## Recorduri | Ce element este?
+Cel mai abundent element din Univers | Hidrogen | Aproximativ trei sferturi din masa materiei obișnuite. | Hydrogen
+Cel mai abundent element din scoarța Pământului | Oxigen | | Oxygen (crust)
+Cel mai abundent metal din scoarța Pământului | Aluminiu | | Aluminium (crust)
+Cel mai dens element natural | Osmiu | Densitate aproximativ 22,6 g/cm³. | Osmium
+Singurul metal lichid la temperatura camerei | Mercur | Galiul se topește în mână (la 29,8°C). | Mercury (liquid)
+Cel mai reactiv nemetal | Fluor | | Fluorine (reactivity)
+Elementul cu cele mai multe compuși cunoscuți - baza chimiei organice și a vieții | Carbon | | Carbon (organic chemistry)
+Forma de carbon cu cea mai mare duritate naturală | Diamant | Grafitul este tot carbon, dar moale. | Diamond
+Gazul nobil cu cel mai mic punct de fierbere, aproape de zero absolut | Heliu | Fierbe la aproximativ -269°C. | Helium (boiling point)
+Cel mai greu element care se găsește în natură în cantități semnificative | Uraniu | | Uranium
+## Despre tabel | Răspunde la întrebare
+Cine a publicat primul tabel periodic modern (1869)? | Dmitri Mendeleev | A lăsat spații goale pentru elemente nedescoperite, prezicându-le proprietățile. | Dmitri Mendeleev | An=1869
+Ce indică numărul atomic? | Numărul de protoni din nucleu | | Atomic number
+Ce sunt izotopii? | Atomi ai aceluiași element cu număr diferit de neutroni | | Isotopes
+Cum se numesc rândurile orizontale ale tabelului periodic? | Perioade | Coloanele verticale se numesc grupe. | Periods
+Câte elemente are tabelul periodic actual? | 118 | Ultimele patru au primit nume în 2016: nihoniu, moscoviu, tennessin, oganesson. | 118 elements
+Ce elemente au electronii de valență completați și reacționează foarte greu? | Gazele nobile | | Noble gases
+Ce este un ion? | Un atom care a pierdut sau a câștigat electroni și are sarcină electrică | | Ion
+~ Bronz (aliaj Cu + Sn) ~ Cupru (Cu) ~ Bronzul e un aliaj (cupru + staniu); cuprul e elementul pur.
+~ CO₂ ~ CO ~ CO₂ = dioxid de carbon (expirat, netoxic în concentrații normale); CO = monoxid de carbon, foarte toxic.
+~ Cel mai abundent element din Univers ~ Cel mai abundent element din scoarța Pământului ~ Universul: hidrogen. Scoarța Pământului: oxigen.

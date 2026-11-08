@@ -1,0 +1,205 @@
+@id vocabular
+@prompt Ce înseamnă în română?
+## Adjective
+ubiquitous | omniprezent | Exemplu: Smartphones have become ubiquitous. | ubiquitous | Pronunție=yoo-BIK-wi-tus; Sinonim=pervasive
+meticulous | meticulos, foarte atent la detalii | Exemplu: She kept meticulous records. | meticulous | Sinonim=thorough
+resilient | rezistent, care își revine ușor după greutăți | Exemplu: Children are remarkably resilient. | resilient | Substantiv=resilience
+ambiguous | ambiguu, cu mai multe interpretări | Exemplu: The instructions were ambiguous. | ambiguous | Opus=clear, explicit
+pragmatic | pragmatic, orientat spre soluții practice | | pragmatic | Opus=idealistic
+eloquent | elocvent, care se exprimă frumos și convingător | | eloquent
+diligent | sârguincios, harnic | | diligent | Sinonim=hard-working
+candid | sincer, deschis | Atenție: nu înseamnă „candid" în sensul românesc de „naiv". | candid | Fals prieten=da
+reluctant | reticent, care face ceva fără tragere de inimă | Exemplu: He was reluctant to admit his mistake. | reluctant
+obsolete | învechit, depășit | Exemplu: Fax machines are almost obsolete. | obsolete
+tedious | plictisitor și obositor (de lung) | | tedious
+versatile | versatil, cu multe întrebuințări sau talente | | versatile
+scrupulous | scrupulos, extrem de corect | | scrupulous
+ephemeral | efemer, de scurtă durată | | ephemeral | Sinonim=fleeting
+## Verbe
+mitigate | a atenua, a reduce gravitatea | Exemplu: measures to mitigate the risk. | mitigate
+undermine | a submina, a slăbi treptat | | undermine
+alleviate | a alina, a ușura (o durere, o problemă) | | alleviate
+procrastinate | a amâna lucrurile, a tergiversa | | procrastinate | Substantiv=procrastination
+scrutinize | a examina atent, în detaliu | | scrutinize | Substantiv=scrutiny
+endorse | a susține public, a aproba | | endorse | Substantiv=endorsement
+comply | a se conforma, a respecta (reguli) | Exemplu: comply with the law. | comply | Substantiv=compliance
+leverage | a folosi în avantajul tău | | leverage
+deteriorate | a se deteriora, a se înrăutăți | | deteriorate
+enhance | a îmbunătăți, a spori | | enhance
+anticipate | a anticipa, a prevedea | | anticipate
+acknowledge | a recunoaște (un fapt, o greșeală), a confirma primirea | | acknowledge
+## Substantive
+dilemma | dilemă, alegere dificilă între două variante | | dilemma
+nuance | nuanță, diferență subtilă | | nuance
+paradigm | paradigmă, model de gândire | | paradigm
+benchmark | reper, standard de comparație | | benchmark
+hindsight | înțelegerea unei situații după ce s-a petrecut | Expresie: in hindsight = privind în urmă. | hindsight
+loophole | portiță de scăpare (într-o lege sau regulă) | | loophole
+outcome | rezultat, deznodământ | | outcome
+drawback | dezavantaj | | drawback
+insight | înțelegere profundă, perspectivă | | insight
+## Prieteni falși | Ce înseamnă de fapt în română?
+eventually | în cele din urmă | NU înseamnă „eventual" (care se spune possibly). | eventually | Fals prieten=da
+actually | de fapt | NU înseamnă „actual" (care se spune current). | actually | Fals prieten=da
+library | bibliotecă | NU înseamnă „librărie" (care se spune bookshop). | library | Fals prieten=da
+sensible | rezonabil, cu bun-simț | NU înseamnă „sensibil" (care se spune sensitive). | sensible | Fals prieten=da
+sympathetic | înțelegător, compătimitor | NU înseamnă „simpatic" (care se spune nice, likeable). | sympathetic | Fals prieten=da
+magazine | revistă | NU înseamnă „magazin" (care se spune shop, store). | magazine | Fals prieten=da
+argument | ceartă, dispută (sau argument logic) | În vorbirea curentă, „we had an argument" înseamnă „ne-am certat". | argument | Fals prieten=parțial
+fabric | material textil | NU înseamnă „fabrică" (care se spune factory). | fabric | Fals prieten=da
+preservative | conservant | NU înseamnă „prezervativ" (care se spune condom). | preservative | Fals prieten=da
+## Expresii | Ce înseamnă expresia?
+break the ice | a sparge gheața, a destinde atmosfera | | break the ice
+a blessing in disguise | un rău care se dovedește a fi un bine | | a blessing in disguise
+the ball is in your court | e rândul tău să decizi sau să acționezi | | the ball is in your court
+cut corners | a face ceva superficial, ca să economisești timp sau bani | | cut corners
+hit the nail on the head | a nimeri exact, a spune exact ce trebuie | | hit the nail on the head
+once in a blue moon | foarte rar | | once in a blue moon
+bite the bullet | a accepta ceva neplăcut și inevitabil | | bite the bullet
+under the weather | indispus, ușor bolnav | | under the weather
+a piece of cake | foarte ușor | | a piece of cake
+on the fence | nehotărât | | on the fence
+~ eventually ~ actually ~ Ambele sunt „prieteni falși": eventually = în cele din urmă; actually = de fapt.
+~ mitigate ~ alleviate ~ Mitigate = a reduce gravitatea unui risc (înainte sau în timpul lui). Alleviate = a alina o durere sau o suferință existentă.
+~ reluctant ~ candid ~ Reluctant = fără tragere de inimă. Candid = sincer, direct.
+~ meticulous ~ scrupulous ~ Meticulous = atent la detalii; scrupulous = extrem de corect, cu principii morale.
+## Adjective (II)
+inevitable | inevitabil | Exemplu: Change is inevitable. | inevitable
+feasible | realizabil, fezabil | Exemplu: Is the plan feasible? | feasible
+thorough | temeinic, minuțios | Exemplu: a thorough investigation. | thorough
+vivid | viu, intens (culori, amintiri) | | vivid
+blunt | direct până la nepolitețe; tocit | | blunt
+shrewd | isteț, perspicace (în afaceri) | | shrewd
+gullible | credul, ușor de păcălit | | gullible
+meager | sărac, insuficient | Exemplu: a meager salary. | meager
+reliable | de încredere | | reliable
+cumbersome | greoi, incomod | | cumbersome
+tentative | provizoriu, nesigur | Exemplu: a tentative plan. | tentative
+redundant | de prisos; (despre angajați, în UK) concediat | | redundant
+mundane | banal, obișnuit | | mundane
+intricate | complicat, cu multe detalii | | intricate
+ruthless | nemilos | | ruthless
+## Verbe (II)
+overcome | a depăși, a învinge (o dificultate) | | overcome
+assess | a evalua | Substantiv: assessment. | assess
+pursue | a urmări (un scop), a continua | | pursue
+thrive | a prospera, a înflori | | thrive
+cope | a face față | Exemplu: How do you cope with stress? | cope
+convey | a transmite (un mesaj, o idee) | | convey
+foster | a încuraja, a dezvolta | | foster
+hinder | a împiedica | | hinder
+exaggerate | a exagera | | exaggerate
+postpone | a amâna | Sinonim: put off. | postpone
+emphasize | a sublinia, a pune accent pe | | emphasize
+reconcile | a împăca; a pune de acord | | reconcile
+infer | a deduce | | infer
+withdraw | a retrage | | withdraw
+encounter | a întâlni (pe neașteptate) | | encounter
+## Substantive (II)
+awareness | conștientizare | | awareness
+bias | părtinire, prejudecată | | bias
+breakthrough | descoperire importantă, progres major | | breakthrough
+consensus | consens, acord general | | consensus
+endeavor | efort, strădanie | | endeavor
+grievance | nemulțumire, plângere | | grievance
+leverage | avantaj, pârghie | | leverage (noun)
+milestone | etapă importantă, reper | | milestone
+setback | eșec temporar, regres | | setback
+trade-off | compromis între două avantaje | | trade-off
+wisdom | înțelepciune | | wisdom
+## Phrasal verbs | Ce înseamnă?
+give up | a renunța | | give up
+look forward to | a aștepta cu nerăbdare | Exemplu: I look forward to hearing from you. | look forward to
+put off | a amâna | | put off
+carry on | a continua | | carry on
+figure out | a-ți da seama, a rezolva | | figure out
+come up with | a veni cu (o idee) | | come up with
+run out of | a rămâne fără | | run out of
+look up | a căuta (o informație) | | look up
+turn down | a refuza (o ofertă); a da mai încet | | turn down
+get over | a-și reveni după ceva | | get over
+break down | a se strica; a izbucni în plâns | | break down
+bring up | a aduce în discuție; a crește (un copil) | | bring up
+set up | a înființa, a instala | | set up
+point out | a semnala, a atrage atenția asupra | | point out
+show off | a se da mare | | show off
+call off | a anula | | call off
+make up | a inventa (o poveste); a se împăca; a machia | | make up
+look after | a avea grijă de | | look after
+## Prieteni falși (II) | Ce înseamnă de fapt în română?
+pretend | a se preface | NU înseamnă „a pretinde" (claim). | pretend | Fals prieten=da
+assist | a ajuta | NU înseamnă „a asista ca spectator" (attend). | assist | Fals prieten=da
+deception | înșelăciune | NU înseamnă „deziluzie" (disappointment). | deception | Fals prieten=da
+lecture | prelegere, curs | NU înseamnă „lectură" (reading). | lecture | Fals prieten=da
+novel | roman (carte) | „Nuvelă" se spune short story / novella. | novel | Fals prieten=da
+camera | aparat foto | „Cameră" (încăpere) se spune room. | camera | Fals prieten=da
+costume | costum de scenă sau de carnaval | Costumul obișnuit se spune suit. | costume | Fals prieten=da
+recipe | rețetă de bucătărie | Rețeta medicală se spune prescription. | recipe | Fals prieten=da
+receipt | bon, chitanță | | receipt | Fals prieten=da
+notorious | rău famat, cunoscut pentru ceva rău | NU „notoriu" în sens neutru. | notorious | Fals prieten=parțial
+## Expresii (II) | Ce înseamnă expresia?
+it's not rocket science | nu e mare filozofie | | it's not rocket science
+spill the beans | a da din casă, a dezvălui un secret | | spill the beans
+cost an arm and a leg | a costa o avere | | cost an arm and a leg
+get cold feet | a se răzgândi de frică în ultimul moment | | get cold feet
+let the cat out of the bag | a scăpa un secret | | let the cat out of the bag
+the last straw | picătura care umple paharul | | the last straw
+beat around the bush | a o lua pe ocolite | | beat around the bush
+when pigs fly | la Paștele cailor | | when pigs fly
+hit the books | a se apuca serios de învățat | | hit the books
+call it a day | a încheia ziua de lucru | | call it a day
+~ give up ~ put off ~ Give up = a renunța de tot; put off = a amâna.
+~ lecture ~ novel ~ Lecture = prelegere (nu lectură); novel = roman (nu nuvelă).
+~ recipe ~ receipt ~ Recipe = rețetă culinară; receipt = bon, chitanță.
+~ infer ~ assess ~ Infer = a deduce; assess = a evalua.
+## Cuvinte academice | Ce înseamnă?
+hypothesis | ipoteză | Plural: hypotheses. | hypothesis
+evidence | dovezi | Substantiv nenumărabil: „some evidence", nu „an evidence". | evidence
+significant | semnificativ, important | | significant
+approach | abordare; a se apropia | | approach
+crucial | esențial, decisiv | | crucial
+comprehensive | cuprinzător, complet | | comprehensive
+subsequent | ulterior | | subsequent
+derive | a deriva, a proveni | | derive
+whereas | în timp ce, pe când | | whereas
+nevertheless | cu toate acestea | | nevertheless
+furthermore | mai mult decât atât | | furthermore
+albeit | deși, chiar dacă | | albeit
+notwithstanding | în ciuda | | notwithstanding
+## Cuvinte de business | Ce înseamnă?
+deadline | termen-limită | | deadline
+stakeholder | parte interesată | | stakeholder
+revenue | venituri, încasări | | revenue
+outsource | a externaliza | | outsource
+negotiate | a negocia | | negotiate
+feedback | părere, evaluare | | feedback
+agenda | ordinea de zi | | agenda
+asset | activ, resursă valoroasă | | asset
+liability | datorie, răspundere | | liability
+workload | volum de muncă | | workload
+## Cuvinte ușor de confundat | Ce înseamnă?
+affect | a afecta (verb) | „Effect" este de obicei substantiv: efect. | affect
+effect | efect (substantiv) | | effect
+accept | a accepta | „Except" = cu excepția. | accept
+except | cu excepția | | except
+lose | a pierde | „Loose" = larg, slăbit. | lose
+loose | larg, slăbit | | loose
+borrow | a împrumuta (de la cineva) | „Lend" = a împrumuta (cuiva). | borrow
+lend | a da cu împrumut | | lend
+rise | a se ridica (singur) | „Raise" = a ridica ceva. | rise
+raise | a ridica ceva; a crește (un copil) | | raise
+complement | complement, a completa | „Compliment" = laudă. | complement
+compliment | compliment, laudă | | compliment
+## Expresii (III) | Ce înseamnă expresia?
+break a leg | baftă! (înainte de un spectacol) | | break a leg
+hit the sack | a merge la culcare | | hit the sack
+in a nutshell | pe scurt | | in a nutshell
+the elephant in the room | problema evidentă pe care toți o evită | | the elephant in the room
+burn the midnight oil | a lucra până noaptea târziu | | burn the midnight oil
+a dime a dozen | foarte comun, la tot pasul | | a dime a dozen
+sit on the fence | a rămâne neutru, a nu se decide | | sit on the fence
+back to square one | înapoi de la zero | | back to square one
+~ affect ~ effect ~ Affect = verb (a afecta). Effect = substantiv (efect).
+~ borrow ~ lend ~ Borrow = iei cu împrumut. Lend = dai cu împrumut.
+~ rise ~ raise ~ Rise = se ridică singur (the sun rises). Raise = ridici ceva (raise your hand).
+~ lose ~ loose ~ Lose = a pierde. Loose = larg, slăbit.

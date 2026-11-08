@@ -1,0 +1,42 @@
+@id capitale
+@append 1
+@prompt Răspunde la întrebare
+## Fluvii, munți și mări | Răspunde la întrebare
+Cel mai lung fluviu din lume (după majoritatea surselor) | Nil | Aproximativ 6.650 km; unele măsurători recente dau Amazonului o lungime ușor mai mare. | Nile | Lungime=aprox. 6.650 km
+Fluviul cu cel mai mare debit din lume | Amazon | Varsă în ocean aproximativ o cincime din toată apa dulce a râurilor lumii. | Amazon River
+Cel mai lung fluviu din Europa | Volga | Se varsă în Marea Caspică. | Volga | Lungime=aprox. 3.530 km
+Cel mai lung fluviu din Asia | Yangtze (Chang Jiang) | Pe el se află barajul celor Trei Defileuri, cea mai mare hidrocentrală din lume. | Yangtze
+Cel mai lung fluviu din America de Nord (sistemul) | Mississippi-Missouri | | Mississippi-Missouri
+Pe ce fluviu se află Cairo? | Nil | | Cairo on the Nile
+Pe ce fluviu se află Londra? | Tamisa | | Thames
+Pe ce fluviu se află Parisul? | Sena | | Seine
+Pe ce fluviu se află Roma? | Tibru | | Tiber
+Ce capitale europene se află pe Dunăre? | Viena, Bratislava, Budapesta și Belgrad | Dunărea traversează sau mărginește 10 țări. | Danube capitals
+Cel mai înalt munte din lume | Everest (8.849 m) | La granița Nepal-China, în Himalaya. | Mount Everest | Altitudine=8.849 m
+Al doilea cel mai înalt munte din lume | K2 (8.611 m) | În Karakorum, la granița Pakistan-China. | K2
+Cel mai înalt munte din Africa | Kilimanjaro (5.895 m) | Vulcan stins în Tanzania. | Kilimanjaro
+Cel mai înalt munte din America de Sud | Aconcagua (6.961 m) | În Argentina, în Anzi. | Aconcagua
+Cel mai înalt munte din America de Nord | Denali (6.190 m) | În Alaska. | Denali
+Cel mai înalt munte din Alpi | Mont Blanc (aprox. 4.805 m) | La granița Franța-Italia. | Mont Blanc
+Cel mai înalt munte din Caucaz (și, după unele delimitări, din Europa) | Elbrus (5.642 m) | | Mount Elbrus
+Cel mai lung lanț muntos de pe uscat | Anzii | Aproximativ 7.000 km, în America de Sud. | Andes
+Cel mai mare deșert cald din lume | Sahara | Antarctica și Arctica sunt considerate deșerturi reci, mai mari. | Sahara
+Cel mai mare ocean | Pacific | Acoperă aproximativ o treime din suprafața Pământului. | Pacific Ocean
+Cel mai adânc punct din oceane | Groapa Marianelor (Challenger Deep, aprox. 10.900 m) | În Oceanul Pacific. | Mariana Trench
+Cel mai mare lac din lume (după suprafață) | Marea Caspică | | Caspian Sea
+Cel mai adânc lac din lume | Baikal | Peste 1.600 m adâncime, în Siberia; conține aproximativ 20% din apa dulce lichidă de suprafață a lumii. | Lake Baikal
+Cea mai mare insulă din lume | Groenlanda | Australia e considerată continent. | Greenland
+Strâmtoarea care desparte Europa de Africa | Strâmtoarea Gibraltar | Aproximativ 14 km la cel mai îngust punct. | Strait of Gibraltar
+Strâmtoarea care desparte Europa de Asia, la Istanbul | Bosfor | | Bosphorus
+Canalul care leagă Marea Mediterană de Marea Roșie | Canalul Suez | Deschis în 1869, în Egipt. | Suez Canal | Deschidere=1869
+Canalul care leagă Atlanticul de Pacific | Canalul Panama | Deschis în 1914. | Panama Canal | Deschidere=1914
+Cel mai mic stat din lume | Vatican | Aproximativ 0,44 km². | Vatican City
+Cel mai mare stat din lume ca suprafață | Rusia | Peste 17 milioane km². | Russia (area)
+Cel mai populat stat din lume | India | A depășit China în 2023, după estimările ONU. | India (population)
+Punctul cel mai jos de pe uscat | Țărmul Mării Moarte (aprox. 430 m sub nivelul mării) | Între Israel, Cisiordania și Iordania. | Dead Sea
+Cea mai mare cascadă ca înălțime | Salto Ángel (979 m), Venezuela | | Angel Falls
+Cascadele de la granița Argentinei cu Brazilia | Iguazú | | Iguazu Falls
+Cascadele de la granița SUA cu Canada | Niagara | | Niagara Falls
+~ Nil ~ Amazon ~ Nilul e (de obicei) considerat cel mai lung; Amazonul are de departe cel mai mare debit.
+~ Strâmtoarea Gibraltar ~ Bosfor ~ Gibraltar: Europa-Africa (Spania-Maroc). Bosfor: Europa-Asia (Istanbul).
+~ Canalul Suez ~ Canalul Panama ~ Suez (1869, Egipt): Mediterana - Marea Roșie. Panama (1914): Atlantic - Pacific.

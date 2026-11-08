@@ -1,5 +1,5 @@
 'use strict';
-/* Cartoteca lui Matei - aplicație de învățare cu repetiție spațiată (FSRS), quiz-uri, comparații și hărți. */
+/* OpenMind (proiectul „Cartoteca lui Matei") - aplicație de învățare cu repetiție spațiată (FSRS), quiz-uri, comparații și hărți. */
 
 // ---------- utilitare ----------
 const $ = (s, el = document) => el.querySelector(s);
@@ -208,6 +208,30 @@ function applyTheme() {
   const t = S.settings.theme;
   if (t === 'system') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t;
 }
+
+// ---------- aplicația instalată (PWA) și copia de siguranță ----------
+// În artifactul Claude nu există manifest și nici service worker; acolo progresul se salvează în cont.
+const IN_CLAUDE = !!window.claude;
+const pwa = { prompt: null, installed: false };
+const isStandalone = () => { try { return matchMedia('(display-mode: standalone)').matches || navigator.standalone === true; } catch (e) { return false; } };
+function setupPWA() {
+  if (IN_CLAUDE) return;
+  const link = (rel, href) => { if (!document.querySelector(`link[rel="${rel}"]`)) { const l = document.createElement('link'); l.rel = rel; l.href = href; document.head.appendChild(l); } };
+  link('manifest', 'manifest.webmanifest');
+  link('apple-touch-icon', 'icons/apple-touch-icon.png');
+  window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); pwa.prompt = e; if (view.name === 'settings') render(); });
+  window.addEventListener('appinstalled', () => { pwa.prompt = null; pwa.installed = true; toast('Aplicația e pe ecranul principal', 'check'); if (view.name === 'settings') render(); });
+  if ('serviceWorker' in navigator) { try { navigator.serviceWorker.register('sw.js').catch(() => { }); } catch (e) { } }
+}
+const BACKUP_EVERY = 30 * DAY;
+function markExported() { S.lastExport = Date.now(); save(); }
+// Memento lunar: în aplicația instalată (și în artifact doar dacă nu se poate salva în cont). „Mai târziu" amână încă o lună.
+function backupDue(now = Date.now()) {
+  if (IN_CLAUDE && cloud.status !== 'readonly') return false;
+  const last = Math.max(S.lastExport || 0, S.backupNag || 0, S.created || 0);
+  return now - last >= BACKUP_EVERY && Object.keys(S.cards).length > 0;
+}
+const fmtDate = t => new Date(t).toLocaleDateString('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' });
 
 // ---------- date ----------
 let INDEX = null, WORLD = null, ROMANIA = null;
@@ -807,6 +831,7 @@ VIEWS.home = async () => {
   const root = el(`<div class="stack">
     <div class="topbar" style="padding-bottom:6px"><div style="min-width:0"><div class="label">${new Date().toLocaleDateString('ro-RO', { weekday: 'long', day: 'numeric', month: 'long' })}</div><h1>${esc(hi)}, ${esc(S.settings.name)}</h1></div></div>
     <button class="note" id="syncchip" hidden style="text-align:left;border-color:var(--bad)"><b>Progresul se salvează doar pe acest dispozitiv.</b> Atinge pentru detalii.</button>
+    ${backupDue() ? `<div class="note stack" id="backupnote" style="gap:8px;border-color:var(--warn)"><span><b>E timpul pentru o copie de siguranță.</b> Progresul tău e salvat doar pe acest telefon. ${S.lastExport ? `Ultimul export: ${esc(fmtDate(S.lastExport))}.` : 'Nu ai făcut încă niciun export.'}</span><div class="actions"><button class="btn primary" data-act="backup">Exportă acum</button><button class="btn" data-act="later">Mai târziu</button></div></div>` : ''}
     <div class="strip">
       <div class="chipstat"><span class="label">Serie</span><span class="v">${ic('flame', 'flame')}${streakNow()}<span class="frz" title="Protecții de serie">${ic('shield')}${S.streak.freezes || 0}</span></span></div>
       <div class="chipstat"><span class="label">Nivel ${L.n}</span><span class="v">${ic('bolt', 'bolt')}${fmt(S.xp)}</span></div>
@@ -837,6 +862,11 @@ VIEWS.home = async () => {
   $('[data-act=cotd]', root).onclick = () => go('cotd');
   $('[data-act=mix]', root).onclick = () => go('mix');
   $('#syncchip', root).onclick = () => go('settings');
+  const bn = $('#backupnote', root);
+  if (bn) {
+    $('[data-act=backup]', bn).onclick = () => go('settings', { exportNow: true });
+    $('[data-act=later]', bn).onclick = () => { S.backupNag = Date.now(); save(); bn.remove(); toast('Îți amintesc din nou peste o lună', 'clock'); };
+  }
   setTimeout(updateSyncUI, 0);
   return root;
 };
@@ -1886,7 +1916,7 @@ VIEWS.badges = async () => {
 };
 
 // ---------- setări ----------
-VIEWS.settings = async () => {
+VIEWS.settings = async (v = {}) => {
   const s = S.settings;
   const root = el('<div class="stack"></div>');
   root.appendChild(topbar('Setări', { noBack: true }));
@@ -1910,19 +1940,20 @@ VIEWS.settings = async () => {
   const p2 = el(`<div class="panel stack"><h2 style="font-size:16px">Reamintire zilnică</h2>
     <label class="switch"><span><b>Notificare</b><br><small class="muted">Te anunță dacă n-ai învățat încă azi</small></span><input type="checkbox" id="nt" ${s.notify ? 'checked' : ''}></label>
     <div class="field"><label for="nat">Ora</label><input type="time" id="nat" value="${esc(s.notifyAt)}"></div>
-    <p class="note" style="margin:0">Ora se salvează acum. Notificările pe telefon vor funcționa după ce instalăm aplicația pe ecranul principal (versiunea PWA); în această previzualizare browserul nu permite notificări.</p></div>`);
+    <p class="note" style="margin:0">Ora se salvează acum. Notificările pe telefon vor veni într-o versiune viitoare a aplicației.</p></div>`);
   $('#nt', p2).onchange = e => { s.notify = e.target.checked; touchSettings(); };
   $('#nat', p2).onchange = e => { s.notifyAt = e.target.value || '19:00'; touchSettings(); };
   root.appendChild(p2);
   const p3 = el(`<div class="panel stack"><h2 style="font-size:16px">Datele tale</h2>
-    <p class="muted" style="margin:0;font-size:13px">Progresul se salvează în contul tău Claude și, ca rezervă, pe acest dispozitiv. Exportul e o copie de siguranță în plus.</p>
-    <div id="syncbox"></div>
-    <button class="btn" id="syncnow">Sincronizează acum</button>
+    <p class="muted" style="margin:0;font-size:13px">${IN_CLAUDE ? 'Progresul se salvează în contul tău Claude și, ca rezervă, pe acest dispozitiv. Exportul e o copie de siguranță în plus.' : 'Progresul se salvează doar pe acest telefon. Fă un export cel puțin o dată pe lună și păstrează textul într-un loc sigur (de exemplu, un mesaj către tine).'}</p>
+    ${IN_CLAUDE ? '<div id="syncbox"></div><button class="btn" id="syncnow">Sincronizează acum</button>' : ''}
+    <p class="muted" id="lastexp" style="margin:0;font-size:13px">${S.lastExport ? `Ultimul export: ${esc(fmtDate(S.lastExport))}.` : 'Nu ai făcut încă niciun export.'}</p>
     ${storageOK ? '' : '<div class="verdict bad">Salvarea locală nu e disponibilă în acest browser. Folosește salvarea în cont sau exportul.</div>'}
     <div class="actions"><button class="btn" id="exp">Exportă</button><button class="btn" id="imp">Importă</button></div>
     <div id="io" class="stack"></div></div>`);
   const io = $('#io', p3);
   $('#exp', p3).onclick = () => {
+    markExported(); $('#lastexp', p3).textContent = `Ultimul export: ${fmtDate(S.lastExport)}.`;
     const txt = JSON.stringify(S);
     io.replaceChildren(el(`<div class="field"><label for="expt">Copiază textul și păstrează-l (de ex. într-un mesaj către tine)</label><textarea id="expt" readonly>${esc(txt)}</textarea><button class="btn primary" id="cp">Copiază</button></div>`));
     $('#cp', io).onclick = async () => { const ta = $('#expt', io); try { await navigator.clipboard.writeText(ta.value); toast('Copiat', 'check'); } catch (e) { ta.focus(); ta.select(); toast('Selectat - apasă lung și alege Copiază', 'check'); } };
@@ -1935,9 +1966,18 @@ VIEWS.settings = async () => {
       catch (e) { io.prepend(el('<div class="verdict bad">Textul nu pare un export valid al aplicației. Verifică dacă l-ai copiat complet.</div>')); }
     };
   };
-  $('#syncnow', p3).onclick = async () => { if (cloud.col && cloud.status !== 'readonly') { cloud.status = 'cloud'; await flushCloud(); toast('Sincronizat', 'check'); } else await initCloud(); updateSyncUI(); };
+  if (IN_CLAUDE) $('#syncnow', p3).onclick = async () => { if (cloud.col && cloud.status !== 'readonly') { cloud.status = 'cloud'; await flushCloud(); toast('Sincronizat', 'check'); } else await initCloud(); updateSyncUI(); };
+  if (!IN_CLAUDE && !isStandalone() && !pwa.installed) {
+    const pi = el(`<div class="panel stack" id="install"><h2 style="font-size:16px">Pune aplicația pe ecranul principal</h2>
+      <p class="muted" style="margin:0;font-size:13px">O deschizi apoi ca pe orice aplicație, pe tot ecranul, și merge și fără internet pentru domeniile deja deschise.</p>
+      ${pwa.prompt ? '<button class="btn primary" id="doinstall">Instalează aplicația</button>' : ''}
+      <ol style="margin:0;padding-left:20px;font-size:13px"><li>Deschide pagina în <b>Chrome</b>.</li><li>Apasă meniul <b>⋮</b> din dreapta sus.</li><li>Alege <b>„Adaugă pe ecranul de pornire"</b> (sau „Instalează aplicația").</li><li>Confirmă cu <b>Adaugă</b>.</li></ol></div>`);
+    if (pwa.prompt) $('#doinstall', pi).onclick = async () => { const p = pwa.prompt; pwa.prompt = null; try { p.prompt(); await p.userChoice; } catch (e) { } render(); };
+    root.appendChild(pi);
+  }
   root.appendChild(p3);
-  setTimeout(updateSyncUI, 0);
+  if (v.exportNow) setTimeout(() => { $('#exp', p3).click(); p3.scrollIntoView({ block: 'start' }); }, 0);
+  if (IN_CLAUDE) setTimeout(updateSyncUI, 0);
   const p4 = el(`<div class="panel stack"><h2 style="font-size:16px">Resetare</h2><button class="btn" id="rst">Șterge tot progresul</button><div id="rc"></div></div>`);
   $('#rst', p4).onclick = () => {
     $('#rc', p4).replaceChildren(el(`<div class="confirm"><b>Sigur? Se șterg toate cardurile învățate, XP-ul, seria și insignele.</b><div class="actions"><button class="btn" id="no">Renunță</button><button class="btn accent" id="yes">Da, șterge</button></div></div>`));
@@ -1954,7 +1994,7 @@ $$('#nav button').forEach(b => b.onclick = () => { sess = null; qz = null; go(b.
 window.addEventListener('pagehide', () => { saveLocal(); flushCloudNow(); });
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') { saveLocal(); flushCloudNow(); } else { lastAct = 0; reconcileStreak(); } });
 (async function start() {
-  load(); applyTheme(); reconcileStreak();
+  load(); applyTheme(); reconcileStreak(); setupPWA();
   try { history.replaceState({ n: 'home', p: {} }, ''); } catch (e) { }
   try { INDEX = await getJSON('data/index.json'); }
   catch (e) { app().replaceChildren(el(`<div class="panel" style="margin-top:20px">Nu am putut încărca datele aplicației. Verifică conexiunea și reîncarcă pagina.</div>`)); return; }
