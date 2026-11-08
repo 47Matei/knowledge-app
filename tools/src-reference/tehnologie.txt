@@ -1,0 +1,182 @@
+@id tehnologie
+@title Cum funcționează tehnologia
+@sub Internet, cipuri, wireless, cloud, baterii, unități
+@icon chip
+@hue 355
+@source Pachet scris și verificat de Claude împreună cu Ciprian (noiembrie 2026), pe baza surselor enciclopedice publice.
+@prompt Ce termen este?
+@intrus {"by": "sub", "item": "a", "skip": []}
+## Internetul | Ce termen este?
+Rețeaua mondială de rețele de calculatoare legate între ele | Internet | Internetul e infrastructura; web-ul e doar unul dintre serviciile care rulează pe ea. | Internet
+Sistemul de pagini legate prin linkuri, pe care îl deschizi în browser | World Wide Web | Inventat de Tim Berners-Lee la CERN; propunerea lui e din 1989. | World Wide Web | | | Web / WWW
+Numărul care identifică un dispozitiv într-o rețea | Adresă IP | Ca o adresă poștală pentru calculatoare. | IP address | | | IP
+Versiunea veche de adrese IP, pe 32 de biți, cu aproximativ 4,3 miliarde de adrese | IPv4 | Exemplu: 192.168.1.1. Adresele s-au epuizat practic. | IPv4
+Versiunea nouă de adrese IP, pe 128 de biți | IPv6 | Are atât de multe adrese încât nu se vor termina practic niciodată. | IPv6
+„Agenda telefonică" a internetului, care transformă un nume de site în adresă IP | DNS | Domain Name System, creat în 1983. | Domain Name System
+Numele unui site, de exemplu wikipedia.org | Domeniu | Se închiriază anual de la un registrar. | Domain name | | | Nume de domeniu
+Ultima parte a unui domeniu, ca .ro, .com sau .org | TLD | Top-Level Domain - domeniu de nivel superior. .ro este domeniul României. | Top-level domain
+Adresa completă a unei pagini web, cu protocol, domeniu și cale | URL | Uniform Resource Locator. | URL
+Protocolul prin care browserul cere pagini de la server | HTTP | Hypertext Transfer Protocol. Varianta criptată e HTTPS. | HTTP
+Limbajul în care se scrie structura unei pagini web | HTML | HyperText Markup Language. | HTML
+Bucățile mici în care se împart datele trimise prin internet | Pachete | Fiecare pachet poate merge pe alt drum și se reasamblează la destinație. | Packets
+Protocolul care garantează că toate pachetele ajung, în ordine și fără erori | TCP | Transmission Control Protocol. Folosit la pagini web și e-mail. | TCP
+Protocol rapid care trimite pachetele fără să verifice dacă au ajuns | UDP | Potrivit pentru apeluri video și jocuri online, unde viteza contează mai mult. | UDP
+Dispozitivul care direcționează pachetele între rețele | Router | Routerul de acasă leagă rețeaua ta de internet. | Router
+Firma care îți oferă conexiunea la internet | Furnizor de internet | Prescurtat ISP (Internet Service Provider). | Internet service provider | | | ISP
+Programul cu care deschizi pagini web | Browser | Exemple: Chrome, Firefox, Safari, Edge. | Web browser
+Calculatorul care păstrează un site și îl trimite celor care îl cer | Server | Calculatorul care cere se numește client. | Server
+Mic fișier pe care un site îl salvează în browserul tău ca să te țină minte | Cookie | Folosit pentru logare, coș de cumpărături, dar și pentru urmărire publicitară. | Cookie
+Copie locală a unor date folosite des, ca să se încarce mai repede | Cache | Există cache în browser, în procesor, pe servere. | Cache
+Rețea de servere răspândite în lume care livrează conținutul de la cel mai apropiat server | CDN | Content Delivery Network. De aceea un video se încarcă repede oriunde ai fi. | Content delivery network
+Cablu care transmite datele ca impulsuri de lumină | Fibră optică | Mult mai rapidă și pe distanțe mai mari decât cablul de cupru. | Optical fiber
+Cablurile de pe fundul oceanelor care transportă aproape tot traficul de internet dintre continente | Cabluri submarine | Sateliții transportă doar o mică parte. | Submarine cables
+Timpul în care un pachet ajunge la destinație și înapoi | Latență | Se măsoară în milisecunde; contează mult la jocuri. | Latency | | | Ping
+Cantitatea de date care poate trece printr-o conexiune într-o secundă | Lățime de bandă | Se măsoară în megabiți pe secundă (Mbps). | Bandwidth
+Rețeaua americană din 1969, strămoșul internetului | ARPANET | Primul mesaj trimis a fost „LO" (voia să fie „LOGIN", dar sistemul s-a blocat). | ARPANET
+Numărul care identifică un serviciu pe un calculator; HTTPS folosește de obicei 443 | Port | HTTP folosește de obicei portul 80. | Port
+Codul de eroare pentru „pagina nu a fost găsită" | 404 | Codurile care încep cu 5 înseamnă erori ale serverului. | 404 Not Found
+Sistemul prin care mai multe dispozitive de acasă folosesc o singură adresă IP publică | NAT | Network Address Translation, făcut de router. | Network address translation
+Programul care atribuie automat adrese IP dispozitivelor din rețea | DHCP | Dynamic Host Configuration Protocol. | DHCP
+Inventatorul web-ului, care a creat primul site în 1991 | Tim Berners-Lee | Primul site, info.cern.ch, încă poate fi vizitat. | Tim Berners-Lee
+Programatorul care a trimis primul e-mail în rețea, în 1971, și a ales semnul @ | Ray Tomlinson | @ separă numele utilizatorului de numele calculatorului. | Ray Tomlinson | An=1971
+## Cipuri și hardware | Ce termen este?
+„Creierul" calculatorului, care execută instrucțiunile programelor | Procesor | Prescurtat CPU (Central Processing Unit). | CPU | | | CPU
+Procesorul specializat pe grafică și calcule paralele | Placă video | Prescurtat GPU. Folosit la jocuri și la antrenarea AI. | GPU | | | GPU / Procesor grafic
+Memoria rapidă de lucru, care se golește când oprești dispozitivul | RAM | Random Access Memory. | RAM | | | Memorie RAM
+Memoria care păstrează datele și fără curent, de exemplu firmware-ul | ROM | Read-Only Memory. | ROM
+Spațiu de stocare fără piese mobile, bazat pe cipuri de memorie flash | SSD | Solid State Drive. Mult mai rapid decât un hard disk clasic. | Solid-state drive
+Spațiu de stocare cu discuri magnetice care se rotesc | Hard disk | Prescurtat HDD. Ieftin pe gigabyte, dar mai lent și mai fragil. | Hard disk drive | | | HDD
+Placa principală pe care se conectează procesorul, memoria și restul componentelor | Placa de bază | Motherboard în engleză. | Motherboard
+Comutatorul electronic microscopic din care sunt făcute cipurile | Tranzistor | Inventat în 1947 la Bell Labs. Un cip modern are miliarde. | Transistor
+Elementul chimic din care se fac majoritatea cipurilor | Siliciu | De aici numele Silicon Valley. | Silicon
+Observația din 1965 că numărul de tranzistori dintr-un cip se dublează periodic | Legea lui Moore | Formulată de Gordon Moore, cofondator Intel; în 1975 a estimat dublarea la circa doi ani. | Moore's law
+Cip care conține un circuit electronic întreg | Circuit integrat | Inventat independent de Jack Kilby și Robert Noyce, la sfârșitul anilor '50. | Integrated circuit | | | Cip
+Cip care adună procesor, placă video, memorie și altele, folosit în telefoane | SoC | System on a Chip. | System on a chip | | | Sistem pe cip
+Unitățile de procesare independente dintr-un procesor | Nuclee | Mai multe nuclee pot lucra în paralel la sarcini diferite. | Cores
+Câte cicluri face procesorul pe secundă, măsurată în gigahertzi | Frecvența de ceas | 3 GHz înseamnă 3 miliarde de cicluri pe secundă. | Clock speed
+Cea mai mică unitate de informație: 0 sau 1 | Bit | Vine din „binary digit". | Bit
+Grupul de 8 biți | Byte | Un byte poate avea 256 de valori diferite. | Byte | | | Octet
+Sistemul de numerotare cu doar două cifre, 0 și 1 | Binar | Calculatoarele lucrează în binar pentru că un tranzistor are două stări. | Binary
+Software-ul de bază scris direct în memoria unui dispozitiv | Firmware | Și routerele, imprimantele și căștile au firmware care se actualizează. | Firmware
+Programul principal care administrează un dispozitiv: Windows, macOS, Android, iOS, Linux | Sistem de operare | Prescurtat OS. | Operating system | | | OS
+Program mic care îi spune sistemului de operare cum să folosească un dispozitiv anume | Driver | De exemplu, driverul plăcii video. | Device driver
+Ecran în care fiecare pixel își produce singur lumina | OLED | Negrul e cu adevărat negru, pentru că pixelul se stinge. | OLED
+Cel mai mic punct dintr-o imagine digitală | Pixel | Vine din „picture element". | Pixel
+Numărul de pixeli pe lățime și înălțime, de exemplu 1920 × 1080 | Rezoluție | 4K înseamnă aproximativ 3840 × 2160 de pixeli. | Resolution
+Firma din Taiwan, cel mai mare producător de cipuri la comandă din lume | TSMC | Produce cipuri proiectate de alte firme. | TSMC
+Firma olandeză care produce mașinile de litografie EUV, necesare pentru cele mai avansate cipuri | ASML | Este singurul producător de astfel de mașini. | ASML
+Tehnica prin care se „desenează" circuitele pe plăcuțele de siliciu cu lumină | Litografie | Cea mai avansată folosește lumină ultravioletă extremă (EUV). | Photolithography
+Unul dintre primele calculatoare electronice de uz general, terminat în 1945 | ENIAC | Cântărea în jur de 27 de tone. | ENIAC
+Primul microprocesor comercial, lansat de Intel în 1971 | Intel 4004 | Avea în jur de 2.300 de tranzistori. | Intel 4004 | An=1971
+Unitatea de informație a calculatoarelor cuantice, care poate fi 0 și 1 în același timp | Qubit | Bit cuantic. | Qubit
+Tehnologia de memorie care păstrează datele fără curent, folosită în stickuri și SSD-uri | Memorie flash | Inventată la Toshiba, în anii '80. | Flash memory
+## Wi-Fi, mobil și GPS | Ce termen este?
+Tehnologia rețelelor locale fără fir, standardizată ca IEEE 802.11 | Wi-Fi | Versiunile recente: Wi-Fi 6 (802.11ax) și Wi-Fi 7 (802.11be). | Wi-Fi
+Banda Wi-Fi cu rază mai mare, dar viteză mai mică | 2,4 GHz | 5 GHz e mai rapid, dar trece mai greu prin pereți. | 2.4 GHz
+Tehnologia fără fir pe distanțe scurte pentru căști, ceasuri, boxe | Bluetooth | Numită după regele danez Harald „Dinte Albastru", din secolul X. | Bluetooth
+Comunicare pe distanță de câțiva centimetri, folosită la plata cu telefonul | NFC | Near Field Communication. | Near-field communication
+A cincea generație de rețele mobile | 5G | Viteze mari și latență mică. Folosește mai multe benzi de frecvență. | 5G
+Tehnologia de rețea mobilă de generația a patra | 4G | Numită și LTE (Long Term Evolution). | 4G | | | LTE
+Antena la care se conectează telefonul tău, dintr-o rețea de „celule" | Stație de bază | De aici numele „telefon celular". | Base station | | | Antenă
+Cartela mică care identifică abonamentul tău de telefonie | SIM | Subscriber Identity Module. | SIM card | | | Cartelă SIM
+Cartelă SIM integrată în telefon, care se activează digital | eSIM | Nu mai trebuie introdusă fizic. | eSIM
+Sistemul american de poziționare prin satelit | GPS | Global Positioning System. | GPS
+Numărul minim de sateliți de care are nevoie un receptor GPS ca să afle poziția și ora | 4 | Trei pentru poziție, al patrulea pentru corecția ceasului. | 4 | | | Patru
+Sistemul european de navigație prin satelit | Galileo | Rusia are GLONASS, iar China are BeiDou. | Galileo
+Orbita la aproximativ 35.786 km, unde un satelit pare nemișcat deasupra Pământului | Geostaționară | Folosită de sateliții de televiziune și meteo. | Geostationary orbit | | | Orbită geostaționară
+Orbita joasă, la câteva sute de kilometri, folosită de rețelele de internet prin satelit cu mii de sateliți | Orbită joasă | Prescurtat LEO (Low Earth Orbit). Latența e mult mai mică decât la sateliții geostaționari. | Low Earth orbit | | | LEO
+Telefonul tău împarte conexiunea de date cu alte dispozitive | Hotspot | Numit și „tethering". | Mobile hotspot
+Folosirea telefonului în rețeaua altui operator, de exemplu în străinătate | Roaming | În UE funcționează „roam like at home": prețuri ca acasă, cu unele limite. | Roaming
+Câte oscilații pe secundă are o undă | Frecvență | Se măsoară în hertzi (Hz). | Frequency
+Undele electromagnetice folosite de radio, Wi-Fi și telefoane | Unde radio | Sunt lumină invizibilă, cu lungime de undă mare. | Radio waves
+Etichete care pot fi citite de la distanță prin unde radio, de exemplu cartelele de acces | RFID | Radio-Frequency Identification. NFC este un tip de RFID pe distanță foarte scurtă. | RFID
+Setarea care oprește toate emisiile radio ale telefonului | Mod avion | Poți reporni separat Wi-Fi-ul și Bluetooth-ul. | Airplane mode
+Mai multe puncte de acces Wi-Fi care formează o singură rețea în toată casa | Rețea mesh | Bună pentru case mari sau cu pereți groși. | Mesh network
+Tehnica antenelor multiple care trimit și primesc mai multe fluxuri de date deodată | MIMO | Multiple Input, Multiple Output. | MIMO
+Codul unic al unei plăci de rețea, scris de producător | Adresa MAC | Media Access Control. Diferită de adresa IP. | MAC address
+Cât de puternic e semnalul primit, afișat ca liniuțe | Putere semnal | Se măsoară în dBm; valori mai apropiate de 0 înseamnă semnal mai bun. | Signal strength
+Locul unde două rețele mobile vecine se predau una alteia apelul în timp ce te miști | Handover | Așa nu ți se întrerupe apelul în mașină. | Handover
+## Cloud și centre de date | Ce termen este?
+Servicii informatice folosite prin internet, de pe serverele altcuiva | Cloud | „Nu există cloud, e doar calculatorul altcuiva." | Cloud computing
+Program folosit direct prin internet, fără instalare, de exemplu un e-mail web | SaaS | Software as a Service. | Software as a service
+Închiriezi servere, stocare și rețea virtuale | IaaS | Infrastructure as a Service. | Infrastructure as a service
+Platformă pe care programatorii își rulează aplicațiile fără să administreze serverele | PaaS | Platform as a Service. | Platform as a service
+Un calculator fizic rulează mai multe „calculatoare" virtuale | Virtualizare | Fiecare mașină virtuală crede că e un calculator separat. | Virtualization
+Calculator simulat software, cu sistemul lui de operare | Mașină virtuală | Prescurtat VM. | Virtual machine | | | VM
+Pachet ușor care conține o aplicație și tot ce îi trebuie ca să ruleze la fel peste tot | Container | Docker este unul dintre cele mai cunoscute instrumente. | Container
+Păstrarea acelorași fișiere actualizate pe mai multe dispozitive | Sincronizare | Schimbi pe telefon, apare și pe laptop. | Sync
+Componente dublate, ca sistemul să meargă și dacă una se strică | Redundanță | Centrele de date au surse de curent și conexiuni de rezervă. | Redundancy
+Indicatorul de eficiență energetică a unui centru de date | PUE | Power Usage Effectiveness. 1,0 ar fi perfect: toată energia merge la servere. | Power usage effectiveness
+Creșterea capacității când crește numărul de utilizatori | Scalare | Pe orizontală: mai multe servere. Pe verticală: servere mai puternice. | Scaling
+Interfața prin care un program cere date sau servicii altui program | API | Application Programming Interface. | API
+Program al cărui cod sursă e public și poate fi folosit și modificat de oricine | Open source | Exemple: Linux, Firefox, Wikipedia (pentru conținut). | Open source | | | Sursă deschisă
+Sistemul de operare creat de Linus Torvalds în 1991, folosit pe majoritatea serverelor | Linux | Și Android este construit pe nucleul Linux. | Linux | An=1991
+Procesarea datelor aproape de locul unde sunt produse, nu într-un centru de date îndepărtat | Edge computing | Reduce latența, de exemplu la mașini autonome. | Edge computing
+Cei mai mari furnizori de cloud: Amazon Web Services, Microsoft Azure și... | Google Cloud | Numiți și „hyperscaleri". | Google Cloud
+Plata doar pentru resursele consumate, ca la facturile de utilități | Plată la consum | Pay-as-you-go. | Pay-as-you-go
+Copierea automată a fișierelor în cloud | Backup în cloud | Util, dar păstrează și o copie locală. | Cloud backup
+Locul geografic unde se află centrele de date ale unui furnizor de cloud | Regiune | Contează pentru viteză și pentru legile privind datele. | Region
+Timpul în care un serviciu funcționează fără întrerupere | Disponibilitate | 99,9% disponibilitate înseamnă cam 8,8 ore de nefuncționare pe an. | Uptime | | | Uptime
+Răcirea serverelor, una dintre cele mai mari probleme ale centrelor de date | Răcire | Se folosesc aer, apă și uneori răcire cu lichid direct pe cipuri. | Cooling
+Un program care trimite automat un mesaj altui program când se întâmplă ceva | Webhook | De exemplu, magazinul anunță curierul că a apărut o comandă. | Webhook
+Model în care rulezi doar funcții mici, iar furnizorul se ocupă complet de servere | Serverless | Serverele există, doar că nu le vezi tu. | Serverless
+Copiile identice ale datelor păstrate în mai multe centre de date | Replicare | Dacă un centru de date are o problemă, datele rămân disponibile. | Replication
+## Baterii și energie | Ce termen este?
+Tipul de baterie din aproape toate telefoanele și laptopurile | Litiu-ion | Ușoară și cu multă energie; nu are „efect de memorie". | Lithium-ion | | | Li-ion
+Electrodul negativ al unei baterii | Anod | Electrodul pozitiv este catodul. | Anode
+Unitatea care arată cât curent poate da o baterie de telefon timp de o oră | mAh | Miliamper-oră. 5.000 mAh înseamnă 5 A timp de o oră, teoretic. | Milliampere-hour
+Unitatea de energie a bateriilor, care ține cont și de tensiune | Wh | Watt-oră. Pe avion, limitele pentru baterii se dau în Wh. | Watt-hour
+Unitatea de putere | Watt | Simbol W. Puterea = tensiunea × curentul. | Watt
+Unitatea de tensiune electrică | Volt | Simbol V. Un port USB clasic dă 5 V. | Volt
+Unitatea de intensitate a curentului electric | Amper | Simbol A. | Ampere
+Legea care spune că tensiunea = curentul × rezistența | Legea lui Ohm | U = R × I. | Ohm's law
+O descărcare și reîncărcare completă a bateriei | Ciclu de încărcare | Bateriile își pierd treptat capacitatea după sute de cicluri. | Charge cycle
+Ce degradează cel mai mult o baterie de telefon | Căldura | Nu lăsa telefonul la soare sau la încărcat sub pernă. | Heat
+Mufa reversibilă devenită încărcător comun obligatoriu pentru telefoane în UE de la sfârșitul lui 2024 | USB-C | Regula se aplică din 28 decembrie 2024; pentru laptopuri, din 28 aprilie 2026. | USB-C
+Standardul de încărcare fără fir folosit de majoritatea telefoanelor | Qi | Se pronunță „ci" și înseamnă „energie" în chineză. | Qi
+Standardul de încărcare rapidă prin USB-C care negociază tensiunea | USB Power Delivery | Prescurtat USB PD. | USB Power Delivery | | | USB PD
+Semn periculos: bateria se umflă și deformează carcasa | Baterie umflată | Nu o mai încărca și du-o la un service. Nu o înțepa. | Swollen battery
+Baterie care folosește un electrolit solid în loc de lichid | Baterie solid-state | Promite mai multă energie și siguranță; este încă în dezvoltare. | Solid-state battery
+Panou care transformă lumina soarelui în electricitate | Panou fotovoltaic | Efectul fotovoltaic a fost descoperit de Edmond Becquerel în 1839. | Solar panel
+Dispozitivul care transformă curentul continuu al panourilor în curent alternativ | Invertor | Prizele din casă au curent alternativ, 230 V în România. | Inverter
+Curentul care își schimbă sensul de multe ori pe secundă, ca în priză | Curent alternativ | În Europa, 50 de schimbări complete pe secundă (50 Hz). | Alternating current | | | AC
+Curentul care curge mereu în același sens, ca din baterii | Curent continuu | Prescurtat DC. | Direct current | | | DC
+Unitatea în care se plătește energia electrică pe factură | kWh | Kilowatt-oră: un aparat de 1.000 W care merge o oră. | Kilowatt-hour
+Consumul aparatelor care par oprite, dar rămân în așteptare | Consum standby | Prizele cu întrerupător îl elimină. | Standby power
+Modul care reduce automat consumul când bateria e descărcată | Economisire baterie | Oprește sincronizările în fundal și scade luminozitatea. | Battery saver
+Încărcarea care se oprește în jur de 80% ca să prelungească viața bateriei | Încărcare optimizată | Bateriile litiu-ion îmbătrânesc mai repede la 100%. | Optimized charging
+Dispozitivul care păstrează energia de la panourile solare pentru noapte | Baterie de stocare | Numită și sistem de stocare a energiei. | Home battery
+## Unități și ordine de mărime | Ce termen sau ce număr este?
+Câți biți are un byte | 8 | Un byte este unitatea obișnuită pentru fișiere. | 8 | | | Opt
+Cum transformi viteza în Mbps în MB/s | Împarți la 8 | 100 Mbps înseamnă cam 12,5 MB pe secundă. | Divide by 8 | | | La 8
+1.000 de kilobytes | Megabyte | Simbol MB. | Megabyte
+1.000 de megabytes | Gigabyte | Simbol GB. | Gigabyte
+1.000 de gigabytes | Terabyte | Simbol TB. | Terabyte
+1.000 de terabytes | Petabyte | Simbol PB. | Petabyte
+Unitatea de 1.024 de bytes, folosită ca să se evite confuzia cu kilobyte-ul de 1.000 | Kibibyte | Simbol KiB. De aceea un disc de 1 TB apare uneori ca 931 GB. | Kibibyte | | | KiB
+O miliardime de metru, unitatea în care se descriu detaliile cipurilor | Nanometru | Un fir de păr are în jur de 80.000 de nanometri grosime. | Nanometer
+O miime de secundă | Milisecundă | Simbol ms. Latența se măsoară în milisecunde. | Millisecond
+Numărul de imagini pe secundă dintr-un video sau joc | FPS | Frames per second. Filmele au de obicei 24 FPS. | Frames per second | | | Cadre pe secundă
+De câte ori pe secundă se reîmprospătează un ecran | Rată de reîmprospătare | Se măsoară în Hz; 120 Hz arată mai fluid decât 60 Hz. | Refresh rate
+Densitatea pixelilor unui ecran | PPI | Pixels per inch. | Pixels per inch
+Sistemul de numerotare în baza 16, cu cifrele 0-9 și literele A-F | Hexazecimal | Culorile web se scriu așa, de exemplu #562025. | Hexadecimal
+Codificarea veche a textului, cu 128 de caractere de bază | ASCII | Nu avea diacritice românești. | ASCII
+Standardul care dă un cod fiecărui caracter din toate limbile, inclusiv emoji | Unicode | Diacriticele ș și ț corecte au virgulă dedesubt, nu sedilă. | Unicode
+Cel mai folosit mod de a scrie textul Unicode în fișiere și pe web | UTF-8 | Compatibil cu ASCII. | UTF-8
+Cât reprezintă un kilowatt | 1.000 de wați | Prefixul kilo înseamnă o mie. | 1,000 watts
+Prefixul care înseamnă un miliard (10⁹) | Giga | Mega = milion, Tera = mie de miliarde. | Giga
+Prefixul care înseamnă o milionime (10⁻⁶) | Micro | Simbol µ. Mili = miime, nano = miliardime. | Micro
+Câte valori diferite poate avea un byte | 256 | 2 la puterea 8. | 256
+Câți pixeli are aproximativ un ecran 4K pe lățime | 3840 | Rezoluția 4K UHD: 3840 × 2160. | 3840
+~ RAM ~ SSD ~ RAM: memorie de lucru, rapidă, se golește la oprire. SSD: stocare permanentă.
+~ Procesor ~ Placă video ~ CPU: puține nuclee, foarte versatile. GPU: mii de nuclee simple, pentru calcule în paralel.
+~ TCP ~ UDP ~ TCP verifică să ajungă tot, în ordine. UDP e mai rapid, dar nu verifică.
+~ Internet ~ World Wide Web ~ Internetul e rețeaua. Web-ul e un serviciu (paginile) care rulează pe ea.
+~ Adresă IP ~ Adresa MAC ~ IP-ul se schimbă după rețea. MAC-ul e fix, dat de producătorul plăcii.
+~ Latență ~ Lățime de bandă ~ Latența: cât durează drumul. Lățimea de bandă: câte date trec deodată.
+~ Bluetooth ~ NFC ~ Bluetooth: câțiva metri. NFC: câțiva centimetri.
+~ Curent alternativ ~ Curent continuu ~ AC își schimbă sensul (priza). DC curge într-un sens (bateria).
+~ mAh ~ Wh ~ mAh nu ține cont de tensiune. Wh măsoară energia reală.
+~ Geostaționară ~ Orbită joasă ~ Geostaționar: 35.786 km, pare fix, latență mare. Orbită joasă: sute de km, latență mică.
+~ IaaS ~ SaaS ~ IaaS: închiriezi servere virtuale. SaaS: folosești direct aplicația.
+~ Mașină virtuală ~ Container ~ VM-ul are sistem de operare complet. Containerul împarte nucleul sistemului gazdă și e mai ușor.
