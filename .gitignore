@@ -3,3 +3,8 @@ Thumbs.db
 node_modules/
 *.log
 .env
+.dev.vars
+work/
+tools/test/out/
+.claude/settings.local.json
+CLAUDE.local.md

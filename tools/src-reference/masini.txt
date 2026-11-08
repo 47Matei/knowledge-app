@@ -1,0 +1,434 @@
+@id masini
+@prompt Ce marcă produce acest model?
+## Mărci | Țara de origine și grupul din care face parte
+Volkswagen | Germania - Grupul Volkswagen | Fondată în 1937 la Wolfsburg, pentru a produce o „mașină a poporului". Grupul VW deține și Audi, Porsche, Škoda, SEAT, Cupra, Lamborghini și Bentley. | Volkswagen - Germany | Fondare=1937; Sediu=Wolfsburg; Grup=Volkswagen Group | Volks-wagen înseamnă „mașina poporului".
+Audi | Germania - Grupul Volkswagen | Fondată de August Horch în 1909. Cele patru inele reprezintă unirea a patru mărci în 1932: Audi, DKW, Horch și Wanderer. | Audi - Germany | Fondare=1909; Sediu=Ingolstadt; Grup=Volkswagen Group | Patru inele = patru mărci unite (Auto Union).
+BMW | Germania - BMW Group | Bayerische Motoren Werke, fondată în 1916 ca producător de motoare de avion. Grupul deține și Mini și Rolls-Royce. | BMW - Germany | Fondare=1916; Sediu=München; Grup=BMW Group | Sigla albastru-alb vine din culorile Bavariei.
+Mercedes-Benz | Germania - Mercedes-Benz Group | Marca a apărut în 1926 din unirea Daimler cu Benz. Karl Benz a construit în 1886 primul automobil cu motor cu ardere internă. | Mercedes-Benz - Germany | Fondare=1926; Sediu=Stuttgart; Grup=Mercedes-Benz Group | Steaua cu trei colțuri: pământ, apă, aer.
+Porsche | Germania - Grupul Volkswagen | Fondată de Ferdinand Porsche în 1931, la Stuttgart. Ferdinand Porsche a proiectat și „Broscuța" Volkswagen. | Porsche - Germany | Fondare=1931; Sediu=Stuttgart; Grup=Volkswagen Group | Sigla conține calul Stuttgartului.
+Opel | Germania - Stellantis | Fondată în 1862 ca fabrică de mașini de cusut, produce automobile din 1899. | Opel - Germany | Fondare=1862; Sediu=Rüsselsheim; Grup=Stellantis
+Ferrari | Italia - independentă | Fondată de Enzo Ferrari; prima mașină Ferrari a apărut în 1947. Cea mai titrată echipă din Formula 1. | Ferrari - Italy | Fondare=1939 (mașini din 1947); Sediu=Maranello; Grup=Ferrari N.V. (independentă) | Calul cabrat pe fond galben, culoarea orașului Modena.
+Lamborghini | Italia - Grupul Volkswagen (prin Audi) | Fondată în 1963 de Ferruccio Lamborghini, un producător de tractoare nemulțumit de Ferrari-ul său. | Lamborghini - Italy | Fondare=1963; Sediu=Sant'Agata Bolognese; Grup=Volkswagen Group | Taurul din siglă: Ferruccio era din zodia Taur, iar modelele poartă nume de tauri de coridă.
+Fiat | Italia - Stellantis | Fabbrica Italiana Automobili Torino, fondată în 1899. | Fiat - Italy | Fondare=1899; Sediu=Torino; Grup=Stellantis
+Alfa Romeo | Italia - Stellantis | Fondată în 1910 la Milano; sigla combină crucea Milanului și șarpele familiei Visconti. | Alfa Romeo - Italy | Fondare=1910; Sediu=Torino (fondată la Milano); Grup=Stellantis
+Maserati | Italia - Stellantis | Fondată în 1914 la Bologna de frații Maserati. Tridentul din siglă vine de la statuia lui Neptun din Bologna. | Maserati - Italy | Fondare=1914; Sediu=Modena; Grup=Stellantis
+Lancia | Italia - Stellantis | Fondată în 1906; cea mai titrată marcă din Campionatul Mondial de Raliuri la constructori (10 titluri). | Lancia - Italy | Fondare=1906; Sediu=Torino; Grup=Stellantis
+Renault | Franța - Grupul Renault | Fondată în 1899 de frații Renault. Grupul deține și Dacia și Alpine. | Renault - France | Fondare=1899; Sediu=Boulogne-Billancourt; Grup=Renault Group | Sigla este un romb.
+Peugeot | Franța - Stellantis | Afacere de familie din 1810 (unelte, râșnițe de piper); primul automobil în 1889. | Peugeot - France | Fondare=1810 (automobile din 1889); Sediu=Sochaux / Paris; Grup=Stellantis | Leul din siglă.
+Citroën | Franța - Stellantis | Fondată de André Citroën în 1919. Sigla cu dublu chevron vine de la angrenajele cu dinți în V. | Citroën - France | Fondare=1919; Sediu=Paris; Grup=Stellantis
+Bugatti | Franța - Bugatti Rimac | Fondată de Ettore Bugatti în 1909 la Molsheim, în Alsacia. Din 2021 face parte din compania mixtă Bugatti Rimac. | Bugatti - France | Fondare=1909; Sediu=Molsheim; Grup=Bugatti Rimac
+Dacia | România - Grupul Renault | Uzina de la Colibași (azi Mioveni), înființată în 1966; preluată de Renault în 1999. | Dacia - Romania | Fondare=1966; Sediu=Mioveni (Argeș); Grup=Renault Group
+Škoda | Cehia - Grupul Volkswagen | Pornită în 1895 ca Laurin & Klement, producător de biciclete. Parte din grupul VW din 1991. | Skoda - Czech Republic | Fondare=1895; Sediu=Mladá Boleslav; Grup=Volkswagen Group | Sigla e o „săgeată înaripată".
+SEAT | Spania - Grupul Volkswagen | Sociedad Española de Automóviles de Turismo, fondată în 1950; Cupra a devenit marcă separată în 2018. | SEAT - Spain | Fondare=1950; Sediu=Martorell; Grup=Volkswagen Group
+Volvo | Suedia - Geely (China) | Fondată în 1927 la Göteborg; a inventat centura de siguranță în 3 puncte (1959) și a oferit patentul gratuit. Deținută de chinezii de la Geely din 2010. | Volvo - Sweden | Fondare=1927; Sediu=Göteborg; Grup=Geely | Volvo în latină înseamnă „mă rostogolesc".
+Jaguar | Marea Britanie - Jaguar Land Rover (Tata Motors, India) | Pornită în 1922 ca Swallow Sidecar Company. Din 2008 deținută de indienii de la Tata. | Jaguar - United Kingdom | Fondare=1922; Sediu=Coventry; Grup=JLR (Tata Motors)
+Land Rover | Marea Britanie - Jaguar Land Rover (Tata Motors, India) | Primul Land Rover a apărut în 1948, inspirat de Jeep-ul american. | Land Rover - United Kingdom | Fondare=1948; Sediu=Gaydon / Solihull; Grup=JLR (Tata Motors)
+Aston Martin | Marea Britanie - independentă (listată la bursă) | Fondată în 1913; celebră ca mașina lui James Bond. Seria DB poartă inițialele lui David Brown, proprietar între 1947 și 1972. | Aston Martin - United Kingdom | Fondare=1913; Sediu=Gaydon; Grup=Aston Martin Lagonda
+Rolls-Royce | Marea Britanie - BMW Group | Fondată în 1906 de Charles Rolls și Henry Royce. Statueta de pe capotă se numește „Spirit of Ecstasy". | Rolls-Royce - United Kingdom | Fondare=1906; Sediu=Goodwood; Grup=BMW Group
+Bentley | Marea Britanie - Grupul Volkswagen | Fondată în 1919 de W.O. Bentley; a câștigat cursa de 24 de ore de la Le Mans de cinci ori între 1924 și 1930. | Bentley - United Kingdom | Fondare=1919; Sediu=Crewe; Grup=Volkswagen Group
+Mini | Marea Britanie - BMW Group | Mini-ul original a apărut în 1959 la British Motor Corporation. BMW a relansat marca în 2001. | Mini - United Kingdom | Fondare=1959; Sediu=Oxford; Grup=BMW Group
+McLaren | Marea Britanie | Fondată de pilotul neozeelandez Bruce McLaren în 1963 ca echipă de curse; produce mașini de stradă la Woking. | McLaren - United Kingdom | Fondare=1963; Sediu=Woking
+Toyota | Japonia - Toyota Motor Corporation | Fondată în 1937; cel mai mare producător auto din lume după volum în ultimii ani. A inventat sistemul de producție „just-in-time". Deține marca de lux Lexus. | Toyota - Japan | Fondare=1937; Sediu=Toyota City; Grup=Toyota (Lexus, Daihatsu)
+Honda | Japonia | Fondată de Soichiro Honda în 1948; cel mai mare producător de motociclete din lume. | Honda - Japan | Fondare=1948; Sediu=Tokyo
+Nissan | Japonia - Alianța Renault-Nissan-Mitsubishi | Numele vine de la Nihon Sangyo. Marca de lux este Infiniti. | Nissan - Japan | Fondare=1933; Sediu=Yokohama; Grup=Alianța cu Renault și Mitsubishi
+Mazda | Japonia | Fondată în 1920; singurul producător care a câștigat Le Mans cu un motor rotativ Wankel (1991). | Mazda - Japan | Fondare=1920; Sediu=Hiroshima
+Subaru | Japonia | Numele înseamnă în japoneză constelația Pleiadele; sigla are șase stele. Specialist în motoare boxer și tracțiune integrală. | Subaru - Japan | Fondare=1953; Sediu=Tokyo | Șase stele = Pleiadele (Subaru).
+Mitsubishi | Japonia - Alianța Renault-Nissan-Mitsubishi | Numele înseamnă „trei diamante", forma siglei. | Mitsubishi - Japan | Fondare=1970 (divizia auto); Sediu=Tokyo
+Hyundai | Coreea de Sud - Hyundai Motor Group | Fondată în 1967; grupul deține și Kia și Genesis. | Hyundai - South Korea | Fondare=1967; Sediu=Seul; Grup=Hyundai Motor Group
+Kia | Coreea de Sud - Hyundai Motor Group | Cea mai veche marcă auto coreeană, fondată în 1944 ca producător de piese de biciclete. | Kia - South Korea | Fondare=1944; Sediu=Seul; Grup=Hyundai Motor Group
+Ford | SUA - Ford Motor Company | Fondată de Henry Ford în 1903; a introdus linia de asamblare mobilă în 1913. | Ford - USA | Fondare=1903; Sediu=Dearborn, Michigan
+Chevrolet | SUA - General Motors | Fondată în 1911 de pilotul elvețian Louis Chevrolet și William Durant. | Chevrolet - USA | Fondare=1911; Sediu=Detroit; Grup=General Motors
+Tesla | SUA | Fondată în 2003; Elon Musk a intrat ca investitor în 2004. A popularizat mașinile electrice cu autonomie mare. | Tesla - USA | Fondare=2003; Sediu=Austin, Texas
+Jeep | SUA - Stellantis | Marca vine din vehiculul militar Willys MB din Al Doilea Război Mondial. | Jeep - USA | Fondare=1941; Sediu=Toledo, Ohio; Grup=Stellantis | Grila cu 7 fante verticale.
+BYD | China | Build Your Dreams, fondată în 1995 ca producător de baterii; în 2024 a fost cel mai mare producător de mașini electrice și hibride plug-in din lume. | BYD - China | Fondare=1995 (mașini din 2003); Sediu=Shenzhen
+## Volkswagen
+Golf | Volkswagen | Hatchback compact (segment C), lansat în 1974; una dintre cele mai vândute mașini din istorie. Versiunea sport: GTI. | Volkswagen Golf | Segment=compact (C); Lansare=1974; Caroserie=hatchback
+Passat | Volkswagen | Sedan și break de familie (segment D), din 1973. | Volkswagen Passat | Segment=familie (D); Lansare=1973; Caroserie=sedan / break
+Polo | Volkswagen | Mașină mică de oraș (segment B), din 1975. | Volkswagen Polo | Segment=mic (B); Lansare=1975; Caroserie=hatchback
+Beetle (Käfer) | Volkswagen | „Broscuța", produsă în peste 21 de milioane de exemplare între 1938 și 2003; motor în spate, răcit cu aer. | Volkswagen Beetle | Segment=mic; Producție=1938-2003; Motor=boxer în spate, răcit cu aer
+Tiguan | Volkswagen | SUV compact, din 2007; cel mai vândut model VW în anii recenți. | Volkswagen Tiguan | Segment=SUV compact; Lansare=2007; Caroserie=SUV
+## Audi
+A4 | Audi | Sedan premium de clasă medie (segment D), din 1994, succesorul lui Audi 80. | Audi A4 | Segment=premium (D); Lansare=1994; Tracțiune=față sau quattro
+Q5 | Audi | SUV premium mediu, din 2008. | Audi Q5 | Segment=SUV premium; Lansare=2008
+TT | Audi | Coupé și roadster sportiv cu design Bauhaus, produs între 1998 și 2023. | Audi TT | Segment=coupé sport; Producție=1998-2023
+R8 | Audi | Supercar cu motor central V10, produs între 2006 și 2024. | Audi R8 | Segment=supercar; Producție=2006-2024; Motor=V10 central
+Quattro | Audi | Coupé lansat în 1980 care a dus tracțiunea integrală în raliuri și a dominat Grupa B. | Audi Quattro | Segment=coupé sport; Producție=1980-1991; Tracțiune=integrală
+## BMW
+Seria 3 | BMW | Sedan sportiv premium (segment D), din 1975; versiunea de performanță se numește M3. | BMW 3 Series | Segment=premium (D); Lansare=1975; Tracțiune=spate sau xDrive
+Seria 7 | BMW | Limuzina de lux a BMW (segment F), din 1977. | BMW 7 Series | Segment=lux (F); Lansare=1977
+X5 | BMW | SUV premium lansat în 1999; BMW îl numește „Sports Activity Vehicle". | BMW X5 | Segment=SUV premium; Lansare=1999
+M3 | BMW | Versiunea de performanță a Seriei 3, lansată în 1986 pentru omologarea în campionatele de turisme. | BMW M3 | Segment=sport; Lansare=1986
+## Mercedes-Benz
+Clasa S | Mercedes-Benz | Limuzina emblematică a mărcii, numită oficial Clasa S din 1972; a introdus multe inovații de siguranță, precum ABS-ul (1978) și airbagul (1981). | Mercedes-Benz S-Class | Segment=lux (F); Nume din=1972
+Clasa G | Mercedes-Benz | Off-road robust cu formă de cutie, produs din 1979; „G" vine de la Geländewagen. | Mercedes-Benz G-Class | Segment=off-road de lux; Lansare=1979
+Clasa E | Mercedes-Benz | Sedan executiv (segment E), denumit astfel din 1993; e foarte folosit ca taxi în Europa. | Mercedes-Benz E-Class | Segment=executiv (E); Nume din=1993
+300 SL Gullwing | Mercedes-Benz | Coupé sport din 1954 cu uși care se deschid în sus, ca aripile de pescăruș; primul automobil de serie cu injecție directă de benzină. | Mercedes-Benz 300 SL | Segment=coupé sport; Producție=1954-1957
+## Porsche
+911 | Porsche | Coupé sport lansat în 1964, cu motor boxer amplasat în spate; produs continuu de peste 60 de ani. | Porsche 911 | Segment=sport; Lansare=1964; Motor=boxer în spate
+Cayenne | Porsche | SUV lansat în 2002, care a salvat financiar compania. | Porsche Cayenne | Segment=SUV de performanță; Lansare=2002
+Taycan | Porsche | Prima mașină electrică de serie a Porsche, lansată în 2019, cu arhitectură de 800 de volți. | Porsche Taycan | Segment=sedan sport electric; Lansare=2019; Propulsie=electrică
+Boxster | Porsche | Roadster cu motor central, lansat în 1996; numele combină „boxer" și „roadster". | Porsche Boxster | Segment=roadster; Lansare=1996; Motor=boxer central
+## Ferrari
+F40 | Ferrari | Supercar din 1987, ultimul model aprobat personal de Enzo Ferrari; V8 biturbo, peste 320 km/h. | Ferrari F40 | Producție=1987-1992; Motor=V8 biturbo
+Testarossa | Ferrari | Coupé din 1984, recunoscut după „branhiile" laterale; numele înseamnă „cap roșu", de la capacele de chiulasă vopsite roșu. | Ferrari Testarossa | Producție=1984-1991; Motor=flat-12
+LaFerrari | Ferrari | Hipercar hibrid din 2013, cu V12 și motor electric, produs în 499 de exemplare. | LaFerrari | Producție=2013-2016; Motor=V12 hibrid
+250 GTO | Ferrari | Mașină de curse omologată pentru stradă, din 1962; doar 36 de exemplare; una dintre cele mai scumpe mașini vândute vreodată. | Ferrari 250 GTO | Producție=1962-1964; Exemplare=36
+## Lamborghini
+Countach | Lamborghini | Supercar din 1974, cu design în formă de pană semnat de Marcello Gandini (Bertone) și uși care se deschid în sus („scissor doors"). | Lamborghini Countach | Producție=1974-1990; Motor=V12 central
+Miura | Lamborghini | Lansat în 1966, considerat primul supercar modern cu motor central. | Lamborghini Miura | Producție=1966-1973; Motor=V12 central transversal
+Aventador | Lamborghini | Supercar cu V12, produs între 2011 și 2022. | Lamborghini Aventador | Producție=2011-2022; Motor=V12
+Urus | Lamborghini | SUV de performanță lansat în 2018; a devenit cel mai vândut model al mărcii. | Lamborghini Urus | Segment=SUV de performanță; Lansare=2018
+## Toyota
+Corolla | Toyota | Lansată în 1966, cel mai vândut nume de model din lume, cu peste 50 de milioane de exemplare. | Toyota Corolla | Segment=compact (C); Lansare=1966
+Prius | Toyota | Lansat în 1997, primul automobil hibrid produs în masă. | Toyota Prius | Segment=compact hibrid; Lansare=1997; Propulsie=hibridă
+Land Cruiser | Toyota | Off-road robust produs din 1951; foarte folosit de ONU și organizațiile umanitare. | Toyota Land Cruiser | Segment=off-road; Lansare=1951
+Supra | Toyota | Coupé sport lansat în 1978; generația a cincea (2019) a fost dezvoltată împreună cu BMW. | Toyota Supra | Segment=coupé sport; Lansare=1978
+## Honda
+Civic | Honda | Compactă lansată în 1972; versiunea sport se numește Type R. | Honda Civic | Segment=compact (C); Lansare=1972
+NSX | Honda | Supercar din 1990 cu caroserie din aluminiu; Ayrton Senna a contribuit la reglajul șasiului. | Honda NSX | Segment=supercar; Producție=1990-2005, 2016-2022
+CR-V | Honda | SUV compact lansat în 1995, unul dintre cele mai vândute SUV-uri din lume. | Honda CR-V | Segment=SUV compact; Lansare=1995
+## Nissan
+GT-R | Nissan | Coupé de performanță (generația R35 din 2007), poreclit „Godzilla". | Nissan GT-R | Segment=coupé de performanță; Lansare=2007 (R35); Motor=V6 biturbo
+Qashqai | Nissan | Lansat în 2006, a popularizat crossover-ul compact în Europa. | Nissan Qashqai | Segment=crossover compact; Lansare=2006
+Leaf | Nissan | Lansat în 2010, una dintre primele mașini electrice produse în masă. | Nissan Leaf | Segment=compact electric; Lansare=2010; Propulsie=electrică
+## Mazda
+MX-5 | Mazda | Roadster în două locuri lansat în 1989 (Miata în SUA), cel mai vândut roadster din istorie conform Guinness. | Mazda MX-5 Miata | Segment=roadster; Lansare=1989
+RX-7 | Mazda | Coupé sport cu motor rotativ Wankel, produs între 1978 și 2002. | Mazda RX-7 | Producție=1978-2002; Motor=rotativ Wankel
+## Ford
+Model T | Ford | Produs între 1908 și 1927, prima mașină accesibilă maselor, fabricată pe linia de asamblare mobilă. | Ford Model T | Producție=1908-1927; Exemplare=peste 15 milioane
+Mustang | Ford | Lansat în 1964, a creat categoria „pony car"; produs fără întrerupere de atunci. | Ford Mustang | Segment=coupé sport; Lansare=1964
+F-150 | Ford | Pick-up din Seria F; cel mai vândut vehicul din SUA de decenii. | Ford F-150 | Segment=pick-up; Seria F din=1948
+GT40 | Ford | Mașină de curse care a învins Ferrari la Le Mans, câștigând patru ani la rând, între 1966 și 1969. | Ford GT40 | Producție=1964-1969; Victorii Le Mans=1966-1969
+## Chevrolet
+Corvette | Chevrolet | Mașina sport americană emblematică, din 1953; generația C8 (2020) are motorul amplasat central. | Chevrolet Corvette | Segment=sport; Lansare=1953
+Camaro | Chevrolet | Rivalul lui Ford Mustang, produs între 1966 și 2024 (cu o pauză între 2002 și 2009). | Chevrolet Camaro | Segment=coupé sport; Producție=1966-2024
+## Tesla
+Model S | Tesla | Sedan electric lansat în 2012, care a arătat că o mașină electrică poate avea autonomie mare și performanță. | Tesla Model S | Segment=sedan de lux electric; Lansare=2012
+Model 3 | Tesla | Sedan electric mai accesibil, lansat în 2017. | Tesla Model 3 | Segment=sedan electric (D); Lansare=2017
+Model Y | Tesla | SUV crossover electric lansat în 2020; a fost cea mai vândută mașină din lume în 2023. | Tesla Model Y | Segment=crossover electric; Lansare=2020
+Cybertruck | Tesla | Pick-up electric cu caroserie din oțel inoxidabil și forme unghiulare, livrat din 2023. | Tesla Cybertruck | Segment=pick-up electric; Lansare=2023
+## Dacia
+1300 | Dacia | Primul model Dacia, produs între 1969 și 2004 sub licență Renault 12. | Dacia 1300 | Producție=1969-2004; Licență=Renault 12
+Logan | Dacia | Sedan ieftin și robust lansat în 2004, punctul de pornire al succesului Dacia sub Renault. | Dacia Logan | Segment=sedan mic (B); Lansare=2004
+Sandero | Dacia | Hatchback lansat în 2008; a fost cea mai vândută mașină la persoane fizice din Europa în mai mulți ani. | Dacia Sandero | Segment=hatchback mic (B); Lansare=2008
+Duster | Dacia | SUV accesibil lansat în 2010, foarte apreciat pentru raportul preț-capacitate off-road. | Dacia Duster | Segment=SUV compact; Lansare=2010
+Spring | Dacia | Mașină electrică de oraș lansată în 2021, printre cele mai ieftine electrice din Europa. | Dacia Spring | Segment=electric de oraș; Lansare=2021; Propulsie=electrică
+## Renault
+Clio | Renault | Mașină mică lansată în 1990; singurul model care a câștigat de două ori titlul de Mașina Anului în Europa (1991 și 2006). | Renault Clio | Segment=mic (B); Lansare=1990
+Renault 4 | Renault | „R4", produs între 1961 și 1992 în peste 8 milioane de exemplare; reinventat ca model electric în 2024. | Renault 4 | Producție=1961-1992
+Mégane | Renault | Compactă lansată în 1995. | Renault Megane | Segment=compact (C); Lansare=1995
+## Peugeot
+205 | Peugeot | Hatchback din 1983 care a salvat Peugeot financiar; versiunea GTI e o legendă. | Peugeot 205 | Producție=1983-1998; Segment=mic (B)
+208 | Peugeot | Mașină mică lansată în 2012; a doua generație a fost Mașina Anului în Europa în 2020. | Peugeot 208 | Segment=mic (B); Lansare=2012
+## Citroën
+2CV | Citroën | „Deux Chevaux", produsă între 1948 și 1990; gândită să poată traversa un câmp arat fără să spargă un coș de ouă. | Citroen 2CV | Producție=1948-1990
+DS | Citroën | Lansată în 1955, cu suspensie hidropneumatică și design futurist; pronunțat în franceză sună ca „déesse", adică zeiță. | Citroen DS | Producție=1955-1975
+## Fiat
+500 | Fiat | „Cinquecento", lansat în 1957; reinterpretat modern în 2007. | Fiat 500 | Segment=mini (A); Lansare=1957
+Panda | Fiat | Mașină mică de oraș, lansată în 1980; design Giorgetto Giugiaro. | Fiat Panda | Segment=mini (A); Lansare=1980
+## Volvo
+240 | Volvo | Sedan și break produs între 1974 și 1993, simbol al siguranței și durabilității. | Volvo 240 | Producție=1974-1993
+XC90 | Volvo | SUV de 7 locuri lansat în 2002. | Volvo XC90 | Segment=SUV mare; Lansare=2002
+## Škoda
+Octavia | Škoda | Compactă cu portbagaj foarte mare; numele datează din 1959, generația modernă din 1996. | Skoda Octavia | Segment=compact (C); Lansare modernă=1996
+Fabia | Škoda | Mașină mică lansată în 1999. | Skoda Fabia | Segment=mic (B); Lansare=1999
+Superb | Škoda | Sedan și break mare (segment D), numele datează din 1934, generația modernă din 2001. | Skoda Superb | Segment=familie (D); Lansare modernă=2001
+## Mărci britanice de lux și sport | Ce marcă?
+E-Type | Jaguar | Coupé și roadster din 1961, considerat adesea una dintre cele mai frumoase mașini construite. | Jaguar E-Type | Producție=1961-1975
+Defender | Land Rover | Off-road legendar; numele Defender din 1990, descendent al seriei din 1948; complet nou în 2020. | Land Rover Defender | Segment=off-road; Nume din=1990
+Range Rover | Land Rover | SUV de lux lansat în 1970, pionierul SUV-urilor premium. | Range Rover | Segment=SUV de lux; Lansare=1970
+DB5 | Aston Martin | Coupé din 1963, celebru ca mașina lui James Bond în filmul „Goldfinger" (1964). | Aston Martin DB5 | Producție=1963-1965
+Phantom | Rolls-Royce | Limuzina de vârf a Rolls-Royce; numele a apărut în 1925. | Rolls-Royce Phantom | Segment=ultra-lux; Nume din=1925
+Continental GT | Bentley | Coupé grand tourer lansat în 2003. | Bentley Continental GT | Segment=grand tourer; Lansare=2003
+Mini Cooper | Mini | Mini-ul original din 1959, proiectat de Alec Issigonis cu motor transversal; versiunea Cooper a câștigat Raliul Monte Carlo. | Mini Cooper | Lansare=1959; Proiectant=Alec Issigonis
+F1 | McLaren | Supercar din 1992 proiectat de Gordon Murray, cu șoferul în centru; în 1998 a stabilit recordul de viteză pentru o mașină de serie (386 km/h). | McLaren F1 | Producție=1992-1998; Exemplare=106
+## Alte mărci | Ce marcă?
+Veyron | Bugatti | Lansat în 2005, primul automobil de serie cu peste 1000 CP; 407 km/h la lansare. | Bugatti Veyron | Producție=2005-2015; Putere=1001 CP
+Chiron | Bugatti | Succesorul lui Veyron, lansat în 2016, cu 1500 CP. | Bugatti Chiron | Producție=2016-2024; Putere=1500 CP
+Giulia | Alfa Romeo | Sedan sportiv; numele datează din 1962, modelul actual din 2015. | Alfa Romeo Giulia | Segment=sedan sport (D); Lansare modernă=2015
+Quattroporte | Maserati | Sedan de lux sportiv, din 1963; numele înseamnă „patru uși". | Maserati Quattroporte | Lansare=1963
+Stratos | Lancia | Primul automobil proiectat special pentru raliuri (1973); campion mondial în 1974, 1975 și 1976. | Lancia Stratos | Producție=1973-1978
+Delta Integrale | Lancia | Hatchback de raliu care a adus Lanciei șase titluri mondiale la constructori consecutive, între 1987 și 1992. | Lancia Delta Integrale | Producție=1987-1994
+Impreza WRX | Subaru | Sedan de raliu cu motor boxer și tracțiune integrală, lansat în 1992; campion mondial cu Colin McRae (1995). | Subaru Impreza WRX | Lansare=1992
+Lancer Evolution | Mitsubishi | Sedan de performanță produs între 1992 și 2016; Tommi Mäkinen a câștigat cu el patru titluri mondiale de raliuri. | Mitsubishi Lancer Evolution | Producție=1992-2016
+Wrangler | Jeep | Off-road lansat în 1986, urmașul direct al lui Willys MB din război. | Jeep Wrangler | Segment=off-road; Lansare=1986
+Tucson | Hyundai | SUV compact lansat în 2004. | Hyundai Tucson | Segment=SUV compact; Lansare=2004
+Sportage | Kia | SUV compact lansat în 1993. | Kia Sportage | Segment=SUV compact; Lansare=1993
+Astra | Opel | Compactă lansată în 1991, succesoarea lui Opel Kadett. | Opel Astra | Segment=compact (C); Lansare=1991
+Corsa | Opel | Mașină mică lansată în 1982. | Opel Corsa | Segment=mic (B); Lansare=1982
+## Mărci de supercaruri și electrice | Țara de origine și grupul din care face parte
+Koenigsegg | Suedia - independentă | Fondată în 1994 de Christian von Koenigsegg, la 22 de ani; fabrica se află în fostele hangare ale unei baze aeriene. | Koenigsegg - Sweden | Fondare=1994; Sediu=Ängelholm; Grup=independentă | Sigla e un scut inspirat din blazonul familiei von Koenigsegg.
+Apollo | Germania - Apollo Future Mobility Group | Pornită în 2004 de Roland Gumpert, sub numele Gumpert; un consorțiu din Hong Kong a cumpărat-o în 2016 și a redenumit-o Apollo. | Apollo - Germany | Fondare=2004 (ca Gumpert); Sediu=Denkendorf (Bavaria); Grup=Apollo Future Mobility Group | Hipercarul IE vine de la „Intensa Emozione".
+KTM | Austria - KTM Sportcar (investitori belgieni) | Producătorul austriac de motociclete a lansat în 2008 X-Bow, o mașină sport ultrauşoară construită la Graz; în 2025 divizia auto a fost vândută unor investitori belgieni. | KTM - Austria | Fondare=1934 (KTM); X-Bow din=2008; Fabrică X-Bow=Graz | X-Bow are motor Audi și se conduce, în versiunea de bază, fără parbriz.
+Pagani | Italia - independentă | Fondată în 1992 de argentinianul Horacio Pagani, fost inginer la Lamborghini; primul model, Zonda, a apărut în 1999. | Pagani - Italy | Fondare=1992; Sediu=San Cesario sul Panaro (lângă Modena); Grup=independentă | Zonda și Huayra sunt nume de vânturi din Anzi.
+Rimac | Croația - Bugatti Rimac | Fondată în 2009 de Mate Rimac, pornind de la un BMW vechi transformat în mașină electrică în garajul lui; Nevera e un hipercar electric. | Rimac - Croatia | Fondare=2009; Sediu=Sveta Nedelja (lângă Zagreb); Grup=Bugatti Rimac (Rimac 55%, Porsche 45%) | Rimac deține astăzi și Bugatti, prin compania mixtă Bugatti Rimac.
+Zenvo | Danemarca - investitori cehi | Fondată în 2007 de Jesper Jensen și Troels Vollertsen; primul model, ST1, a apărut în 2009. | Zenvo - Denmark | Fondare=2007; Sediu=Præstø; Proprietari=investitori din Praga (din 2018)
+Lotus | Marea Britanie - Geely | Fondată în 1948 de Colin Chapman, adeptul ideii „simplifică, apoi adaugă ușurință"; Lotus are 7 titluri de constructori în Formula 1. | Lotus - United Kingdom | Fondare=1948; Sediu=Hethel (Norfolk); Grup=Geely | Inițialele ACBC din siglă sunt ale lui Anthony Colin Bruce Chapman.
+Czinger | SUA - Divergent Technologies | Fondată în 2019 de Kevin și Lukas Czinger; hipercarul 21C are piese printate 3D, proiectate cu ajutorul calculatorului. | Czinger - USA | Fondare=2019; Sediu=Los Angeles; Grup=Divergent Technologies
+SSC | SUA - independentă | Inițialele vin de la Shelby SuperCars, după fondatorul Jerod Shelby (fără legătură cu Carroll Shelby); Ultimate Aero a fost în 2007 cel mai rapid automobil de serie. | SSC - USA | Fondare=1998 (unele surse: 1999); Sediu=Richland (Washington) | SSC = Shelby SuperCars.
+Hennessey | SUA - independentă | Fondată de John Hennessey în 1991 în Texas, ca atelier de modificări; hipercarul Venom F5 poartă numele celei mai puternice categorii de tornadă. | Hennessey - USA | Fondare=1991; Sediu=Sealy (Texas)
+Spyker | Țările de Jos - independentă | Numele vine de la un vechi producător olandez de mașini și avioane; marca modernă a fost relansată în 1999 de Victor Muller și Maarten de Bruijn și a trecut prin mai multe falimente. | Spyker - Netherlands | Fondare=1999 (marca modernă); Sediu=Zeewolde | Sigla: o roată cu spițe străbătută de o elice, amintire a avioanelor Spyker.
+Gordon Murray Automotive | Marea Britanie - Gordon Murray Group | Fondată în 2017 de Gordon Murray, designerul lui McLaren F1; T.50 are un ventilator în spate, ca mașina de Formula 1 Brabham BT46B. | Gordon Murray Automotive - United Kingdom | Fondare=2017; Sediu=Windlesham (Surrey); Grup=Gordon Murray Group | | GMA
+De Tomaso | Italia - Ideal Team Ventures (Hong Kong) | Fondată în 1959 la Modena de argentinianul Alejandro de Tomaso; Pantera (1971-1993) avea motor V8 Ford. | De Tomaso - Italy | Fondare=1959; Sediu=Modena (istoric); Proprietar=Ideal Team Ventures
+Ariel | Marea Britanie - independentă | Fondată în 1991 de Simon Saunders; Atom are un șasiu tubular la vedere, aproape fără caroserie. | Ariel - United Kingdom | Fondare=1991; Sediu=Crewkerne (Somerset)
+Noble | Marea Britanie - independentă | Fondată în 1999 de Lee Noble la Leicester; M600 (2010-2018) are un V8 biturbo derivat dintr-un motor Volvo. | Noble - United Kingdom | Fondare=1999; Sediu=Leicester
+Automobili Pininfarina | Germania - Mahindra & Mahindra | Fondată în 2018 la München, sub același proprietar ca studioul italian de design Pininfarina; Battista e un hipercar electric produs din 2021. | Automobili Pininfarina - Germany | Fondare=2018; Sediu=München; Grup=Mahindra & Mahindra | | Pininfarina
+Dendrobium | Singapore - Vanda Electrics | Primul hipercar din Singapore: un concept electric prezentat la Salonul de la Geneva în 2017, dezvoltat împreună cu Williams. | Dendrobium - Singapore | Prezentare=2017 (concept); Producător=Vanda Electrics | Dendrobium și Vanda sunt orhidee; floarea națională a Singapore e o orhidee Vanda.
+Devel | Emiratele Arabe Unite - independentă | Producător din Dubai cunoscut pentru Devel Sixteen, un prototip cu motor V16 anunțat la peste 3000 CP (cifre neconfirmate independent). | Devel - UAE | Prototip=2017 (Devel Sixteen) | Sixteen = 16 cilindri.
+W Motors | Emiratele Arabe Unite - independentă | Fondată în 2012 la Beirut de Ralph Debbas, cu sediul mutat apoi la Dubai; Lykan HyperSport apare în filmul „Furios și iute 7". | W Motors - UAE | Fondare=2012 (Beirut); Sediu=Dubai
+Saleen | SUA - independentă | Fondată în 1983 de fostul pilot Steve Saleen, cunoscută pentru Mustang-uri modificate; S7 (2000) a fost primul model Saleen proiectat de la zero. | Saleen - USA | Fondare=1983; Sediu=Corona (California)
+Singer | SUA - independentă | Fondată în 2009 la Los Angeles de Rob Dickinson, fost solist al trupei Catherine Wheel; restaurează și reimaginează Porsche 911 clasice. | Singer - USA | Fondare=2009; Sediu=Los Angeles | | Singer Vehicle Design
+Praga | Cehia - independentă | Una dintre cele mai vechi mărci auto, fondată în 1907 la Praga; azi face karturi, mașini de curse și hipercarul de stradă Bohema (din 2023). | Praga - Czech Republic | Fondare=1907; Sediu=Praga
+Vector | SUA - inactivă | Fondată de Jerry Wiegert; W8 (din 1989) avea un design inspirat din aviație; activitatea s-a oprit după moartea fondatorului, în 2021. | Vector - USA | Fondare=1971 (unele surse: 1978); Sediu=Wilmington (California)
+Lucid | SUA - Public Investment Fund (Arabia Saudită) | Fondată în 2007 sub numele Atieva; face sedanul electric Air (din 2021) și SUV-ul Gravity (din 2024). | Lucid - USA | Fondare=2007 (ca Atieva); Sediu=Newark (California); Acționar majoritar=PIF (Arabia Saudită)
+Polestar | Suedia - Geely | A pornit în 1996 ca echipă de curse, a devenit divizia de performanță a Volvo, iar din 2017 e o marcă separată de mașini electrice. | Polestar - Sweden | Fondare=1996; Sediu=Göteborg; Grup=Geely | Sigla: steaua polară, ca în nume.
+## Koenigsegg
+CCX | Koenigsegg | Supercar din 2006, cu V8 biturbo și acoperiș detașabil care se depozitează în portbagajul din față. | Koenigsegg CCX | Producție=2006-2010; Motor=V8 biturbo
+Agera | Koenigsegg | Hipercar produs din 2011; numele vine din suedezul „agera" = a acționa. Varianta Agera RS a doborât în 2017 recordul de viteză pentru mașini de serie. | Koenigsegg Agera | Producție=2011-2018; Motor=V8 biturbo
+One:1 | Koenigsegg | Prezentat în 2014; numele vine de la raportul de 1 CP la fiecare kilogram de greutate. | Koenigsegg One:1 | Prezentare=2014; Exemplare=7 | 1 CP : 1 kg.
+Regera | Koenigsegg | Hipercar hibrid prezentat în 2015, fără cutie de viteze clasică (sistemul Koenigsegg Direct Drive). | Koenigsegg Regera | Prezentare=2015; Propulsie=V8 biturbo + 3 motoare electrice
+Jesko | Koenigsegg | Prezentat în 2019, poartă numele tatălui fondatorului, Jesko von Koenigsegg. | Koenigsegg Jesko | Prezentare=2019; Motor=V8 biturbo
+## Apollo
+Intensa Emozione | Apollo | Hipercar prezentat în 2017, cu V12 atmosferic; numele înseamnă „emoție intensă". | Apollo Intensa Emozione | Prezentare=2017; Motor=V12 atmosferic | | Apollo IE/IE
+Gumpert Apollo | Apollo | Primul model al mărcii (2005), pe vremea când se numea Gumpert. | Gumpert Apollo | Producție din=2005
+Arrow | Apollo | Concept prezentat în 2016, după preluarea mărcii de investitorii din Hong Kong. | Apollo Arrow | Prezentare=2016
+## KTM
+X-Bow GT-XR | KTM | Versiunea închisă, de stradă, cu ampatament mai lung și motor Audi cu 5 cilindri. | KTM X-Bow GT-XR | Motor=Audi 2.5 TFSI (5 cilindri)
+X-Bow GT4 | KTM | Variantă de curse cu cockpit închis, debut în 2015 în campionatul european GT4. | KTM X-Bow GT4 | Debut=2015; Tip=mașină de curse
+## Pagani
+Zonda | Pagani | Primul Pagani (1999), cu V12 Mercedes-AMG; numele vine de la un vânt din Anzi. | Pagani Zonda | Lansare=1999; Motor=V12 Mercedes-AMG
+## Rimac
+Nevera | Rimac | Hipercar electric cu patru motoare, prezentat ca Concept Two în 2018 și produs sub numele Nevera; accelerează de la 0 la 100 km/h în aproximativ 2 secunde. | Rimac Nevera | Prezentare=2018 (Concept Two); Propulsie=electrică, 4 motoare | | Concept Two
+Concept One | Rimac | Primul hipercar electric Rimac, prezentat în 2011 la Frankfurt. | Rimac Concept One | Prezentare=2011; Propulsie=electrică
+## Zenvo
+TSR-S | Zenvo | Versiunea de stradă a TSR (2018), cu o aripă spate care se înclină în viraje. | Zenvo TSR-S | Producție=2018-2025
+TS1 | Zenvo | Grand tourer produs între 2016 și 2019. | Zenvo TS1 | Producție=2016-2019
+## Lotus
+Elise | Lotus | Roadster ușor lansat în 1996, cu șasiu din aluminiu lipit; numit după Elisa, nepoata proprietarului de atunci, Romano Artioli. | Lotus Elise | Lansare=1996
+Exige | Lotus | Coupé-ul derivat din Elise, lansat în 2000, orientat spre pistă. | Lotus Exige | Lansare=2000
+Evora | Lotus | Coupé 2+2 cu motor central, lansat în 2009. | Lotus Evora | Lansare=2009
+Esprit | Lotus | Coupé în formă de pană (1976), celebru ca mașina-submarin din filmul cu James Bond „Spionul care m-a iubit". | Lotus Esprit | Producție=1976-2004
+Emira | Lotus | Prezentat în 2021, anunțat ca ultimul Lotus cu motor cu ardere internă. | Lotus Emira | Prezentare=2021
+Evija | Lotus | Primul hipercar electric al mărcii, prezentat în 2019. | Lotus Evija | Prezentare=2019; Propulsie=electrică
+## SSC
+Tuatara | SSC | Hipercar livrat din 2020, numit după o reptilă din Noua Zeelandă. | SSC Tuatara | Livrări din=2020; Motor=V8 biturbo
+Ultimate Aero | SSC | În 2007 a devenit cel mai rapid automobil de serie, cu aproximativ 412 km/h. | SSC Ultimate Aero | Record=2007 (~412 km/h)
+## Hennessey
+Venom F5 | Hennessey | Hipercar prezentat în 2020, cu V8 biturbo; F5 e cea mai puternică categorie de tornadă. | Hennessey Venom F5 | Prezentare=2020; Motor=V8 biturbo
+Venom GT | Hennessey | Supercar bazat pe Lotus Exige, produs între 2010 și 2017. | Hennessey Venom GT | Producție=2010-2017; Bază=Lotus Exige
+## Spyker
+C8 | Spyker | Modelul emblematic al mărcii (din 2000), cu detalii inspirate din aviație, precum maneta de viteze la vedere. | Spyker C8 | Producție din=2000
+C8 Aileron | Spyker | A doua generație a lui C8, prezentată la Geneva în 2008; „aileron" = eleron de avion. | Spyker C8 Aileron | Prezentare=2008
+C8 Preliator | Spyker | Versiune anunțată la Geneva în 2016. | Spyker C8 Preliator | Prezentare=2016
+## Gordon Murray Automotive
+T.50 | Gordon Murray Automotive | Supercar prezentat în 2020, cu V12 Cosworth, cutie manuală, șoferul în centru și un ventilator de 400 mm în spate. | GMA T.50 | Prezentare=2020; Motor=V12 Cosworth | Ca McLaren F1, tot de Gordon Murray: șoferul stă la mijloc. | T50
+## De Tomaso
+Pantera | De Tomaso | Coupé cu motor central V8 Ford, produs între 1971 și 1993. | De Tomaso Pantera | Producție=1971-1993; Motor=V8 Ford
+Mangusta | De Tomaso | Coupé din 1966, proiectat de Giorgetto Giugiaro. | De Tomaso Mangusta | Producție=1966-1971
+P72 | De Tomaso | Model retro prezentat în 2019, după relansarea mărcii. | De Tomaso P72 | Prezentare=2019
+Guarà | De Tomaso | Ultimul model al De Tomaso originale, produs din 1993. | De Tomaso Guarà | Producție din=1993 | | Guara
+## Ariel
+Atom | Ariel | Mașină sport fără caroserie, cu șasiu tubular la vedere; are 2 locuri și nu are plafon. | Ariel Atom | Tip=„exoschelet"
+Nomad | Ariel | Versiunea off-road a ideii Atom, lansată în 2015. | Ariel Nomad | Lansare=2015
+## Noble
+M600 | Noble | Supercar produs între 2010 și 2018, cu V8 biturbo derivat dintr-un motor Volvo și fără sisteme electronice de asistență în versiunea de bază. | Noble M600 | Producție=2010-2018
+M12 | Noble | Coupé sport care a făcut cunoscută marca, succesorul lui M10. | Noble M12
+M400 | Noble | Varianta de pistă a lui M12. | Noble M400
+## Devel
+Sixteen | Devel | Prototip din Dubai cu motor V16 anunțat la peste 3000 CP (cifre neconfirmate). | Devel Sixteen | Prototip=2017 | | Devel 16
+## Saleen
+S7 | Saleen | Supercar cu motor central, introdus în 2000, primul model proiectat de Saleen de la zero. | Saleen S7 | Lansare=2000; Motor=V8
+## Singer
+Porsche 911 reimaginat de Singer | Singer | Un Porsche 911 vechi (generația 964), restaurat și transformat manual, cu aspect clasic și tehnică modernă. | Porsche 911 Reimagined by Singer | Bază=Porsche 911 (964) | | 911 Singer/Singer 911/911
+## Praga
+Bohema | Praga | Hipercar de stradă produs din 2023, cu motor V6 biturbo Nissan. | Praga Bohema | Producție din=2023
+R1 | Praga | Mașină de curse cu cockpit închis, produsă din 2012-2013. | Praga R1 | Tip=mașină de curse
+## Vector
+W8 | Vector | Supercar american produs din 1989, cu design inspirat din aviație; s-au vândut doar câteva zeci de exemplare. | Vector W8 | Producție din=1989
+M12 | Vector | Model din 1995, cu motor V12 Lamborghini, construit când Vector aparținea unor proprietari indonezieni (Megatech). | Vector M12 | Producție din=1995; Motor=V12 Lamborghini
+## Lucid
+Gravity | Lucid | SUV-ul electric al mărcii, produs din decembrie 2024. | Lucid Gravity | Producție din=2024; Propulsie=electrică
+## Polestar
+Polestar 1 | Polestar | Coupé hibrid plug-in, produs între 2019 și 2021. | Polestar 1 | Producție=2019-2021; Propulsie=hibrid plug-in
+Polestar 4 | Polestar | SUV-coupé electric fără lunetă: în locul geamului din spate are o cameră și un ecran. | Polestar 4 | Producție din=2024
+## McLaren
+P1 | McLaren | Hipercar hibrid produs între 2013 și 2015, în 375 de exemplare. | McLaren P1 | Producție=2013-2015; Exemplare=375
+720S | McLaren | Supercar lansat în 2017, cu V8 biturbo de 720 CP (de aici numele). | McLaren 720S | Lansare=2017; Putere=720 CP (PS)
+Senna | McLaren | Supercar de pistă lansat în 2018, numit după Ayrton Senna. | McLaren Senna | Lansare=2018
+MP4-12C | McLaren | Primul model al McLaren Automotive (2011). | McLaren MP4-12C | Lansare=2011 | | 12C
+Artura | McLaren | Supercar hibrid cu motor V6, prezentat în 2021. | McLaren Artura | Prezentare=2021; Motor=V6 hibrid
+## Bugatti
+EB110 | Bugatti | Supercar prezentat în 1991, la 110 ani de la nașterea lui Ettore Bugatti. | Bugatti EB110 | Prezentare=1991 | EB = Ettore Bugatti, 110 = 110 ani.
+Type 35 | Bugatti | Mașina de curse din 1924, una dintre cele mai titrate din istorie. | Bugatti Type 35 | Lansare=1924
+Divo | Bugatti | Hipercar din 2018, produs în 40 de exemplare. | Bugatti Divo | Prezentare=2018; Exemplare=40
+## Aston Martin
+Vantage | Aston Martin | Cel mai mic și mai sportiv coupé din gama Aston Martin. | Aston Martin Vantage
+DB11 | Aston Martin | Grand tourer lansat în 2016. | Aston Martin DB11 | Lansare=2016
+DBS | Aston Martin | Nume folosit din 1967 pentru grand tourerele de vârf ale mărcii. | Aston Martin DBS | Nume din=1967
+Vanquish | Aston Martin | Grand tourer lansat în 2001, mașina lui James Bond în „Să nu mori azi" (2002). | Aston Martin Vanquish | Lansare=2001
+## Maserati
+MC20 | Maserati | Supercar din 2020, cu motorul V6 Nettuno dezvoltat de Maserati. | Maserati MC20 | Lansare=2020; Motor=V6 Nettuno
+GranTurismo | Maserati | Coupé grand tourer lansat în 2007. | Maserati GranTurismo | Lansare=2007
+Bora | Maserati | Primul Maserati de serie cu motor central (1971), desenat de Giugiaro. | Maserati Bora | Lansare=1971
+Ghibli | Maserati | Nume folosit din 1967; generația modernă e un sedan lansat în 2013. | Maserati Ghibli | Nume din=1967; Sedan din=2013
+MC12 | Maserati | Supercar din 2004, construit pe baza lui Ferrari Enzo, pentru a putea concura în GT. | Maserati MC12 | Lansare=2004; Bază=Ferrari Enzo
+## Toyota
+RAV4 | Toyota | SUV compact lansat în 1994, unul dintre primele crossovere. | Toyota RAV4 | Lansare=1994
+## Ford
+Focus | Ford | Compact lansat în 1998. | Ford Focus | Lansare=1998
+## Škoda
+110 R | Škoda | Coupé sport din 1970, produs în Cehoslovacia. | Škoda 110 R | Lansare=1970 | | 110R
+Kodiaq | Škoda | SUV mare lansat în 2016; numele vine de la ursul Kodiak din Alaska. | Škoda Kodiaq | Lansare=2016
+Felicia | Škoda | Lansat în 1994, primul model nou după preluarea de către Volkswagen. | Škoda Felicia | Lansare=1994
+## BMW
+2002 | BMW | Sedan sport din 1968, varianta cu motor de 2 litri a seriei 02. | BMW 2002 | Lansare=1968
+Z4 | BMW | Roadster lansat în 2002. | BMW Z4 | Lansare=2002
+## Nissan
+Micra | Nissan | Mașină mică lansată în 1982. | Nissan Micra | Lansare=1982
+370Z | Nissan | Coupé sport lansat în 2009. | Nissan 370Z | Lansare=2009
+Juke | Nissan | Crossover mic, lansat în 2010. | Nissan Juke | Lansare=2010
+## Honda
+Accord | Honda | Sedan lansat în 1976. | Honda Accord | Lansare=1976
+Jazz | Honda | Mașină mică lansată în 2001 (în America se numește Fit). | Honda Jazz | Lansare=2001 | | Fit
+S2000 | Honda | Roadster produs între 1999 și 2009, cu motor care se turează până la 9000 rpm. | Honda S2000 | Producție=1999-2009
+## Peugeot
+504 | Peugeot | Sedan robust din 1968, folosit zeci de ani în Africa. | Peugeot 504 | Lansare=1968
+3008 | Peugeot | Crossover lansat în 2009. | Peugeot 3008 | Lansare=2009
+406 | Peugeot | Sedan lansat în 1995, celebru ca taxiul din filmul „Taxi". | Peugeot 406 | Lansare=1995
+## Citroën
+Traction Avant | Citroën | Lansat în 1934, unul dintre primele automobile de serie cu tracțiune față. | Citroën Traction Avant | Lansare=1934
+C4 | Citroën | Compact lansat în 2004. | Citroën C4 | Lansare=2004
+SM | Citroën | Coupé de lux din 1970, cu motor V6 Maserati. | Citroën SM | Lansare=1970; Motor=V6 Maserati
+## Fiat
+Uno | Fiat | Mașină mică lansată în 1983. | Fiat Uno | Lansare=1983
+124 Spider | Fiat | Roadster lansat în 1966. | Fiat 124 Spider | Lansare=1966
+Multipla | Fiat | Monovolum din 1998, cu trei locuri în față, faimos pentru forma neobișnuită. | Fiat Multipla | Lansare=1998
+600 | Fiat | Mașină mică din 1955, cu motor în spate. | Fiat 600 | Lansare=1955
+## Mazda
+CX-5 | Mazda | SUV compact lansat în 2012. | Mazda CX-5 | Lansare=2012
+Mazda3 | Mazda | Compact lansat în 2003. | Mazda3 | Lansare=2003 | | Mazda 3
+## Chevrolet
+Impala | Chevrolet | Sedan american mare, lansat în 1958. | Chevrolet Impala | Lansare=1958
+Bel Air | Chevrolet | Model american clasic, lansat în 1950; versiunile din anii '50 sunt simboluri ale epocii. | Chevrolet Bel Air | Lansare=1950
+Spark | Chevrolet | Mașină mică, la origine Daewoo Matiz. | Chevrolet Spark
+## Volvo
+P1800 | Volvo | Coupé din 1961, mașina personajului Simon Templar din serialul „Sfântul". | Volvo P1800 | Lansare=1961
+Amazon | Volvo | Sedan lansat în 1956. | Volvo Amazon | Lansare=1956
+XC60 | Volvo | SUV de mărime medie lansat în 2008. | Volvo XC60 | Lansare=2008
+V70 | Volvo | Break lansat în 1996. | Volvo V70 | Lansare=1996
+## Hyundai
+Kona | Hyundai | Crossover mic lansat în 2017, oferit și în versiune electrică. | Hyundai Kona | Lansare=2017
+Santa Fe | Hyundai | SUV de mărime medie lansat în 2000. | Hyundai Santa Fe | Lansare=2000
+i30 | Hyundai | Compact lansat în 2007. | Hyundai i30 | Lansare=2007
+Pony | Hyundai | Primul automobil coreean produs în serie (1975). | Hyundai Pony | Lansare=1975
+## Kia
+Picanto | Kia | Mașină mică lansată în 2004. | Kia Picanto | Lansare=2004
+Ceed | Kia | Compact lansat în 2006, produs în Slovacia. | Kia Ceed | Lansare=2006 | | Cee'd
+Sorento | Kia | SUV de mărime medie lansat în 2002. | Kia Sorento | Lansare=2002
+## BYD
+Dolphin | BYD | Hatchback electric lansat în 2021. | BYD Dolphin | Lansare=2021
+Han | BYD | Sedan electric de lux lansat în 2020. | BYD Han | Lansare=2020
+Seal U | BYD | SUV lansat în 2023, disponibil electric și hibrid. | BYD Seal U | Lansare=2023
+## Rivian
+R1S | Rivian | SUV electric cu trei rânduri de scaune, produs din 2021. | Rivian R1S | Producție din=2021
+~ A4 ~ Seria 3 ~ Rivale directe în segmentul premium D. Audi are grila „Singleframe" și tracțiune pe față sau quattro; BMW are grila cu „rinichi" și tracțiune spate.
+~ Mustang ~ Camaro ~ Rivale americane „pony car". Mustang are calul galopând pe grilă; Camaro are papionul Chevrolet.
+~ Countach ~ Testarossa ~ Ambele simboluri ale anilor '80. Countach are uși care se deschid în sus și formă de pană; Testarossa are branhii orizontale pe lateral și uși normale.
+~ Corolla ~ Civic ~ Ambele compacte japoneze. Corolla e Toyota (din 1966), Civic e Honda (din 1972).
+~ Model 3 ~ Model Y ~ Model 3 este sedan, mai jos. Model Y este un crossover mai înalt, cu hayon.
+~ Logan ~ Sandero ~ Logan are portbagaj separat (sedan); Sandero e hatchback.
+~ Veyron ~ Chiron ~ Veyron (2005, 1001 CP) are grila în formă de potcoavă mai mică și faruri rotunjite; Chiron (2016, 1500 CP) are linia laterală în formă de „C".
+~ Octavia ~ Superb ~ Octavia e compactă (segment C); Superb e mai mare (segment D).
+~ GT-R ~ Supra ~ Ambele coupé-uri de performanță japoneze: GT-R e Nissan, Supra e Toyota.
+~ Lancer Evolution ~ Impreza WRX ~ Rivalii japonezi din raliurile anilor '90: Mitsubishi (Evo) contra Subaru (WRX, motor boxer).
+## Românești și din Estul Europei | Ce marcă produce acest model?
+ARO 24 | ARO | Off-road robust produs la Câmpulung Muscel între 1972 și 2006; exportat în peste 100 de țări. | ARO 24 | Producție=1972-2006; Uzina=Câmpulung Muscel
+Oltcit Club | Oltcit | Produs la Craiova între 1981 și 1995, în asociere cu Citroën (de aici asemănarea cu Citroën Visa). | Oltcit Club | Producție=1981-1995; Uzina=Craiova; Partener=Citroën
+Dacia 1310 | Dacia | Versiunea modernizată a lui Dacia 1300, produsă din 1979; cel mai răspândit autoturism din România anilor '80. | Dacia 1310 | Lansare=1979
+Dacia Nova | Dacia | Primul model Dacia proiectat integral în România, lansat în 1995. | Dacia Nova | Producție=1995-2000
+Dacia Bigster | Dacia | Cel mai mare SUV Dacia, lansat în 2025. | Dacia Bigster | Lansare=2025; Segment=SUV compact (C)
+Trabant 601 | Trabant | „Trabi", produs în RDG între 1964 și 1990, cu caroserie din duroplast (rășină și fibre de bumbac) și motor în doi timpi. | Trabant 601 | Producție=1964-1990; Țară=RDG (Germania de Est)
+Lada Niva | Lada | Off-road compact cu caroserie autoportantă, produs în URSS din 1977; cunoscut azi ca Lada Niva Legend. | Lada Niva | Lansare=1977; Țară=Rusia (URSS)
+Wartburg 353 | Wartburg | Sedan est-german produs la Eisenach între 1966 și 1988, cu motor în doi timpi. | Wartburg 353 | Producție=1966-1988; Țară=RDG
+Zastava 101 | Zastava | Hatchback iugoslav produs la Kragujevac, derivat din Fiat 128. | Zastava 101 | Țară=Iugoslavia (Serbia); Bază=Fiat 128
+Moskvich 412 | Moskvich | Sedan sovietic produs între 1967 și 1998. | Moskvich 412 | Țară=URSS
+Volga GAZ-24 | GAZ (Volga) | Sedanul oficialităților din URSS și din blocul estic, produs din 1970. | GAZ-24 Volga | Țară=URSS; Lansare=1970
+Škoda 120 | Škoda | Sedan cehoslovac cu motor în spate, foarte răspândit în anii '80. | Skoda 120 | Producție=1976-1990; Motor=în spate
+## Electrice și mărci noi | Ce marcă produce acest model?
+Seal | BYD | Sedan electric lansat în 2022, rival direct pentru Tesla Model 3. | BYD Seal | Lansare=2022; Țară=China
+Atto 3 | BYD | Crossover electric compact, primul model BYD vândut pe scară largă în Europa. | BYD Atto 3 | Lansare=2022; Țară=China
+MG4 | MG | Hatchback electric; marca britanică MG aparține azi grupului chinez SAIC. | MG4 Electric | Lansare=2022; Proprietar=SAIC (China)
+Polestar 2 | Polestar | Fastback electric; Polestar a pornit ca divizie de performanță Volvo și face parte din grupul Geely. | Polestar 2 | Lansare=2020; Țară=Suedia / China
+Ioniq 5 | Hyundai | Crossover electric cu design inspirat de Hyundai Pony din 1975; Mașina Anului în lume în 2022. | Hyundai Ioniq 5 | Lansare=2021; Propulsie=electrică
+EV6 | Kia | Crossover electric pe aceeași platformă (E-GMP) cu Ioniq 5; Mașina Anului în Europa în 2022. | Kia EV6 | Lansare=2021
+ID.3 | Volkswagen | Prima mașină electrică pe platforma dedicată MEB a grupului VW, lansată în 2019. | Volkswagen ID.3 | Lansare=2019
+i3 | BMW | Mașină electrică de oraș cu caroserie din fibră de carbon, produsă între 2013 și 2022. | BMW i3 | Producție=2013-2022
+Zoe | Renault | Mașină electrică de oraș, timp de câțiva ani cea mai vândută mașină electrică din Europa. | Renault Zoe | Producție=2012-2024
+Air | Lucid | Sedan electric de lux american, cu autonomie omologată de peste 800 km. | Lucid Air | Lansare=2021; Țară=SUA
+R1T | Rivian | Primul pick-up electric de serie livrat în SUA (2021). | Rivian R1T | Lansare=2021; Țară=SUA
+SU7 | Xiaomi | Primul automobil al producătorului chinez de telefoane Xiaomi, lansat în 2024. | Xiaomi SU7 | Lansare=2024; Țară=China
+e-tron GT | Audi | Gran turismo electric construit pe aceeași bază cu Porsche Taycan. | Audi e-tron GT | Lansare=2021
+## Sigle | Al cărei mărci este această siglă?
+Un taur încărcând, auriu pe fond negru | Lamborghini | Ferruccio Lamborghini era din zodia Taur. | Lamborghini logo
+Un leu ridicat pe picioarele din spate | Peugeot | Leul apare pe produsele Peugeot din secolul XIX, simbolizând calitatea lamelor de fierăstrău. | Peugeot logo
+Un șarpe care înghite un om, lângă o cruce roșie | Alfa Romeo | Crucea e a Milanului; șarpele (biscione) e al familiei Visconti. | Alfa Romeo logo
+Un trident | Maserati | Inspirat de statuia lui Neptun din Bologna. | Maserati logo
+Șase stele pe fond albastru | Subaru | Constelația Pleiadele (Subaru în japoneză). | Subaru logo
+Trei romburi roșii unite în centru | Mitsubishi | Mitsubishi înseamnă „trei diamante". | Mitsubishi logo
+Patru inele înlănțuite | Audi | Cele patru mărci unite în Auto Union (1932). | Audi logo
+Trei elipse suprapuse | Toyota | Elipsele formează litera T și simbolizează legătura dintre client și companie. | Toyota logo
+Un „papion" auriu | Chevrolet | Sigla e folosită din 1913. | Chevrolet logo
+Un cerc cu o săgeată orientată în sus-dreapta | Volvo | Este vechiul simbol al fierului, pentru a sugera robustețea oțelului suedez. | Volvo logo
+Două „V"-uri întoarse, unul peste altul (dublu chevron) | Citroën | Vin de la angrenajele cu dinți în V pe care André Citroën le fabrica. | Citroën logo
+Un romb | Renault | | Renault logo
+O stea cu trei colțuri într-un cerc | Mercedes-Benz | Cele trei colțuri: motoare pentru pământ, apă și aer. | Mercedes-Benz logo
+Un cerc cu cadrane albastre și albe | BMW | Culorile Bavariei. | BMW logo
+Un fulger orizontal într-un cerc | Opel | Fulgerul vine de la camionul Opel Blitz („fulger" în germană). | Opel logo
+O felină care sare | Jaguar | „Leaper" - jaguarul în salt. | Jaguar logo
+Un scut cu un cal negru pe fond galben și coarne de cerb | Porsche | Combină stema orașului Stuttgart (calul) cu cea a regiunii Württemberg. | Porsche logo
+Litera B cu aripi | Bentley | | Bentley logo
+O săgeată înaripată | Škoda | | Skoda logo
+Literele E și B, una întoarsă, pe un oval roșu | Bugatti | Inițialele lui Ettore Bugatti. | Bugatti logo
+Două litere R suprapuse | Rolls-Royce | Inițialele lui Charles Rolls și Henry Royce. | Rolls-Royce logo
+## Formula 1 | Răspunde la întrebare
+Primul campion mondial de Formula 1 (1950) | Giuseppe Farina | Italianul a câștigat primul sezon cu Alfa Romeo. | Giuseppe Farina | An=1950
+Piloții cu cele mai multe titluri mondiale în F1 (câte 7) | Michael Schumacher și Lewis Hamilton | Schumacher: 1994, 1995, 2000-2004; Hamilton: 2008, 2014, 2015, 2017-2020. | Schumacher and Hamilton | Titluri=7 fiecare
+Pilotul cu cele mai multe victorii de Mare Premiu din istorie | Lewis Hamilton | Peste 100 de victorii, primul pilot care a trecut de acest prag (2021). | Lewis Hamilton | Victorii=peste 100
+Echipa cu cele mai multe titluri mondiale la constructori | Ferrari | Singura echipă prezentă în fiecare sezon de F1 din 1950. | Scuderia Ferrari
+Pilotul brazilian cu 3 titluri mondiale, mort în 1994 la Imola | Ayrton Senna | Titluri în 1988, 1990 și 1991, cu McLaren. | Ayrton Senna | Titluri=3
+Pilotul olandez care a câștigat patru titluri consecutive între 2021 și 2024 | Max Verstappen | Cu echipa Red Bull Racing. | Max Verstappen | Titluri=2021-2024
+Cursa de F1 care se desfășoară pe străzile unui principat, din 1929 | Marele Premiu de la Monaco | Cel mai prestigios și mai lent circuit din calendar. | Monaco Grand Prix
+Echipa la care s-a transferat Lewis Hamilton în 2025 | Ferrari | După 12 sezoane la Mercedes. | Lewis Hamilton to Ferrari | An=2025
+Ce înseamnă DRS în Formula 1? | Sistemul de reducere a rezistenței aerodinamice | O clapetă a eleronului spate se deschide pe linia dreaptă pentru depășiri. | Drag Reduction System
+Ce semnifică steagul în carouri alb-negru? | Sfârșitul cursei | | Chequered flag
+Ce semnifică steagul roșu? | Cursa este oprită | | Red flag
+Ce semnifică steagul galben? | Pericol pe pistă - depășirile sunt interzise | | Yellow flag
+Ce înseamnă „pole position"? | Prima poziție pe grila de start, câștigată în calificări | | Pole position
+Ce este „pit stop"-ul? | Oprirea la boxe pentru schimbarea pneurilor | Echipele de top schimbă toate cele patru roți în aproximativ 2 secunde. | Pit stop
+Ce este „Halo"? | Arcul de titan care protejează capul pilotului, obligatoriu din 2018 | | Halo (F1)
+Cea mai lungă cursă de anduranță cu mașini sport, din 1923 | 24 de ore de la Le Mans | Face parte, alături de Monaco și Indianapolis 500, din „Tripla Coroană". | 24 Hours of Le Mans | Prima ediție=1923
+## Tehnică auto | Cum se numește?
+Sistem care împiedică blocarea roților la frânare | ABS | Permite șoferului să vireze în timpul unei frânări puternice. | Anti-lock braking system
+Sistem care corectează derapajul frânând individual roțile | ESP (controlul electronic al stabilității) | Obligatoriu pe mașinile noi din UE din 2014. | Electronic stability control
+Compresor acționat de gazele de evacuare, care mărește puterea motorului | Turbocompresor | | Turbocharger
+Motor cu cilindrii opuși orizontal, ca doi pumni care lovesc | Motor boxer | Folosit de Porsche și Subaru; are centrul de greutate jos. | Boxer engine
+Motor cu piston rotativ triunghiular | Motor Wankel | Folosit de Mazda (RX-7, RX-8). | Wankel engine
+Motor la care combustibilul se aprinde prin compresie, fără bujii | Motor diesel | Inventat de Rudolf Diesel (brevet 1892). | Diesel engine
+Cutie automată cu două ambreiaje, care schimbă treptele foarte rapid | Cutie cu dublu ambreiaj (DSG) | | Dual-clutch transmission
+Transmisie automată fără trepte fixe | CVT (transmisie variabilă continuu) | Folosită des la mașinile hibride. | Continuously variable transmission
+Mașină cu motor termic și electric, care se încarcă din priză | Hibrid plug-in (PHEV) | Spre deosebire de hibridul simplu (HEV), care se încarcă doar din mers. | Plug-in hybrid
+Forța de rotație a motorului, măsurată în newtoni-metru | Cuplu | Cuplul mare dă accelerare bună de la turații mici. | Torque
+Volumul total al cilindrilor unui motor | Cilindree (capacitate cilindrică) | Se exprimă în cm³; un motor de 2.0 are aproximativ 2.000 cm³. | Engine displacement
+Componentă de evacuare care transformă gazele toxice în gaze mai puțin nocive | Catalizator | | Catalytic converter
+Filtrul care reține funinginea la motoarele diesel | Filtru de particule (DPF) | | Diesel particulate filter
+Soluția pe bază de uree injectată în evacuarea motoarelor diesel moderne | AdBlue | Reduce oxizii de azot (NOx). | AdBlue (DEF)
+Recuperarea energiei la frânare pentru reîncărcarea bateriei | Frânare regenerativă | | Regenerative braking
+Unitatea în care se măsoară capacitatea bateriei unei mașini electrice | kWh (kilowatt-oră) | | Kilowatt-hour
+Toate cele patru roți primesc putere de la motor | Tracțiune integrală (4x4 / AWD) | | All-wheel drive
+Ce înseamnă „CP" (cai putere)? | O unitate de putere; 1 CP ≈ 0,735 kW | Unitatea kW e cea oficială; CP se folosește tradițional. | Horsepower
+~ Trabant 601 ~ Wartburg 353 ~ Ambele mărci est-germane cu motor în doi timpi. Trabantul e mic, din duroplast; Wartburgul e un sedan mai mare, de la Eisenach.
+~ Seal ~ Atto 3 ~ Ambele BYD: Seal e sedan jos, sportiv; Atto 3 e crossover compact, mai înalt.
+~ Ioniq 5 ~ EV6 ~ Aceeași platformă E-GMP. Ioniq 5 (Hyundai) are formă de cutie retro; EV6 (Kia) e un crossover mai jos, aerodinamic.
+~ Turbocompresor ~ Motor boxer ~ Turbo: sistem care suflă aer în motor. Boxer: un tip de așezare a cilindrilor.
+~ Hibrid plug-in (PHEV) ~ Frânare regenerativă ~ PHEV e tipul de mașină; frânarea regenerativă e o funcție pe care o au toate hibridele și electricele.
+~ Patru inele înlănțuite ~ Trei elipse suprapuse ~ Inele = Audi; elipse = Toyota.

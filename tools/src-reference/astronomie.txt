@@ -1,0 +1,194 @@
+@id astronomie
+@prompt Răspunde la întrebare
+## Planete | Ce planetă este?
+Cea mai apropiată de Soare și cea mai mică planetă | Mercur | Un an durează 88 de zile; nu are atmosferă semnificativă, deci temperaturile variază între aproximativ -180°C și 430°C. | Mercury | Poziție=1; Lungimea anului=88 zile; Sateliți=0
+Cea mai fierbinte planetă, cu atmosferă densă de dioxid de carbon | Venus | Temperatura la suprafață depășește 460°C; se rotește invers față de majoritatea planetelor. O zi pe Venus e mai lungă decât anul ei. | Venus | Poziție=2; Lungimea anului=225 zile; Sateliți=0 | Luceafărul de dimineață și de seară.
+Singura planetă cunoscută cu viață și apă lichidă la suprafață | Pământ | Are un singur satelit natural, Luna. | Earth | Poziție=3; Lungimea anului=365,25 zile; Sateliți=1
+Planeta roșie, cu cel mai înalt vulcan din Sistemul Solar, Olympus Mons | Marte | Culoarea vine de la oxidul de fier (rugină). Are doi sateliți mici: Phobos și Deimos. | Mars | Poziție=4; Lungimea anului=687 zile; Sateliți=2
+Cea mai mare planetă, cu Marea Pată Roșie, o furtună mai mare decât Pământul | Jupiter | Gigant gazos; masa lui depășește de 2,5 ori masa tuturor celorlalte planete la un loc. Are peste 90 de sateliți cunoscuți. | Jupiter | Poziție=5; Lungimea anului=11,9 ani; Sateliți mari=Io, Europa, Ganymede, Callisto
+Planeta cu cele mai spectaculoase inele, din gheață și rocă | Saturn | Densitatea medie e mai mică decât a apei. Are cei mai mulți sateliți cunoscuți dintre planete (peste 270). | Saturn | Poziție=6; Lungimea anului=29,5 ani; Satelit mare=Titan
+Gigant de gheață care se rotește „culcat", cu axa înclinată la aproximativ 98° | Uranus | Descoperit în 1781 de William Herschel, prima planetă descoperită cu telescopul. | Uranus | Poziție=7; Lungimea anului=84 ani
+Cea mai îndepărtată planetă, cu cele mai puternice vânturi din Sistemul Solar | Neptun | Descoperit în 1846 prin calcule matematice, înainte de a fi observat. | Neptune | Poziție=8; Lungimea anului=165 ani; Satelit mare=Triton
+Fostă planetă, reclasificată în 2006 ca planetă pitică | Pluto | Uniunea Astronomică Internațională a definit atunci condițiile pentru ca un corp să fie planetă. | Pluto | Statut=planetă pitică; Descoperit=1930
+## Sistemul Solar și Universul | Răspunde la întrebare
+Cât durează lumina să ajungă de la Soare la Pământ? | Aproximativ 8 minute și 20 de secunde | Distanța medie Pământ-Soare este de aproximativ 150 de milioane de km (1 unitate astronomică). | Light travel time from the Sun
+Ce este un an-lumină? | Distanța parcursă de lumină într-un an, aproximativ 9.460 de miliarde de km | Este o unitate de distanță, nu de timp. | Light-year
+Care este cea mai apropiată stea de Soare? | Proxima Centauri | Se află la aproximativ 4,24 ani-lumină. | Proxima Centauri | Distanță=4,24 ani-lumină
+Cum se numește galaxia noastră? | Calea Lactee | Galaxie spirală barată, cu 100-400 de miliarde de stele; Soarele e la aproximativ 26.000 de ani-lumină de centru. | Milky Way
+Care este cea mai apropiată galaxie mare de Calea Lactee? | Galaxia Andromeda (M31) | La aproximativ 2,5 milioane de ani-lumină; se va ciocni cu Calea Lactee peste câteva miliarde de ani. | Andromeda Galaxy | Distanță=2,5 milioane ani-lumină
+Ce vârstă are Universul? | Aproximativ 13,8 miliarde de ani | Estimare bazată pe radiația cosmică de fond și expansiunea Universului. | Age of the universe
+Ce vârstă are Sistemul Solar? | Aproximativ 4,6 miliarde de ani | | Age of the Solar System
+Ce este o gaură neagră? | O regiune unde gravitația e atât de mare încât nici lumina nu poate scăpa | Prima fotografie a unei găuri negre (M87*) a fost publicată în 2019 de Event Horizon Telescope. | Black hole
+Ce este o supernovă? | Explozia finală a unei stele masive | Pentru câteva săptămâni poate străluci mai tare decât o galaxie întreagă. | Supernova
+Ce este o exoplanetă? | O planetă care orbitează în jurul altei stele decât Soarele | Prima confirmată în jurul unei stele ca Soarele: 51 Pegasi b (1995). Astăzi se cunosc peste 6.000. | Exoplanet
+Ce stea folosesc navigatorii pentru a găsi nordul? | Steaua Polară (Polaris) | Se află aproape de prelungirea axei Pământului, în constelația Ursa Mică. | Polaris (North Star)
+Care este cea mai strălucitoare stea de pe cerul nopții? | Sirius | Din constelația Câinele Mare, la 8,6 ani-lumină. | Sirius
+Ce este centura de asteroizi? | Zona dintre Marte și Jupiter cu milioane de corpuri stâncoase | Cel mai mare corp din centură este planeta pitică Ceres. | Asteroid belt
+Ce este o cometă? | Un corp de gheață și praf care formează o coadă când se apropie de Soare | Coada e îndreptată mereu în direcția opusă Soarelui. Cea mai faimoasă: Halley, vizibilă la 76 de ani. | Comet
+## Explorare spațială | Răspunde la întrebare
+Primul satelit artificial (1957) | Sputnik 1 | Lansat de URSS pe 4 octombrie 1957; a început cursa spațială. | Sputnik 1 | An=1957; Țară=URSS
+Primul om în spațiu (1961) | Iuri Gagarin | Zborul Vostok 1, 12 aprilie 1961, a durat 108 minute. | Yuri Gagarin | An=1961
+Primul om care a pășit pe Lună (1969) | Neil Armstrong | Misiunea Apollo 11, 20 iulie 1969, împreună cu Buzz Aldrin; Michael Collins a rămas pe orbită. | Neil Armstrong | An=1969; Misiune=Apollo 11
+Primul român în spațiu (1981) | Dumitru Prunariu | Misiunea Soiuz 40, mai 1981, aproape 8 zile pe stația Saliut 6. | Dumitru Prunariu | An=1981
+Prima femeie în spațiu (1963) | Valentina Tereșkova | Misiunea Vostok 6. | Valentina Tereshkova | An=1963
+Telescopul spațial lansat în 2021, care observă în infraroșu | James Webb (JWST) | Succesorul lui Hubble; are o oglindă de 6,5 m și se află la punctul Lagrange L2, la 1,5 milioane km de Pământ. | James Webb Space Telescope | Lansare=2021
+Telescopul spațial lansat în 1990, aflat pe orbită joasă | Hubble | Numit după astronomul Edwin Hubble, care a demonstrat expansiunea Universului. | Hubble Space Telescope | Lansare=1990
+Sonda care este cel mai îndepărtat obiect creat de om | Voyager 1 | Lansată în 1977; a ieșit din heliosferă în 2012, intrând în spațiul interstelar. | Voyager 1 | Lansare=1977
+Programul NASA care vrea să ducă din nou oameni pe Lună | Artemis | Artemis II este misiunea cu echipaj care ocolește Luna; obiectivul pe termen lung este o prezență permanentă. | Artemis program
+Stația spațială locuită permanent din anul 2000 | Stația Spațială Internațională (ISS) | Orbitează la aproximativ 400 km, ocolind Pământul în aproximativ 90 de minute. | International Space Station
+## Constelații | Ce constelație este?
+Constelație cu „centura" formată din trei stele aliniate și steaua roșie Betelgeuse | Orion | Vizibilă iarna; Betelgeuse este o supergigantă roșie. | Orion
+Constelație cu șapte stele strălucitoare în formă de cratiță („Carul Mare") | Ursa Mare | Carul Mare nu e o constelație în sine, ci un asterism din Ursa Mare. | Ursa Major
+Constelație în formă de W sau M, de cealaltă parte a Stelei Polare față de Carul Mare | Cassiopeia | | Cassiopeia
+Constelația care conține Steaua Polară | Ursa Mică | Steaua Polară este ultima stea din „coada" Carului Mic. | Ursa Minor
+Roiul de stele numit și „Cloșca cu pui" | Pleiadele | Se află în constelația Taurul; în japoneză se numește Subaru. | Pleiades
+Constelație de vară cu steaua Vega, parte din „Triunghiul de vară" | Lyra | Triunghiul de vară: Vega (Lyra), Deneb (Lebăda), Altair (Vulturul). | Lyra
+~ Cea mai fierbinte planetă, cu atmosferă densă de dioxid de carbon ~ Cea mai apropiată de Soare și cea mai mică planetă ~ Mercur e mai aproape de Soare, dar Venus e mai fierbinte din cauza efectului de seră extrem.
+~ Gigant de gheață care se rotește „culcat", cu axa înclinată la aproximativ 98° ~ Cea mai îndepărtată planetă, cu cele mai puternice vânturi din Sistemul Solar ~ Ambele giganți de gheață albaștri. Uranus e mai pal și „culcat"; Neptun e albastru intens și mai departe.
+~ Telescopul spațial lansat în 2021, care observă în infraroșu ~ Telescopul spațial lansat în 1990, aflat pe orbită joasă ~ Hubble (1990) vede mai ales lumină vizibilă și orbitează aproape de Pământ; Webb (2021) vede în infraroșu, de la 1,5 milioane km.
+~ Constelație cu șapte stele strălucitoare în formă de cratiță („Carul Mare") ~ Constelația care conține Steaua Polară ~ Prelungește de 5 ori latura din față a Carului Mare și ajungi la Steaua Polară, din Ursa Mică.
+## Sateliți naturali | Ce satelit este?
+Cel mai mare satelit din Sistemul Solar, mai mare decât planeta Mercur | Ganymede (Jupiter) | | Ganymede
+Satelitul cu cea mai intensă activitate vulcanică din Sistemul Solar | Io (Jupiter) | | Io
+Satelitul lui Jupiter cu un ocean de apă sărată sub o crustă de gheață | Europa (Jupiter) | Unul dintre cei mai promițători candidați pentru viață extraterestră. | Europa (moon)
+Singurul satelit cu atmosferă densă și lacuri de metan lichid | Titan (Saturn) | Sonda Huygens a aterizat pe el în 2005. | Titan
+Satelitul lui Saturn care aruncă gheizere de apă din polul sud | Enceladus | | Enceladus
+Satelitul lui Saturn cu un crater uriaș care îl face să semene cu „Steaua Morții" din Star Wars | Mimas | Craterul se numește Herschel. | Mimas
+Satelitul lui Neptun care orbitează în sens invers rotației planetei | Triton | Probabil un obiect capturat din Centura Kuiper. | Triton
+Cel mai mare satelit al lui Pluto, aproape jumătate cât planeta pitică | Charon | | Charon
+Cei doi sateliți mici ai lui Marte | Phobos și Deimos | Numele înseamnă „frică" și „groază" în greacă. | Phobos and Deimos
+Zona de pe Lună unde a aselenizat Apollo 11 | Marea Liniștii | „Mările" lunare sunt câmpii de lavă bazaltică întărită. | Sea of Tranquility
+De ce vedem mereu aceeași față a Lunii? | Luna se rotește în jurul axei proprii în același timp în care orbitează Pământul (rotație sincronă) | | Tidal locking
+## Fenomene | Ce fenomen este?
+Luna trece între Soare și Pământ și ascunde Soarele | Eclipsă de Soare | Poate avea loc doar la Lună nouă. | Solar eclipse
+Pământul trece între Soare și Lună, iar Luna devine roșiatică | Eclipsă de Lună | Poate avea loc doar la Lună plină. | Lunar eclipse
+Ziua cea mai lungă din an în emisfera nordică (în jur de 21 iunie) | Solstițiul de vară | | Summer solstice
+Zilele în care ziua și noaptea au aproximativ aceeași durată (martie și septembrie) | Echinocțiu | | Equinox
+Care este cauza anotimpurilor? | Înclinarea axei Pământului (aproximativ 23,4°) | Nu distanța față de Soare: Pământul e cel mai aproape de Soare la începutul lui ianuarie. | Axial tilt
+Creșterea și scăderea periodică a nivelului mării, cauzată mai ales de Lună | Maree | | Tides
+Lumini colorate pe cer la latitudini mari, produse de particulele vântului solar | Aurora (boreală / australă) | | Aurora
+Dâră luminoasă produsă de un fragment mic care arde în atmosferă | Meteor („stea căzătoare") | Meteoroidul e corpul din spațiu; meteoritul e fragmentul care ajunge pe sol. | Meteor
+Ploaia de meteori din august, cea mai cunoscută din emisfera nordică | Perseidele | Produsă de resturile cometei Swift-Tuttle. | Perseids
+Ploaia de meteori de la mijlocul lui decembrie, adesea cea mai bogată din an | Geminidele | | Geminids
+Luna plină care coincide cu momentul în care Luna e cel mai aproape de Pământ | Superlună | | Supermoon
+Durata reală a unei rotații complete a Pământului față de stele | Zi siderală (23 h 56 min) | Ziua solară (24 h) e puțin mai lungă, pentru că Pământul avansează pe orbită. | Sidereal day
+Vântul de particule încărcate emis continuu de Soare | Vânt solar | | Solar wind
+Pete mai reci și mai întunecate pe suprafața Soarelui | Pete solare | Numărul lor variază într-un ciclu de aproximativ 11 ani. | Sunspots
+## Stele | Ce stea sau ce tip de stea este?
+Ce tip de stea este Soarele? | Pitică galbenă (clasa spectrală G2V) | | Sun (G2V)
+Ce reacție produce energia Soarelui? | Fuziunea nucleară a hidrogenului în heliu | | Nuclear fusion
+Temperatura aproximativă a suprafeței Soarelui | Aproximativ 5.500°C | În nucleu, aproximativ 15 milioane °C. | Sun's surface temperature
+Ce va deveni Soarele peste aproximativ 5 miliarde de ani? | O gigantă roșie, apoi o pitică albă | Soarele nu e destul de masiv pentru a deveni supernovă. | Sun's future
+Rămășița fierbinte și densă a unei stele ca Soarele, cât Pământul de mare | Pitică albă | | White dwarf
+Rămășița ultradensă a unei supernove, formată aproape numai din neutroni | Stea neutronică | O linguriță din materia ei ar cântări sute de milioane de tone. | Neutron star
+Stea neutronică ce emite fascicule radio regulate, ca un far | Pulsar | Descoperit în 1967 de Jocelyn Bell Burnell. | Pulsar
+Supergiganta roșie din „umărul" lui Orion | Betelgeuse | Va exploda ca supernovă, probabil în următoarele sute de mii de ani. | Betelgeuse
+Cea mai strălucitoare stea din Orion, o supergigantă albastră | Rigel | | Rigel
+Steaua roșie din „inima" Scorpionului | Antares | | Antares
+Cea mai strălucitoare stea din Taur („ochiul taurului") | Aldebaran | | Aldebaran
+Cea mai strălucitoare stea din emisfera nordică a cerului | Arcturus | Din constelația Boarul. | Arcturus
+Sistemul stelar cel mai apropiat de Soare | Alpha Centauri | Include Proxima Centauri. | Alpha Centauri
+Ce culoare au cele mai fierbinți stele? | Albastră | Cele mai reci sunt roșii. | Star colour and temperature
+## Galaxii și Univers | Răspunde la întrebare
+Teoria conform căreia Universul a început dintr-o stare extrem de densă și fierbinte | Big Bang | | Big Bang
+Radiația „ecou" a Big Bang-ului, descoperită întâmplător în 1965 | Radiația cosmică de fond (de microunde) | Descoperită de Arno Penzias și Robert Wilson (Nobel 1978). | Cosmic microwave background | An=1965
+Materia invizibilă detectată doar prin efectul gravitațional | Materia întunecată | Aproximativ 27% din conținutul Universului. | Dark matter
+Ce accelerează expansiunea Universului? | Energia întunecată | Aproximativ 68% din conținutul Universului; materia obișnuită e doar aproximativ 5%. | Dark energy
+Cine a arătat că galaxiile se îndepărtează unele de altele (Universul se extinde)? | Edwin Hubble (1929) | | Hubble's law
+Grupul de galaxii din care face parte Calea Lactee | Grupul Local | Include Andromeda și galaxia Triunghiului. | Local Group
+Două galaxii mici, satelit al Căii Lactee, vizibile din emisfera sudică | Norii lui Magellan | | Magellanic Clouds
+Gaura neagră supermasivă din centrul Căii Lactee | Sagittarius A* | Prima ei imagine a fost publicată în 2022. | Sagittarius A*
+Nucleu galactic extrem de luminos, alimentat de o gaură neagră supermasivă | Quasar | | Quasar
+Nebuloasa vizibilă cu ochiul liber în „sabia" lui Orion | Nebuloasa Orion (M42) | O pepinieră de stele noi. | Orion Nebula
+Rămășița supernovei observate de astronomii chinezi în anul 1054 | Nebuloasa Crabului (M1) | În centrul ei se află un pulsar. | Crab Nebula
+Coloanele de gaz și praf fotografiate celebru de Hubble în 1995 | Stâlpii Creației | Din Nebuloasa Vulturului. | Pillars of Creation
+## Alte misiuni | Ce misiune este?
+Misiunea Apollo care a trebuit să renunțe la aselenizare după explozia unui rezervor de oxigen (1970) | Apollo 13 | „Houston, we've had a problem." | Apollo 13 | An=1970
+Ultima misiune cu oameni pe Lună (decembrie 1972) | Apollo 17 | | Apollo 17 | An=1972
+Primul animal care a orbitat Pământul (1957) | Câinea Laika (Sputnik 2) | | Laika | An=1957
+Primul om care a ieșit în spațiul cosmic (1965) | Alexei Leonov | | Alexei Leonov | An=1965
+Prima sondă care a aterizat lin pe Lună (1966) | Luna 9 (URSS) | | Luna 9 | An=1966
+Prima sondă care a aterizat pe Venus și a transmis date de la suprafață (1970) | Venera 7 (URSS) | | Venera 7 | An=1970
+Primele sonde care au funcționat la suprafața lui Marte (1976) | Viking 1 și 2 (NASA) | | Viking program | An=1976
+Roverul NASA care a aterizat pe Marte în 2021, cu un mic elicopter | Perseverance (cu elicopterul Ingenuity) | Ingenuity a fost primul aparat de zbor motorizat pe altă planetă. | Perseverance rover | An=2021
+Roverul NASA de pe Marte din 2012, de mărimea unei mașini | Curiosity | | Curiosity rover | An=2012
+Sonda care a studiat Saturn între 2004 și 2017 și s-a prăbușit voit în atmosfera lui | Cassini | | Cassini–Huygens
+Sonda care a survolat Pluto în 2015 | New Horizons | | New Horizons | An=2015
+Prima misiune care a aterizat pe o cometă (2014) | Rosetta / Philae (ESA) | Pe cometa 67P/Ciuriumov-Gherasimenko. | Rosetta mission | An=2014
+Prima aterizare pe fața nevăzută a Lunii (2019) | Chang'e 4 (China) | | Chang'e 4 | An=2019
+Prima aterizare lângă polul sud al Lunii (2023) | Chandrayaan-3 (India) | | Chandrayaan-3 | An=2023
+Prima companie privată care a dus astronauți la ISS (2020) | SpaceX (Crew Dragon) | | SpaceX Crew Dragon | An=2020
+Navetele spațiale americane reutilizabile, folosite între 1981 și 2011 | Space Shuttle | Au avut loc două dezastre: Challenger (1986) și Columbia (2003). | Space Shuttle
+Stația spațială sovietică / rusă care a funcționat între 1986 și 2001 | Mir | | Mir
+Stația spațială chineză | Tiangong | | Tiangong
+## Astronomi și oameni de știință | Cine este?
+A propus modelul heliocentric, cu Soarele în centru (1543) | Nicolaus Copernic | | Nicolaus Copernicus | An=1543
+A descoperit cu telescopul cei patru mari sateliți ai lui Jupiter (1610) | Galileo Galilei | Se numesc „sateliții galileeni". | Galileo Galilei | An=1610
+A formulat cele trei legi ale mișcării planetelor pe orbite eliptice | Johannes Kepler | | Johannes Kepler
+A formulat legea atracției universale (1687) | Isaac Newton | | Isaac Newton | An=1687
+A susținut modelul geocentric, care a dominat aproape 1.400 de ani | Ptolemeu | | Ptolemy
+A calculat circumferința Pământului în secolul III î.Hr., cu ajutorul umbrelor | Eratostene | | Eratosthenes
+A prezis revenirea unei comete la 76 de ani | Edmond Halley | | Edmond Halley
+A descoperit planeta Uranus (1781) | William Herschel | | William Herschel
+A descoperit Pluto (1930) | Clyde Tombaugh | | Clyde Tombaugh | An=1930
+Fizicianul care a prezis că găurile negre emit radiație | Stephen Hawking | | Stephen Hawking
+Savantul român-german născut la Sibiu, unul dintre părinții astronauticii | Hermann Oberth | A fost mentorul lui Wernher von Braun. | Hermann Oberth
+Astronoma care a adus dovezi pentru materia întunecată din rotația galaxiilor | Vera Rubin | Un mare observator din Chile îi poartă numele. | Vera Rubin
+Popularizatorul științei care a realizat seria „Cosmos" (1980) | Carl Sagan | | Carl Sagan
+## Alte constelații | Ce constelație este?
+Constelația zodiacală cu steaua roșie Antares | Scorpionul | | Scorpius
+Constelația în formă de cruce, cu steaua Deneb | Lebăda | Numită și „Crucea Nordului". | Cygnus
+Constelația zodiacală cu steaua Regulus | Leul | | Leo
+Constelația zodiacală cu stelele Castor și Pollux | Gemenii | | Gemini
+Constelația cu Sirius, cea mai strălucitoare stea | Câinele Mare | | Canis Major
+Mica constelație folosită pentru orientare în emisfera sudică | Crucea Sudului | Apare pe steagurile Australiei, Noii Zeelande și Braziliei. | Crux (Southern Cross)
+Constelația a 13-a traversată de Soare, care nu face parte din zodiac | Ofiucus (Purtătorul de șarpe) | | Ophiuchus
+~ Pitică albă ~ Stea neutronică ~ Pitica albă e rămășița unei stele ca Soarele (cât Pământul); steaua neutronică vine din supernove (cât un oraș, mult mai densă).
+~ Eclipsă de Soare ~ Eclipsă de Lună ~ Eclipsa de Soare: Luna e la mijloc (Lună nouă). Eclipsa de Lună: Pământul e la mijloc (Lună plină).
+~ Ganymede (Jupiter) ~ Titan (Saturn) ~ Ganymede e cel mai mare satelit; Titan e al doilea și singurul cu atmosferă densă.
+~ Materia întunecată ~ Energia întunecată ~ Materia întunecată ține galaxiile laolaltă (gravitație); energia întunecată accelerează expansiunea.
+~ A propus modelul heliocentric, cu Soarele în centru (1543) ~ A susținut modelul geocentric, care a dominat aproape 1.400 de ani ~ Copernic: Soarele în centru. Ptolemeu: Pământul în centru.
+## Planete pitice și corpuri mici | Ce corp ceresc este?
+Cea mai mare planetă pitică din Centura de asteroizi | Ceres | | Ceres
+Planeta pitică descoperită în 2005, aproape cât Pluto, care a dus la reclasificarea acestuia | Eris | | Eris
+Zona de dincolo de Neptun plină de corpuri înghețate, unde se află Pluto | Centura Kuiper | | Kuiper belt
+Norul ipotetic de comete aflat la marginea Sistemului Solar | Norul lui Oort | | Oort cloud
+Primul obiect interstelar observat trecând prin Sistemul Solar (2017) | ʻOumuamua | | ʻOumuamua | An=2017
+Asteroidul al cărui impact, acum 66 de milioane de ani, a contribuit la dispariția dinozaurilor | Asteroidul Chicxulub | Craterul se află în peninsula Yucatán, Mexic. | Chicxulub impactor
+Misiunea NASA care a deviat intenționat un asteroid (2022) | DART | A lovit asteroidul Dimorphos. | DART mission | An=2022
+## Recorduri în Sistemul Solar | Răspunde la întrebare
+Cel mai înalt vulcan din Sistemul Solar | Olympus Mons (Marte) | Aproximativ 22 km înălțime. | Olympus Mons
+Cel mai mare canion din Sistemul Solar | Valles Marineris (Marte) | | Valles Marineris
+Planeta cu cea mai scurtă zi (aprox. 10 ore) | Jupiter | | Jupiter rotation
+Planeta cea mai puțin densă (ar pluti în apă) | Saturn | | Saturn density
+Planeta cu cea mai mare variație de temperatură zi-noapte | Mercur | | Mercury temperature
+Cea mai rece planetă (temperatura atmosferei) | Uranus | Aproximativ -224°C. | Uranus temperature
+Cât de departe e Luna de Pământ? | Aproximativ 384.400 km | Se îndepărtează cu aproximativ 3,8 cm pe an. | Distance to the Moon
+Ce proporție din masa Sistemului Solar se află în Soare? | Aproximativ 99,8% | | Sun's mass share
+Cât durează lumina de la Lună la Pământ? | Aproximativ 1,3 secunde | | Light from the Moon
+## Telescoape și instrumente | Răspunde la întrebare
+Telescopul care folosește lentile | Refractor | Galileo a folosit un refractor. | Refracting telescope
+Telescopul care folosește oglinzi, inventat de Newton | Reflector | | Reflecting telescope
+Telescop care captează undele radio din spațiu | Radiotelescop | | Radio telescope
+Uriașul radiotelescop din Puerto Rico prăbușit în 2020 | Arecibo | | Arecibo Telescope | An=2020
+Cel mai mare telescop optic în construcție, în deșertul Atacama (Chile) | ELT (Extremely Large Telescope) | Oglinda are 39 m. | Extremely Large Telescope
+Rețeaua de radiotelescoape care a fotografiat prima gaură neagră (2019) | Event Horizon Telescope | | Event Horizon Telescope | An=2019
+Observatoarele care au detectat primele unde gravitaționale (2015) | LIGO | Nobel pentru Fizică 2017. | LIGO | An=2015
+Rețeaua de sateliți SpaceX pentru internet, vizibilă uneori ca un „tren" de lumini pe cer | Starlink | | Starlink
+## Viața în spațiu | Răspunde la întrebare
+Cât durează o orbită completă a ISS în jurul Pământului? | Aproximativ 90 de minute | Astronauții văd aproximativ 16 răsărituri pe zi. | ISS orbit
+De ce plutesc astronauții pe ISS? | Pentru că sunt în cădere liberă continuă în jurul Pământului, nu pentru că nu există gravitație | | Free fall in orbit
+Ce se întâmplă cu oasele astronauților în spațiu? | Pierd densitate | De aceea fac exerciții zilnic. | Spaceflight bone loss
+Cum se numește costumul pentru ieșirile în spațiu? | Costum spațial (EMU) | | Spacesuit
+Linia convențională de la care începe spațiul cosmic | Linia Kármán (100 km altitudine) | | Kármán line
+Viteza necesară pentru a rămâne pe orbita joasă a Pământului | Aproximativ 7,8 km/s | | Orbital velocity
+Viteza necesară pentru a scăpa de atracția Pământului | Aproximativ 11,2 km/s (viteza de evadare) | | Escape velocity
+## Pe cerul nopții | Răspunde la întrebare
+„Luceafărul" care se vede dimineața sau seara | Planeta Venus | Cel mai strălucitor obiect de pe cer după Soare și Lună. | Venus (morning star)
+Banda luminoasă de stele vizibilă în nopțile senine, departe de orașe | Calea Lactee | | Milky Way band
+Cum deosebești o planetă de o stea pe cer? | Planetele nu sclipesc (lumina lor e mai stabilă) | | Planets vs stars
+Cometa care a fost vizibilă cu ochiul liber în 1997 | Hale-Bopp | | Comet Hale-Bopp | An=1997
+Când revine cometa Halley? | În jurul anului 2061 | Ultima trecere a fost în 1986. | Halley's Comet return
+~ Refractor ~ Reflector ~ Refractorul folosește lentile; reflectorul (inventat de Newton) folosește oglinzi.
+~ Centura Kuiper ~ Norul lui Oort ~ Centura Kuiper e mai aproape, dincolo de Neptun (Pluto); Norul lui Oort e mult mai departe, la marginea Sistemului Solar.
+~ Ceres ~ Eris ~ Ceres: în centura de asteroizi. Eris: dincolo de Neptun, aproape cât Pluto.

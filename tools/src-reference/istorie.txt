@@ -1,0 +1,182 @@
+@id istorie
+@prompt Răspunde la întrebare
+## Antichitate | Răspunde la întrebare
+Regele dac care a unificat triburile geto-dace în secolul I î.Hr. | Burebista | Contemporan cu Iulius Cezar; a condus un regat întins de la Dunărea de mijloc până la Marea Neagră. | Burebista | Perioadă=82-44 î.Hr.
+Ultimul rege al dacilor, învins de romani în 106 d.Hr. | Decebal | A rezistat în două războaie împotriva împăratului Traian (101-102 și 105-106). | Decebalus | Moarte=106 d.Hr.
+Împăratul roman care a cucerit Dacia | Traian | Războaiele sunt sculptate pe Columna lui Traian din Roma. | Trajan | Cucerire=106 d.Hr.
+Capitala Daciei preromane | Sarmizegetusa Regia | Situată în Munții Orăștiei (Hunedoara); patrimoniu UNESCO din 1999. | Sarmizegetusa Regia
+Împăratul roman care a retras armata și administrația din Dacia (271-275) | Aurelian | Retragerea aureliană; Dacia fusese provincie romană aproximativ 165 de ani. | Aurelian
+## Evul Mediu | Răspunde la întrebare
+Domnitorul considerat întemeietorul Țării Românești (circa 1310) | Basarab I | A învins oastea regelui Ungariei Carol Robert la Posada (1330). | Basarab I | Victorie=Posada, 1330
+Bătălia din 1330 prin care Țara Românească și-a câștigat independența față de Ungaria | Posada | Basarab I a învins armata lui Carol Robert de Anjou într-o trecătoare. | Battle of Posada | An=1330
+Voievodul legendar care a „descălecat" Moldova (secolul XIV) | Dragoș | Bogdan I a obținut apoi independența Moldovei față de Ungaria (1359). | Dragos
+Domnitorul Țării Românești care a învins otomanii la Rovine (1395) | Mircea cel Bătrân | A domnit 1386-1418; a extins țara până la Marea Neagră (Dobrogea). | Mircea the Elder | Domnie=1386-1418
+Domnitorul cunoscut pentru trasul în țeapă, inspirație pentru Dracula | Vlad Țepeș | Atacul de noapte de la Târgoviște împotriva lui Mahomed al II-lea (1462). | Vlad the Impaler | Domnii=1448, 1456-1462, 1476
+Domnitorul Moldovei care a domnit 47 de ani și a construit numeroase mănăstiri | Ștefan cel Mare | A domnit 1457-1504; victoria de la Vaslui (Podul Înalt, 1475) împotriva otomanilor. | Stephen the Great | Domnie=1457-1504
+Bătălia din 1475 în care Ștefan cel Mare a învins otomanii | Vaslui (Podul Înalt) | Papa Sixt al IV-lea l-a numit pe Ștefan „atlet al lui Hristos". | Battle of Vaslui | An=1475
+Voievodul transilvănean, tatăl regelui Matia Corvin, apărătorul Belgradului (1456) | Iancu de Hunedoara | Castelul Corvinilor din Hunedoara îi aparținea familiei sale. | John Hunyadi
+Domnitorul care a realizat prima unire a celor trei țări române (1600) | Mihai Viteazul | A domnit în Țara Românească, a cucerit Transilvania (1599) și Moldova (1600). Asasinat în 1601 la Câmpia Turzii. | Michael the Brave | Unire=1600
+Bătălia din 1595 în care Mihai Viteazul a învins armata otomană | Călugăreni | | Battle of Calugareni | An=1595
+Domnitorul martir executat la Constantinopol în 1714 împreună cu cei patru fii | Constantin Brâncoveanu | A creat stilul arhitectural „brâncovenesc"; sanctificat de Biserica Ortodoxă Română. | Constantin Brancoveanu | Domnie=1688-1714
+Domnitorul Moldovei, autor al „Descrierii Moldovei", membru al Academiei din Berlin | Dimitrie Cantemir | Aliat cu Petru cel Mare împotriva otomanilor (1711). | Dimitrie Cantemir
+## Epoca modernă | Răspunde la întrebare
+Răscoala țărănească din Transilvania (1784) | Horea, Cloșca și Crișan | Liderii au fost executați prin tragere pe roată la Alba Iulia (1785). | Revolt of Horea, Closca and Crisan | An=1784
+Liderul revoluției din 1821 din Țara Românească | Tudor Vladimirescu | Mișcarea a dus la sfârșitul domniilor fanariote. | Tudor Vladimirescu | An=1821
+Anul revoluțiilor în cele trei țări române | 1848 | Avram Iancu a condus revoluția din Transilvania; Nicolae Bălcescu a fost unul dintre liderii din Țara Românească. | 1848 Revolution
+Data Micii Uniri a Moldovei cu Țara Românească | 24 ianuarie 1859 | Ambele țări l-au ales domn pe Alexandru Ioan Cuza. | Union of the Principalities | Data=24 ianuarie 1859
+Domnitorul Micii Uniri, autor al reformei agrare și al secularizării averilor mănăstirești | Alexandru Ioan Cuza | A domnit 1859-1866, fiind forțat să abdice. | Alexandru Ioan Cuza | Domnie=1859-1866
+Primul rege al României | Carol I | Domnitor din 1866, rege din 1881; a construit Castelul Peleș. | Carol I | Domnie=1866-1914
+Anul în care România și-a proclamat independența față de Imperiul Otoman | 1877 | Proclamată pe 9 mai 1877, câștigată în Războiul Ruso-Turc; recunoscută la Congresul de la Berlin (1878). | Independence of Romania | Data=9 mai 1877
+Data Marii Uniri a Transilvaniei cu România | 1 Decembrie 1918 | Proclamată la Alba Iulia; Basarabia (martie 1918) și Bucovina (noiembrie 1918) se uniseră deja. Ziua Națională a României. | Great Union | Data=1 Decembrie 1918
+Regele Marii Uniri | Ferdinand I | Încoronat împreună cu regina Maria la Alba Iulia, în 1922. | Ferdinand I | Domnie=1914-1927
+Regina numită „mama răniților" în Primul Război Mondial | Regina Maria | Nepoata reginei Victoria a Marii Britanii; a pledat pentru recunoașterea Marii Uniri la Conferința de Pace de la Paris (1919). | Queen Marie of Romania
+Bătăliile din vara lui 1917 care au oprit ofensiva germană în Moldova | Mărăști, Mărășești și Oituz | „Pe aici nu se trece" a devenit simbolul rezistenței. | Battles of 1917 | An=1917
+Ultimul rege al României | Mihai I | A domnit 1927-1930 și 1940-1947; a fost forțat să abdice de comuniști la 30 decembrie 1947. | Michael I | Abdicare=1947
+Data la care România a întors armele împotriva Germaniei naziste | 23 august 1944 | Regele Mihai l-a arestat pe mareșalul Ion Antonescu. | Royal coup of 23 August 1944
+Liderul comunist executat pe 25 decembrie 1989 | Nicolae Ceaușescu | A condus România din 1965 până în 1989. | Nicolae Ceausescu | Conducere=1965-1989
+Orașul în care a început Revoluția din 1989 | Timișoara | A pornit pe 16 decembrie 1989, de la protestul în sprijinul pastorului László Tőkés. | Romanian Revolution | Data=16-22 decembrie 1989
+## Repere contemporane | În ce an?
+România a aderat la NATO | 2004 | La 29 martie 2004. | NATO accession | Data=29 martie 2004
+România a aderat la Uniunea Europeană | 2007 | La 1 ianuarie 2007, împreună cu Bulgaria. | EU accession | Data=1 ianuarie 2007
+România a devenit membru deplin al spațiului Schengen | 2025 | Pentru frontierele aeriene și maritime din 31 martie 2024; pentru cele terestre din 1 ianuarie 2025. | Schengen accession | Aerian și maritim=31 martie 2024; Terestru=1 ianuarie 2025
+A fost adoptată actuala Constituție a României | 1991 | Revizuită în 2003. | Constitution of Romania | Revizuire=2003
+~ Data Micii Uniri a Moldovei cu Țara Românească ~ Data Marii Uniri a Transilvaniei cu România ~ Mica Unire: 24 ianuarie 1859 (Moldova + Țara Românească, Cuza). Marea Unire: 1 Decembrie 1918 (Transilvania, la Alba Iulia).
+~ Domnitorul care a realizat prima unire a celor trei țări române (1600) ~ Domnitorul Micii Uniri, autor al reformei agrare și al secularizării averilor mănăstirești ~ Mihai Viteazul - unire de scurtă durată în 1600. Cuza - unire durabilă în 1859.
+~ Domnitorul Țării Românești care a învins otomanii la Rovine (1395) ~ Domnitorul Moldovei care a domnit 47 de ani și a construit numeroase mănăstiri ~ Mircea cel Bătrân - Țara Românească, Rovine (1395). Ștefan cel Mare - Moldova, Vaslui (1475).
+~ Primul rege al României ~ Ultimul rege al României ~ Carol I a fost primul rege (1881). Mihai I a fost ultimul, abdicând în 1947.
+~ Regele dac care a unificat triburile geto-dace în secolul I î.Hr. ~ Ultimul rege al dacilor, învins de romani în 106 d.Hr. ~ Burebista a unificat dacii (sec. I î.Hr.). Decebal a fost ultimul rege, învins de Traian (106 d.Hr.).
+## Antichitate (II) | Răspunde la întrebare
+Istoricul grec care i-a numit pe geți „cei mai viteji și cei mai drepți dintre traci" | Herodot | În „Istorii", secolul V î.Hr. | Herodotus
+Zeul suprem al geto-dacilor, după Herodot | Zamolxis | | Zalmoxis
+Cea mai veche cetate greacă de pe teritoriul României, fondată în secolul VII î.Hr. | Histria | Pe malul lacului Sinoe (Constanța). | Histria
+Numele antic al Constanței, unde a fost exilat poetul Ovidiu | Tomis | | Tomis
+Numele antic al Mangaliei | Callatis | | Callatis
+Arhitectul care a construit podul lui Traian peste Dunăre (105 d.Hr.) | Apolodor din Damasc | Podul a fost cel mai lung pod arcuit timp de peste un mileniu. | Apollodorus of Damascus | An=105 d.Hr.
+Monumentul triumfal ridicat de Traian în Dobrogea (109 d.Hr.) | Tropaeum Traiani (Adamclisi) | | Tropaeum Traiani
+Numele roman al Alba Iuliei | Apulum | Sediul Legiunii a XIII-a Gemina. | Apulum
+Numele roman al Clujului | Napoca | | Napoca
+Regele get care l-a capturat pe Lisimah, urmaș al lui Alexandru cel Mare (circa 292 î.Hr.) | Dromichaites | | Dromichaetes
+## Evul Mediu (II) | Răspunde la întrebare
+Voievodul care a obținut independența Moldovei față de Ungaria (1359) | Bogdan I | | Bogdan I of Moldavia | An=1359
+Domnitorul Moldovei cu o domnie lungă și pașnică (1400-1432), supranumit „cel Bun" | Alexandru cel Bun | A luptat alături de polonezi în bătălia de la Grunwald (1410). | Alexander the Good
+Bătălia din 1476 în care Ștefan cel Mare a fost învins de sultanul Mahomed al II-lea | Războieni (Valea Albă) | | Battle of Valea Albă | An=1476
+Bătălia din 1497 în care Ștefan cel Mare a învins armata polonă | Codrii Cosminului | | Battle of the Cosmin Forest | An=1497
+Domnitorul Țării Românești autor al „Învățăturilor" către fiul său Teodosie | Neagoe Basarab | A ctitorit Mănăstirea Curtea de Argeș. | Neagoe Basarab
+Domnitorul Moldovei care a ctitorit Biserica Trei Ierarhi din Iași (1639) | Vasile Lupu | | Vasile Lupu
+Domnitorul Țării Românești, contemporan și rival cu Vasile Lupu (1632-1654) | Matei Basarab | | Matei Basarab
+Domnitorul Moldovei numit „cel Viteaz" sau „cel Cumplit", care a luptat cu otomanii în 1574 | Ioan Vodă | | John III the Terrible
+Domnitorul în timpul căruia s-a tipărit Biblia de la București (1688) | Șerban Cantacuzino | Prima traducere integrală a Bibliei în limba română. | Șerban Cantacuzino | An=1688
+Domnitorul fanariot care a desființat șerbia în Țara Românească (1746) și în Moldova (1749) | Constantin Mavrocordat | | Constantine Mavrocordatos
+Perioada în care domnii erau numiți de Poarta Otomană dintre grecii din cartierul Fanar al Istanbulului | Epoca fanariotă (1711/1716-1821) | S-a încheiat odată cu revoluția lui Tudor Vladimirescu. | Phanariote era
+Bătălia din 1601 în care Mihai Viteazul și Giorgio Basta l-au învins pe Sigismund Báthory | Guruslău | La puțin timp după, Mihai a fost asasinat la Câmpia Turzii. | Battle of Guruslău | An=1601
+## Epoca modernă (II) | Răspunde la întrebare
+Anul în care s-a înființat Universitatea din Iași | 1860 | Prima universitate modernă din România, înființată de Cuza. | University of Iași | An=1860
+Legea lui Cuza din 1864 care a făcut învățământul primar obligatoriu și gratuit | Legea instrucțiunii publice | | Public instruction law of 1864
+Anul în care leul a devenit moneda națională | 1867 | | Romanian leu | An=1867
+Instituția fondată în 1866 ca Societatea Literară Română | Academia Română | | Romanian Academy
+Bătălia din 1877 în care românii au cucerit reduta Grivița | Asediul Plevnei | | Siege of Plevna | An=1877
+Teritoriul unit cu România în 1878, după Războiul de Independență | Dobrogea | Prin Tratatul de la Berlin. | Northern Dobruja | An=1878
+Marea revoltă a țăranilor, înăbușită în sânge în 1907 | Răscoala de la 1907 | A început în nordul Moldovei. | 1907 Romanian Peasants' Revolt | An=1907
+Anul intrării României în Primul Război Mondial | 1916 | În august, de partea Antantei. | Romania in WWI | An=1916
+Data unirii Basarabiei cu România | 27 martie 1918 | | Union of Bessarabia | Data=27 martie 1918
+Data unirii Bucovinei cu România | 28 noiembrie 1918 | | Union of Bukovina | Data=28 noiembrie 1918
+Tratatul din 1920 care a recunoscut internațional unirea Transilvaniei cu România | Tratatul de la Trianon | | Treaty of Trianon | An=1920
+Constituția din perioada interbelică, adoptată în 1923 | Constituția din 1923 | Considerată una dintre cele mai democratice ale vremii. | 1923 Constitution of Romania
+Actul din 30 august 1940 prin care România a pierdut nord-vestul Transilvaniei | Dictatul de la Viena | | Second Vienna Award | Data=30 august 1940
+Regele care a domnit între 1930 și 1940 și a instaurat o dictatură regală | Carol al II-lea | | Carol II
+Ziua în care s-a instaurat guvernul Petru Groza, dominat de comuniști | 6 martie 1945 | | Petru Groza government
+Primul lider comunist al României (1947/1948-1965) | Gheorghe Gheorghiu-Dej | | Gheorghe Gheorghiu-Dej
+Discursul din 21 august 1968 în care Ceaușescu a condamnat invadarea Cehoslovaciei | Discursul din balconul CC | I-a adus popularitate în țară și în Occident. | 21 August 1968 speech
+Cutremurul devastator din 4 martie 1977 | Cutremurul de 7,2 grade din Vrancea | Peste 1.500 de morți, majoritatea în București. | 1977 Vrancea earthquake | Data=4 martie 1977
+Canalul inaugurat în 1984 care leagă Dunărea de Marea Neagră | Canalul Dunăre-Marea Neagră | | Danube–Black Sea Canal | An=1984
+Violențele din iunie 1990, când minerii au fost aduși la București | Mineriada | | Mineriad
+Primul președinte ales după 1989 | Ion Iliescu | | Ion Iliescu
+Președintele României ales în mai 2025 | Nicușor Dan | Fost primar general al Bucureștiului. | Nicușor Dan | Mandat=2025-2030
+## Personalități | Cine este?
+Poetul național, autorul „Luceafărului" | Mihai Eminescu | | Mihai Eminescu
+Autorul „Amintirilor din copilărie" | Ion Creangă | | Ion Creangă
+Dramaturgul autor al „Scrisorii pierdute" | Ion Luca Caragiale | | Ion Luca Caragiale
+Compozitorul „Rapsodiilor române" | George Enescu | | George Enescu
+Pictorul „carelor cu boi" și al peisajelor de la Barbizon | Nicolae Grigorescu | | Nicolae Grigorescu
+Medicul român care a izolat „pancreina", contribuind la descoperirea insulinei (1921) | Nicolae Paulescu | | Nicolae Paulescu | An=1921
+Biologul român care a participat la expediția antarctică „Belgica" (1897-1899) și a fondat biospeologia | Emil Racoviță | | Emil Racoviță
+Medicul bacteriolog care a scris primul tratat de bacteriologie din lume, împreună cu Victor Cornil | Victor Babeș | | Victor Babeș
+Medicul gerontolog creatorul Gerovitalului | Ana Aslan | | Ana Aslan
+Savantul de origine română, Premiul Nobel pentru Medicină în 1974 | George Emil Palade | | George Emil Palade | Nobel=1974
+Scriitoarea născută în Banat, Premiul Nobel pentru Literatură în 2009 | Herta Müller | | Herta Müller | Nobel=2009
+Prima gimnastă care a primit nota 10 la Jocurile Olimpice (Montreal, 1976) | Nadia Comăneci | | Nadia Comăneci | An=1976
+Fotbalistul supranumit „Regele" | Gheorghe Hagi | | Gheorghe Hagi
+Jucătoarea de tenis nr. 1 mondial, câștigătoare la Roland Garros (2018) și Wimbledon (2019) | Simona Halep | | Simona Halep
+Primul jucător de tenis nr. 1 în clasamentul ATP (1973) | Ilie Năstase | | Ilie Năstase | An=1973
+Dramaturgul franco-român, părinte al „teatrului absurdului" („Cântăreața cheală") | Eugen Ionescu | | Eugène Ionesco
+Poetul născut la Moinești, fondator al dadaismului | Tristan Tzara | | Tristan Tzara
+Istoricul religiilor și scriitorul autor al „Maitreyi" | Mircea Eliade | | Mircea Eliade
+Filosoful autor al cărții „Pe culmile disperării" | Emil Cioran | | Emil Cioran
+Diplomatul român ales de două ori președinte al Ligii Națiunilor (1930, 1931) | Nicolae Titulescu | | Nicolae Titulescu
+Eroina căzută în luptele din 1917 | Ecaterina Teodoroiu | | Ecaterina Teodoroiu
+Prim-ministrul Marii Uniri, liderul Partidului Național Liberal | Ion I. C. Brătianu | | Ion I. C. Brătianu
+Liderul revoluției de la 1848 din Transilvania, „Craiul munților" | Avram Iancu | | Avram Iancu
+Istoricul și omul politic, prim-ministru al lui Cuza (1863-1865), autorul reformei agrare din 1864 | Mihail Kogălniceanu | | Mihail Kogălniceanu
+Compozitorul „Baladei" pentru vioară și orchestră | Ciprian Porumbescu | | Ciprian Porumbescu
+Interpretul de nai cunoscut în toată lumea | Gheorghe Zamfir | | Gheorghe Zamfir
+## Simboluri naționale | Răspunde la întrebare
+Imnul național al României | „Deșteaptă-te, române!" | Versurile: Andrei Mureșanu (1848). Imn național din 1990. | Romanian national anthem
+Culorile drapelului, de la lance | Albastru, galben, roșu (verticale) | | Flag of Romania
+Ziua Națională a României | 1 Decembrie | Stabilită în 1990. | Great Union Day
+Ziua Drapelului Național | 26 iunie | | Romanian Flag Day
+Ziua Imnului Național | 29 iulie | | Romanian Anthem Day
+Familia de limbi din care face parte limba română | Limbi romanice (latine) | Singura limbă romanică importantă din estul Europei. | Romance languages
+~ Data unirii Basarabiei cu România ~ Data unirii Bucovinei cu România ~ Basarabia: 27 martie 1918. Bucovina: 28 noiembrie 1918. Transilvania: 1 Decembrie 1918.
+~ Vasile Lupu ~ Matei Basarab ~ Vasile Lupu - Moldova (Trei Ierarhi). Matei Basarab - Țara Românească. Au domnit în aceeași perioadă și au fost rivali.
+~ Eugen Ionescu ~ Tristan Tzara ~ Ionescu: teatrul absurdului. Tzara: dadaismul.
+~ Mircea Eliade ~ Emil Cioran ~ Eliade: istoria religiilor, romane (Maitreyi). Cioran: eseuri filozofice pesimiste.
+~ Histria ~ Tomis ~ Histria: cea mai veche cetate greacă (lacul Sinoe). Tomis: Constanța de azi, locul de exil al lui Ovidiu.
+## Cetăți și locuri istorice | Unde se află?
+Cetatea de scaun a lui Ștefan cel Mare, capitală a Moldovei | Suceava | | Suceava Fortress
+Capitala Țării Românești înainte de București, cu Turnul Chindiei | Târgoviște | | Târgoviște
+Prima capitală a Țării Românești | Câmpulung (apoi Curtea de Argeș) | | Câmpulung
+Cetatea pe care Vlad Țepeș a folosit-o ca refugiu, pe valea Argeșului | Cetatea Poienari | | Poienari Castle
+Cetatea în care s-a semnat Unirea de la 1918 | Alba Iulia | | Alba Iulia
+Orașul în care s-a semnat Unirea Basarabiei (27 martie 1918) | Chișinău | Prin votul Sfatului Țării. | Chișinău
+Orașul în care a fost asasinat Mihai Viteazul (1601) | Câmpia Turzii | | Câmpia Turzii
+Mănăstirea unde a fost înmormântat Ștefan cel Mare | Mănăstirea Putna | | Putna Monastery
+Locul unde s-a desfășurat Adunarea Națională de la 15 mai 1848 din Transilvania | Câmpia Libertății (Blaj) | | Blaj 1848
+Capitala Moldovei mutată de Alexandru Lăpușneanu de la Suceava | Iași | Mutarea s-a încheiat în 1564. | Iași (capital)
+## Domnitori și regi | Cine a domnit?
+Domnitorul Moldovei care a ctitorit Mănăstirea Probota și a pictat bisericile exterior (1527-1538, 1541-1546) | Petru Rareș | Fiu nelegitim al lui Ștefan cel Mare. | Petru Rareș
+Domnitorul Țării Românești numit „cel Mare" (1495-1508), ctitor al Mănăstirii Dealu | Radu cel Mare | | Radu cel Mare
+Regele care a domnit cel mai mult în istoria României | Carol I (48 de ani, 1866-1914) | Inițial ca domnitor, apoi ca rege din 1881. | Carol I reign
+Regina Elisabeta, soția lui Carol I, a scris sub pseudonimul... | Carmen Sylva | | Carmen Sylva
+Regele care a abdicat în 1940 în favoarea fiului său Mihai | Carol al II-lea | | Carol II abdication
+Mareșalul conducător al României între 1940 și 1944 | Ion Antonescu | Executat în 1946. | Ion Antonescu
+Primul președinte al Republicii Socialiste România (1974) | Nicolae Ceaușescu | | Ceaușescu president
+## Războaie și bătălii | Răspunde la întrebare
+Lupta de la Mărășești (1917) a fost condusă de partea română de generalul... | Eremia Grigorescu | „Pe aici nu se trece!" | Eremia Grigorescu
+Mareșalul care a condus armata română în bătălia de la Mărăști (1917) | Alexandru Averescu | | Alexandru Averescu
+În ce an a intrat România în al Doilea Război Mondial? | 1941 | Alături de Germania, pentru recuperarea Basarabiei. | Romania in WWII | An=1941
+Bătălia din 1942-1943 în care armata română a suferit pierderi uriașe | Stalingrad | | Battle of Stalingrad
+Bombardamentul american asupra rafinăriilor din Ploiești (1 august 1943) | Operațiunea Tidal Wave | | Operation Tidal Wave | Data=1 august 1943
+Lupta din 1330 a fost câștigată prin ambuscadă într-un loc numit... | Posada | | Posada (place)
+Bătălia de la Rovine (1395) a fost purtată împotriva sultanului... | Baiazid I (Fulgerul) | | Bayezid I
+Asediul Belgradului din 1456, câștigat de Iancu de Hunedoara, a fost împotriva sultanului... | Mahomed al II-lea | Același sultan care cucerise Constantinopolul în 1453. | Mehmed II
+## Cultură și instituții | Răspunde la întrebare
+Prima carte tipărită în limba română (1544) | Catehismul de la Sibiu | Nu s-a păstrat niciun exemplar. | Sibiu Catechism | An=1544
+Tipograful care a tipărit cărți în română la Brașov în secolul XVI | Diaconul Coresi | | Coresi
+Cel mai vechi document păstrat scris în limba română (1521) | Scrisoarea lui Neacșu din Câmpulung | | Neacșu's Letter | An=1521
+Prima universitate din București, înființată în 1864 | Universitatea din București | | University of Bucharest | An=1864
+Primul ziar în limba română din Țara Românească, editat de Ion Heliade Rădulescu (1829) | Curierul Românesc | | Curierul Românesc | An=1829
+Societatea literară de la Iași din care au făcut parte Eminescu, Creangă, Caragiale | Junimea | Fondată în 1863; condusă de Titu Maiorescu. | Junimea | Fondare=1863
+Prima cale ferată de pe teritoriul actual al României (1854) | Oravița - Baziaș | | Oravița–Baziaș railway | An=1854
+Primul oraș din România cu iluminat public electric (1884) | Timișoara | | Timișoara electric lighting | An=1884
+Anul în care s-a introdus votul universal masculin în România | 1918 | Femeile au primit drept de vot deplin în 1946. | Universal suffrage
+## După 1989 | Răspunde la întrebare
+Anul în care România a semnat Tratatul de aderare la UE | 2005 | Aderarea efectivă: 1 ianuarie 2007. | Treaty of Accession 2005
+Anul în care România a renunțat la serviciul militar obligatoriu (suspendat) | 2007 | | Conscription in Romania
+Anul denominării leului (10.000 lei vechi = 1 leu nou) | 2005 | | Romanian leu redenomination | An=2005
+Incendiul din clubul bucureștean care a dus la căderea guvernului în 2015 | Colectiv | 30 octombrie 2015. | Colectiv nightclub fire | An=2015
+Președintele României între 2014 și 2025 | Klaus Iohannis | A demisionat în februarie 2025, înainte de finalul mandatului. | Klaus Iohannis
+Președintele României între 2004 și 2014 | Traian Băsescu | | Traian Băsescu
+Ce instanță a anulat primul tur al alegerilor prezidențiale din 2024? | Curtea Constituțională a României | Alegerile au fost reluate în mai 2025. | 2024 Romanian presidential election annulment
+~ Carol I (48 de ani, 1866-1914) ~ Carol al II-lea ~ Carol I: primul rege, domnie lungă și stabilă. Carol al II-lea: dictatură regală, abdicare în 1940.
+~ Eremia Grigorescu ~ Alexandru Averescu ~ Mărășești: Eremia Grigorescu. Mărăști: Alexandru Averescu.
+~ Catehismul de la Sibiu ~ Scrisoarea lui Neacșu din Câmpulung ~ Scrisoarea lui Neacșu (1521) e cel mai vechi text scris în română; Catehismul (1544) e prima carte tipărită.

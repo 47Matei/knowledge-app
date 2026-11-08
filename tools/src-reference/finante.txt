@@ -1,0 +1,184 @@
+@id finante
+@prompt Cum se numește acest concept?
+## Concepte de bază | Cum se numește acest concept?
+Câștigi dobândă nu doar la suma inițială, ci și la dobânzile acumulate anterior | Dobânda compusă | Exemplu: 1.000 lei la 7% pe an devin aproximativ 1.967 lei după 10 ani și 3.870 după 20, fără depuneri noi. | Compound interest | Regula lui 72=72 ÷ dobânda anuală = anii în care banii se dublează
+Creșterea generală a prețurilor, care scade puterea de cumpărare a banilor | Inflația | Dacă dobânda la depozit e mai mică decât inflația, banii pierd valoare în termeni reali. | Inflation
+Bani puși deoparte pentru situații neprevăzute, de obicei 3-6 luni de cheltuieli | Fondul de urgență | Se păstrează într-un loc sigur și ușor accesibil, nu în investiții volatile. | Emergency fund
+Plan care împarte venitul pe categorii de cheltuieli înainte să-l cheltui | Bugetul | O regulă populară: 50% nevoi, 30% dorințe, 20% economii (regula 50/30/20). | Budget | Regula 50/30/20=nevoi / dorințe / economii
+Ce ai minus ce datorezi | Averea netă | Active (bani, investiții, proprietăți) minus pasive (credite, datorii). | Net worth
+Cât de ușor poți transforma un bun în bani fără să pierzi din valoare | Lichiditatea | Numerarul e cel mai lichid; un teren e puțin lichid. | Liquidity
+Posibilitatea ca rezultatul unei investiții să difere de cel așteptat, inclusiv să pierzi bani | Riscul | În general, randamentul potențial mai mare vine cu risc mai mare. | Risk
+Câștigul unei investiții raportat la suma investită, exprimat procentual | Randamentul | | Return (yield)
+Indicatorul care arată costul total anual al unui credit, inclusiv comisioanele | DAE (dobânda anuală efectivă) | Compară creditele după DAE, nu doar după dobândă. | APR (Annual Percentage Rate)
+Scorul care arată istoricul tău de plată a creditelor | Scorul de credit | În România, istoricul de credit e gestionat de Biroul de Credit. | Credit score
+## Investiții | Ce instrument de investiții este?
+Deții o mică parte dintr-o companie și poți primi dividende | Acțiuni | Valoarea poate crește sau scădea mult; pe termen lung, istoric au avut randamente mai mari decât depozitele. | Stocks (shares) | Risc=ridicat
+Împrumuți bani unui stat sau unei companii, care îți plătește dobândă (cupon) | Obligațiuni | În România, titlurile de stat pentru populație se numesc Tezaur și Fidelis. | Bonds | Risc=mic spre mediu
+Fond care urmărește un indice bursier și se tranzacționează la bursă ca o acțiune | ETF (fond tranzacționat la bursă) | Exemplu: un ETF pe S&P 500 îți dă expunere la 500 de companii americane mari. Costuri de administrare mici. | ETF (Exchange-Traded Fund) | Risc=depinde de indice; Costuri=mici
+Banii mai multor investitori sunt administrați de profesioniști într-un portofoliu comun | Fond mutual (de investiții) | | Mutual fund
+Împarți banii între mai multe tipuri de investiții ca să reduci riscul | Diversificarea | „Nu pune toate ouăle în același coș." | Diversification
+Investești o sumă fixă la intervale regulate, indiferent de preț | Investiția periodică (DCA) | Reduce riscul de a cumpăra totul la un preț maxim. | Dollar-cost averaging
+Partea din profit pe care o companie o plătește acționarilor | Dividendul | | Dividend
+Un coș de acțiuni care măsoară evoluția unei piețe | Indicele bursier | Exemple: S&P 500 (SUA), DAX (Germania), BET (Bursa de Valori București). | Stock index
+Piață pe care prețurile scad cu peste 20% față de maxim | Piață „bear" (în scădere) | Opusul este piața „bull", în creștere. | Bear market
+Monede digitale foarte volatile, fără garanția unui stat | Criptomonede | Bitcoin a fost lansat în 2009. Risc foarte mare de pierdere. | Cryptocurrencies | Risc=foarte ridicat
+## Bănci și credite | Cum se numește?
+Credit cu ipotecă pe locuință, de obicei pe 20-30 de ani | Credit ipotecar | Locuința e garanția; dacă nu plătești, banca o poate executa. | Mortgage
+Card cu care cheltui banii băncii, cu perioadă de grație fără dobândă | Card de credit | Dacă nu returnezi suma integral în perioada de grație, dobânzile sunt mari. | Credit card
+Dobândă care rămâne aceeași pe toată perioada creditului | Dobândă fixă | Opusul e dobânda variabilă, legată de un indice (în România, IRCC). | Fixed interest rate
+Banii depuși la bancă pe o perioadă stabilită, cu dobândă | Depozit bancar | În România, depozitele sunt garantate de FGDB până la echivalentul a 100.000 de euro pe persoană, pe bancă. | Bank deposit
+Instituția care stabilește dobânda de politică monetară în România | Banca Națională a României (BNR) | Rolul principal: stabilitatea prețurilor. | National Bank of Romania
+~ Acțiuni ~ Obligațiuni ~ Cu acțiunile devii coproprietar (risc mai mare); cu obligațiunile devii creditor (dobândă stabilită, risc mai mic).
+~ ETF (fond tranzacționat la bursă) ~ Fond mutual (de investiții) ~ ETF-ul se cumpără la bursă oricând, de obicei cu costuri mici; fondul mutual se cumpără direct de la administrator, la un preț calculat o dată pe zi.
+~ Dobânda compusă ~ Inflația ~ Dobânda compusă îți crește banii în timp; inflația îi erodează. Contează diferența dintre ele.
+~ Dobândă fixă ~ DAE (dobânda anuală efectivă) ~ Dobânda e doar o parte din cost; DAE include și comisioanele și asigurările.
+## Salariu și taxe în România | Răspunde la întrebare
+Diferența dintre salariul brut și cel net | Netul este ce primești în mână, după reținerea contribuțiilor și a impozitului | | Gross vs net salary
+Cota impozitului pe venitul din salarii în România | 10% | Se aplică după scăderea contribuțiilor sociale. | Romanian income tax
+Contribuția la pensie (CAS) reținută din salariul brut | 25% | | Pension contribution (CAS)
+Contribuția la sănătate (CASS) reținută din salariul brut | 10% | | Health contribution (CASS)
+Cota standard de TVA în România din 1 august 2025 | 21% | Anterior 19%. Cota redusă (alimente, medicamente, restaurante) este 11%. | Romanian VAT | Din=1 august 2025
+Impozitul pe dividende în România din 1 ianuarie 2026 | 16% | În 2025 era 10%. | Dividend tax Romania | Din=1 ianuarie 2026
+Ce înseamnă PFA? | Persoană fizică autorizată - formă simplă de a desfășura o activitate independentă | | Authorized natural person (PFA)
+Ce este un SRL? | Societate cu răspundere limitată - asociații răspund doar cu capitalul adus | | Limited liability company (SRL)
+Cota de impozit pentru microîntreprinderi în 2026 | 1% din venituri, pentru firmele cu venituri sub 100.000 de euro | Peste acest prag se aplică impozitul pe profit de 16%. | Micro-enterprise tax 2026
+Cota impozitului pe profit în România | 16% | | Corporate income tax Romania
+## Buget și obiceiuri | Cum se numește?
+Să pui deoparte întâi o sumă pentru economii, înainte de a cheltui | „Plătește-te întâi pe tine" | | Pay yourself first
+Cheltuielile cresc odată cu veniturile, așa că nu economisești mai mult | Inflația stilului de viață | | Lifestyle inflation
+Capacitatea de a renunța la o plăcere acum pentru una mai mare mai târziu | Gratificarea amânată | | Delayed gratification
+Teama că pierzi o oportunitate pe care o prind alții, care duce la investiții impulsive | FOMO | „Fear of missing out". | FOMO
+Să aștepți 24-48 de ore înainte de o cumpărătură neplanificată | Regula așteptării (anti-impuls) | | Cooling-off rule
+Abonamentele mici, uitate, care se adună lunar | Cheltuieli recurente ascunse | | Subscription creep
+Fluxul de bani care intră și iese într-o perioadă | Cash-flow | | Cash flow
+Ce îți aduce bani în buzunar (ex. un apartament închiriat) vs. ce îți ia bani | Active vs. pasive (în sens personal) | | Assets vs. liabilities
+Să ai bani în mai multe „plicuri" pentru categorii de cheltuieli | Metoda plicurilor | | Envelope budgeting
+## Investiții (II) | Cum se numește?
+Raportul dintre prețul unei acțiuni și profitul pe acțiune | P/E (preț / profit) | Un P/E mare înseamnă că investitorii plătesc mult pentru fiecare leu de profit. | Price-to-earnings ratio
+Valoarea totală a acțiunilor unei companii la bursă | Capitalizare bursieră | | Market capitalization
+Prima listare la bursă a acțiunilor unei companii | IPO (ofertă publică inițială) | | Initial public offering
+Cât de mult și de repede variază prețul unei investiții | Volatilitate | | Volatility
+Costul anual total al unui fond, ca procent din banii investiți | TER (costul total anual) | Diferențele mici de cost contează enorm în zeci de ani. | Total expense ratio
+ETF care reinvestește automat dividendele | ETF de acumulare | Cel care le plătește investitorului se numește „de distribuire". | Accumulating ETF
+Randamentul după scăderea inflației | Randament real | | Real return
+Cum se mișcă prețul unei obligațiuni când cresc dobânzile? | Scade | Prețul obligațiunilor și dobânzile se mișcă în sens invers. | Bond prices and interest rates
+Data la care emitentul returnează banii unei obligațiuni | Scadența | | Maturity
+Fondul de pensii privat obligatoriu, alimentat din contribuția la pensie | Pilonul II | Pilonul III este facultativ. | Romanian Pillar II pensions
+Regula potrivit căreia poți retrage aproximativ 4% pe an dintr-un portofoliu fără să-l epuizezi în 30 de ani | Regula de 4% | Provine dintr-un studiu din 1994 (William Bengen). | 4% rule
+Mișcarea celor care economisesc agresiv pentru a se retrage devreme | FIRE | „Financial Independence, Retire Early". | FIRE movement
+Investitorul cunoscut ca „Oracolul din Omaha", conducătorul Berkshire Hathaway | Warren Buffett | | Warren Buffett
+Autorul cărții „Investitorul inteligent" și mentorul lui Warren Buffett | Benjamin Graham | | Benjamin Graham
+Fondatorul Vanguard, creatorul primului fond indexat pentru publicul larg (1976) | John Bogle | | John C. Bogle | An=1976
+Indicele principal al Bursei de Valori București | BET | | BET index
+Cel mai vechi indice bursier american încă folosit (1896) | Dow Jones Industrial Average | | Dow Jones | An=1896
+Bursa americană specializată în companii tehnologice | NASDAQ | | NASDAQ
+## Crize și bule | Ce eveniment este?
+Prima bulă speculativă documentată, cu bulbi de flori în Olanda (1637) | Mania lalelelor | | Tulip mania | An=1637
+Prăbușirea acțiunilor companiilor de internet în 2000-2002 | Bula dot-com | | Dot-com bubble
+Criza financiară declanșată de creditele ipotecare subprime, cu falimentul Lehman Brothers | Criza din 2008 | | 2007–2008 financial crisis | An=2008
+Ziua din octombrie 1987 în care bursa americană a scăzut cu peste 20% | Lunea Neagră | | Black Monday (1987) | An=1987
+Prăbușirea bursei din octombrie 1929, începutul Marii Crize | Crahul de pe Wall Street | | Wall Street Crash of 1929 | An=1929
+Escrocheria care plătește „profiturile" vechilor investitori din banii celor noi | Schema Ponzi | Numită după Charles Ponzi (1920). | Ponzi scheme
+Jocul piramidal de la Cluj (1992-1994) care a atras sute de mii de depunători | Caritas | | Caritas (Romania)
+Fondul de investiții românesc prăbușit în 2000 | FNI (Fondul Național de Investiții) | | FNI (Romania) | An=2000
+Creștere extremă a prețurilor, ca în Germania în 1923 sau în Zimbabwe în 2008 | Hiperinflație | | Hyperinflation
+## Economie | Ce concept este?
+Valoarea tuturor bunurilor și serviciilor produse într-o țară într-un an | PIB (produsul intern brut) | | Gross domestic product
+Scăderea generală a prețurilor | Deflație | | Deflation
+Inflație ridicată combinată cu stagnare economică și șomaj | Stagflație | | Stagflation
+Scăderea PIB-ului două trimestre consecutive | Recesiune tehnică | | Technical recession
+Politica de taxe și cheltuieli publice ale guvernului | Politica fiscală | Politica monetară (dobânzi, masă monetară) e condusă de banca centrală. | Fiscal policy
+Când cheltuielile statului depășesc veniturile | Deficit bugetar | | Budget deficit
+O singură firmă domină complet o piață | Monopol | Câteva firme mari: oligopol. | Monopoly
+Economistul scoțian autorul „Avuției națiunilor" (1776) și al „mâinii invizibile" | Adam Smith | | Adam Smith | An=1776
+Economistul care a susținut intervenția statului prin cheltuieli publice în crize | John Maynard Keynes | | John Maynard Keynes
+Economistul american al monetarismului, laureat Nobel în 1976 | Milton Friedman | | Milton Friedman
+Moneda euro a intrat în circulație fizică în... | 2002 | Ca monedă electronică exista din 1999. | Euro | Numerar din=2002
+Sediul Băncii Centrale Europene | Frankfurt | | European Central Bank
+Conferința din 1944 care a creat FMI și Banca Mondială | Bretton Woods | | Bretton Woods Conference | An=1944
+Anul în care SUA au renunțat la convertibilitatea dolarului în aur | 1971 | Decizia președintelui Nixon. | Nixon shock | An=1971
+Pseudonimul creatorului Bitcoin | Satoshi Nakamoto | Identitatea reală nu e cunoscută. | Satoshi Nakamoto
+## Antreprenoriat | Cum se numește?
+Totalul vânzărilor unei firme, înainte de scăderea cheltuielilor | Cifra de afaceri | | Revenue (turnover)
+Procentul din vânzări care rămâne ca profit | Marja de profit | | Profit margin
+Nivelul vânzărilor la care veniturile acoperă exact cheltuielile | Pragul de rentabilitate | | Break-even point
+Start-up evaluat la peste 1 miliard de dolari, încă nelistat la bursă | Unicorn | | Unicorn (finance)
+Primul „unicorn" fondat de români (2018) | UiPath | Companie de automatizare a proceselor, fondată de Daniel Dines și Marius Tîrcă. | UiPath | An=2018
+Investitor privat care finanțează un start-up în fazele foarte timpurii | Business angel | | Angel investor
+Fonduri care investesc în start-up-uri cu potențial mare, în schimbul unei părți din firmă | Capital de risc (venture capital) | | Venture capital
+## Bănci (II) | Ce înseamnă?
+IBAN | Codul internațional al unui cont bancar | În România are 24 de caractere și începe cu RO. | IBAN
+IRCC | Indicele de referință pentru creditele în lei ale persoanelor fizice, calculat de BNR | A înlocuit ROBOR pentru creditele noi din 2019. | IRCC
+ROBOR | Rata dobânzii la care băncile din România își împrumută lei între ele | | ROBOR
+EURIBOR | Rata dobânzii interbancare pentru euro | | EURIBOR
+Refinanțare | Înlocuirea unui credit cu altul, cu condiții mai bune | | Refinancing
+Avansul | Partea din prețul unei locuințe plătită din banii proprii la cumpărare | | Down payment
+Phishing | Mesaje false care încearcă să-ți fure datele de card sau parolele | Banca nu-ți cere niciodată parola sau codul prin SMS sau e-mail. | Phishing
+~ Politica fiscală ~ Banca Națională a României (BNR) ~ Politica fiscală: guvernul (taxe, cheltuieli). Politica monetară: banca centrală (dobânzi).
+~ Schema Ponzi ~ Caritas ~ Ponzi e tipul de escrocherie; Caritas a fost cel mai mare joc piramidal din România (Cluj, 1992-1994).
+~ Cifra de afaceri ~ Marja de profit ~ Cifra de afaceri = toate vânzările; marja = cât rămâne profit din ele.
+~ IRCC ~ ROBOR ~ IRCC (din 2019) e indicele pentru creditele noi ale persoanelor fizice; ROBOR e dobânda interbancară.
+~ Deflație ~ Stagflație ~ Deflația: prețurile scad. Stagflația: prețurile cresc, dar economia stagnează.
+## Bani în viața de zi cu zi | Răspunde la întrebare
+Dacă inflația e 5% și depozitul îți dă 3%, ce se întâmplă cu puterea de cumpărare? | Scade cu aproximativ 2% pe an | Randamentul real e negativ. | Negative real return
+Ce înseamnă „lichiditate scăzută" pentru un apartament? | Se vinde greu și nu imediat, deci nu poți transforma rapid investiția în bani | | Illiquid asset
+În câți ani se dublează aproximativ banii la o dobândă de 6% pe an (regula lui 72)? | Aproximativ 12 ani | 72 ÷ 6 = 12. | Rule of 72
+Ce înseamnă DAE mai mare la un credit, cu aceeași dobândă? | Costuri suplimentare mai mari (comisioane, asigurări) | | APR vs interest rate
+De ce nu e bine să ții fondul de urgență în acțiuni? | Pentru că valoarea poate scădea exact când ai nevoie de bani | | Emergency fund placement
+Ce e „costul total" al unui credit? | Suma tuturor ratelor plus comisioanele, minus suma împrumutată | | Total cost of credit
+Ce se întâmplă cu o rată variabilă când cresc dobânzile de referință? | Crește | | Variable rate
+Ce înseamnă să plătești doar „suma minimă" la cardul de credit? | Restul datoriei rămâne și acumulează dobândă mare | | Minimum payment trap
+Ce garantează Fondul de Garantare a Depozitelor (FGDB)? | Depozitele de până la echivalentul a 100.000 de euro pe persoană, pe bancă | | Deposit guarantee
+Ce înseamnă un „venit pasiv"? | Bani care vin fără muncă activă continuă (chirii, dividende, dobânzi) | | Passive income
+## Concepte de investiții (III) | Cum se numește?
+Investiția ta e împărțită între acțiuni, obligațiuni și numerar într-un anumit raport | Alocarea activelor | Decizia cea mai importantă pentru riscul unui portofoliu. | Asset allocation
+Readucerea portofoliului la proporțiile inițiale, după ce piața le-a schimbat | Rebalansare | | Rebalancing
+Câștigul obținut din vânzarea unei investiții mai scump decât ai cumpărat-o | Câștig de capital | | Capital gain
+Câte acțiuni ai, înmulțit cu prețul lor | Valoarea de piață a deținerii | | Market value
+Ordin de cumpărare executat imediat la prețul curent | Ordin la piață | Ordinul „la limită" se execută doar la prețul ales de tine sau unul mai bun. | Market order
+Cumpărarea unei investiții cu bani împrumutați, pentru câștig (și risc) mai mare | Efectul de levier | | Leverage
+Pariul pe scăderea unei acțiuni | Vânzarea în lipsă (short selling) | | Short selling
+Companie mare, stabilă, cu dividende sigure | Acțiune „blue chip" | | Blue chip
+Fond care investește automat după vârsta ta, mai prudent pe măsură ce te apropii de pensie | Fond cu dată-țintă (target date) | | Target-date fund
+Indicele celor mai mari 500 de companii americane | S&P 500 | | S&P 500
+Indicele principal al bursei din Frankfurt | DAX | | DAX
+Indicele principal al bursei din Tokyo | Nikkei 225 | | Nikkei 225
+Indicele principal al bursei din Londra | FTSE 100 | | FTSE 100
+Fondurile care încearcă să bată piața prin alegerea acțiunilor | Fonduri administrate activ | Pe termen lung, majoritatea nu reușesc să bată indicii. | Active management
+Fondurile care copiază un indice, cu costuri mici | Fonduri pasive (indexate) | | Index fund
+Aurul, argintul și petrolul sunt exemple de... | Mărfuri (commodities) | | Commodities
+Investiție în imobile prin bursă, fără să cumperi direct o proprietate | REIT / fond imobiliar | | Real estate investment trust
+## Asigurări și pensii | Ce înseamnă?
+RCA | Asigurarea obligatorie de răspundere civilă auto, care plătește daunele produse altora | | Motor third-party liability insurance
+CASCO | Asigurare facultativă care acoperă daunele propriei mașini | | Comprehensive car insurance
+PAD | Polița obligatorie de asigurare a locuinței împotriva cutremurului, inundațiilor și alunecărilor de teren | Emisă prin PAID (Pool-ul de Asigurare împotriva Dezastrelor Naturale). | Mandatory home insurance (PAD)
+Franșiza | Partea din daună pe care o plătești tu, nu asigurătorul | | Deductible
+Prima de asigurare | Suma pe care o plătești pentru asigurare | | Insurance premium
+Pilonul I de pensii | Pensia de stat, bazată pe contribuțiile actuale ale celor care muncesc | | State pension (Pillar I)
+Pilonul III de pensii | Pensia facultativă, la care contribui voluntar | Contribuțiile au o deducere fiscală anuală limitată. | Voluntary pension (Pillar III)
+Asigurarea de viață | Plătește o sumă beneficiarilor în caz de deces | | Life insurance
+## Economia lumii | Răspunde la întrebare
+Cea mai mare economie a lumii după PIB nominal | Statele Unite | China e a doua. | Largest economy
+Moneda oficială a Japoniei | Yenul | | Japanese yen
+Moneda oficială a Regatului Unit | Lira sterlină | | Pound sterling
+Moneda oficială a Elveției | Francul elvețian | | Swiss franc
+Moneda Chinei | Yuanul (renminbi) | | Renminbi
+Moneda Poloniei | Zlotul | | Polish złoty
+Moneda Ungariei | Forintul | | Hungarian forint
+Moneda Republicii Moldova | Leul moldovenesc | | Moldovan leu
+Câte state membre UE folosesc euro (2026)? | 21 | Bulgaria a adoptat euro la 1 ianuarie 2026. | Eurozone
+Organizația care reunește statele producătoare de petrol | OPEC | | OPEC
+Grupul celor mai mari economii industrializate | G7 | SUA, Japonia, Germania, Regatul Unit, Franța, Italia, Canada. | G7
+Organizația care reglementează comerțul internațional | Organizația Mondială a Comerțului (OMC) | | World Trade Organization
+## Termeni contabili | Ce înseamnă?
+Bilanț | Situația a ce deține o firmă (active) și a ce datorează (pasive) la o anumită dată | | Balance sheet
+Contul de profit și pierdere | Veniturile și cheltuielile unei firme pe o perioadă | | Income statement
+EBITDA | Profitul înainte de dobânzi, impozite, depreciere și amortizare | | EBITDA
+Amortizare | Repartizarea costului unui bun (ex. o mașină) pe durata utilizării lui | | Depreciation
+Factură | Documentul prin care se cere plata pentru bunuri sau servicii | | Invoice
+e-Factura | Sistemul național prin care facturile dintre firme se transmit electronic la ANAF | | e-Factura (Romania)
+ANAF | Agenția Națională de Administrare Fiscală | Instituția care colectează taxele în România. | ANAF
+Capital social | Suma adusă de asociați la înființarea firmei | | Share capital
+~ RCA ~ CASCO ~ RCA (obligatorie) plătește daunele produse altora; CASCO (facultativă) acoperă propria mașină.
+~ Fonduri administrate activ ~ Fonduri pasive (indexate) ~ Activ: încearcă să bată piața, costuri mai mari. Pasiv: copiază indicele, costuri mici.
+~ Bilanț ~ Contul de profit și pierdere ~ Bilanțul e o „fotografie" la o dată; contul de profit e un „film" al perioadei.

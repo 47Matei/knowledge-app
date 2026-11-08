@@ -1,0 +1,183 @@
+@id biasuri
+@prompt Cum se numește această eroare de gândire?
+## Erori cognitive | Cum se numește această eroare de gândire?
+Cauți și reții doar informațiile care îți confirmă ce credeai deja | Biasul de confirmare | Antidot: caută activ argumente împotriva propriei păreri. | Confirmation bias | Familie=căutarea informației
+Prima cifră auzită îți influențează excesiv estimările ulterioare | Ancorarea | Exemplu: un preț inițial mare face ca reducerea să pară o afacere. Studiată de Tversky și Kahneman (1974). | Anchoring | Familie=judecată numerică
+Supraestimezi probabilitatea unor evenimente pentru că îți vin ușor în minte | Euristica disponibilității | După știri despre un accident de avion, zborul pare mai periculos decât condusul, deși statistic e invers. | Availability heuristic | Familie=estimarea probabilității
+Continui un proiect prost doar pentru că ai investit deja mult în el | Eroarea costului irecuperabil | Banii și timpul deja cheltuiți nu ar trebui să conteze în decizia de acum. | Sunk cost fallacy | Familie=decizie
+Cei cu puține cunoștințe într-un domeniu își supraestimează competența | Efectul Dunning-Kruger | Paradoxal, experții tind să se subestimeze. Studiu publicat în 1999. | Dunning-Kruger effect | Familie=autoevaluare
+După ce afli rezultatul, crezi că „era evident de la început" | Biasul retrospectiv | Numit și „știam eu". | Hindsight bias | Familie=memorie
+Crezi că după o serie de „cap" la aruncarea monedei urmează sigur „pajură" | Eroarea jucătorului de noroc | Evenimentele independente nu au memorie. | Gambler's fallacy | Familie=probabilitate
+Faci ceva pentru că o fac mulți alții | Efectul de turmă (bandwagon) | Popularitatea nu dovedește că ceva e corect. | Bandwagon effect | Familie=social
+O pierdere doare mai mult decât bucuria unui câștig egal | Aversiunea față de pierdere | Pierderile cântăresc de aproximativ două ori mai mult decât câștigurile echivalente (Kahneman și Tversky). | Loss aversion | Familie=decizie
+O singură trăsătură pozitivă (de exemplu aspectul) îți colorează părerea despre tot omul | Efectul de halo | Opusul său este efectul de „coarne". | Halo effect | Familie=social
+Tragi concluzii doar din cei care au „supraviețuit", ignorându-i pe cei care au eșuat | Biasul supraviețuitorului | Exemplul clasic: avioanele întoarse din misiuni în al Doilea Război Mondial, analizate de Abraham Wald. | Survivorship bias | Familie=statistică
+Pui succesele pe seama ta și eșecurile pe seama circumstanțelor | Biasul de autoservire | Protejează stima de sine, dar împiedică învățarea. | Self-serving bias | Familie=autoevaluare
+Explici comportamentul altora prin caracter, dar pe al tău prin situație | Eroarea fundamentală de atribuire | „A întârziat pentru că e neserios; eu am întârziat din cauza traficului." | Fundamental attribution error | Familie=social
+Preferi să lași lucrurile așa cum sunt, chiar dacă o schimbare ar fi mai bună | Biasul status quo | | Status quo bias | Familie=decizie
+Aceeași informație, prezentată diferit, duce la decizii diferite | Efectul de încadrare (framing) | „90% supraviețuire" sună mai bine decât „10% mortalitate", deși e același lucru. | Framing effect | Familie=decizie
+Crezi că ceilalți gândesc și simt la fel ca tine mai mult decât e cazul | Efectul de fals consens | | False consensus effect | Familie=social
+Subestimezi cât timp îți va lua o sarcină | Eroarea planificării | Antidot: uită-te cât au durat proiecte similare în trecut. | Planning fallacy | Familie=estimare
+Valorezi mai mult un lucru doar pentru că îl deții | Efectul de înzestrare | Oamenii cer mai mult pe un obiect al lor decât ar plăti pentru el. | Endowment effect | Familie=decizie
+Vezi tipare și legături acolo unde e doar întâmplare | Apofenia | Forma vizuală: vezi chipuri în nori sau în prize (pareidolie). | Apophenia | Familie=percepție
+Detectezi ușor erorile altora, dar te consideri mai puțin influențat de erori decât ei | Punctul orb al biasului | Termen propus de psihologa Emily Pronin. | Bias blind spot | Familie=autoevaluare
+## Erori de argumentare | Cum se numește această eroare de argumentare?
+Ataci persoana în loc de argument | Ad hominem | „Nu-l asculta, el n-a terminat facultatea." | Ad hominem | Tip=eroare logică
+Deformezi argumentul celuilalt într-o versiune mai slabă, ușor de atacat | Omul de paie | | Straw man | Tip=eroare logică
+Prezinți doar două opțiuni când de fapt există mai multe | Falsa dilemă | „Ori ești cu noi, ori împotriva noastră." | False dilemma | Tip=eroare logică
+Susții că un pas mic duce inevitabil la o catastrofă | Panta alunecoasă | | Slippery slope | Tip=eroare logică
+Crezi ceva doar pentru că o spune o autoritate, chiar din alt domeniu | Apelul la autoritate | Un actor celebru care recomandă un tratament medical nu e o autoritate medicală. | Appeal to authority | Tip=eroare logică
+Presupui că dacă B a venit după A, A l-a cauzat pe B | Post hoc ergo propter hoc | Corelația nu înseamnă cauzalitate. | Post hoc fallacy | Tip=eroare logică
+Concluzia e deja ascunsă în premisă (raționament circular) | Cerc vicios | „E adevărat pentru că așa scrie, iar ce scrie e adevărat." | Circular reasoning | Tip=eroare logică
+Schimbi subiectul cu ceva irelevant pentru a distrage atenția | Hering roșu (red herring) | | Red herring | Tip=eroare logică
+~ Biasul de confirmare ~ Biasul retrospectiv ~ Confirmarea: filtrezi informații ca să-ți susții părerea. Retrospectiv: după rezultat, crezi că l-ai fi prezis.
+~ Eroarea costului irecuperabil ~ Aversiunea față de pierdere ~ Costul irecuperabil privește trecutul (ce ai investit deja). Aversiunea față de pierdere privește viitorul (frica de a pierde).
+~ Ancorarea ~ Efectul de încadrare (framing) ~ Ancorarea: o cifră inițială te trage spre ea. Framing: modul de prezentare (pozitiv sau negativ) îți schimbă decizia.
+~ Efectul de halo ~ Eroarea fundamentală de atribuire ~ Halo: o trăsătură bună colorează tot. Atribuirea: pui faptele altora pe seama caracterului lor.
+~ Ad hominem ~ Omul de paie ~ Ad hominem atacă omul. Omul de paie atacă o versiune deformată a argumentului.
+~ Efectul Dunning-Kruger ~ Biasul de autoservire ~ Dunning-Kruger: necunoașterea te face să te supraestimezi. Autoservirea: îți atribui succesele și dai vina pe alții pentru eșecuri.
+## Erori cognitive (II) | Cum se numește această eroare de gândire?
+Îți amintești mai bine ultimele elemente dintr-o listă | Efectul de recență | Primele elemente se rețin și ele bine (efectul de primat). | Recency effect
+Îți amintești mai bine primele elemente dintr-o listă | Efectul de primat | | Primacy effect
+Sarcinile neterminate îți rămân în minte mai mult decât cele terminate | Efectul Zeigarnik | Descris de psihologa Bluma Zeigarnik. | Zeigarnik effect
+Descrieri vagi de personalitate (ex. horoscop) ți se par surprinzător de exacte | Efectul Barnum (Forer) | | Barnum effect
+Îți place mai mult ceva doar pentru că l-ai văzut de multe ori | Efectul de expunere simplă | | Mere-exposure effect
+Prețuiești mai mult un obiect pe care l-ai asamblat tu | Efectul IKEA | | IKEA effect
+După ce afli ceva nou, începi să-l observi peste tot | Iluzia frecvenței (fenomenul Baader-Meinhof) | | Frequency illusion
+Lucrurile negative ne afectează mai puternic decât cele pozitive de aceeași mărime | Biasul negativității | | Negativity bias
+Crezi că ți se vor întâmpla mai puține lucruri rele decât celorlalți | Biasul optimismului | | Optimism bias
+Crezi că poți controla evenimente care țin de fapt de noroc | Iluzia controlului | | Illusion of control
+Crezi că lumea e dreaptă și oamenii primesc ce merită | Ipoteza lumii drepte | Poate duce la blamarea victimelor. | Just-world hypothesis
+Îi favorizezi pe membrii grupului tău | Favoritismul de grup | | In-group bias
+Crezi că membrii altor grupuri seamănă mai mult între ei decât cei din grupul tău | Omogenitatea grupului exterior | | Out-group homogeneity
+O a treia opțiune, mai proastă, te face să o alegi pe cea pe care o „scoate în evidență" | Efectul momeală (decoy) | Exemplu: paharul mediu de popcorn, scump, face paharul mare să pară avantajos. | Decoy effect
+Prea multe opțiuni te paralizează sau te fac mai nemulțumit de alegere | Paradoxul alegerii | | Choice overload
+Preferi să elimini complet un risc mic decât să reduci mult un risc mare | Biasul riscului zero | | Zero-risk bias
+Subestimezi o catastrofă pentru că „nu s-a mai întâmplat niciodată" | Biasul normalității | | Normalcy bias
+Crezi că un jucător care a marcat de mai multe ori la rând e „pe val" | Eroarea „mâinii fierbinți" | | Hot-hand fallacy
+Ignori cât de frecvent e ceva în general și te concentrezi pe detaliile cazului | Neglijarea ratei de bază | | Base rate fallacy
+Crezi că două condiții împreună sunt mai probabile decât una singură | Eroarea conjuncției | Exemplul clasic „Linda, casieră și feministă", de la Tversky și Kahneman. | Conjunction fallacy
+După un rezultat extrem urmează de obicei unul mai apropiat de medie | Regresia spre medie | Nu e o eroare în sine; eroarea e să-i atribui o cauză. | Regression toward the mean
+Odată ce știi ceva, nu-ți mai poți imagina cum e să nu știi | Blestemul cunoașterii | De aceea experții explică adesea prost începătorilor. | Curse of knowledge
+Crezi că ceilalți te observă mult mai mult decât o fac | Efectul reflectorului | | Spotlight effect
+Judeci o experiență după vârful ei și după final, nu după medie | Regula vârf-final | | Peak–end rule
+Preferi o recompensă mică acum uneia mari mai târziu | Actualizare hiperbolică (biasul prezentului) | | Hyperbolic discounting
+Judeci mai aspru o faptă rea decât o omisiune cu același rezultat | Biasul omisiunii | | Omission bias
+Când ți se interzice ceva, îl vrei și mai mult | Reactanța | | Reactance
+Dovezile contrare îți întăresc uneori convingerea în loc s-o slăbească | Efectul de bumerang (backfire) | Studiile recente arată că efectul e mai rar decât se credea. | Backfire effect
+Respingi automat o idee nouă pentru că contrazice normele stabilite | Reflexul Semmelweis | Numit după medicul care a cerut spălarea mâinilor și a fost respins. | Semmelweis reflex
+Grupul ia decizii proaste pentru că membrii evită să contrazică majoritatea | Gândirea de grup (groupthink) | | Groupthink
+În grup, fiecare depune mai puțin efort decât singur | Lenea socială (efectul Ringelmann) | | Social loafing
+Ai mai multă încredere în deciziile automate ale calculatorului decât în propria judecată | Biasul automatizării | | Automation bias
+O afirmație care rimează pare mai adevărată | Efectul rimei | | Rhyme-as-reason effect
+Îți devine mai simpatic cineva după ce îi faci tu o favoare | Efectul Benjamin Franklin | | Ben Franklin effect
+O persoană competentă care face o mică greșeală devine mai simpatică | Efectul „pratfall" | | Pratfall effect
+Uiți ușor informațiile pe care știi că le poți găsi oricând online | Efectul Google (amnezia digitală) | | Google effect
+Te simți un impostor, deși ai succes și competențe reale | Sindromul impostorului | | Impostor syndrome
+## Memorie și învățare | Ce fenomen este?
+Repetarea informației la intervale tot mai mari o fixează mai bine decât „tocitul" | Efectul de spațiere | Pe el se bazează repetiția spațiată din această aplicație. | Spacing effect
+Să te testezi pe o informație te ajută să o reții mai bine decât s-o recitești | Efectul de testare (practica recuperării) | | Testing effect
+Reții mai bine ce ai generat tu decât ce ai citit | Efectul de generare | | Generation effect
+Graficul care arată cât de repede uităm informațiile noi | Curba uitării (Ebbinghaus) | Hermann Ebbinghaus, 1885. | Forgetting curve | An=1885
+Amestecarea temelor la învățare duce la o reținere mai bună decât blocurile pe o singură temă | Învățarea intercalată | Pe ea se bazează sesiunea „Amestec". | Interleaving
+Explicarea unui subiect în cuvinte simple, ca unui copil, ca test al înțelegerii | Tehnica Feynman | | Feynman technique
+Îți imaginezi un drum cunoscut și „așezi" informațiile în locuri de pe el | Palatul memoriei (metoda locurilor) | Tehnică folosită încă din Antichitate. | Method of loci
+Gruparea informațiilor în bucăți mai mari, ca un număr de telefon în grupuri de cifre | Gruparea (chunking) | | Chunking
+## Erori de argumentare (II) | Cum se numește această eroare de argumentare?
+„Nici tu nu ești mai bun!" - răspunzi la critică arătând ipocrizia celuilalt | Tu quoque | Forma modernă: „whataboutism". | Tu quoque
+„E natural, deci e bun" | Apelul la natură | | Appeal to nature
+„Așa s-a făcut mereu" | Apelul la tradiție | | Appeal to tradition
+„Toată lumea crede asta, deci e adevărat" | Apelul la popularitate (ad populum) | | Argumentum ad populum
+„Nu s-a dovedit că e fals, deci e adevărat" | Apelul la ignoranță | | Argument from ignorance
+Tragi o concluzie generală din prea puține cazuri | Generalizarea pripită | | Hasty generalization
+„Bunicul meu a fumat toată viața și a trăit 95 de ani" | Dovada anecdotică | | Anecdotal evidence
+Ceri mereu alte dovezi, după ce primele au fost aduse | Mutarea ștachetei | | Moving the goalposts
+„Niciun adevărat român n-ar face asta" | Eroarea „adevăratului scoțian" | Redefinești grupul ca să excluzi contraexemplul. | No true Scotsman
+Ce e adevărat pentru părți e adevărat și pentru întreg | Eroarea compoziției | Inversul e eroarea diviziunii. | Fallacy of composition
+Judeci o idee doar după originea ei, nu după conținut | Eroarea genetică | | Genetic fallacy
+„Ai încetat să mai copiezi la teste?" | Întrebarea capcană (complexă) | Orice răspuns te incriminează. | Loaded question
+Alegi doar datele care îți susțin teza | Culegerea cireșelor (cherry picking) | | Cherry picking
+Tragi la întâmplare, apoi desenezi ținta în jurul găurilor | Eroarea țintașului din Texas | Găsești tipare în date aleatoare după ce le-ai văzut. | Texas sharpshooter fallacy
+Prezinți două lucruri ca fiind la fel de grave, deși nu sunt | Falsa echivalență | | False equivalence
+Crezi că adevărul e mereu la mijloc între două poziții | Eroarea căii de mijloc | | Argument to moderation
+Respingi o soluție bună pentru că nu e perfectă | Eroarea nirvana | | Nirvana fallacy
+„Nu-mi pot imagina cum ar fi posibil, deci nu e adevărat" | Argumentul incredulității personale | | Argument from incredulity
+## Modele mentale | Cum se numește acest principiu?
+Dintre mai multe explicații, cea mai simplă e de obicei cea corectă | Briciul lui Occam | | Occam's razor
+Nu atribui răutății ce se poate explica prin neglijență | Briciul lui Hanlon | | Hanlon's razor
+Aproximativ 80% din efecte vin din 20% din cauze | Principiul Pareto (80/20) | | Pareto principle
+Munca se extinde cât să umple tot timpul disponibil | Legea lui Parkinson | | Parkinson's law
+Într-o ierarhie, oamenii sunt promovați până ajung la nivelul de incompetență | Principiul lui Peter | | Peter principle
+Când un indicator devine țintă, încetează să mai fie un indicator bun | Legea lui Goodhart | | Goodhart's law
+Ce poate merge prost, va merge prost | Legea lui Murphy | | Murphy's law
+Încercarea de a ascunde o informație o face și mai cunoscută | Efectul Streisand | | Streisand effect
+Ce a rezistat mult timp va mai rezista probabil mult timp (cărți, idei, tehnologii) | Efectul Lindy | | Lindy effect
+Te întrebi „și apoi ce urmează?" pentru consecințele consecințelor | Gândirea de ordinul doi | | Second-order thinking
+Rezolvi o problemă întrebându-te ce ar garanta eșecul și eviți acel lucru | Inversiunea | | Inversion
+Desfaci o problemă până la adevărurile fundamentale și construiești de acolo | Gândirea din principii prime | | First principles thinking
+Să știi unde se termină cunoștințele tale reale | Cercul de competență | Concept popularizat de Warren Buffett și Charlie Munger. | Circle of competence
+Modelele noastre despre realitate sunt simplificări, nu realitatea însăși | Harta nu este teritoriul | | Map–territory relation
+Valoarea celei mai bune alternative la care renunți când alegi ceva | Costul de oportunitate | | Opportunity cost
+Nu dărâma un gard până nu afli de ce a fost pus acolo | Gardul lui Chesterton | | Chesterton's fence
+Prioritizarea sarcinilor după urgent / important | Matricea Eisenhower | | Eisenhower matrix
+Fiecare unitate în plus de efort aduce tot mai puțin rezultat | Randamentele descrescătoare | | Diminishing returns
+Doi suspecți care ar câștiga cooperând, dar fiecare are interes să-l trădeze pe celălalt | Dilema prizonierului | | Prisoner's dilemma
+O resursă comună e epuizată pentru că fiecare urmărește doar interesul propriu | Tragedia bunurilor comune | | Tragedy of the commons
+O recompensă prost gândită produce exact opusul efectului dorit | Efectul cobra | Numit după recompensele pentru cobre moarte din India colonială. | Cobra effect
+Eveniment rar, imprevizibil, cu impact uriaș, explicat abia ulterior | Lebăda neagră | Concept al lui Nassim Nicholas Taleb. | Black swan theory
+Imaginezi dinainte că un proiect a eșuat și cauți motivele | Analiza pre-mortem | | Pre-mortem
+Reformulezi argumentul adversarului în forma lui cea mai puternică înainte de a-l contrazice | Omul de oțel (steelmanning) | Opusul „omului de paie". | Steelmanning
+Numărul aproximativ de relații sociale stabile pe care le poate menține un om (aproximativ 150) | Numărul lui Dunbar | | Dunbar's number
+Totul durează mai mult decât crezi, chiar și când ții cont de asta | Legea lui Hofstadter | | Hofstadter's law
+~ Efectul de recență ~ Efectul de primat ~ Recența: ultimele elemente. Primatul: primele elemente.
+~ Briciul lui Occam ~ Briciul lui Hanlon ~ Occam: explicația cea mai simplă. Hanlon: nu presupune răutate unde poate fi neglijență.
+~ Legea lui Parkinson ~ Legea lui Hofstadter ~ Parkinson: munca umple timpul disponibil. Hofstadter: totul durează mai mult decât estimezi.
+~ Efectul de spațiere ~ Efectul de testare (practica recuperării) ~ Spațierea: când repeți. Testarea: cum repeți (încercând să-ți amintești).
+~ Tu quoque ~ Ad hominem ~ Ad hominem atacă persoana; tu quoque acuză ipocrizia („nici tu nu faci asta").
+~ Gândirea de grup (groupthink) ~ Lenea socială (efectul Ringelmann) ~ Groupthink: decizii proaste din dorința de consens. Lenea socială: efort mai mic în grup.
+## Erori cognitive (III) | Cum se numește această eroare de gândire?
+Te concentrezi pe ce ai pierdut, nu pe ce ai câștigat dintr-o alegere | Biasul regretului | | Regret aversion
+Crezi că o reducere de la 1.000 la 700 lei e mai bună decât un preț de 700 lei din start | Efectul de contrast (ancorare de preț) | | Contrast effect
+O informație repetată de multe ori începe să pară adevărată | Efectul adevărului iluzoriu | | Illusory truth effect
+Îți amintești greșit evenimente, dar ești convins că s-au petrecut așa | Amintiri false | | False memory
+Un grup mare de oameni își amintește greșit același detaliu | Efectul Mandela | | Mandela effect
+Supraestimezi cât de mult ți-a rămas în minte după ce ai recitit un text | Iluzia competenței | Testarea o dezvăluie; recitirea o hrănește. | Illusion of competence
+Apreciezi mai mult o persoană atrăgătoare când e într-un grup | Efectul „cheerleader" | | Cheerleader effect
+Iei decizii mai proaste când ești obosit după multe alegeri | Oboseala decizională | | Decision fatigue
+Ești prea sigur că răspunsurile tale sunt corecte | Excesul de încredere | | Overconfidence effect
+Atribui comportamentul unui grup unei singure persoane și invers, pe baza unui stereotip | Stereotipizare | | Stereotyping
+Crezi că lucrurile scumpe sunt automat de calitate mai bună | Euristica preț-calitate | | Price–quality heuristic
+Apreciezi o idee mai mult pentru că vine de la cineva pe care îl placi | Biasul sursei | | Source bias
+Continui să crezi o informație chiar după ce ai aflat că e falsă | Efectul influenței continue | | Continued influence effect
+Supraestimezi probabilitatea evenimentelor rare și spectaculoase | Neglijarea probabilității | | Neglect of probability
+Crezi că ai fi acționat altfel decât alții în aceeași situație | Iluzia superiorității | | Illusory superiority
+Îți explici propriile fapte prin situație, dar pe ale altora prin caracterul lor | Biasul actor-observator | | Actor–observer bias
+## Gândire critică | Cum se numește?
+Verificarea unei informații din mai multe surse independente | Triangulare (verificare încrucișată) | | Triangulation
+O afirmație care nu poate fi niciodată dovedită falsă nu e științifică | Criteriul falsificabilității (Karl Popper) | | Falsifiability
+Corelația dintre două lucruri nu înseamnă că unul îl provoacă pe celălalt | Corelație vs. cauzalitate | Exemplu: vânzările de înghețată și înecurile cresc vara, din cauza căldurii. | Correlation does not imply causation
+O cauză comună ascunsă explică legătura dintre două variabile | Variabilă de confuzie | | Confounding variable
+Studiu în care nici pacienții, nici medicii nu știu cine primește tratamentul real | Studiu dublu-orb | | Double-blind study
+Analiză care combină rezultatele mai multor studii | Meta-analiză | | Meta-analysis
+Afirmațiile extraordinare cer dovezi extraordinare | Standardul lui Sagan | | Sagan standard
+Cel care afirmă ceva trebuie să-l dovedească | Sarcina probei | | Burden of proof
+Să cauți activ informații care te-ar putea contrazice | Gândirea de tip „om de știință" | | Scout mindset
+Când ceva e prea frumos ca să fie adevărat... | Probabil nu e adevărat | Regula de bază împotriva înșelătoriilor. | Too good to be true
+Titlu senzațional, făcut doar ca să fie apăsat | Clickbait | | Clickbait
+Știri inventate prezentate ca reale | Dezinformare (fake news) | Misinformarea e răspândirea fără intenție a informațiilor false. | Disinformation
+Imagini sau video falsificate cu inteligență artificială | Deepfake | | Deepfake
+## Memorie și învățare (II) | Ce fenomen sau tehnică este?
+Asociezi informația cu o imagine vie, absurdă sau amuzantă | Imagini mentale (vizualizare) | | Visual mnemonics
+Prima literă a fiecărui cuvânt formează un cuvânt-cheie (ex. OCEAN) | Acronim mnemotehnic | | Acronym mnemonic
+Te testezi înainte să înveți, chiar dacă greșești | Pre-testarea | Greșelile timpurii fac informația corectă mai memorabilă. | Pretesting effect
+Ce greșeai cu încredere și ai corectat se ține minte foarte bine | Efectul hipercorecției | | Hypercorrection effect
+Lucruri ciudate sau neobișnuite se rețin mai ușor | Efectul bizareriei | | Bizarreness effect
+Un element care iese în evidență dintr-o listă e reținut mai bine | Efectul von Restorff | | Von Restorff effect
+Îți amintești mai bine informațiile în același context în care le-ai învățat | Memoria dependentă de context | | Context-dependent memory
+Explici fiecare pas al unei soluții întrebându-te „de ce?" | Auto-explicarea | | Self-explanation
+Ai senzația că știi un cuvânt, dar nu ți-l amintești | Fenomenul „pe vârful limbii" | | Tip of the tongue
+Memoria de foarte scurtă durată, care ține aproximativ 7 elemente | Memoria de lucru | Studiul clasic: „Numărul magic 7 ± 2" (George Miller, 1956). | Working memory
+Tehnica de lucru în intervale de 25 de minute cu pauze scurte | Tehnica Pomodoro | Creată de Francesco Cirillo. | Pomodoro technique
+~ Corelație vs. cauzalitate ~ Variabilă de confuzie ~ Corelația e observația; variabila de confuzie e adesea explicația ascunsă.
+~ Efectul von Restorff ~ Efectul bizareriei ~ Von Restorff: ce iese în evidență într-o listă. Bizareria: ce e ciudat în sine.
+~ Dezinformare (fake news) ~ Deepfake ~ Dezinformarea e conținut fals în general; deepfake-ul e imagine sau video falsificat cu AI.

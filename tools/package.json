@@ -1,0 +1,14 @@
+{
+  "name": "cartoteca-tools",
+  "private": true,
+  "description": "Build, image and test tools for Cartoteca lui Matei (the app itself has no build step).",
+  "scripts": {
+    "test": "node test/test_decks.js && node test/test_answers.js && node test/test_models.js",
+    "test:ui": "node test/ui_test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "playwright": "^1.52.0",
+    "sharp": "^0.34.2"
+  }
+}

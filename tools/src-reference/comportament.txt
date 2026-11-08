@@ -1,0 +1,199 @@
+@id comportament
+@prompt Ce tip de comportament descrie?
+## Trăsături | Ce culoare (tip DISC) descrie?
+Hotărât, direct, competitiv, vrea rezultate rapide | Roșu (Dominant) | Roșii sunt orientați spre sarcină și spre acțiune; iau decizii repede și preiau controlul. | Red - Dominance | Orientare=sarcină; Ritm=rapid; Motivație=rezultate și control
+Entuziast, sociabil, optimist, vorbește mult | Galben (Influent) | Galbenii sunt orientați spre oameni și spre idei; aduc energie și creativitate într-un grup. | Yellow - Influence | Orientare=oameni; Ritm=rapid; Motivație=recunoaștere și distracție
+Calm, răbdător, loial, bun ascultător | Verde (Stabil) | Verzii sunt orientați spre oameni și spre armonie; evită conflictele și preferă stabilitatea. | Green - Steadiness | Orientare=oameni; Ritm=lent; Motivație=siguranță și relații
+Analitic, precis, rezervat, atent la detalii | Albastru (Conștiincios) | Albaștrii sunt orientați spre sarcină și spre calitate; vor date, logică și lucruri făcute corect. | Blue - Compliance | Orientare=sarcină; Ritm=lent; Motivație=corectitudine și calitate
+Nerăbdător, poate părea arogant sau agresiv | Roșu (Dominant) | Partea mai puțin plăcută a energiei roșii: pune rezultatul înaintea oamenilor. | Red - weaknesses | Sub stres=devine autoritar
+Se laudă, întrerupe, uită promisiunile, nu e atent la detalii | Galben (Influent) | Energia galbenă poate deveni superficială și dezorganizată. | Yellow - weaknesses | Sub stres=devine dramatic sau superficial
+Evită schimbarea, ezită să-și spună părerea, poate fi încăpățânat în tăcere | Verde (Stabil) | Verzii pot spune „da" când gândesc „nu", ca să evite conflictul. | Green - weaknesses | Sub stres=se retrage, rezistență pasivă
+Critic, perfecționist, poate părea rece și suspicios | Albastru (Conștiincios) | Albaștrii pot întârzia deciziile din dorința de a avea toate informațiile. | Blue - weaknesses | Sub stres=se închide, critică excesiv
+Teama cea mai mare: să piardă controlul sau să pară slab | Roșu (Dominant) | Roșii detestă să fie manipulați sau ținuți pe loc. | Red - fear | Teamă=pierderea controlului
+Teama cea mai mare: să fie respins sau ignorat | Galben (Influent) | Galbenii au nevoie de aprobare socială și atenție. | Yellow - fear | Teamă=respingerea socială
+Teama cea mai mare: schimbările bruște și conflictele | Verde (Stabil) | Verzii au nevoie de timp să se adapteze și de un mediu previzibil. | Green - fear | Teamă=schimbarea bruscă
+Teama cea mai mare: să greșească sau să fie criticat pentru calitatea muncii | Albastru (Conștiincios) | Albaștrii au standarde înalte și urăsc greșelile publice. | Blue - fear | Teamă=greșeala și critica
+## Cum îi recunoști | Ce culoare recunoști în acest comportament?
+Intră în ședință, trece direct la subiect și cere decizia în 5 minute | Roșu (Dominant) | Nu are răbdare pentru discuții introductive. | Red - recognition
+Povestește trei anecdote înainte să ajungă la subiect și râde des | Galben (Influent) | Folosește povești și emoție ca să convingă. | Yellow - recognition
+Întreabă cum se simte echipa și cum va afecta schimbarea pe colegi | Verde (Stabil) | Se gândește întâi la oameni și la armonia grupului. | Green - recognition
+Cere tabelul cu cifre, întreabă de surse și notează totul | Albastru (Conștiincios) | Nu decide fără date și verificare. | Blue - recognition
+Biroul e plin de fotografii, culori și obiecte amuzante, dar dezordonat | Galben (Influent) | Galbenii își personalizează spațiul și preferă creativitatea ordinii. | Yellow - office
+Biroul e impecabil, dosarele etichetate, totul la locul lui | Albastru (Conștiincios) | Ordinea le dă controlul asupra calității. | Blue - office
+Biroul are fotografii cu familia și o atmosferă primitoare | Verde (Stabil) | Relațiile apropiate sunt centrul vieții lor. | Green - office
+Biroul are diplome, trofee și simboluri ale succesului | Roșu (Dominant) | Succesul și statutul sunt importante pentru ei. | Red - office
+## Cum comunici cu ei | Cu ce culoare comunici așa?
+Fii scurt, la obiect, vorbește despre rezultate și lasă-l să aleagă între opțiuni | Roșu (Dominant) | Nu te pierde în detalii; respectă-i timpul și nevoia de control. | Communicating with Red
+Fii entuziast, lasă loc pentru povești, laudă-l sincer și confirmă în scris ce ați stabilit | Galben (Influent) | Fă discuția plăcută, dar notează tu detaliile, pentru că el le poate uita. | Communicating with Yellow
+Fii prietenos, explică schimbările din timp, cere-i părerea direct și calm | Verde (Stabil) | Nu-l presa; dă-i siguranță și timp de adaptare. | Communicating with Green
+Vino pregătit cu fapte, date și argumente logice; lasă-i timp să analizeze | Albastru (Conștiincios) | Evită exagerările și emoțiile; fii precis. | Communicating with Blue
+Cum îi dai feedback negativ? Direct, fără ocolișuri, axat pe rezultat | Roșu (Dominant) | Respectă franchețea; ocolișurile îl irită. | Feedback to Red
+Cum îi dai feedback negativ? Între patru ochi, cu grijă pentru imaginea lui | Galben (Influent) | Critica publică îl rănește foarte tare. | Feedback to Yellow
+Cum îi dai feedback negativ? Blând, în privat, cu asigurarea că relația rămâne bună | Verde (Stabil) | Altfel se poate retrage fără să spună nimic. | Feedback to Green
+Cum îi dai feedback negativ? Cu exemple concrete și dovezi verificabile | Albastru (Conștiincios) | Critica vagă îl va face să o conteste punct cu punct. | Feedback to Blue
+## Despre model | Răspunde la întrebare
+Pe ce model psihologic se bazează cartea „Surrounded by Idiots" (Thomas Erikson)? | Modelul DISC | DISC vine de la Dominance, Influence, Steadiness, Compliance; teoria de bază a fost propusă de psihologul William Moulton Marston (1928). | DISC model | Autor teorie=William Moulton Marston; An=1928
+Care sunt cele două axe care separă cele patru culori? | Extrovertit-introvertit și orientat spre sarcină-orientat spre oameni | Roșu = extrovertit + sarcină; Galben = extrovertit + oameni; Verde = introvertit + oameni; Albastru = introvertit + sarcină. | DISC axes
+Cât de răspândite sunt profilurile pure, de o singură culoare? | Rare - majoritatea oamenilor combină două culori | Potrivit autorului, majoritatea oamenilor au două culori dominante, iar profilurile de o singură culoare sunt rare. Uneori apar chiar trei. | Mixed profiles
+Cât de solid științific este modelul celor patru culori? | Util ca limbaj comun, dar cu validare științifică limitată | Psihologii preferă modele mai bine cercetate, precum Big Five (OCEAN). Folosește culorile ca instrument de comunicare, nu ca etichetă fixă. | Scientific validity | Model mai validat=Big Five (OCEAN)
+Ce sunt cele cinci trăsături Big Five (OCEAN)? | Deschidere, Conștiinciozitate, Extraversiune, Agreabilitate, Nevrotism | Modelul de personalitate cu cel mai bun suport științific în psihologia actuală. | Big Five: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism | Acronim=OCEAN
+Ce combinație de culori este considerată cea mai dificilă, cu cel mai mult conflict? | Roșu și Verde | Roșul vrea viteză și schimbare; verdele vrea calm și stabilitate. Galben-Albastru e cealaltă pereche opusă. | Opposite pairs | Perechi opuse=Roșu-Verde, Galben-Albastru
+~ Hotărât, direct, competitiv, vrea rezultate rapide ~ Entuziast, sociabil, optimist, vorbește mult ~ Ambii sunt rapizi și extrovertiți. Roșul vrea rezultate (sarcină); galbenul vrea oameni și distracție.
+~ Calm, răbdător, loial, bun ascultător ~ Analitic, precis, rezervat, atent la detalii ~ Ambii sunt mai lenți și introvertiți. Verdele se gândește la oameni; albastrul la calitate și fapte.
+~ Hotărât, direct, competitiv, vrea rezultate rapide ~ Analitic, precis, rezervat, atent la detalii ~ Ambii sunt orientați spre sarcină. Roșul decide repede; albastrul decide doar după analiză.
+~ Entuziast, sociabil, optimist, vorbește mult ~ Calm, răbdător, loial, bun ascultător ~ Ambii sunt orientați spre oameni. Galbenul vorbește; verdele ascultă.
+## Culorile în acțiune | Ce culoare descrie situația?
+Într-o ședință, propune o idee nouă la fiecare 5 minute, dar uită să le noteze | Galben (Influent) | Creativitatea e punctul lor forte; urmărirea e punctul slab. | Yellow in meetings
+Scrie e-mailuri de trei rânduri, fără salut, cu decizia în prima frază | Roșu (Dominant) | | Red email style
+Scrie e-mailuri lungi, structurate pe puncte, cu anexe și surse | Albastru (Conștiincios) | | Blue email style
+Întreabă dacă toată lumea e de acord înainte de a lua o decizie | Verde (Stabil) | | Green decision style
+Sub presiune, devine autoritar și ia decizii singur | Roșu (Dominant) | | Red under stress
+Sub presiune, se retrage și devine încăpățânat în tăcere | Verde (Stabil) | | Green under stress
+Sub presiune, devine extrem de critic și caută greșeli | Albastru (Conștiincios) | | Blue under stress
+Sub presiune, vorbește mult, devine dramatic și caută aprobare | Galben (Influent) | | Yellow under stress
+Rolul în care excelează: lider care ia decizii rapide în criză | Roșu (Dominant) | | Red role
+Rolul în care excelează: motivator, prezentator, vânzător de idei | Galben (Influent) | | Yellow role
+Rolul în care excelează: coleg de nădejde, mediator, sprijin pentru echipă | Verde (Stabil) | | Green role
+Rolul în care excelează: analist, controlor de calitate, planificator | Albastru (Conștiincios) | | Blue role
+Ce temperament antic corespunde, aproximativ, Roșului? | Coleric | Hipocrate și Galen descriau patru temperamente legate de „umorile" corpului. | Choleric
+Ce temperament antic corespunde, aproximativ, Galbenului? | Sangvinic | | Sanguine
+Ce temperament antic corespunde, aproximativ, Verdelui? | Flegmatic | | Phlegmatic
+Ce temperament antic corespunde, aproximativ, Albastrului? | Melancolic | | Melancholic
+## Big Five (OCEAN) | Ce trăsătură descrie?
+Curios, imaginativ, deschis la idei și experiențe noi | Deschidere (Openness) | Scorul scăzut înseamnă preferință pentru familiar și concret. | Openness to experience
+Organizat, disciplinat, de încredere, orientat spre obiective | Conștiinciozitate (Conscientiousness) | Cel mai bun predictor de personalitate pentru performanța la școală și la muncă. | Conscientiousness
+Sociabil, energic, caută compania altora | Extraversiune (Extraversion) | | Extraversion
+Cooperant, empatic, încrezător în ceilalți | Agreabilitate (Agreeableness) | | Agreeableness
+Predispus la anxietate, schimbări de dispoziție și stres | Nevrotism (Neuroticism) | Opusul este stabilitatea emoțională. | Neuroticism
+Ce înseamnă acronimul OCEAN? | Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism | | OCEAN acronym
+Ce psiholog elvețian a introdus termenii „introvertit" și „extravertit"? | Carl Gustav Jung | În lucrarea „Tipuri psihologice" (1921). | Carl Jung | An=1921
+Ce chestionar împarte oamenii în 16 tipuri, din patru perechi de litere (ex. INTJ)? | MBTI (Myers-Briggs) | Foarte popular, dar criticat de psihologi pentru fiabilitatea scăzută. | Myers-Briggs Type Indicator
+Ce descrie „personalitatea de tip A"? | Competitivă, grăbită, nerăbdătoare, orientată spre realizări | Tipul B este mai relaxat. Conceptul vine din cercetări cardiologice din anii '50. | Type A personality
+Ce este „locus of control"? | Cât de mult crezi că rezultatele vieții tale depind de tine (intern) sau de factori externi (extern) | Concept introdus de Julian Rotter. | Locus of control
+## Limbajul corpului | Ce poate semnala?
+Brațe încrucișate pe piept | Defensivă sau închidere - dar poate fi și simplu frig sau comoditate | Limbajul corpului se citește în grupuri de semnale și în context, niciodată dintr-un singur gest. | Crossed arms
+Zâmbet care îngustează și ochii (riduri la colțuri) | Zâmbet autentic (zâmbet Duchenne) | Zâmbetul politicos implică doar gura. | Duchenne smile
+Imitarea inconștientă a posturii și gesturilor celuilalt | Oglindire (mirroring) - semn de conexiune și empatie | | Mirroring
+Picioarele îndreptate spre ușă în timpul conversației | Dorința de a pleca | Picioarele sunt considerate partea corpului cea mai greu de controlat conștient. | Feet pointing away
+Palmele deschise, vizibile | Sinceritate și deschidere | | Open palms
+Atingerea repetată a feței sau a gâtului | Neliniște, auto-liniștire | Nu este o dovadă că persoana minte. | Self-soothing gestures
+Expresii faciale foarte scurte (sub o secundă) care trădează o emoție reală | Microexpresii | Studiate de psihologul Paul Ekman. | Microexpressions
+Câte emoții de bază universale a identificat Paul Ekman? | Șase: bucurie, tristețe, frică, furie, surpriză, dezgust (plus disprețul, adăugat ulterior) | Recunoscute pe fețe în culturi foarte diferite. | Basic emotions (Ekman)
+Cum se numește studiul folosirii spațiului personal în comunicare? | Proxemică | Introdus de antropologul Edward T. Hall. | Proxemics
+Distanța „personală" de conversație, după Edward T. Hall | Aproximativ 45-120 cm | Distanța intimă e sub 45 cm, cea socială 1,2-3,6 m, cea publică peste 3,6 m. | Personal distance
+Postura „de putere": umeri deschiși, ocupare de spațiu | Încredere și dominanță | Efectul ei asupra hormonilor, popularizat în 2010, nu a fost confirmat de studii ulterioare. | Power posing
+Contact vizual prelungit și fix | Interes, dar și intimidare - depinde de cultură și context | În multe culturi asiatice, contactul vizual direct prelungit e considerat nepoliticos. | Eye contact
+Tonul, ritmul și volumul vocii | Paralimbaj | | Paralanguage
+## Inteligență emoțională și comunicare | Cum se numește?
+Capacitatea de a-ți recunoaște și gestiona emoțiile și de a le înțelege pe ale altora | Inteligență emoțională | Popularizată de Daniel Goleman în 1995. | Emotional intelligence | Autor=Daniel Goleman; An=1995
+Cele cinci componente ale inteligenței emoționale după Goleman | Conștiința de sine, autoreglarea, motivația, empatia, abilitățile sociale | | Goleman's five components
+Ascultare în care reformulezi ce ai auzit și pui întrebări de clarificare | Ascultare activă | | Active listening
+Metodă de comunicare în patru pași: observație, sentiment, nevoie, cerere | Comunicarea nonviolentă | Creată de psihologul Marshall Rosenberg. | Nonviolent Communication
+Mesaj de tipul „Eu mă simt ... când ..." în loc de „Tu mereu ..." | Mesaj la persoana I („mesaj-eu") | Reduce defensiva celuilalt. | I-statement
+Capacitatea de a simți și înțelege emoțiile altcuiva din perspectiva lui | Empatie | Simpatia înseamnă să simți milă; empatia, să înțelegi din interior. | Empathy
+Feedback structurat ca: lucru bun - de îmbunătățit - lucru bun | Feedback „sandviș" | Criticat pentru că poate dilua mesajul. | Feedback sandwich
+Manipulare prin care cineva te face să te îndoiești de propria memorie sau percepție | Gaslighting | Numele vine din piesa și filmul „Gaslight". | Gaslighting
+Capacitatea de a-ți reveni după eșecuri și stres | Reziliență | | Resilience
+Spunerea fermă a propriei opinii, respectând-o pe a celuilalt | Asertivitate | Între pasivitate și agresivitate. | Assertiveness
+## Motivație | Cine sau ce descrie?
+Piramida nevoilor: fiziologice, siguranță, apartenență, stimă, autoactualizare | Piramida lui Maslow | Abraham Maslow, 1943. | Maslow's hierarchy of needs | An=1943
+Teoria care separă factorii „igienici" (salariu, condiții) de cei motivatori (recunoaștere, responsabilitate) | Teoria celor doi factori a lui Herzberg | Factorii igienici previn nemulțumirea, dar nu motivează. | Herzberg two-factor theory
+Cei trei factori ai motivației intrinseci după Daniel Pink | Autonomie, măiestrie, scop | Din cartea „Drive" (2009). | Daniel Pink - Drive
+Motivație care vine din plăcerea activității în sine | Motivație intrinsecă | Opusă motivației extrinseci (recompense, note, bani). | Intrinsic motivation
+Starea de concentrare totală în care pierzi noțiunea timpului | Flow | Descrisă de psihologul Mihaly Csikszentmihalyi. | Flow (psychology)
+Convingerea că abilitățile se dezvoltă prin efort | Mentalitate de creștere (growth mindset) | Concept al psihologei Carol Dweck; opusul e mentalitatea fixă. | Growth mindset
+Ameliorarea unei stări doar pentru că pacientul crede că primește tratament | Efectul placebo | Inversul, efectul nocebo, apare când așteptările negative produc efecte negative. | Placebo effect
+Așteptările mari ale profesorului cresc performanța elevilor | Efectul Pygmalion | Studiat de Robert Rosenthal (1968). | Pygmalion effect
+Oamenii își schimbă comportamentul când știu că sunt observați | Efectul Hawthorne | Numit după uzinele Hawthorne din Chicago. | Hawthorne effect
+Tendința de a amâna o sarcină deși știi că vei avea de suferit | Procrastinare | | Procrastination
+## Experimente celebre | Ce experiment este?
+Participanții au administrat (crezând că sunt reale) șocuri electrice tot mai mari, la ordinul unui cercetător | Experimentul Milgram (1961) | Aproximativ două treimi au mers până la nivelul maxim - un studiu despre obediența față de autoritate. | Milgram experiment | An=1961
+Participanții au dat răspunsuri evident greșite despre lungimea unor linii, doar pentru că grupul le dăduse | Experimentul de conformism al lui Asch (anii '50) | | Asch conformity experiment
+Studenți împărțiți în „gardieni" și „deținuți" într-o închisoare simulată, oprit după 6 zile | Experimentul închisorii Stanford (1971) | Condus de Philip Zimbardo; criticat ulterior pentru metodologie. | Stanford prison experiment | An=1971
+Copiilor li s-a oferit o bezea acum sau două dacă așteaptă | Testul bezelei (marshmallow) | Walter Mischel, Stanford, anii '60-'70; studiu despre gratificarea amânată. | Stanford marshmallow experiment
+Câinii salivau la sunetul unui clopoțel asociat cu mâncarea | Condiționarea clasică (Pavlov) | Ivan Pavlov, Premiul Nobel 1904 (pentru fiziologia digestiei). | Classical conditioning
+Comportamentul e modelat prin recompense și pedepse | Condiționarea operantă (Skinner) | | Operant conditioning
+Copiii care au văzut un adult lovind o păpușă au imitat agresivitatea | Experimentul păpușii Bobo (Bandura, 1961) | Învățarea prin observație. | Bobo doll experiment
+Cu cât sunt mai mulți martori la o urgență, cu atât e mai puțin probabil ca cineva să ajute | Efectul spectatorului | Studiat de Darley și Latané după cazul Kitty Genovese (1964). | Bystander effect
+Oamenii plătiți cu 1 dolar pentru a minți și-au schimbat părerea mai mult decât cei plătiți cu 20 | Disonanța cognitivă (Festinger, 1959) | Ne ajustăm convingerile ca să se potrivească cu ce am făcut. | Cognitive dissonance
+Puii de maimuță preferau o „mamă" din pânză moale uneia din sârmă care le dădea lapte | Experimentele lui Harlow | Au arătat importanța atașamentului și a contactului. | Harlow's monkeys
+## Mecanisme de apărare | Cum se numește?
+Refuzi să accepți o realitate dureroasă | Negare | Mecanismele de apărare au fost descrise de Sigmund Freud și sistematizate de Anna Freud. | Denial
+Îți atribui propriile sentimente inacceptabile altcuiva | Proiecție | | Projection
+Găsești explicații logice pentru un comportament cu alte motive reale | Raționalizare | | Rationalization
+Îți descarci furia pe cineva mai puțin amenințător decât sursa ei | Deplasare | Exemplu: te cerți cu șeful și țipi acasă. | Displacement
+Transformi impulsuri inacceptabile în activități valoroase (artă, sport) | Sublimare | Considerat un mecanism matur. | Sublimation
+Revii la comportamente de copil în situații stresante | Regresie | | Regression
+## Persuasiune și negociere | Ce principiu este?
+Oamenii simt nevoia să întoarcă o favoare primită | Reciprocitate | Primul dintre principiile influenței descrise de Robert Cialdini (1984). | Reciprocity (Cialdini)
+După ce ne angajăm public, tindem să rămânem consecvenți cu acel angajament | Angajament și consecvență | | Commitment and consistency
+Ne luăm după ce fac mulți alții, mai ales în situații nesigure | Dovada socială | | Social proof
+Ascultăm mai ușor de experți și de simbolurile autorității | Autoritate | | Authority (Cialdini)
+Spunem „da" mai ușor oamenilor pe care îi plăcem | Simpatie (liking) | | Liking (Cialdini)
+Ce e puțin sau pe cale să dispară pare mai valoros | Raritate | | Scarcity (Cialdini)
+Ne influențează cei pe care îi simțim „de-ai noștri" (familie, comunitate) | Unitate | Al șaptelea principiu, adăugat de Cialdini în 2016. | Unity (Cialdini)
+Ceri întâi o favoare mică, apoi una mare | Piciorul în ușă (foot-in-the-door) | | Foot-in-the-door
+Ceri întâi ceva exagerat, refuzat sigur, apoi ce voiai de fapt | Ușa în față (door-in-the-face) | | Door-in-the-face
+Cea mai bună alternativă dacă negocierea eșuează | BATNA | Din cartea „Getting to Yes" (Fisher și Ury, 1981). | BATNA
+Prima ofertă dintr-o negociere influențează puternic rezultatul final | Ancorarea în negociere | | Anchoring in negotiation
+~ Coleric ~ Sangvinic ~ Colericul (≈ Roșu) e impulsiv și dominant; sangvinicul (≈ Galben) e vesel și sociabil.
+~ Flegmatic ~ Melancolic ~ Flegmaticul (≈ Verde) e calm și constant; melancolicul (≈ Albastru) e analitic și sensibil.
+~ Experimentul Milgram (1961) ~ Experimentul de conformism al lui Asch (anii '50) ~ Milgram = ascultare de autoritate (ordine); Asch = conformism față de grup.
+~ Proiecție ~ Deplasare ~ Proiecția mută sentimentul pe altcineva („el e furios"); deplasarea mută ținta furiei tale.
+~ Piciorul în ușă (foot-in-the-door) ~ Ușa în față (door-in-the-face) ~ Piciorul în ușă: mic, apoi mare. Ușa în față: mare (refuzat), apoi mic.
+~ Motivație intrinsecă ~ Teoria celor doi factori a lui Herzberg ~ Intrinsecă = plăcerea activității; Herzberg = factori igienici vs motivatori la locul de muncă.
+## Culorile în relații | Ce culoare descrie situația?
+Te enervează cel mai tare la colegi lentoarea și ezitarea | Roșu (Dominant) | | Red irritation
+Te enervează cel mai tare la colegi răceala și detaliile interminabile | Galben (Influent) | | Yellow irritation
+Te enervează cel mai tare la colegi graba și schimbările bruște | Verde (Stabil) | | Green irritation
+Te enervează cel mai tare la colegi superficialitatea și greșelile neglijente | Albastru (Conștiincios) | | Blue irritation
+Ce întreabă cel mai des: „Ce?" (care e rezultatul) | Roșu (Dominant) | | Red question
+Ce întreabă cel mai des: „Cine?" (cine mai participă) | Galben (Influent) | | Yellow question
+Ce întreabă cel mai des: „Cum?" (cum o să ne afecteze) | Verde (Stabil) | | Green question
+Ce întreabă cel mai des: „De ce?" (pe ce date se bazează) | Albastru (Conștiincios) | | Blue question
+Vrea să i se dea o listă de opțiuni și să decidă el | Roșu (Dominant) | | Red choices
+Vrea garanții și dovezi că planul a fost verificat | Albastru (Conștiincios) | | Blue proof
+Are nevoie să audă că relația rămâne bună chiar dacă nu sunteți de acord | Verde (Stabil) | | Green reassurance
+Are nevoie de recunoaștere publică pentru contribuția lui | Galben (Influent) | | Yellow recognition
+## Comunicare | Cum se numește?
+Întrebare la care se poate răspunde doar cu „da" sau „nu" | Întrebare închisă | Întrebările deschise („Ce?", „Cum?") invită la explicații. | Closed question
+Repetarea cu propriile cuvinte a ce a spus celălalt | Parafrazare | | Paraphrasing
+Să răspunzi la tonul emoțional, nu doar la conținut („Pari frustrat...") | Reflectarea emoțiilor | | Reflecting feelings
+Comunicare în care spui ce vrei indirect, prin aluzii și ironii | Comunicare pasiv-agresivă | | Passive-aggressive behavior
+Modelul în care mesajul are patru „straturi": fapt, relație, autodezvăluire, apel | Modelul celor patru urechi (Schulz von Thun) | | Four-sides model
+Analiza tranzacțională: cele trei stări ale eului | Părinte, Adult, Copil (Eric Berne) | | Transactional analysis
+Triunghiul dramatic al relațiilor toxice | Victimă, Persecutor, Salvator (triunghiul lui Karpman) | | Karpman drama triangle
+Stilul de conflict în care ambele părți câștigă | Colaborare | Modelul Thomas-Kilmann are cinci stiluri: competiție, colaborare, compromis, evitare, acomodare. | Collaborating (conflict style)
+Stilul de conflict în care renunți la ce vrei pentru a păstra relația | Acomodare | | Accommodating (conflict style)
+Stilul de conflict în care fiecare cedează câte ceva | Compromis | | Compromising (conflict style)
+## Psihologie socială | Ce fenomen este?
+Oamenii din grupuri iau decizii mai extreme decât ar lua individual | Polarizarea de grup | | Group polarization
+Te simți mai puțin responsabil când ești anonim într-o mulțime | Dezindividualizare | | Deindividuation
+Tendința de a urma regulile nescrise ale grupului | Norme sociale | | Social norms
+Prejudecăți scad când grupuri diferite colaborează pentru un scop comun | Ipoteza contactului (experimentul Robbers Cave) | | Contact hypothesis
+Stabilirea unei poziții de putere prin intimidare repetată a celor mai slabi | Bullying (intimidare) | | Bullying
+Presiunea de a face ce fac prietenii | Presiunea grupului | | Peer pressure
+Cineva te place mai mult dacă împărtășiți ceva neobișnuit | Similaritatea | Ne plac oamenii care ne seamănă. | Similarity-attraction
+Cu cât vezi pe cineva mai des, cu atât îți devine mai simpatic | Proximitatea (efectul de expunere) | | Propinquity
+## Stres și emoții | Ce înseamnă?
+Reacția „luptă sau fugi" | Răspunsul automat al corpului la pericol: crește pulsul, respirația, tensiunea | Descris de Walter Cannon (1915). | Fight-or-flight response
+Stresul pozitiv, care te motivează | Eustres | Stresul negativ, copleșitor, se numește distres. | Eustress
+Epuizare fizică și emoțională cauzată de stres prelungit, adesea la muncă | Burnout | | Burnout
+Tehnica de respirație 4-7-8 | Inspiri 4 secunde, ții 7, expiri 8 - ajută la calmare | | 4-7-8 breathing
+Atenția deliberată la momentul prezent, fără judecată | Mindfulness (prezență conștientă) | | Mindfulness
+Să numești emoția pe care o simți („sunt furios") | Etichetarea emoțiilor | Studiile arată că reduce intensitatea emoției. | Affect labeling
+Roata emoțiilor cu opt emoții de bază și combinațiile lor | Roata lui Plutchik | | Plutchik's wheel of emotions
+Ce sunt „hormonii fericirii"? | Dopamina, serotonina, oxitocina și endorfinele | | Happy hormones
+Starea în care te simți vinovat că ai supraviețuit când alții nu | Vinovăția supraviețuitorului | | Survivor guilt
+## Dezvoltare personală | Cine sau ce?
+Autorul cărții „Cele 7 obiceiuri ale oamenilor foarte eficace" | Stephen Covey | | Stephen Covey
+Autorul cărții „Cum să-ți faci prieteni și să influențezi oameni" (1936) | Dale Carnegie | | Dale Carnegie
+Autorul cărții „Gândire rapidă, gândire lentă" | Daniel Kahneman | Laureat Nobel pentru Economie în 2002. | Daniel Kahneman
+Cele două sisteme de gândire descrise de Kahneman | Sistemul 1 (rapid, intuitiv) și Sistemul 2 (lent, analitic) | | System 1 and System 2
+Autorul cărții „Obiceiuri atomice" | James Clear | Ideea: îmbunătățiri de 1% pe zi se adună. | James Clear
+Psihologul care a studiat „grit" (perseverența și pasiunea pe termen lung) | Angela Duckworth | | Angela Duckworth
+Regula după care sunt necesare aproximativ 10.000 de ore de practică pentru măiestrie | Regula celor 10.000 de ore | Popularizată de Malcolm Gladwell; cercetătorii o consideră o simplificare. | 10,000-hour rule
+Practica concentrată pe punctele slabe, cu feedback imediat | Practica deliberată | Concept al lui Anders Ericsson. | Deliberate practice
+Obiective Specifice, Măsurabile, Accesibile, Relevante, încadrate în Timp | Obiective SMART | | SMART criteria
+~ Eustres ~ Burnout ~ Eustresul e stres pozitiv, motivant; burnoutul e epuizarea după stres prelungit.
+~ Colaborare ~ Compromis ~ Colaborare: ambii câștigă tot. Compromis: fiecare cedează câte ceva.

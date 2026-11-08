@@ -1,0 +1,208 @@
+@id arhitectura
+@prompt Răspunde la întrebare
+## Stiluri și curente | Ce stil este?
+Coloane, frontoane triunghiulare, proporții armonioase, temple din marmură (sec. VII-I î.Hr.) | Arhitectura greacă antică | Ordinele clasice: doric, ionic, corintic. | Ancient Greek architecture | Perioadă=sec. VII-I î.Hr.; Exemplu=Partenonul
+Arcul semicircular, bolta, cupola și betonul, la scară monumentală | Arhitectura romană | Romanii au perfecționat betonul și arcul. | Ancient Roman architecture | Perioadă=sec. I î.Hr. - sec. V d.Hr.; Exemplu=Colosseumul, Panteonul
+Cupole pe pandantivi, mozaicuri aurii, plan în cruce greacă | Arhitectura bizantină | | Byzantine architecture | Perioadă=sec. V-XV; Exemplu=Hagia Sofia
+Ziduri groase, ferestre mici, arce semicirculare, aspect masiv de fortăreață (sec. XI-XII) | Romanic | | Romanesque architecture | Perioadă=sec. XI-XII; Exemplu=Catedrala din Speyer
+Arce frânte (ascuțite), bolți pe nervuri, arcuri butante, vitralii mari, înălțime spectaculoasă | Gotic | A apărut în Franța în jurul anului 1140 (bazilica Saint-Denis). | Gothic architecture | Perioadă=sec. XII-XVI; Exemplu=Notre-Dame de Paris, Catedrala din Köln
+Simetrie, proporții inspirate din Antichitate, cupole, coloane clasice (Italia, sec. XV-XVI) | Renaștere | | Renaissance architecture | Perioadă=sec. XV-XVI; Exemplu=Domul din Florența, Bazilica Sf. Petru
+Curbe dramatice, decor bogat, iluzii optice, contrast de lumină și umbră | Baroc | Stilul Contrareformei. | Baroque architecture | Perioadă=sec. XVII-XVIII; Exemplu=Versailles, Fântâna Trevi
+Decor delicat, asimetric, cu motive de scoici și volute, în culori pastelate | Rococo | | Rococo | Perioadă=sec. XVIII
+Revenire la formele grecești și romane: portice cu coloane, frontoane, simetrie severă | Neoclasic | | Neoclassical architecture | Perioadă=sec. XVIII-XIX; Exemplu=Ateneul Român, Capitoliul SUA
+Readucerea formelor gotice în secolul XIX | Neogotic | | Gothic Revival architecture | Perioadă=sec. XIX; Exemplu=Parlamentul britanic, Palatul Culturii din Iași
+Combinarea liberă a mai multor stiluri istorice în aceeași clădire | Eclectism (Beaux-Arts) | Foarte răspândit în Bucureștiul de la 1900, „Micul Paris". | Eclecticism in architecture | Perioadă=sec. XIX-începutul sec. XX; Exemplu=Palatul CEC
+Linii curbe inspirate din natură (plante, valuri), fier forjat, vitralii | Art Nouveau (Secession) | Numit Jugendstil în Germania, Secession în Austria, Modernisme în Catalonia. | Art Nouveau | Perioadă=1890-1914; Exemplu=Palatul Vulturul Negru (Oradea)
+Forme geometrice, linii verticale, motive în zigzag și raze, materiale luxoase | Art Deco | | Art Deco | Perioadă=1920-1940; Exemplu=Chrysler Building, Palatul Telefoanelor
+Școala germană care unea arta, meșteșugul și industria: forme simple, funcționale | Bauhaus | Fondată de Walter Gropius la Weimar, în 1919. | Bauhaus | Fondare=1919; Exemplu=clădirea Bauhaus din Dessau
+Volume simple, fără ornamente, fațade de sticlă, structură de beton și oțel | Modernism (Stilul Internațional) | „Forma urmează funcția." | Modernist architecture | Perioadă=1920-1970; Exemplu=Villa Savoye, Seagram Building
+Beton aparent, brut, volume masive și sculpturale | Brutalism | Numele vine din francezul „béton brut". | Brutalist architecture | Perioadă=1950-1970; Exemplu=Unité d'Habitation, Barbican
+Reacție la modernism: culori, ironie, citate din stiluri istorice | Postmodernism | | Postmodern architecture | Perioadă=1970-1990
+Forme fragmentate, distorsionate, care par să sfideze geometria | Deconstructivism | | Deconstructivism | Exemplu=Muzeul Guggenheim din Bilbao, Casa Dansatoare
+Structura și instalațiile tehnice expuse ca element estetic | High-tech | | High-tech architecture | Exemplu=Centrul Pompidou
+Clădiri în armonie cu natura și terenul, materiale naturale | Arhitectura organică | Termen asociat cu Frank Lloyd Wright. | Organic architecture | Exemplu=Fallingwater
+Forme fluide generate de algoritmi de calculator | Parametricism | Asociat cu Zaha Hadid Architects. | Parametricism | Exemplu=Heydar Aliyev Center
+Arcuri în formă de potcoavă, curți interioare, decor geometric și caligrafic, faianță | Arhitectura maură (islamică) | | Moorish architecture | Exemplu=Alhambra
+Sinteză românească de la 1700: foișoare, coloane sculptate, decor vegetal în piatră, arcade trilobate | Stil brâncovenesc | Numit după domnitorul Constantin Brâncoveanu. | Brâncovenesc style | Perioadă=1688-1714 și după; Exemplu=Palatul Mogoșoaia, Mănăstirea Horezu
+Stil național creat la sfârșitul secolului XIX, inspirat din arhitectura brâncovenească și țărănească | Stil neoromânesc | Părintele lui este arhitectul Ion Mincu. | Romanian Revival architecture | Perioadă=1886-1940; Exemplu=Casa Lahovari, Bufetul de la Șosea
+Biserici cu ziduri exterioare pictate și turle zvelte (sec. XV-XVI) | Stil moldovenesc | Îmbină elemente gotice și bizantine. | Moldavian style | Exemplu=Voroneț, Sucevița
+Lemn, acoperișuri cu streșini largi, panouri glisante, armonie cu grădina | Arhitectura tradițională japoneză | | Japanese architecture | Exemplu=Kinkaku-ji
+Turn cu mai multe niveluri și streșini suprapuse, în Asia de Est | Pagodă | | Pagoda
+## Recunoaște stilul | Ce stil are această clădire?
+Catedrala Notre-Dame din Chartres | Gotic | | Chartres Cathedral
+Catedrala Sfântul Petru din Roma | Renaștere și baroc | | St. Peter's Basilica
+Palatul Versailles | Baroc | | Palace of Versailles
+Partenonul | Arhitectura greacă antică | | Parthenon
+Colosseumul | Arhitectura romană | | Colosseum
+Hagia Sofia | Arhitectura bizantină | | Hagia Sophia
+Catedrala din Pisa | Romanic | | Pisa Cathedral
+Casa Batlló | Art Nouveau (Modernisme catalan) | Antoni Gaudí, Barcelona. | Casa Batlló
+Chrysler Building | Art Deco | | Chrysler Building
+Villa Savoye | Modernism (Stilul Internațional) | Le Corbusier, 1931. | Villa Savoye
+Clădirea Bauhaus din Dessau | Bauhaus | Walter Gropius, 1926. | Bauhaus Dessau building
+Unité d'Habitation (Marsilia) | Brutalism | Le Corbusier, 1952. | Unité d'habitation Marseille
+Centrul Pompidou | High-tech | Renzo Piano și Richard Rogers, 1977. | Centre Pompidou
+Muzeul Guggenheim din Bilbao | Deconstructivism | Frank Gehry, 1997. | Guggenheim Museum Bilbao
+Fallingwater | Arhitectura organică | Frank Lloyd Wright, 1939. | Fallingwater
+Heydar Aliyev Center (Baku) | Parametricism | Zaha Hadid, 2012. | Heydar Aliyev Center
+Alhambra | Arhitectura maură (islamică) | | Alhambra
+Palatul Mogoșoaia | Stil brâncovenesc | | Mogoșoaia Palace
+Casa Lahovari (București) | Stil neoromânesc | Ion Mincu, 1886. | Casa Lahovari
+Ateneul Român | Neoclasic | | Romanian Athenaeum
+Palatul Parlamentului britanic (Westminster) | Neogotic | | Palace of Westminster
+Palatul Culturii din Iași | Neogotic | | Palace of Culture Iași
+Palatul Telefoanelor (București) | Art Deco | | Palatul Telefoanelor
+Palatul CEC (București) | Eclectism (Beaux-Arts) | | CEC Palace
+Palatul Vulturul Negru (Oradea) | Art Nouveau (Secession) | | Black Eagle Palace Oradea
+Barbican Estate (Londra) | Brutalism | | Barbican Estate
+Seagram Building (New York) | Modernism (Stilul Internațional) | Mies van der Rohe, 1958. | Seagram Building
+Biserica Wieskirche | Rococo | Bavaria, 1754. | Wieskirche
+Mănăstirea Voroneț | Stil moldovenesc | | Voroneț Monastery
+Casa Dansatoare (Praga) | Deconstructivism | Frank Gehry și Vlado Milunić, 1996. | Dancing House
+## Elemente arhitecturale | Cum se numește acest element?
+Cea mai simplă coloană greacă, fără bază, cu capitel simplu, în formă de pernă | Coloana dorică | Partenonul are coloane dorice. | Doric order
+Coloană greacă zveltă, cu capitel cu două volute (spirale) | Coloana ionică | | Ionic order
+Coloană cu capitel decorat cu frunze de acant | Coloana corintică | Cea mai ornamentată dintre ordinele grecești. | Corinthian order
+Arc în formă de semicerc | Arc semicircular (roman) | Tipic arhitecturii romane și romanice. | Round arch
+Arc cu vârf ascuțit, care distribuie mai bine greutatea | Arc frânt (ogival) | Elementul definitoriu al goticului. | Pointed arch
+Arc exterior care sprijină zidul unei catedrale gotice, preluând împingerea bolții | Arc butant | Permite ziduri mai subțiri și ferestre mai mari. | Flying buttress
+Masiv de zidărie lipit de un zid pentru a-l întări | Contrafort | | Buttress
+Acoperiș semisferic | Cupolă | | Dome
+Triunghiurile curbe care fac trecerea de la o bază pătrată la o cupolă rotundă | Pandantivi | O invenție bizantină. | Pendentive
+Mic turn cu ferestre deasupra unei cupole, care lasă lumina să intre | Lanternou | | Lantern (architecture)
+Partea semicirculară de la capătul unei biserici, unde se află altarul | Absidă | | Apse
+Spațiul central al unei biserici, unde stau credincioșii | Naos (navă) | | Nave
+Brațul transversal al unei biserici în formă de cruce | Transept | | Transept
+Fereastră circulară mare, cu vitralii radiale, pe fațada catedralelor gotice | Rozasă | | Rose window
+Sculptură grotescă care scurge apa de ploaie de pe acoperiș | Gargui | | Gargoyle
+Triunghiul de deasupra porticului unui templu | Fronton | | Pediment
+Coloană plată, lipită de perete, doar cu rol decorativ | Pilastru | | Pilaster
+Statuie de femeie folosită pe post de coloană | Cariatidă | Celebre la Erechteionul din Atena. | Caryatid
+Galerie acoperită susținută de coloane, la intrarea unei clădiri | Portic | | Portico
+Șir lung de coloane | Colonadă | Exemplu: colonada lui Bernini din Piața Sf. Petru. | Colonnade
+Curte interioară centrală a casei romane | Atrium | | Atrium
+Galerie deschisă cu coloane, la etajul unei clădiri (stil brâncovenesc) | Foișor (loggia) | | Loggia
+Spațiul acoperit de la intrarea unei biserici sau case țărănești, susținut de stâlpi | Pridvor | | Porch
+Turnul înalt și subțire al unei moschei, de unde se face chemarea la rugăciune | Minaret | | Minaret
+Templu-piramidă în trepte din Mesopotamia | Zigurat | | Ziggurat
+Monolit înalt, cu patru fețe și vârf piramidal, din Egiptul antic | Obelisc | | Obelisk
+Construcție pentru transportul apei, cu șiruri de arcade (romani) | Apeduct | | Aqueduct
+Bolta formată din intersecția a două bolți semicilindrice | Boltă în cruce | | Groin vault
+Fereastră mică pe acoperiș, cu acoperiș propriu | Lucarnă | | Dormer
+Profilul decorativ proeminent de la partea de sus a unui zid | Cornișă | | Cornice
+## Arhitecți | Cine este?
+Primul arhitect cunoscut pe nume, constructorul piramidei în trepte de la Saqqara | Imhotep | | Imhotep
+Arhitectul roman autor al tratatului „Despre arhitectură", cu principiile trăiniciei, utilității și frumuseții | Vitruviu | | Vitruvius
+A construit cupola Domului din Florența și a redescoperit perspectiva | Filippo Brunelleschi | | Filippo Brunelleschi
+Arhitectul vilelor din Veneto, al cărui stil (palladianism) a influențat Anglia și SUA | Andrea Palladio | | Andrea Palladio
+A proiectat colonada Pieței Sfântul Petru | Gian Lorenzo Bernini | | Gian Lorenzo Bernini
+A proiectat catedrala Sf. Paul din Londra după Marele Incendiu | Christopher Wren | | Christopher Wren
+Arhitectul otoman al moscheilor Süleymaniye și Selimiye | Mimar Sinan | | Mimar Sinan
+A transformat Parisul cu bulevarde largi și clădiri uniforme (1853-1870) | Baronul Haussmann | | Georges-Eugène Haussmann
+Arhitectul catalan al Sagradei Família și Casei Batlló | Antoni Gaudí | | Antoni Gaudí
+Pionier belgian al Art Nouveau, autorul Hôtel Tassel din Bruxelles | Victor Horta | | Victor Horta
+Arhitectul american care a spus „forma urmează funcția" | Louis Sullivan | | Louis Sullivan
+Autorul casei Fallingwater și al Muzeului Guggenheim din New York | Frank Lloyd Wright | | Frank Lloyd Wright
+Arhitectul elvețiano-francez al Villei Savoye, cu „cele cinci puncte ale arhitecturii noi" | Le Corbusier | | Le Corbusier
+Fondatorul școlii Bauhaus | Walter Gropius | | Walter Gropius
+Arhitectul care a spus „less is more" („mai puțin înseamnă mai mult") | Ludwig Mies van der Rohe | | Ludwig Mies van der Rohe
+Arhitectul brazilian care a proiectat clădirile principale ale orașului Brasília | Oscar Niemeyer | | Oscar Niemeyer
+Arhitectul finlandez al designului organic din lemn | Alvar Aalto | | Alvar Aalto
+Arhitectul piramidei de sticlă a Luvrului | I. M. Pei | | I. M. Pei
+Arhitectul Muzeului Guggenheim din Bilbao | Frank Gehry | | Frank Gehry
+Prima femeie laureată a Premiului Pritzker (2004) | Zaha Hadid | | Zaha Hadid | Pritzker=2004
+Arhitectul britanic al clădirii „The Gherkin" și al cupolei Reichstagului | Norman Foster | | Norman Foster
+Arhitectul italian al clădirii The Shard și coautor al Centrului Pompidou | Renzo Piano | | Renzo Piano
+Arhitectul japonez autodidact, maestru al betonului aparent („Biserica Luminii") | Tadao Ando | | Tadao Ando
+Duo-ul elvețian care a proiectat stadionul „Cuibul de pasăre" din Beijing | Herzog & de Meuron | | Herzog & de Meuron
+Arhitectul danez al Operei din Sydney | Jørn Utzon | | Jørn Utzon
+Arhitectul japonez cunoscut pentru structurile din tuburi de carton, folosite după dezastre | Shigeru Ban | | Shigeru Ban
+Cel mai important premiu internațional de arhitectură, numit „Nobelul arhitecturii" (din 1979) | Premiul Pritzker | | Pritzker Architecture Prize | Din=1979
+## Arhitecți români | Cine este?
+Părintele stilului neoromânesc, autorul Casei Lahovari și al Bufetului de la Șosea | Ion Mincu | Universitatea de Arhitectură din București îi poartă numele. | Ion Mincu
+Arhitectul Arcului de Triumf din București (1936) și al Palatului Administrativ din Craiova | Petre Antonescu | | Petre Antonescu
+Arhitectul modernist al blocului ARO (Patria) din București | Horia Creangă | | Horia Creangă
+Arhitectul modernist al Palatului Victoria (sediul Guvernului) din București | Duiliu Marcu | | Duiliu Marcu
+Arhitectul francez al Ateneului Român (1888) | Albert Galleron | | Albert Galleron
+Arhitectul francez al Palatului CEC | Paul Gottereau | | Paul Gottereau
+Arhitectul ceh care a definitivat Castelul Peleș și a proiectat Pelișorul | Karel Liman | | Karel Liman
+Arhitecta-șefă a Casei Poporului (Palatul Parlamentului) | Anca Petrescu | | Anca Petrescu
+Arhitectul Palatului Culturii din Iași | Ion D. Berindei | | Ion D. Berindei
+Arhitectul și eseistul autor al volumului „Izvoare și popasuri" și al hotelului Rex din Mamaia | George Matei Cantacuzino | | George Matei Cantacuzino
+## Arhitectură românească | Răspunde la întrebare
+Bisericile de lemn din această regiune, cu turle foarte înalte, sunt patrimoniu UNESCO | Maramureș | Exemple: Bârsana, Surdești, Ieud. | Wooden Churches of Maramureș
+Casele fortificate din piatră, cu mai multe etaje, din Oltenia | Culele | Construite pentru apărare împotriva jefuitorilor. | Cula (architecture)
+Lucarnele mici de pe acoperișurile caselor din Sibiu, numite popular | „Ochii Sibiului" | | Eyes of Sibiu
+Satele săsești cu biserici fortificate din această regiune sunt patrimoniu UNESCO | Transilvania | Exemple: Biertan, Viscri, Prejmer. | Villages with fortified churches in Transylvania
+Clădirea Art Deco din 1933 de pe Calea Victoriei, mult timp cea mai înaltă din București | Palatul Telefoanelor | | Palatul Telefoanelor
+Clădirea emblematică a realismului socialist din București, inspirată de Universitatea Lomonosov din Moscova | Casa Presei Libere | | Casa Presei Libere
+Hanul din 1808 din Centrul Vechi al Bucureștiului, cu curte interioară și galerii de lemn | Hanul lui Manuc | | Manuc's Inn
+Orașul din vestul României supranumit „capitala Art Nouveau" | Oradea | | Oradea Art Nouveau
+Orașul numit „Micul Paris" la începutul secolului XX | București | | Little Paris
+Mănăstirile din această regiune au fresce exterioare, patrimoniu UNESCO | Bucovina | Voroneț, Humor, Moldovița, Sucevița, Arbore. | Painted churches of northern Moldavia
+## Construcții și urbanism | Ce înseamnă?
+POT | Procentul de ocupare a terenului: cât din suprafața terenului e acoperită de construcție la sol | Exemplu: POT 35% pe un teren de 1.000 mp = maximum 350 mp construiți la sol. | Site coverage ratio
+CUT | Coeficientul de utilizare a terenului: raportul dintre suprafața desfășurată a construcției și suprafața terenului | Exemplu: CUT 1,2 pe 1.000 mp = maximum 1.200 mp desfășurați. | Floor area ratio
+Regim de înălțime „P+2E" | Parter plus două etaje | Mai poate apărea „S" (subsol), „D" (demisol) sau „M" (mansardă). | Building height regime
+PUG | Planul Urbanistic General - stabilește regulile de construire pentru tot teritoriul unei localități | | General Urban Plan
+PUZ | Planul Urbanistic Zonal - reglementează o anumită zonă | Necesar, de exemplu, când vrei să schimbi destinația unui teren. | Zonal Urban Plan
+Certificatul de urbanism | Act care arată regimul juridic, economic și tehnic al unui teren și ce avize sunt necesare | Nu dă dreptul de a construi. | Urbanism certificate
+Autorizația de construire | Actul care dă dreptul de a începe construcția | | Building permit
+Cartea funciară | Registrul public care arată proprietarul și sarcinile unui imobil | | Land register
+Suprafața utilă | Suprafața interioară folosibilă a unei locuințe, fără grosimea zidurilor | Suprafața construită include și zidurile. | Usable floor area
+Suprafața desfășurată | Suma suprafețelor construite ale tuturor nivelurilor | | Gross floor area
+Planșeu | Elementul orizontal care separă două niveluri | | Floor slab
+Grindă | Element orizontal care preia încărcările și le transmite stâlpilor | | Beam
+Consolă | Element care iese în afară, sprijinit doar la un capăt (ex. un balcon) | | Cantilever
+Șarpantă | Structura de lemn sau metal care susține acoperișul | | Roof truss
+Punte termică | Zonă a clădirii prin care căldura se pierde mai ușor (ex. stâlpii neizolați) | | Thermal bridge
+Certificat de performanță energetică | Document care arată clasa energetică a unei clădiri (A-G) | Obligatoriu la vânzare și închiriere. | Energy performance certificate
+nZEB | Clădire cu consum de energie aproape zero | Standard obligatoriu pentru clădirile noi în UE (în România din 2021). | Nearly zero-energy building
+Casă pasivă | Clădire foarte bine izolată și etanșă, care aproape nu are nevoie de încălzire activă | Standard dezvoltat în Germania (Passivhaus). | Passive house
+Zidărie portantă | Pereți care susțin greutatea clădirii | Alternativa: structură în cadre (stâlpi și grinzi) cu pereți de umplutură. | Load-bearing wall
+Retragerea față de aliniament | Distanța minimă dintre clădire și limita terenului spre stradă | | Building setback
+~ Coloana dorică ~ Coloana ionică ~ Dorică: capitel simplu ca o pernă. Ionică: două volute (spirale). Corintică: frunze de acant.
+~ Arc semicircular (roman) ~ Arc frânt (ogival) ~ Semicircular = roman și romanic. Frânt (ascuțit) = gotic.
+~ Arc butant ~ Contrafort ~ Contrafortul e lipit de zid; arcul butant „zboară" peste spațiu până la zid.
+~ Romanic ~ Gotic ~ Romanic: ziduri groase, ferestre mici, arce rotunde. Gotic: înalt, luminos, arce ascuțite, arcuri butante.
+~ Baroc ~ Rococo ~ Barocul e grandios și dramatic; rococoul e mai delicat, asimetric, în culori pastelate.
+~ Art Nouveau (Secession) ~ Art Deco ~ Art Nouveau: curbe din natură (1890-1914). Art Deco: geometrie, linii drepte, zigzag (1920-1940).
+~ Modernism (Stilul Internațional) ~ Brutalism ~ Modernismul: sticlă, alb, ușor. Brutalismul: beton brut, masiv.
+~ Stil brâncovenesc ~ Stil neoromânesc ~ Brâncovenescul e original (în jurul anului 1700); neoromânescul (după 1886) îl reinterpretează.
+~ POT ~ CUT ~ POT = cât acoperi la sol (%). CUT = câți mp construiești în total pe toate nivelurile, raportat la teren.
+~ Certificatul de urbanism ~ Autorizația de construire ~ Certificatul te informează; autorizația îți dă dreptul să construiești.
+## Clădiri moderne celebre | Cine a proiectat-o?
+Fallingwater (1939), casa construită peste o cascadă | Frank Lloyd Wright | | Fallingwater
+Muzeul Guggenheim din New York (1959), cu rampa în spirală | Frank Lloyd Wright | | Solomon R. Guggenheim Museum
+Villa Savoye (1931), casa pe piloni | Le Corbusier | | Villa Savoye
+Capela Notre-Dame-du-Haut din Ronchamp (1955) | Le Corbusier | | Notre Dame du Haut
+Pavilionul german de la Expoziția din Barcelona (1929) | Ludwig Mies van der Rohe | | Barcelona Pavilion
+Piramida de sticlă a Luvrului (1989) | I. M. Pei | | Louvre Pyramid
+Muzeul Guggenheim din Bilbao (1997) | Frank Gehry | | Guggenheim Museum Bilbao
+Walt Disney Concert Hall din Los Angeles (2003) | Frank Gehry | | Walt Disney Concert Hall
+„The Gherkin" (Castravetele) din Londra (2004) | Norman Foster | | 30 St Mary Axe
+Cupola de sticlă a Reichstagului din Berlin (1999) | Norman Foster | | Reichstag dome
+The Shard din Londra (2012) | Renzo Piano | | The Shard
+Centrul Pompidou din Paris (1977) | Renzo Piano și Richard Rogers | | Centre Pompidou
+Heydar Aliyev Center din Baku (2012) | Zaha Hadid | | Heydar Aliyev Center
+MAXXI - Muzeul de artă din Roma (2010) | Zaha Hadid | | MAXXI
+Stadionul Național din Beijing („Cuibul de pasăre", 2008) | Herzog & de Meuron | | Beijing National Stadium
+Tate Modern din Londra (fostă centrală electrică) | Herzog & de Meuron | | Tate Modern
+Biserica Luminii din Osaka (1989) | Tadao Ando | | Church of the Light
+Turning Torso din Malmö (2005), zgârie-norul răsucit | Santiago Calatrava | | Turning Torso
+Clădirea CCTV din Beijing (2012) | Rem Koolhaas (OMA) | | CCTV Headquarters
+Opera din Sydney (1973) | Jørn Utzon | | Sydney Opera House
+Casa Dansatoare din Praga (1996) | Frank Gehry și Vlado Milunić | | Dancing House
+Habitat 67 din Montreal, cuburi de beton stivuite | Moshe Safdie | | Habitat 67
+Burj Khalifa din Dubai (2010) | Adrian Smith (SOM) | | Burj Khalifa
+Seagram Building din New York (1958) | Ludwig Mies van der Rohe | | Seagram Building
+## Materiale și tehnici | Ce este?
+Beton cu bare de oțel înglobate, care rezistă și la compresiune, și la întindere | Beton armat | | Reinforced concrete
+Beton întins dinainte cu cabluri de oțel, pentru deschideri mari | Beton precomprimat | | Prestressed concrete
+Material din mai multe straturi de lemn lipite încrucișat, folosit și la clădiri înalte | Lemn CLT | | Cross-laminated timber
+Pereți exteriori din sticlă și aluminiu, agățați de structură | Perete-cortină | | Curtain wall
+Cărămidă nearsă, din pământ și paie | Chirpici | | Adobe
+Sistem constructiv din lemn în care pereții sunt umpluți cu zidărie sau lut | Paiantă (fachwerk) | | Timber framing
+Acoperiș plantat cu vegetație | Acoperiș verde | | Green roof
+Construcție prefabricată din panouri de beton, specifică blocurilor din anii '60-'80 | Panouri mari prefabricate | | Precast concrete panel
+~ Beton armat ~ Beton precomprimat ~ Armat: oțelul e doar înglobat. Precomprimat: oțelul e tensionat dinainte, pentru deschideri mai mari.
