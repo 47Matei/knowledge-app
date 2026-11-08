@@ -1,0 +1,12 @@
+/* Concept D - "Salvie": verde-gri calm, o singură familie de culoare (cercetările spun că verdele și albastrul odihnesc ochii). */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&display=swap");
+:root:root:root{
+  --bg:#EEF2EF; --surface:#FBFCFB; --surface-2:#E3EAE5; --ink:#16302A; --muted:#5B716A; --line:#D3DED7;
+  --accent:#2F7D62; --accent-ink:#FFFFFF; --ok:#2F7D62; --ok-bg:#DDEFE6; --warn:#9A6A12; --warn-bg:#F3EBD7; --bad:#B4483C; --bad-bg:#F5E1DD;
+  --shadow:none; --f-display:"Outfit",system-ui,sans-serif; --tab-s:28%; --tab-l:38%; --tab-bg-l:90%; color-scheme:light;
+}
+.tile{--h:158!important;border-radius:16px}
+.tile::before{display:none}
+.bar{height:4px;border:0}.bar>i{background:var(--accent)}
+.hero.primary{background:var(--ink);border-color:var(--ink)}
+.label{font-family:var(--f-body);letter-spacing:.03em}

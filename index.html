@@ -5,32 +5,39 @@
 <title>OpenMind</title>
 <meta name="apple-mobile-web-app-title" content="OpenMind">
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="theme-color" content="#172031">
+<meta name="theme-color" content="#562025">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Unbounded:wght@500;700&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 <style>
 /* Layout: one mobile column like a card-catalog drawer; each domain is an index card with a coloured divider tab; bottom tab bar. */
 :root{
-  --bg:#ECEFF3; --surface:#FFFFFF; --surface-2:#F5F7FA; --ink:#172031; --muted:#5A6578; --line:#D6DCE4;
-  --accent:#D2413A; --accent-ink:#FFFFFF; --rule:#E4A19C; --ruled:#E8EDF3;
-  --ok:#1E8556; --ok-bg:#E3F3EA; --warn:#B86E00; --warn-bg:#FBF0DD; --bad:#C0392F; --bad-bg:#FBE6E4;
-  --shadow:0 1px 2px rgba(23,32,49,.06),0 4px 14px rgba(23,32,49,.06);
-  --f-display:"Unbounded","Onest",system-ui,sans-serif; --f-body:"Onest",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
-  --tab-s:72%; --tab-l:48%; --tab-bg-l:94%;
+  /* Morlet Red #562025 - scala de nuanțe (50 deschis ... 950 închis) */
+  --m-50:#FBF4F5; --m-100:#F7E9EA; --m-200:#EED0D3; --m-300:#DCA3A9; --m-400:#C4707A; --m-500:#A84B54;
+  --m-600:#8A3840; --m-700:#6E2A30; --m-800:#562025; --m-900:#3E171B; --m-950:#2A0F12;
+  --bg:#FFFFFF; --surface:#FFFFFF; --surface-2:#F6F1F1; --ink:#140D0E; --muted:#6F6466; --line:#EADFE0;
+  --accent:#562025; --accent-ink:#FFFFFF; --rule:#DCA3A9; --ruled:#F3ECEC;
+  --ok:#1F8A5B; --ok-bg:#E6F4EC; --warn:#A8670F; --warn-bg:#FBF0DE; --bad:#C0392F; --bad-bg:#FBE7E5;
+  --shadow:none;
+  --f-display:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --f-body:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --f-mono:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  /* toate accentele pe domenii folosesc nuanța Morlet (vezi [style*="--h"] mai jos) */
+  --tab-s:46%; --tab-l:23%; --tab-bg-l:95%;
+  /* casetele care încadrează: degradeu Morlet, text alb */
+  --box:linear-gradient(150deg,var(--m-700) 0%,var(--m-800) 45%,var(--m-900) 100%); --box-strong:linear-gradient(150deg,var(--m-800),var(--m-950));
+  --box-ink:#FFFFFF; --box-muted:rgba(255,255,255,.72); --box-line:rgba(255,255,255,.14); --box-soft:rgba(255,255,255,.13);
   --sea:#CFE6F5; --land-x:#E8E4DA; --land-0:#F6D8A8; --land-1:#CFE3B4; --land-2:#F3C6C1; --land-3:#D9CDEB; --land-4:#F7E9A0;
   --border:#5E5446; --border-strong:#231E18; --border-ctx:#8E8577; --river:#2A78BD; --target:#D2232A; --peak:#7A4E2D; --maplabel:#1E2633; --halo:#FFFFFF; --sealabel:#3B6E92;
 }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
-  --bg:#0E131A; --surface:#161D27; --surface-2:#1C2531; --ink:#E6EBF2; --muted:#93A0B3; --line:#283344;
-  --accent:#F0645B; --accent-ink:#1A0A09; --rule:#7A3430; --ruled:#1F2834;
-  --ok:#43C08A; --ok-bg:#12291F; --warn:#E3A43C; --warn-bg:#2B2213; --bad:#F06A60; --bad-bg:#2D1715;
-  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25); --tab-l:60%; --tab-bg-l:17%; --sea:#10283B; --land-x:#262B32; --land-0:#6B5634; --land-1:#45603A; --land-2:#6A4040; --land-3:#51466D; --land-4:#6A6431; --border:#E6DECF; --border-strong:#FFFFFF; --border-ctx:#8C8678; --river:#6DB6F2; --target:#FF4D42; --peak:#E3A86F; --maplabel:#F3EFE7; --halo:#11161C; --sealabel:#86B8DC; color-scheme:dark } }
+  --bg:#09090A; --surface:#121011; --surface-2:#1B1718; --ink:#F4EFEF; --muted:#A39A9B; --line:#2A2324;
+  --accent:#C4707A; --accent-ink:#09090A; --rule:#6E2A30; --ruled:#1A1617;
+  --ok:#45C38A; --ok-bg:#0F2419; --warn:#E8A94A; --warn-bg:#271E10; --bad:#F2727A; --bad-bg:#2B1214;
+  --shadow:none; --tab-l:62%; --tab-bg-l:14%; --sea:#10283B; --land-x:#262B32; --land-0:#6B5634; --land-1:#45603A; --land-2:#6A4040; --land-3:#51466D; --land-4:#6A6431; --border:#E6DECF; --border-strong:#FFFFFF; --border-ctx:#8C8678; --river:#6DB6F2; --target:#FF4D42; --peak:#E3A86F; --maplabel:#F3EFE7; --halo:#11161C; --sealabel:#86B8DC; color-scheme:dark } }
 :root[data-theme="dark"]{
-  --bg:#0E131A; --surface:#161D27; --surface-2:#1C2531; --ink:#E6EBF2; --muted:#93A0B3; --line:#283344;
-  --accent:#F0645B; --accent-ink:#1A0A09; --rule:#7A3430; --ruled:#1F2834;
-  --ok:#43C08A; --ok-bg:#12291F; --warn:#E3A43C; --warn-bg:#2B2213; --bad:#F06A60; --bad-bg:#2D1715;
-  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25); --tab-l:60%; --tab-bg-l:17%; --sea:#10283B; --land-x:#262B32; --land-0:#6B5634; --land-1:#45603A; --land-2:#6A4040; --land-3:#51466D; --land-4:#6A6431; --border:#E6DECF; --border-strong:#FFFFFF; --border-ctx:#8C8678; --river:#6DB6F2; --target:#FF4D42; --peak:#E3A86F; --maplabel:#F3EFE7; --halo:#11161C; --sealabel:#86B8DC; color-scheme:dark }
+  --bg:#09090A; --surface:#121011; --surface-2:#1B1718; --ink:#F4EFEF; --muted:#A39A9B; --line:#2A2324;
+  --accent:#C4707A; --accent-ink:#09090A; --rule:#6E2A30; --ruled:#1A1617;
+  --ok:#45C38A; --ok-bg:#0F2419; --warn:#E8A94A; --warn-bg:#271E10; --bad:#F2727A; --bad-bg:#2B1214;
+  --shadow:none; --tab-l:62%; --tab-bg-l:14%; --sea:#10283B; --land-x:#262B32; --land-0:#6B5634; --land-1:#45603A; --land-2:#6A4040; --land-3:#51466D; --land-4:#6A6431; --border:#E6DECF; --border-strong:#FFFFFF; --border-ctx:#8C8678; --river:#6DB6F2; --target:#FF4D42; --peak:#E3A86F; --maplabel:#F3EFE7; --halo:#11161C; --sealabel:#86B8DC; color-scheme:dark }
 html,body{height:100%}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--bg)}
@@ -361,6 +368,41 @@ textarea{min-height:120px;font-family:var(--f-mono)!important;font-size:12px!imp
 @keyframes up{from{transform:translateY(6px);opacity:0}30%{opacity:1}to{transform:translateY(-18px);opacity:0}}
 @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
 @media (max-width:360px){.grid{gap:8px}.tile{padding:12px 10px 10px}.qbig{font-size:66px}}
+
+/* ---------- OpenMind: Morlet Red, varianta Degradeu (noiembrie 2026) ---------- */
+/* toate accentele pe domenii (inele, etichete, chip-uri, medalii) au nuanța Morlet, nu culoarea domeniului */
+[style*="--h"],.tile,.bigring,.chip,.li{--h:355!important}
+body::before{background:var(--bg)}
+.label{text-transform:none;letter-spacing:0;font-size:12px}
+.topbar h1{font-weight:800;letter-spacing:-.02em}
+.pill{letter-spacing:0}
+/* casetele care încadrează: domenii, carduri mari, statistici, amestec, acțiunile unui domeniu */
+.tile,.hero,.chipstat,.mixbtn,.action{
+  --surface:var(--m-800); --bg:var(--m-800); --ink:var(--box-ink); --muted:var(--box-muted); --line:var(--box-line); --surface-2:var(--box-soft);
+  background:var(--box); color:var(--box-ink); border-color:transparent;
+}
+.tile{border-radius:16px}
+.tile::before{display:none}
+.tile .ic,.mixbtn .ic{background:var(--box-soft);color:var(--box-ink)}
+.tile .bar,.chipstat .bar{height:4px;border:0;background:var(--box-soft)}
+.tile .bar>i{background:var(--box-ink)}
+.tile .pill,.tile .pill.new,.tile .pill.ok,.tile .pill.due{background:var(--box-soft);color:var(--box-ink);border-color:transparent}
+.tile .pill.due{background:#F3C77B;color:var(--m-950)}
+.tilewrap .pinbtn{color:var(--box-ink)}
+.tilewrap .pinbtn.on{color:var(--box-ink);background:var(--box-soft);border-color:transparent}
+.hero.primary,.action.main{background:var(--box-strong)!important;color:#fff!important;border-color:transparent!important}
+.hero.primary .label{color:rgba(255,255,255,.7)}
+.action svg,.action.main svg,.action.main span{color:var(--box-ink)!important}
+.action span{color:var(--box-muted)}
+.mixbtn svg.chev{color:var(--box-muted)}
+.flame,.bolt{color:#F3C77B}
+.ring::after{background:var(--m-800)}
+.bar{border:0;height:5px}
+.btn.primary,.seg button.on,.tabs button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.card:not(.ok):not(.bad){border-color:var(--m-300)}
+.card:not(.ok):not(.bad) .head{border-bottom-color:var(--m-300)}
+:root[data-theme="dark"] .card:not(.ok):not(.bad),:root[data-theme="dark"] .card:not(.ok):not(.bad) .head{border-color:var(--m-800)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .card:not(.ok):not(.bad),:root:not([data-theme="light"]) .card:not(.ok):not(.bad) .head{border-color:var(--m-800)}}
 </style>
 
 <div class="app" id="app" aria-live="polite"></div>

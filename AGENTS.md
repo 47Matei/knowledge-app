@@ -11,6 +11,7 @@ Handoff for coding agents (Codex, Claude). Read all of it before changing anythi
   - compare mode, interactive maps, a lesson intro, a placement test, statistics, XP, streaks and badges.
 - 17 domains with about 4,300 cards: mașini, ceasuri, comportament, capitale, localizare, județe, steaguri, avioane, elemente, astronomie, istorie, corp, biasuri, finanțe, monumente, arhitectură, vocabular.
 - **App name:** the app is called **OpenMind** (Ciprian, 8 November 2026): `<title>`, manifest and icon (`icons/source-openmind.png`, chosen by Ciprian). "Cartoteca lui Matei" stays the project name in docs and code comments.
+- **Design (8 November 2026, Ciprian):** Morlet Red #562025, variant "Degradeu". Page background white or near-black (#09090A) following the phone setting (Settings → Temă can force it). Framing boxes (domain tiles, hero cards, stat chips, mix button, domain actions) use a 700→900 Morlet gradient with white text; every per-domain hue accent is forced to the Morlet hue (`[style*="--h"]{--h:355!important}`). Font: Inter. The 11-step scale is `--m-50` ... `--m-950` in index.html. Concepts and screenshot tools: `design/concepts/`, `tools/design/`.
 - **Repository:** https://github.com/47Matei/knowledge-app (public). `main` is stable and identical to what is published; `dev` is the working branch. Changes go `feature/*` or `dev` → Pull Request → `main`.
 - **Live copy:** the app is also published as a Claude artifact (https://claude.ai/artifact/4LowyueJzN8AvRkH5hL9DF, owner: Ciprian). Only a Claude session can publish there; see section 9.
 

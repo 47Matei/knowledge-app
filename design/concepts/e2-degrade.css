@@ -1,0 +1,42 @@
+/* Varianta 2 - Degradeu: casetele trec de la 700 la 900, cu o lumină discretă în colț. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+/* Morlet Red #562025 - scala de nuanțe */
+:root:root:root{
+  --m-950:#2A0F12; --m-900:#3E171B; --m-800:#562025; --m-700:#6E2A30; --m-600:#8A3840; --m-500:#A84B54;
+  --m-400:#C4707A; --m-300:#DCA3A9; --m-200:#EED0D3; --m-100:#F7E9EA; --m-50:#FBF4F5;
+  --bg:#FFFFFF; --surface:#FFFFFF; --surface-2:#F6F1F1; --ink:#140D0E; --muted:#6F6466; --line:#EADFE0;
+  --accent:#562025; --accent-ink:#FFFFFF; --rule:var(--m-300); --ruled:#F3ECEC;
+  --ok:#1F8A5B; --ok-bg:#E6F4EC; --warn:#A8670F; --warn-bg:#FBF0DE; --bad:#C0392F; --bad-bg:#FBE7E5;
+  --shadow:none; --f-display:"Inter",system-ui,sans-serif; --f-body:"Inter",system-ui,sans-serif; --f-mono:"Inter",system-ui,sans-serif;
+  --box:var(--m-800); --box-ink:#FFFFFF; --box-muted:rgba(255,255,255,.72); --box-line:rgba(255,255,255,.14); --box-soft:rgba(255,255,255,.13);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){ :root:root:root{
+  --bg:#09090A; --surface:#121011; --surface-2:#1B1718; --ink:#F4EFEF; --muted:#A39A9B; --line:#2A2324;
+  --accent:#C4707A; --accent-ink:#09090A; --rule:var(--m-700); --ruled:#1A1617;
+  --ok:#45C38A; --ok-bg:#0F2419; --warn:#E8A94A; --warn-bg:#271E10; --bad:#F2727A; --bad-bg:#2B1214; color-scheme:dark;
+} }
+body::before{background:var(--bg)}
+.label{text-transform:none;letter-spacing:0;font-size:12px}
+.topbar h1{font-weight:800;letter-spacing:-.02em}
+/* casetele care încadrează: domenii, carduri mari, statistici, amestec, acțiuni */
+.tile,.hero,.chipstat,.mixbtn,.action{
+  --surface:var(--box); --bg:var(--box); --ink:var(--box-ink); --muted:var(--box-muted); --line:var(--box-line); --surface-2:var(--box-soft);
+  background:var(--box); color:var(--box-ink); border-color:transparent;
+}
+.tile{border-radius:16px} .tile::before{display:none}
+.tile .ic,.mixbtn .ic{background:var(--box-soft);color:var(--box-ink)}
+.bar{height:4px;border:0;background:var(--box-soft)} .bar>i{background:var(--box-ink)}
+.pill,.pill.new,.pill.ok,.pill.due{background:var(--box-soft);color:var(--box-ink);border-color:transparent}
+.pinbtn{color:var(--box-ink)} .pinbtn.on{color:var(--box-ink);background:var(--box-soft);border-color:transparent}
+.topbar .pinbtn{color:var(--accent)}
+.hero.primary{background:var(--m-900);color:#fff} .hero.primary .label{color:rgba(255,255,255,.7)}
+.action svg,.action.main svg,.action.main span{color:var(--box-ink)} .action.main{background:var(--m-950);color:#fff}
+.mixbtn svg.chev{color:var(--box-muted)}
+.flame,.bolt{color:#F3C77B}
+.btn.primary,.seg button.on,.tabs button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.card{border-color:var(--m-300)} .card .head{border-bottom-color:var(--m-300)}
+@media (prefers-color-scheme: dark){ .card{border-color:var(--m-800)} .card .head{border-bottom-color:var(--m-800)} }
+.tile,.hero,.chipstat,.mixbtn,.action{background:linear-gradient(150deg,var(--m-700) 0%,var(--m-800) 45%,var(--m-900) 100%)}
+.hero.primary{background:linear-gradient(150deg,var(--m-800),var(--m-950))}
+.hero.primary,.action.main{border-color:transparent}

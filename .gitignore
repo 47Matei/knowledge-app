@@ -8,3 +8,4 @@ work/
 tools/test/out/
 .claude/settings.local.json
 CLAUDE.local.md
+design/out/

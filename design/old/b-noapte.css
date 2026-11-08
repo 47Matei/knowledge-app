@@ -1,0 +1,16 @@
+/* Concept B - "Noapte OpenMind": întunecat, culorile logo-ului (violet spre albastru), lumină discretă. */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+:root:root:root{
+  --bg:#07061A; --surface:#100F26; --surface-2:#18173A; --ink:#EEEDF8; --muted:#9C9ABD; --line:#25234A;
+  --accent:#9B7BFF; --accent-ink:#0B0A1E; --ok:#4ADE9B; --ok-bg:#0F2A22; --warn:#F5B94A; --warn-bg:#2A2212; --bad:#FF6B7A; --bad-bg:#2E1220;
+  --shadow:none; --f-display:"Manrope",system-ui,sans-serif; --f-body:"Manrope",system-ui,sans-serif;
+  --tab-s:55%; --tab-l:72%; --tab-bg-l:18%; color-scheme:dark;
+}
+body::before{background:var(--bg)}
+.tile{border-radius:18px}
+.tile::before{display:none}
+.bar{height:4px;border:0;background:var(--surface-2)}.bar>i{background:linear-gradient(90deg,#9B7BFF,#6CB8FF)}
+.hero.primary{background:linear-gradient(135deg,#7C4DFF 0%,#4F7BFF 100%);border-color:transparent;color:#fff}
+.hero.primary .label{color:rgba(255,255,255,.8)}
+.btn.primary{background:linear-gradient(135deg,#7C4DFF,#4F7BFF);border-color:transparent;color:#fff}
+.label{font-family:var(--f-body);letter-spacing:.04em}

@@ -50,7 +50,7 @@ claude                                          # first run: log in via the brow
   - Clone `main`, run `npm --prefix tools test`, then publish with the artifact tools: `publish_files`, mode patch, with `base_version` taken from `get_artifact`.
   - Send only the changed files (index.html, app.js, data/*, img/*), at most 256 paths per call. List deleted files in `remove`.
   - Keep the total at 512 files or fewer (`test_decks.js` checks it).
-  - Never publish `tools/`, `AGENTS.md`, `CLAUDE.md`, `CREDITS.md`, `manifest.webmanifest`, `sw.js` or `icons/` to the artifact. They are not part of the app, and they count toward the file limit.
+  - Never publish `tools/`, `AGENTS.md`, `CLAUDE.md`, `CREDITS.md`, `manifest.webmanifest`, `sw.js`, `icons/` or `design/` to the artifact. They are not part of the app, and they count toward the file limit.
 - **Artifact limits** (details in AGENTS.md section 4): `list_files`, `read_declaration` and `declare_capabilities` refuse this artifact, because Matei's account has written progress to its database. Publishing and the `db_*` tools still work, so reports or progress can be read with `db_list` (collection `data/users/<uid>`).
 - **The claude.ai project doc** `claude/decizii-si-stare.md` (project "Cartoteca Matei") is the short decision log. Update it when a round or stage ships.
 - **Picture downloads.** The cloud container cannot reach Wikimedia. When the session is linked to Ciprian's Mac, run the image scripts there (the Mac folder `~/Sites` is shared); otherwise Ciprian runs them in Terminal.
