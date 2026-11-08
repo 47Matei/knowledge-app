@@ -53,7 +53,8 @@ def parse(path):
         if sub is None:
             errors.append(f'line {n}: card before the first "## " subsection')
             continue
-        f = [p.strip() for p in line.split(' | ')]
+        # split on every "|" (not only " | "), so an empty field written as "| |" stays empty instead of shifting the next fields
+        f = [p.strip() for p in line.split('|')]
         if len(f) < 2 or not f[0] or not f[1]:
             errors.append(f'line {n}: needs at least "question | answer"')
             continue

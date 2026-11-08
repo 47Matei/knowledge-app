@@ -1,0 +1,189 @@
+@id ai
+@title Inteligență artificială
+@sub Concepte, învățare automată, modele de limbaj, etică
+@icon ai
+@hue 355
+@source Pachet scris și verificat de Claude împreună cu Ciprian (noiembrie 2026), pe baza surselor enciclopedice publice și a documentelor oficiale UE.
+@prompt Ce termen este?
+@intrus {"by": "sub", "item": "a", "skip": ["Repere istorice"]}
+## Concepte de bază | Ce termen este?
+Ramura informaticii care construiește sisteme ce fac sarcini care ar cere inteligență umană | Inteligență artificială | Prescurtat AI (în engleză) sau IA (în română). | Artificial intelligence |  |  | AI / IA
+Șir finit de pași clari care rezolvă o problemă | Algoritm | O rețetă de bucătărie este un algoritm. AI folosește algoritmi care învață din date. | Algorithm
+AI care face foarte bine o singură sarcină, de exemplu recunoașterea fețelor | AI îngustă | Toate sistemele AI folosite azi sunt de acest tip, chiar și cele foarte capabile. | Narrow AI |  |  | AI slabă
+AI ipotetică, capabilă să învețe și să facă orice sarcină intelectuală pe care o poate face un om | AGI | Artificial General Intelligence. Nu există încă un consens că ar fi fost atinsă. | Artificial general intelligence |  |  | Inteligență artificială generală
+AI ipotetică, mult mai capabilă decât cei mai buni oameni în aproape orice domeniu | Superinteligență | Concept discutat mult în cercetarea despre siguranța AI. | Superintelligence
+Rezultatul antrenării: un program care face predicții sau generează răspunsuri pentru date noi | Model | Un model e „ce a rămas" după ce algoritmul a învățat din date. | Model
+Exemplele din care învață un model | Date de antrenare | Calitatea lor contează enorm: date greșite sau părtinitoare dau un model greșit sau părtinitor. | Training data
+Procesul prin care un model își ajustează parametrii pe baza exemplelor | Antrenare | Pentru modelele mari durează săptămâni sau luni pe mii de procesoare. | Training
+Folosirea unui model deja antrenat ca să răspundă la date noi | Inferență | Când pui o întrebare unui chatbot, are loc o inferență. | Inference
+Numerele interne pe care un model le ajustează când învață | Parametri | Modelele mari de limbaj au miliarde de parametri. | Parameters |  |  | Ponderi
+Date păstrate deoparte, nefolosite la antrenare, ca să verifici cât de bine merge modelul | Set de testare | Dacă testezi pe datele de antrenare, rezultatul pare mai bun decât e în realitate. | Test set
+Răspunsul corect atașat unui exemplu, de exemplu „pisică" pe o poză cu o pisică | Etichetă | Etichetarea se face adesea manual, de oameni. | Label
+O proprietate măsurabilă folosită ca intrare pentru model, de exemplu suprafața unei case | Caracteristică | La prețul unei case: suprafață, număr de camere, cartier. | Feature
+Colecție organizată de date folosită la antrenare sau la testare | Set de date | Exemplu celebru: ImageNet, cu milioane de imagini etichetate. | Dataset
+Volume de date atât de mari, rapide sau variate încât cer metode speciale de prelucrare | Big data | Adesea descrise prin „cei 3 V": volum, viteză, varietate. | Big data
+Domeniul AI care înțelege imagini și video | Viziune artificială | Folosită la deblocarea telefonului cu fața, la mașini autonome, la analiza radiografiilor. | Computer vision |  |  | Vedere artificială / Vedere computerizată
+Domeniul AI care înțelege și generează limbaj omenesc | NLP | Natural Language Processing - procesarea limbajului natural. Traducerea automată e un exemplu. | Natural language processing |  |  | Procesarea limbajului natural
+Transformarea vorbirii în text | Recunoașterea vorbirii | O folosesc asistenții vocali și subtitrările automate. | Speech recognition
+Transformarea textului în voce | Sinteza vocală | Prescurtat TTS (text-to-speech). | Text-to-speech |  |  | TTS
+Domeniul care combină AI cu mașini care acționează în lumea fizică | Robotică | Termenul „robot" vine din piesa „R.U.R." a scriitorului ceh Karel Čapek (1920). | Robotics
+Sistem AI care își planifică singur pașii și folosește unelte ca să ducă la capăt un obiectiv | Agent AI | De exemplu: caută pe net, compară, completează un tabel și îți trimite rezultatul. | AI agent
+AI care creează conținut nou: text, imagini, sunete, video sau cod | AI generativă | Chatbot-urile și generatoarele de imagini sunt AI generativă. | Generative AI
+Program cu care conversezi în limbaj natural | Chatbot | Primul chatbot celebru a fost ELIZA, din anii '60. | Chatbot
+AI care îți propune filme, melodii sau produse pe baza gusturilor tale | Sistem de recomandare | Folosit de platformele de streaming, magazinele online și rețelele sociale. | Recommender system
+Model care lucrează cu mai multe tipuri de date deodată: text, imagini, audio | Multimodal | Poți să-i arăți o poză și să-l întrebi ce vede în ea. | Multimodal
+Test în care un om conversează în scris și trebuie să ghicească dacă vorbește cu un om sau cu o mașină | Testul Turing | Propus de Alan Turing în 1950, sub numele de „jocul imitației". | Turing test
+Procesor foarte bun la multe calcule în paralel, folosit la antrenarea AI | GPU | Graphics Processing Unit - inițial creat pentru jocuri video. | GPU |  |  | Placă grafică / Procesor grafic
+Clădire cu mii de servere unde se antrenează și rulează modelele mari | Centru de date | Consumă multă electricitate și are nevoie de răcire. | Data center
+Model ai cărui parametri sunt publicați și pot fi descărcați de oricine | Ponderi deschise | Opusul: modelele închise, folosite doar prin serviciul firmei care le-a creat. | Open weights |  |  | Open weights
+Test standard folosit ca să compari mai multe modele între ele | Benchmark | Un benchmark poate măsura matematică, cod, cunoștințe generale etc. | Benchmark |  |  | Test de referință
+Model care rulează direct pe telefon sau calculator, fără să trimită date pe internet | AI pe dispozitiv | Avantaje: viteză și confidențialitate. Dezavantaj: modelele sunt mai mici. | On-device AI
+Mașină care se conduce singură, folosind senzori, camere și AI | Vehicul autonom | Nivelurile de autonomie merg de la 0 (fără automatizare) la 5 (complet autonom). | Autonomous vehicle | Niveluri=0-5
+## Învățare automată | Ce termen este?
+AI care învață reguli din exemple, în loc să fie programată explicit regulă cu regulă | Învățare automată | Termenul a fost popularizat de Arthur Samuel în 1959. | Machine learning |  |  | Machine learning / ML
+Învățare din exemple care au răspunsul corect atașat | Învățare supervizată | Ca un elev care exersează cu culegerea care are răspunsurile la final. | Supervised learning
+Învățare din date fără etichete, în care modelul caută singur structuri și grupuri | Învățare nesupervizată | Exemplu: împărțirea clienților unui magazin în grupuri cu obiceiuri asemănătoare. | Unsupervised learning
+Învățare prin încercare și eroare, cu recompense pentru acțiunile bune | Învățare prin întărire | Așa au învățat AlphaGo și AlphaZero să joace. | Reinforcement learning
+Sarcina de a pune un exemplu într-o categorie, de exemplu „spam" sau „nu e spam" | Clasificare | Răspunsul este o categorie, nu un număr. | Classification
+Sarcina de a prezice un număr, de exemplu prețul unei case | Regresie | Răspunsul este o valoare numerică. | Regression
+Gruparea automată a exemplelor asemănătoare, fără etichete | Clusterizare | Un algoritm clasic este k-means. | Clustering |  |  | Grupare
+Modelul învață pe de rost datele de antrenare și greșește pe date noi | Supraînvățare | Ca un elev care memorează răspunsurile fără să înțeleagă: la teza nouă nu se descurcă. | Overfitting |  |  | Overfitting
+Modelul e prea simplu și greșește chiar și pe datele de antrenare | Subînvățare | Soluții: un model mai complex sau caracteristici mai bune. | Underfitting |  |  | Underfitting
+Capacitatea unui model de a merge bine pe date pe care nu le-a văzut niciodată | Generalizare | Este scopul real al antrenării. | Generalization
+Funcția care măsoară cât greșește modelul; antrenarea încearcă s-o micșoreze | Funcția de pierdere | Cu cât pierderea e mai mică, cu atât predicțiile sunt mai apropiate de răspunsurile corecte. | Loss function |  |  | Funcția de cost
+Metodă care ajustează parametrii pas cu pas în direcția în care eroarea scade cel mai repede | Coborârea gradientului | Imaginea clasică: cobori un munte în ceață, mereu pe panta cea mai abruptă. | Gradient descent
+Cât de mare este fiecare pas de ajustare a parametrilor la antrenare | Rata de învățare | Prea mare: modelul „sare" peste soluție. Prea mică: învață foarte încet. | Learning rate
+O trecere completă prin toate datele de antrenare | Epocă | Modelele se antrenează de obicei mai multe epoci. | Epoch
+Setările alese de om înainte de antrenare, de exemplu rata de învățare | Hiperparametri | Parametrii îi învață modelul; hiperparametrii îi alege omul. | Hyperparameters
+Model care ia decizii printr-o serie de întrebări cu răspuns da sau nu | Arbore de decizie | Ușor de explicat, pentru că poți urmări fiecare întrebare. | Decision tree
+Mulți arbori de decizie care votează împreună | Pădure aleatoare | Mai precisă decât un singur arbore. | Random forest |  |  | Random forest
+Clasifică un exemplu după exemplele cele mai apropiate de el | k vecini cei mai apropiați | Prescurtat k-NN. „Spune-mi cu cine te aduni ca să-ți spun cine ești." | k-nearest neighbors |  |  | k-NN
+Potrivirea celei mai bune drepte printre puncte, ca să prezici un număr | Regresie liniară | Una dintre cele mai vechi metode, folosită în statistică de peste 200 de ani. | Linear regression
+Procentul de predicții corecte din total | Acuratețe | Poate înșela: dacă 99% dintre e-mailuri nu sunt spam, un model care spune mereu „nu e spam" are 99% acuratețe. | Accuracy
+Modelul spune „da" când răspunsul corect este „nu", de exemplu un e-mail bun marcat ca spam | Fals pozitiv | O „alarmă falsă". | False positive
+Modelul spune „nu" când răspunsul corect este „da", de exemplu un spam care ajunge în inbox | Fals negativ | O problemă „scăpată". | False negative
+Împarți datele în mai multe bucăți și testezi pe rând pe fiecare, antrenând pe celelalte | Validare încrucișată | Dă o estimare mai sigură a performanței. | Cross-validation
+Creezi exemple noi modificând ușor pe cele existente, de exemplu rotind sau decupând imagini | Augmentarea datelor | Ajută când ai puține date și reduce supraînvățarea. | Data augmentation
+Pornești de la un model deja antrenat și îl adaptezi la o sarcină nouă | Învățare prin transfer | Economisește date și timp de calcul. | Transfer learning
+Antrenare suplimentară a unui model existent pe date specifice unei sarcini | Ajustare fină | De exemplu, adaptezi un model general la limbaj medical. | Fine-tuning |  |  | Fine-tuning
+Modelul își creează singur etichetele din date, de exemplu ghicind un cuvânt ascuns dintr-o propoziție | Învățare autosupervizată | Așa se preantrenează modelele mari de limbaj. | Self-supervised learning
+Găsirea exemplelor neobișnuite, de exemplu o plată suspectă cu cardul | Detectarea anomaliilor | Băncile o folosesc contra fraudelor. | Anomaly detection
+## Rețele neuronale și modele de limbaj | Ce termen este?
+Model format din straturi de „neuroni" artificiali legați prin ponderi | Rețea neuronală | Inspirată vag din creier, dar funcționează foarte diferit. | Neural network
+Unitate care face o sumă ponderată a intrărilor și aplică apoi o funcție de activare | Neuron artificial | Primul model matematic de neuron: McCulloch și Pitts (1943). | Artificial neuron |  |  | Perceptron
+Numărul care arată cât de puternică este legătura dintre doi neuroni | Pondere | Învățarea înseamnă, de fapt, ajustarea ponderilor. | Weight
+Funcție neliniară aplicată la ieșirea unui neuron, de exemplu ReLU | Funcție de activare | Fără ea, oricâte straturi ai pune, rețeaua s-ar comporta ca una simplă, liniară. | Activation function
+Strat dintre intrarea și ieșirea unei rețele neuronale | Strat ascuns | „Ascuns" pentru că nu vezi direct ce calculează. | Hidden layer
+Rețele neuronale cu multe straturi | Învățare profundă | „Profundă" se referă la numărul mare de straturi. | Deep learning |  |  | Deep learning
+Algoritmul care calculează cum trebuie schimbată fiecare pondere, propagând eroarea înapoi prin rețea | Retropropagare | Popularizat în 1986 de Rumelhart, Hinton și Williams. | Backpropagation |  |  | Backpropagation
+Rețea specializată pe imagini, care caută tipare locale precum margini și forme | Rețea convoluțională | Prescurtat CNN. | Convolutional neural network |  |  | CNN
+Rețea care procesează secvențe pas cu pas, păstrând o „memorie" a pașilor anteriori | Rețea recurentă | Prescurtat RNN. A fost folosită mult pentru text și vorbire înainte de Transformer. | Recurrent neural network |  |  | RNN
+Arhitectura din 2017, bazată pe mecanismul de atenție, care stă la baza modelelor de limbaj moderne | Transformer | Prezentată în articolul „Attention Is All You Need", scris de cercetători de la Google. | Transformer
+Mecanism prin care modelul cântărește ce cuvinte din context contează pentru fiecare cuvânt | Atenție | În „Banca era ocupată, așa că m-am așezat pe ea", atenția leagă „ea" de „banca". | Attention
+Model antrenat pe cantități uriașe de text, care generează răspunsuri prezicând următorul token | Model mare de limbaj | Prescurtat LLM (Large Language Model). | Large language model |  |  | LLM
+Bucata de text cu care lucrează un model de limbaj: un cuvânt sau o parte de cuvânt | Token | În engleză, un token are în medie cam 4 caractere; în română, cuvintele se împart adesea în mai mulți tokeni. | Token
+Cât text poate „vedea" un model deodată, măsurat în tokeni | Fereastra de context | Tot ce depășește fereastra, modelul nu mai „vede". | Context window
+Reprezentarea unui cuvânt sau text ca listă de numere, în care sensurile apropiate au numere apropiate | Embedding | „Rege" și „regină" ajung aproape unul de altul în acest spațiu. | Embedding |  |  | Vector semantic
+Prima fază a antrenării, în care modelul învață din foarte mult text general | Preantrenare | Urmează apoi ajustarea fină și alinierea. | Pre-training
+Ajustarea unui model folosind aprecierile oamenilor despre răspunsurile lui | RLHF | Reinforcement Learning from Human Feedback - învățare prin întărire din feedback uman. | RLHF
+Setare care face răspunsurile mai previzibile (valoare mică) sau mai variate și creative (valoare mare) | Temperatură | Pentru fapte se preferă o temperatură mică. | Temperature
+Răspuns inventat de model, dar spus cu încredere, ca și cum ar fi adevărat | Halucinație | De aceea cifrele, citatele și sursele date de AI trebuie verificate. | Hallucination
+Două rețele care se întrec: una generează imagini, cealaltă încearcă să ghicească dacă sunt false | GAN | Generative Adversarial Network, propusă de Ian Goodfellow în 2014. | Generative adversarial network
+Model care generează imagini pornind de la zgomot aleator și curățându-l treptat | Model de difuzie | Stă la baza multor generatoare de imagini actuale. | Diffusion model
+Acronimul pentru „Generative Pre-trained Transformer" | GPT | Generativ (creează text), Preantrenat (pe mult text), Transformer (arhitectura). | GPT
+Modelul scrie pașii intermediari ai raționamentului înainte de răspunsul final | Lanț de gândire | Ajută mult la probleme de matematică și logică. | Chain of thought |  |  | Chain of thought
+Modelul caută întâi informații în documente și apoi răspunde pe baza lor | RAG | Retrieval-Augmented Generation. Reduce halucinațiile și permite răspunsuri pe documente proprii. | Retrieval-augmented generation
+Un model mic învață să imite răspunsurile unui model mare | Distilare | Rezultă un model mai rapid și mai ieftin, aproape la fel de bun pe sarcina dorită. | Knowledge distillation
+Micșorarea unui model prin stocarea numerelor cu mai puțină precizie | Cuantizare | Permite rularea modelelor pe telefoane și laptopuri. | Quantization
+Tehnică ce „oprește" aleator o parte dintre neuroni la antrenare, ca să reducă supraînvățarea | Dropout | Rețeaua învață astfel să nu depindă de un singur neuron. | Dropout
+Rețea care comprimă datele într-o formă mică și apoi încearcă să le reconstruiască | Autoencoder | Folosită la compresie, eliminarea zgomotului și detectarea anomaliilor. | Autoencoder
+Model format din mai multe sub-rețele specializate, din care se activează doar câteva pentru fiecare token | Mixtură de experți | Permite modele foarte mari care rămân relativ rapide. | Mixture of experts |  |  | Mixture of experts / MoE
+## Cum lucrezi cu AI | Ce termen sau ce sfat este?
+Instrucțiunea sau întrebarea pe care i-o dai unui model | Prompt | Un prompt bun spune clar ce vrei, pentru cine și în ce formă. | Prompt |  |  | Instrucțiune
+Informațiile de fundal pe care le dai modelului ca să răspundă mai bine | Context | Exemplu: „Sunt în clasa a 9-a și pregătesc un referat despre vulcani." | Context
+Instrucțiunile generale care stabilesc rolul și regulile unui asistent AI | Prompt de sistem | Utilizatorul de obicei nu îl vede. | System prompt
+Dai câteva exemple de întrebare și răspuns în prompt, ca să arăți exact ce vrei | Few-shot | Modelul imită tiparul exemplelor. | Few-shot prompting |  |  | Câteva exemple
+Ceri o sarcină fără să dai niciun exemplu | Zero-shot | Merge bine pentru sarcini simple și clare. | Zero-shot prompting
+Îi spui modelului „Ești un profesor de fizică răbdător" | Atribuirea unui rol | Rolul schimbă tonul și nivelul de detaliu. | Role prompting
+Ceri explicit forma răspunsului: tabel, listă, trei propoziții | Specifici formatul | Fără format cerut, răspunsul poate fi prea lung sau greu de folosit. | Output format
+Îmbunătățești răspunsul cerând modificări pas cu pas | Iterare | Rar iese perfect din prima: corectezi, ceri mai scurt, mai simplu, cu exemple. | Iteration
+Ce faci cu cifrele, datele și citatele primite de la AI înainte să le folosești | Le verifici în surse | Modelele pot halucina. Verifică în surse de încredere. | Fact-checking |  |  | Le verifici
+Ceri modelului să indice de unde are informația | Ceri surse | Verifică dacă sursele există cu adevărat: și ele pot fi inventate. | Ask for sources
+Ce nu introduci într-un chatbot public: parole, adrese, date despre alți oameni | Date personale | Ce scrii poate fi stocat și, uneori, folosit la antrenare. | Personal data
+Data după care modelul nu mai știe ce s-a întâmplat, dacă nu caută pe internet | Data limită a cunoștințelor | Pentru știri recente, cere-i să caute sau verifică singur. | Knowledge cutoff
+Ce faci cu o problemă mare ca AI să o rezolve mai bine | O împarți în pași | Pașii mici dau rezultate mai bune și mai ușor de verificat. | Task decomposition
+Text ascuns într-o pagină sau într-un document, care încearcă să-i dea ordine unui AI | Injecție de prompt | Un risc important pentru agenții AI care citesc pagini web. | Prompt injection
+Încercarea de a păcăli un model să-și încalce propriile reguli | Jailbreak | Firmele testează constant modelele contra acestor încercări. | Jailbreak
+Prezinți textul generat de AI ca fiind scris de tine, fără să spui | Plagiat | Multe școli și universități cer să menționezi când ai folosit AI. | Plagiarism
+Cel mai util rol al AI când înveți: să-ți explice, să te testeze și să-ți dea exemple | Tutore personal | Folosit așa, AI te ajută să înțelegi, nu face tema în locul tău. | AI tutor |  |  | Tutore
+Ceri AI să scurteze un text lung la ideile principale | Rezumat | Verifică rezumatul cu textul original când contează. | Summary
+AI care scrie, explică sau completează cod pentru programatori | Asistent de programare | Codul generat trebuie citit și testat ca orice alt cod. | Coding assistant
+Descrii o imagine în cuvinte și modelul o desenează | Text-în-imagine | Detaliile din prompt (stil, lumină, compoziție) schimbă mult rezultatul. | Text-to-image
+Capacitatea unui model de a folosi calculatorul, căutarea web sau alte programe | Folosirea uneltelor | Așa poate un model să facă un calcul exact sau să afle știri recente. | Tool use
+Cum tratezi un răspuns al AI pe care nu-l poți verifica | Ca pe o ipoteză | Nu ca pe un fapt sigur. | Treat as hypothesis
+Ceri un nou răspuns la același prompt, ca să compari variantele | Regenerare | Răspunsurile diferă de la o încercare la alta. | Regenerate
+## Repere istorice | Răspunde la întrebare
+Anul în care Alan Turing a propus „jocul imitației", cunoscut azi ca testul Turing | 1950 | În articolul „Computing Machinery and Intelligence". |  | An=1950
+Anul atelierului de la Dartmouth, considerat nașterea AI ca domeniu de cercetare | 1956 | Termenul „artificial intelligence" apăruse în propunerea atelierului, scrisă în 1955. |  | An=1956
+Cercetătorul care a propus termenul „inteligență artificială" | John McCarthy | A creat și limbajul de programare LISP. | John McCarthy
+Limbajul de programare creat de John McCarthy, folosit mult în AI timpurie | LISP | Unul dintre cele mai vechi limbaje de programare încă folosite. | LISP | An=1958
+A creat perceptronul, una dintre primele rețele neuronale care învățau | Frank Rosenblatt | Perceptronul a fost prezentat în 1958. | Frank Rosenblatt | An=1958
+A popularizat termenul „machine learning" cu un program care învăța să joace dame | Arthur Samuel | Lucra la IBM. Termenul apare în articolul său din 1959. | Arthur Samuel | An=1959
+Chatbot creat la MIT în anii '60, care imita un psihoterapeut | ELIZA | Creat de Joseph Weizenbaum. Mulți utilizatori credeau că îi înțelege. | ELIZA
+Primul robot mobil care își putea planifica singur acțiunile, construit la SRI între 1966 și 1972 | Shakey | Numit așa pentru că se mișca tremurat. | Shakey the robot
+Perioadele în care interesul și finanțarea pentru AI au scăzut puternic | Iarna AI | Au fost două mari „ierni": în anii '70 și la sfârșitul anilor '80. | AI winter |  |  | Iarna inteligenței artificiale
+Programe din anii '70-'80 care codificau regulile unor experți umani, de exemplu pentru diagnostic medical | Sisteme expert | Funcționau bine pe domenii înguste, dar erau greu de actualizat. | Expert systems
+Anul în care Rumelhart, Hinton și Williams au popularizat algoritmul de retropropagare | 1986 | Articolul a apărut în revista Nature. |  | An=1986
+Anul în care calculatorul Deep Blue (IBM) l-a învins pe Garry Kasparov într-un meci de șah | 1997 | Kasparov era campionul mondial la acea vreme. |  | An=1997
+Sistemul IBM care a câștigat concursul TV american Jeopardy! în 2011 | Watson | A învins doi dintre cei mai buni campioni ai emisiunii. | IBM Watson | An=2011
+Asistentul vocal lansat de Apple în 2011, odată cu iPhone 4S | Siri | Unul dintre primii asistenți vocali folosiți pe scară largă. | Siri | An=2011
+Cercetătoarea care a creat baza de imagini ImageNet | Fei-Fei Li | Concursul ImageNet a fost decisiv pentru succesul învățării profunde. | Fei-Fei Li
+Rețeaua neuronală care a câștigat concursul ImageNet în 2012 la mare distanță, pornind boom-ul învățării profunde | AlexNet | Creată de Alex Krizhevsky, Ilya Sutskever și Geoffrey Hinton. | AlexNet | An=2012
+Anul în care AlphaGo l-a învins pe campionul Lee Sedol la go | 2016 | Scor 4-1. Go era considerat mult mai greu pentru calculatoare decât șahul. |  | An=2016
+Programul DeepMind care a învățat singur șah, shogi și go, doar jucând contra lui însuși | AlphaZero | Prezentat în 2017. Nu a folosit partide jucate de oameni. | AlphaZero | An=2017
+Anul publicării arhitecturii Transformer („Attention Is All You Need") | 2017 | Scrisă de cercetători de la Google. |  | An=2017
+Sistemul DeepMind care prezice forma 3D a proteinelor | AlphaFold | Creatorii lui au primit Premiul Nobel pentru chimie în 2024. | AlphaFold
+Anul lansării publice a ChatGPT | 2022 | Lansat de OpenAI la 30 noiembrie 2022. |  | An=2022
+Câștigătorii Premiului Nobel pentru fizică din 2024, pentru bazele învățării automate cu rețele neuronale | Hopfield și Hinton | John Hopfield și Geoffrey Hinton. | John Hopfield and Geoffrey Hinton | An=2024
+Cofondatorul DeepMind care a primit Premiul Nobel pentru chimie în 2024, pentru AlphaFold | Demis Hassabis | L-a împărțit cu John Jumper (pentru AlphaFold) și David Baker (pentru proiectarea de proteine). | Demis Hassabis | An=2024
+Cei trei cercetători premiați cu Premiul Turing 2018 pentru învățarea profundă: Bengio, Hinton și... | Yann LeCun | Premiul Turing este considerat „Nobelul informaticii". | Yann LeCun | An=2018
+Pionierul rețelelor neuronale care a plecat de la Google în 2023 ca să vorbească liber despre riscurile AI | Geoffrey Hinton | Numit adesea unul dintre „nașii" învățării profunde. | Geoffrey Hinton | An=2023
+## Etică, riscuri și reguli | Ce termen este?
+Sistem AI care tratează nedrept anumite grupuri de oameni pentru că a învățat din date dezechilibrate | Bias algoritmic | Exemple reale: recunoaștere facială mai slabă pe unele grupuri, filtre de CV-uri părtinitoare. | Algorithmic bias
+Video sau audio fals, generat cu AI, cu chipul sau vocea unei persoane reale | Deepfake | Semne posibile: clipiri nefirești, buze nesincronizate, lumină ciudată. Dar devin tot mai greu de recunoscut. | Deepfake
+Model ale cărui decizii nu pot fi explicate ușor, nici măcar de creatorii lui | Cutie neagră | Problematic când AI ia decizii importante (credite, angajări, sănătate). | Black box
+Capacitatea de a explica de ce a luat un sistem AI o anumită decizie | Explicabilitate | Prescurtat XAI (Explainable AI). | Explainability |  |  | XAI
+Efortul ca obiectivele unui sistem AI să corespundă valorilor și intențiilor oamenilor | Aliniere | Una dintre temele centrale ale cercetării despre siguranța AI. | AI alignment
+Un om verifică și aprobă deciziile importante ale unui sistem AI | Om în buclă | Folosit în medicină, justiție, finanțe. | Human-in-the-loop
+Semn ascuns în conținutul generat, care arată că a fost creat de AI | Filigran digital | Ajută la identificarea imaginilor și textelor generate. | Watermark |  |  | Watermark
+Informații false răspândite intenționat, mult mai ușor de produs în masă cu AI | Dezinformare | Verifică sursa, data și dacă știrea apare și în alte publicații serioase. | Disinformation
+Dreptul tău de a controla ce date personale sunt colectate și cum sunt folosite | Confidențialitate | Citește ce date cere o aplicație înainte să o folosești. | Privacy
+Regulamentul Uniunii Europene care protejează datele personale, aplicat din 2018 | GDPR | General Data Protection Regulation. | GDPR | An=2018
+Legea Uniunii Europene care reglementează AI în funcție de nivelul de risc | AI Act | Prima lege generală despre AI din lume adoptată de un mare bloc de state. Intrată în vigoare la 1 august 2024, se aplică treptat. | EU AI Act | An=2024 |  | Regulamentul UE privind AI
+Anul intrării în vigoare a legii UE privind inteligența artificială (AI Act) | 2024 | La 1 august 2024. Obligațiile se aplică treptat, în mai mulți ani. |  | An=2024
+Categoria din AI Act pentru utilizările interzise, de exemplu manipularea comportamentului sau scorul social | Risc inacceptabil | Interdicțiile se aplică din 2 februarie 2025. | Unacceptable risk
+Categoria din AI Act pentru AI folosită la angajări, în educație, sănătate sau infrastructură critică | Risc ridicat | Cere evaluări, documentație și supraveghere umană. Termenele acestor obligații au fost amânate în 2026 (de verificat data exactă). | High risk
+Notarea oamenilor după comportamentul lor, interzisă în UE de AI Act | Scor social | Social scoring. | Social scoring
+Obligația de a spune utilizatorului că vorbește cu un chatbot sau că un conținut a fost generat de AI | Transparență | Una dintre regulile de bază ale AI Act. | Transparency
+Problema juridică: pot modelele învăța din cărți, articole și imagini fără acordul autorilor? | Drepturi de autor | Există procese în desfășurare în mai multe țări. | Copyright
+Costul de mediu al AI: electricitate și apă pentru răcirea centrelor de date | Consum de energie | Antrenarea și folosirea modelelor mari consumă multă energie. | Energy consumption
+Înlocuirea unor sarcini făcute de oameni cu sisteme automate | Automatizare | AI schimbă mai ales sarcini, nu meserii întregi; apar și meserii noi. | Automation
+Identificarea oamenilor după chip în spații publice, puternic restricționată în UE | Recunoaștere facială | AI Act permite doar câteva excepții strict definite, de exemplu pentru poliție. | Facial recognition
+Cine răspunde când un sistem AI produce o pagubă | Răspundere | Producătorul, firma care îl folosește sau omul care l-a supravegheat? | Accountability
+Domeniul care studiază cum să previi ca AI să producă rău, accidental sau intenționat | Siguranța AI | Include alinierea, testarea și monitorizarea modelelor. | AI safety
+Testare în care oameni încearcă intenționat să găsească punctele slabe ale unui model | Red teaming | Termenul vine din exercițiile militare, unde „echipa roșie" juca rolul adversarului. | Red teaming |  |  | Echipa roșie
+Înșelătorie în care cineva imită cu AI vocea unei rude ca să ceară bani | Clonarea vocii | Stabilește în familie un cuvânt-cod pentru situații de urgență. | Voice cloning scam
+Riscul de a lăsa AI să gândească în locul tău până când nu mai exersezi singur | Dependență de AI | Folosește AI ca ajutor, nu ca înlocuitor pentru gândirea ta. | AI overreliance
+Algoritmi care îți arată doar ce îți place, izolându-te de alte păreri | Bula de filtrare | Termen propus de Eli Pariser (2011). | Filter bubble
+~ Supraînvățare ~ Subînvățare ~ Supraînvățarea: modelul memorează și greșește pe date noi. Subînvățarea: modelul e prea simplu și greșește peste tot.
+~ Învățare supervizată ~ Învățare nesupervizată ~ Supervizată: exemplele au răspunsul corect. Nesupervizată: modelul caută singur grupuri, fără răspunsuri.
+~ Clasificare ~ Regresie ~ Clasificarea alege o categorie. Regresia prezice un număr.
+~ Fals pozitiv ~ Fals negativ ~ Fals pozitiv: alarmă falsă. Fals negativ: problemă scăpată.
+~ Antrenare ~ Inferență ~ Antrenarea: modelul învață. Inferența: modelul deja antrenat răspunde.
+~ Zero-shot ~ Few-shot ~ Zero-shot: fără exemple. Few-shot: câteva exemple în prompt.
+~ AI îngustă ~ AGI ~ AI îngustă: o singură sarcină (există azi). AGI: orice sarcină intelectuală umană (ipotetică).
+~ GAN ~ Model de difuzie ~ GAN: două rețele care se întrec. Difuzia: pornește de la zgomot și îl curăță pas cu pas.
+~ Injecție de prompt ~ Jailbreak ~ Injecția: ordine ascunse în conținutul citit de AI. Jailbreak: utilizatorul încearcă direct să păcălească modelul.
+~ Ajustare fină ~ RAG ~ Ajustarea fină schimbă modelul prin antrenare. RAG nu schimbă modelul: îi dă documente de citit la momentul întrebării.
+~ Rețea convoluțională ~ Rețea recurentă ~ Convoluțională: imagini, tipare locale. Recurentă: secvențe, pas cu pas.
+~ Halucinație ~ Dezinformare ~ Halucinația e o greșeală a modelului, fără intenție. Dezinformarea e falsă intenționat.

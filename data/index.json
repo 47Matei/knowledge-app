@@ -335,6 +335,23 @@
 ]
 },
 "map": null
+},
+{
+"id": "ai",
+"title": "Inteligență artificială",
+"sub": "Concepte, învățare automată, modele de limbaj, etică",
+"icon": "ai",
+"source": "Pachet scris și verificat de Claude împreună cu Ciprian (noiembrie 2026), pe baza surselor enciclopedice publice și a documentelor oficiale UE.",
+"hue": 355,
+"intrus": {
+"by": "sub",
+"item": "a",
+"skip": [
+"Repere istorice"
+]
+},
+"map": null,
+"count": 163
 }
 ]
 }
