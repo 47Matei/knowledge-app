@@ -369,6 +369,21 @@
 },
 "map": null,
 "count": 153
+},
+{
+"id": "tehnologie",
+"title": "Cum funcționează tehnologia",
+"sub": "Internet, cipuri, wireless, cloud, baterii, unități",
+"icon": "chip",
+"source": "Pachet scris și verificat de Claude împreună cu Ciprian (noiembrie 2026), pe baza surselor enciclopedice publice.",
+"hue": 355,
+"intrus": {
+"by": "sub",
+"item": "a",
+"skip": []
+},
+"map": null,
+"count": 156
 }
 ]
 }
