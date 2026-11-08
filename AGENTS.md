@@ -10,6 +10,7 @@ Handoff for coding agents (Codex, Claude). Read all of it before changing anythi
   - quizzes: multiple choice, written answer, timed, odd-one-out ("intrus"), image quiz;
   - compare mode, interactive maps, a lesson intro, a placement test, statistics, XP, streaks and badges.
 - 17 domains with about 4,300 cards: mașini, ceasuri, comportament, capitale, localizare, județe, steaguri, avioane, elemente, astronomie, istorie, corp, biasuri, finanțe, monumente, arhitectură, vocabular.
+- **App name:** the app is called **OpenMind** (Ciprian, 8 November 2026): `<title>`, manifest and icon (`icons/source-openmind.png`, chosen by Ciprian). "Cartoteca lui Matei" stays the project name in docs and code comments.
 - **Repository:** https://github.com/47Matei/knowledge-app (public). `main` is stable and identical to what is published; `dev` is the working branch. Changes go `feature/*` or `dev` → Pull Request → `main`.
 - **Live copy:** the app is also published as a Claude artifact (https://claude.ai/artifact/4LowyueJzN8AvRkH5hL9DF, owner: Ciprian). Only a Claude session can publish there; see section 9.
 
@@ -36,6 +37,7 @@ Handoff for coding agents (Codex, Claude). Read all of it before changing anythi
 | `img/*.jpg` | Card photos, 500 px, Wikimedia Commons. |
 | `img/pack-<deck>-<n>.json` | Photos added in Round 2: `{tag: "data:image/jpeg;base64,..."}`, 40 per file, loaded on demand. |
 | `CREDITS.md` | Author, license and source of every photo. It must stay complete. |
+| `manifest.webmanifest`, `sw.js`, `icons/` | Installed app (PWA) on GitHub Pages: manifest, service worker, icons (made by `tools/images/make_icons.js`). Linked and registered from app.js **only outside Claude**; never published to the artifact. |
 | `tools/` | Build, image and test tools (Node and Python). Not used by the app at runtime. |
 | `AGENTS.md`, `CLAUDE.md` | Instructions for coding agents (this file; CLAUDE.md imports it for Claude Code). |
 | `tools/src-reference/*.txt` | The original authoring sources of the text decks (reference only, see 5.3). |
@@ -211,15 +213,17 @@ question | answer | details | english name | Key=Value; Key2=Value2 | mnemonic |
 
 ```bash
 cd tools && npm install && npx playwright install chromium && cd ..   # once
-npm --prefix tools test                       # decks + answers + models (about 30 s)
+npm --prefix tools test                       # decks + answers + models + PWA files (about 30 s)
 python3 -m http.server 8765 &                 # then:
-npm --prefix tools run test:ui                # 15 UI checks in Chromium, Pixel 7 emulation
+npm --prefix tools run test:ui                # 15 UI checks + 18 PWA checks in Chromium, Pixel 7 emulation
 ```
 
 - **`test_decks.js`** checks data integrity: index and deck files match, ids are unique, there are no duplicate cards, every picture and pack key exists, licenses are present, pairs are valid, and the file count is at most 512.
 - **`test_answers.js`** runs 34 checker cases plus a self-answer regression over all cards.
 - **`test_models.js`** checks the same-brand image quiz and the thresholds.
 - **`ui_test.js`** checks pins, colors, sticky buttons, "1 oră" and the scroll reset. Screenshots go to `tools/test/out/`.
+- **`test_pwa.js`** checks the manifest, the icon sizes, that every service-worker shell file exists, and that the worker is registered only outside Claude.
+- **`ui_pwa_test.js`** checks the service worker, offline start, the install guide, the monthly backup reminder, and that none of it runs when `window.claude` exists.
 
 All must pass before a PR. When you add a feature, add its test.
 
@@ -234,6 +238,8 @@ All must pass before a PR. When you add a feature, add its test.
 Order: 10.1 → 10.2 → 10.3 → 10.4.
 
 ### 10.1 GitHub Pages + PWA (becomes Matei's main app)
+
+**Status (8 November 2026): built on `feature/claude-pwa`.** Decisions from Ciprian: Ciprian enables Pages after the merge; icon generated from the app's style; one week of trial on Pages before moving Matei's progress; the monthly backup reminder shows on the home screen ("Mai târziu" postpones it a month); short install steps in Settings, the long version goes in the 10.4 guide. Caching: shell and `data/index.json` network first, other `data/*` and `img/*` stale-while-revalidate, Google Fonts cache first. Offline works for domains already opened once.
 
 - Enable Pages: repo Settings → Pages → "Deploy from a branch", `main`, folder `/` (root). The URL will be `https://47matei.github.io/knowledge-app/`.
 - Add `manifest.webmanifest`: name "Cartoteca lui Matei", `display: standalone`, theme colors from the CSS, 192 and 512 px PNG icons generated from the app's style, and `start_url` relative.
@@ -313,9 +319,8 @@ Claude Code reads this same file through `CLAUDE.md`; its own setup is described
 
 ### 12.1 GitHub access (once)
 
-The repo belongs to Matei's GitHub account (`47Matei`). Ciprian's GitHub account needs write access:
-1. **Matei invites Ciprian.** Logged in as 47Matei, open https://github.com/47Matei/knowledge-app → Settings → Collaborators → "Add people" → Ciprian's GitHub username.
-2. **Ciprian accepts** the invitation (email, or https://github.com/notifications).
+The repo belongs to the GitHub account `47Matei`, and **Ciprian logs in with that same account** (confirmed 8 November 2026). No collaborator invitation is needed: log in as 47Matei (`gh auth login`) and push.
+Only if another GitHub account ever needs write access: logged in as 47Matei, open https://github.com/47Matei/knowledge-app → Settings → Collaborators → "Add people".
 
 ### 12.2 Local setup (Codex CLI or the Codex app, working on files on the Mac)
 

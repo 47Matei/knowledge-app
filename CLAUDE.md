@@ -8,7 +8,7 @@ The rest of this file covers only what is specific to Claude Code and to Claude 
 
 ## A. Claude Code on Ciprian's Mac (terminal, desktop app or IDE)
 
-Do the GitHub access steps from AGENTS.md section 12.1 first: Matei adds Ciprian as a collaborator.
+GitHub access: Ciprian logs in to GitHub as `47Matei`, the account that owns the repo (AGENTS.md 12.1), so no collaborator step is needed. On this Mac, Node and `gh` are installed in `~/.local` (no Homebrew): use `export PATH="$HOME/.local/node/bin:$HOME/.local/bin:$PATH"`.
 
 ```bash
 # once
@@ -40,7 +40,7 @@ claude                                          # first run: log in via the brow
 ## B. Claude Code on the web and Claude sessions in the claude.ai project "Cartoteca Matei"
 
 **Push access from claude.ai.** For a Claude session in claude.ai (Claude Code on the web, or this project's sessions) to push to the repo:
-1. **Ciprian is a collaborator** on the repo (AGENTS.md 12.1).
+1. **Ciprian's GitHub account is `47Matei`**, the repo owner (AGENTS.md 12.1).
 2. **Install the Claude GitHub app on Matei's account.** It must be installed on the account that owns the repo: logged in as 47Matei, open https://github.com/apps/claude → Install → choose 47Matei → "Only select repositories" → `knowledge-app`.
 3. **Connect GitHub in claude.ai.** Ciprian connects his GitHub account in claude.ai (Settings → Connectors → GitHub, or when Claude Code on the web asks).
 4. **Ask for push access.** In a session, ask: "atașează repo-ul 47Matei/knowledge-app cu drept de push". Without push access, a session can still clone the public repo and read it, and it returns changes as a zip or patch for Ciprian to commit.
@@ -50,7 +50,7 @@ claude                                          # first run: log in via the brow
   - Clone `main`, run `npm --prefix tools test`, then publish with the artifact tools: `publish_files`, mode patch, with `base_version` taken from `get_artifact`.
   - Send only the changed files (index.html, app.js, data/*, img/*), at most 256 paths per call. List deleted files in `remove`.
   - Keep the total at 512 files or fewer (`test_decks.js` checks it).
-  - Never publish `tools/`, `AGENTS.md`, `CLAUDE.md` or `CREDITS.md` to the artifact. They are not part of the app, and they count toward the file limit.
+  - Never publish `tools/`, `AGENTS.md`, `CLAUDE.md`, `CREDITS.md`, `manifest.webmanifest`, `sw.js` or `icons/` to the artifact. They are not part of the app, and they count toward the file limit.
 - **Artifact limits** (details in AGENTS.md section 4): `list_files`, `read_declaration` and `declare_capabilities` refuse this artifact, because Matei's account has written progress to its database. Publishing and the `db_*` tools still work, so reports or progress can be read with `db_list` (collection `data/users/<uid>`).
 - **The claude.ai project doc** `claude/decizii-si-stare.md` (project "Cartoteca Matei") is the short decision log. Update it when a round or stage ships.
 - **Picture downloads.** The cloud container cannot reach Wikimedia. When the session is linked to Ciprian's Mac, run the image scripts there (the Mac folder `~/Sites` is shared); otherwise Ciprian runs them in Terminal.

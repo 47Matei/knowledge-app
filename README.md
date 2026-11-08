@@ -1,4 +1,4 @@
-# Cartoteca lui Matei
+# OpenMind (Cartoteca lui Matei)
 
 Aplicație web de învățare pentru Matei: carduri (flashcards), teste, comparații, hărți și insigne, cu repetiție spațiată (algoritmul FSRS). Funcționează pe telefon și pe calculator, direct în browser, fără instalare.
 
@@ -16,6 +16,10 @@ Aplicație web de învățare pentru Matei: carduri (flashcards), teste, compara
 | `img/*.jpg` | Imaginile cardurilor |
 | `img/pack-<domeniu>-<n>.json` | Imagini adăugate în Runda 2, câte 40 pe fișier, încărcate la nevoie |
 | `CREDITS.md` | Autorul, licența și sursa fiecărei imagini |
+
+## Aplicația instalată (GitHub Pages)
+
+După activarea GitHub Pages, aplicația e la https://47matei.github.io/knowledge-app/. Pe Android: deschide adresa în Chrome → meniul ⋮ → „Adaugă pe ecranul de pornire". Progresul se salvează doar pe telefon, așa că fă un export lunar (Setări → Datele tale → Exportă); aplicația îți amintește singură.
 
 ## Rulare locală
 
