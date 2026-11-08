@@ -384,6 +384,21 @@
 },
 "map": null,
 "count": 156
+},
+{
+"id": "programare",
+"title": "Programare",
+"sub": "Concepte, algoritmi, structuri de date, limbaje, Git, web",
+"icon": "code",
+"source": "Pachet scris și verificat de Claude împreună cu Ciprian (noiembrie 2026), pe baza surselor enciclopedice publice și a documentației oficiale a limbajelor.",
+"hue": 355,
+"intrus": {
+"by": "sub",
+"item": "a",
+"skip": []
+},
+"map": null,
+"count": 151
 }
 ]
 }
