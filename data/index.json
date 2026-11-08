@@ -399,6 +399,21 @@
 },
 "map": null,
 "count": 151
+},
+{
+"id": "date",
+"title": "Date și statistică",
+"sub": "Medie, probabilități, corelație, grafice, sondaje",
+"icon": "chart",
+"source": "Pachet scris și verificat de Claude împreună cu Ciprian (noiembrie 2026), pe baza surselor enciclopedice publice și a manualelor de statistică.",
+"hue": 355,
+"intrus": {
+"by": "sub",
+"item": "a",
+"skip": []
+},
+"map": null,
+"count": 142
 }
 ]
 }

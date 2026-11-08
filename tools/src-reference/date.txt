@@ -1,0 +1,168 @@
+@id date
+@title Date și statistică
+@sub Medie, probabilități, corelație, grafice, sondaje
+@icon chart
+@hue 355
+@source Pachet scris și verificat de Claude împreună cu Ciprian (noiembrie 2026), pe baza surselor enciclopedice publice și a manualelor de statistică.
+@prompt Ce termen este?
+@intrus {"by": "sub", "item": "a", "skip": []}
+## Măsuri statistice | Ce termen este?
+Suma valorilor împărțită la numărul lor | Media aritmetică | Media notelor 6, 8 și 10 este 8. | Mean | | | Media
+Valoarea din mijloc, după ce ordonezi datele | Mediana | Nu e trasă în sus de câteva valori extreme, de aceea se folosește la salarii. | Median
+Valoarea care apare cel mai des | Modul | Un set de date poate avea mai multe moduri. | Mode
+Diferența dintre cea mai mare și cea mai mică valoare | Amplitudine | Range în engleză. | Range
+Cât de împrăștiate sunt valorile în jurul mediei, în aceeași unitate ca datele | Abaterea standard | Mică: valorile sunt apropiate de medie. Mare: sunt împrăștiate. | Standard deviation | | | Deviația standard
+Pătratul abaterii standard | Varianța | Media pătratelor distanțelor față de medie. | Variance | | | Dispersia
+Valoare mult diferită de restul datelor | Valoare aberantă | Outlier în engleză. Poate fi o eroare sau un caz real, neobișnuit. | Outlier | | | Outlier
+Valoarea sub care se află 90% dintre date | Percentila 90 | Dacă ești la percentila 90, ai rezultat mai bun decât 90% dintre ceilalți. | 90th percentile
+Cele trei valori care împart datele ordonate în patru părți egale | Quartile | A doua quartilă este chiar mediana. | Quartiles
+Distanța dintre prima și a treia quartilă | Intervalul intercuartilic | Arată unde se află jumătatea din mijloc a datelor. | Interquartile range | | | IQR
+Media în care unele valori contează mai mult decât altele | Media ponderată | Ca la media generală, unde unele materii au mai multe ore. | Weighted mean
+Distribuția în formă de clopot, simetrică în jurul mediei | Distribuția normală | Numită și gaussiană, după Carl Friedrich Gauss. | Normal distribution | | | Clopotul lui Gauss / Gaussiana
+Regula după care, într-o distribuție normală, 68%, 95% și 99,7% din valori se află la 1, 2 și 3 abateri standard de medie | Regula 68-95-99,7 | Numită și regula empirică. | 68-95-99.7 rule | | | Regula empirică
+Distribuția „trasă" într-o parte, cu o coadă lungă | Asimetrie | Skewness în engleză. Veniturile au de obicei asimetrie la dreapta. | Skewness | | | Distribuție asimetrică
+Câte abateri standard se află o valoare față de medie | Scorul z | Un scor z de 2 înseamnă două abateri standard peste medie. | z-score
+Statistică care descrie datele pe care le ai | Statistică descriptivă | Medii, procente, grafice. | Descriptive statistics
+Statistică care trage concluzii despre o populație pornind de la un eșantion | Statistică inferențială | Sondajele sunt un exemplu. | Inferential statistics
+Raportul dintre o parte și întreg, înmulțit cu 100 | Procent | 15 din 60 înseamnă 25%. | Percentage
+Diferența dintre două procente, exprimată în puncte | Puncte procentuale | De la 10% la 15% înseamnă o creștere de 5 puncte procentuale, dar de 50%. | Percentage points
+Creșterea relativă: (valoarea nouă minus cea veche) împărțit la cea veche | Creștere procentuală | De la 50 la 75 înseamnă o creștere de 50%. | Percentage change
+Media venitului împărțită egal la toți locuitorii | Pe cap de locuitor | Per capita în latină. | Per capita
+Numărul de cazuri raportat la o populație de referință, de exemplu la 100.000 de locuitori | Rată | Ratele permit comparații între orașe de mărimi diferite. | Rate
+Data sau valoarea de pornire cu care compari | Valoare de referință | Baseline în engleză. | Baseline
+Arată cât de diferită e o medie în două grupuri, ținând cont de împrăștiere | Mărimea efectului | O diferență poate fi „semnificativă statistic" dar foarte mică în realitate. | Effect size
+## Probabilități | Ce termen sau ce număr este?
+Cât de probabil este un eveniment, de la 0 (imposibil) la 1 (sigur) | Probabilitate | Se poate scrie și ca procent: 0,5 = 50%. | Probability
+Probabilitatea să obții „cap" la aruncarea unei monede corecte | 50% | Adică o șansă din două (0,5). | 50% |  |  | 0,5 / Jumătate
+Probabilitatea să obții 6 la aruncarea unui zar | 1 din 6 | Aproximativ 16,7%. | 1 in 6
+Probabilitatea să obții două „cap" la rând cu o monedă | 25% | 0,5 × 0,5 = 0,25. Evenimentele independente se înmulțesc. | 25% |  |  | 0,25 / 1 din 4
+Evenimente în care rezultatul unuia nu influențează rezultatul celuilalt | Independente | Moneda „nu ține minte" aruncările anterioare. | Independent events
+Evenimente care nu se pot întâmpla în același timp | Incompatibile | Exemplu: la o singură aruncare de zar, 2 și 5. | Mutually exclusive events | | | Mutual exclusive
+Probabilitatea unui eveniment știind că s-a întâmplat deja altul | Probabilitate condiționată | Se citește „probabilitatea lui A, dat fiind B". | Conditional probability
+Formula care actualizează o probabilitate când primești informații noi | Teorema lui Bayes | Publicată postum, în 1763, după moartea lui Thomas Bayes. | Bayes' theorem
+Legea care spune că, după multe încercări, media rezultatelor se apropie de valoarea așteptată | Legea numerelor mari | Demonstrată prima dată de Jacob Bernoulli. | Law of large numbers
+Media pe termen lung a rezultatelor unui joc sau experiment | Valoare așteptată | La un zar, valoarea așteptată este 3,5. | Expected value | | | Speranța matematică
+Numărul minim de oameni dintr-o cameră pentru care șansa ca doi să aibă aceeași zi de naștere depășește 50% | 23 | Paradoxul zilelor de naștere: pare surprinzător de puțin. | 23 | | | Douăzeci și trei
+Jocul cu trei uși în care, după ce prezentatorul deschide o ușă goală, e mai bine să schimbi alegerea | Problema Monty Hall | Dacă schimbi, câștigi în două cazuri din trei. | Monty Hall problem
+Probabilitatea de a câștiga la problema Monty Hall dacă schimbi ușa | 2 din 3 | Aproximativ 67%. Dacă nu schimbi, rămâi cu 1 din 3. | 2 in 3
+Credința greșită că după o serie de „cap" urmează mai probabil „pajură" | Eroarea jucătorului | Monedele și zarurile nu au memorie. | Gambler's fallacy
+Raportul dintre șansele de a se întâmpla și de a nu se întâmpla un eveniment | Cote | La pariuri se folosesc cote; 3 la 1 înseamnă 1 șansă din 4. | Odds
+Numărul de moduri în care poți ordona n obiecte | Permutări | 3 obiecte se pot ordona în 6 moduri (3! = 6). | Permutations
+Numărul de moduri în care alegi k obiecte din n, fără să conteze ordinea | Combinări | Așa se calculează șansele la loto. | Combinations
+Produsul 1 × 2 × 3 × ... × n | Factorial | Se scrie n!. 5! = 120. | Factorial
+Simularea a mii de încercări aleatoare pe calculator ca să estimezi o probabilitate | Metoda Monte Carlo | Numită după cazinoul din Monaco. | Monte Carlo method
+Un test pozitiv la o boală foarte rară este adesea fals, chiar dacă testul e precis | Eroarea ratei de bază | Contează cât de comună e boala, nu doar precizia testului. | Base rate fallacy
+Toate rezultatele posibile ale unui experiment | Spațiul de evenimente | La un zar: 1, 2, 3, 4, 5, 6. | Sample space | | | Spațiu de selecție
+Distribuția numărului de succese în n încercări independente, de exemplu de câte ori iese „cap" în 10 aruncări | Distribuția binomială | Fiecare încercare are doar două rezultate. | Binomial distribution
+Un șir de numere care pare aleator, dar e produs de un algoritm | Pseudo-aleator | Calculatoarele obișnuite produc numere pseudo-aleatoare. | Pseudorandom
+Mărimea care măsoară riscul: probabilitatea înmulțită cu impactul | Risc | Un eveniment rar, dar foarte grav, poate avea risc mare. | Risk
+## Corelație și cauzalitate | Ce termen este?
+Două mărimi cresc sau scad împreună | Corelație | Corelația nu dovedește că una o provoacă pe cealaltă. | Correlation
+O mărime o provoacă direct pe cealaltă | Cauzalitate | Se dovedește cel mai bine prin experimente controlate. | Causation
+Numărul între -1 și 1 care arată cât de puternic sunt legate liniar două mărimi | Coeficient de corelație | Notat r. Numit după Karl Pearson. | Correlation coefficient | | | r
+Corelația în care una crește când cealaltă scade | Corelație negativă | Exemplu: cu cât mai multă viteză, cu atât mai puțin timp de drum. | Negative correlation
+Un al treilea factor ascuns care le influențează pe amândouă | Variabilă de confuzie | Vânzările de înghețată și înecurile cresc vara: cauza comună e căldura. | Confounding variable
+Corelație care apare doar din întâmplare | Corelație falsă | Spurious correlation. Cu destule date, găsești „legături" absurde. | Spurious correlation
+Experimentul în care participanții sunt împărțiți la întâmplare în două grupuri | Studiu randomizat | Prescurtat RCT. Standardul de aur pentru cauzalitate. | Randomized controlled trial | | | RCT
+Grupul care nu primește tratamentul, folosit pentru comparație | Grup de control | Fără el nu știi dacă efectul vine din tratament. | Control group
+Tratament fără substanță activă, care uneori produce totuși o îmbunătățire | Placebo | Efectul placebo arată cât de mult contează așteptările. | Placebo
+Nici participanții, nici cercetătorii nu știu cine a primit tratamentul real | Dublu-orb | Previne influența așteptărilor. | Double-blind
+Studiu în care doar observi, fără să intervii | Studiu observațional | Poate arăta corelații, dar mai greu cauzalitate. | Observational study
+O tendință apare în fiecare grup, dar dispare sau se inversează când grupurile sunt combinate | Paradoxul lui Simpson | Arată de ce contează cum sunt împărțite datele. | Simpson's paradox
+Valorile extreme tind să fie urmate de valori mai apropiate de medie | Regresie spre medie | Observată de Francis Galton. | Regression to the mean
+Cât de probabil ar fi un rezultat la fel de extrem dacă de fapt nu ar exista niciun efect | Valoarea p | Pragul folosit des este 0,05, dar e o convenție, nu o lege. | p-value
+Rezultat considerat puțin probabil să fie doar întâmplare | Semnificativ statistic | Nu înseamnă neapărat „important" sau „mare". | Statistically significant
+Afirmația de pornire că nu există niciun efect sau nicio diferență | Ipoteza nulă | Testele statistice încearcă să o respingă. | Null hypothesis
+Încerci multe analize până găsești una „semnificativă" | P-hacking | O cauză a rezultatelor care nu se pot reproduce. | P-hacking
+Un alt cercetător repetă studiul și obține același rezultat | Replicare | Multe rezultate celebre din psihologie nu s-au replicat. | Replication
+Patru seturi de date cu aceleași medii și corelații, dar care arată complet diferit pe grafic | Cvartetul lui Anscombe | Creat de Francis Anscombe în 1973. Morală: desenează datele! | Anscombe's quartet
+Concluzii trase doar din cazurile care au „supraviețuit" unei selecții | Biasul supraviețuitorului | Exemplu: studiezi doar firmele de succes și ignori pe cele care au dat faliment. | Survivorship bias
+Variabila pe care o schimbi într-un experiment | Variabila independentă | Variabila pe care o măsori este cea dependentă. | Independent variable
+Variabila pe care o măsorii, ca să vezi efectul | Variabila dependentă | De exemplu, nota la test după metoda de învățare. | Dependent variable
+## Grafice și vizualizare | Ce grafic sau ce termen este?
+Graficul cu bare, bun pentru a compara categorii | Grafic cu bare | Barele trebuie să pornească de la zero, altfel diferențele par exagerate. | Bar chart | | | Diagramă cu bare
+Graficul cu o linie, bun pentru evoluția în timp | Grafic liniar | De exemplu, temperatura pe parcursul unui an. | Line chart
+Graficul rotund împărțit în felii, pentru părțile unui întreg | Diagramă circulară | Greu de citit cu multe felii; barele sunt adesea mai clare. | Pie chart | | | Grafic plăcintă
+Graficul cu puncte, unde fiecare punct e o pereche de valori | Grafic de dispersie | Bun ca să vezi dacă două mărimi sunt corelate. | Scatter plot | | | Scatter plot
+Graficul cu bare lipite, care arată cum sunt distribuite valorile pe intervale | Histogramă | Diferă de graficul cu bare: pe axa X sunt intervale numerice. | Histogram
+Graficul cu o cutie și „mustăți", care arată mediana, quartilele și valorile aberante | Box plot | Numit și diagramă cutie. | Box plot | | | Diagramă cutie
+Tabel colorat în care culoarea arată mărimea valorii | Hartă termică | Heatmap în engleză. | Heatmap
+Hartă în care regiunile sunt colorate după o valoare | Cartogramă | Choropleth map. Atenție: regiunile mari par mai importante decât sunt. | Choropleth map | | | Hartă coropletă
+Axa verticală care nu pornește de la zero, exagerând diferențele | Axă trunchiată | Truc des întâlnit în grafice înșelătoare. | Truncated axis
+Scala în care fiecare pas înseamnă o înmulțire, de exemplu 1, 10, 100, 1.000 | Scală logaritmică | Utilă când valorile diferă enorm. | Logarithmic scale
+Grafic care pune pe axa X perioade alese convenabil, ca să ascundă tendința reală | Alegerea selectivă a datelor | Cherry picking: alegi doar datele care îți susțin ideea. | Cherry picking
+Elementele decorative care nu aduc informație și încarcă graficul | Chartjunk | Termen propus de Edward Tufte. | Chartjunk
+Textul care explică ce culoare sau ce simbol reprezintă fiecare serie | Legendă | Un grafic fără legendă și fără unități e greu de înțeles. | Legend
+Graficul polar folosit de Florence Nightingale ca să arate cauzele deceselor soldaților în Războiul Crimeii | Diagrama roză | Numită și „coxcomb". A ajutat la reforma spitalelor militare. | Rose diagram | | | Coxcomb
+Harta din 1854 cu care John Snow a legat cazurile de holeră din Londra de o pompă de apă | Harta holerei | Un moment fondator al epidemiologiei. | Cholera map
+Panou cu mai mulți indicatori și grafice, actualizați des | Dashboard | Tablou de bord. | Dashboard | | | Tablou de bord
+Reprezentarea vizuală a datelor | Vizualizare de date | Un grafic bun răspunde clar la o singură întrebare. | Data visualization
+Dimensiunea unei imagini care nu respectă proporțiile reale, de exemplu un pictogram mărit și pe lățime | Pictogramă distorsionată | Dacă dublezi înălțimea și lățimea, suprafața crește de patru ori. | Distorted pictogram
+Graficul care arată pașii unui proces și câți participanți rămân la fiecare | Grafic pâlnie | Funnel chart, folosit des în vânzări. | Funnel chart
+Graficul cu dreptunghiuri imbricate, proporționale cu valorile | Treemap | Bun pentru părți ale unui întreg cu multe categorii. | Treemap
+Grafic care arată un singur număr mare, cu context | Indicator | KPI în engleză (Key Performance Indicator). | KPI | | | KPI
+Linie trasă printre punctele unui grafic de dispersie, care arată direcția generală | Linie de tendință | Calculată de obicei prin regresie liniară. | Trend line
+## Sondaje și eșantioane | Ce termen este?
+Întregul grup despre care vrei să afli ceva | Populație | Exemplu: toți elevii de liceu din România. | Population
+Partea din populație pe care o studiezi efectiv | Eșantion | Sample în engleză. | Sample
+Eșantion în care fiecare membru al populației are aceeași șansă să fie ales | Eșantion aleator | Cea mai bună protecție contra biasului de selecție. | Random sample
+Eșantion care seamănă cu populația ca structură: vârstă, sex, regiune | Eșantion reprezentativ | Un sondaj făcut doar pe Instagram nu reprezintă toată populația. | Representative sample
+Numărarea completă a populației unei țări | Recensământ | În România, cel mai recent recensământ s-a făcut în 2021. | Census
+Instituția română care face recensămintele și publică statisticile oficiale | INS | Institutul Național de Statistică. | National Institute of Statistics | | | Institutul Național de Statistică
+Intervalul de plus sau minus în jurul rezultatului unui sondaj | Marja de eroare | La un eșantion aleator de aproximativ 1.000 de oameni, marja e în jur de ±3%. | Margin of error
+Intervalul în care se află, cu o anumită încredere, valoarea reală | Interval de încredere | Cel mai des se folosește 95%. | Confidence interval
+Eroare care apare când eșantionul nu e ales corect | Bias de selecție | Exemplu clasic: sondajul Literary Digest din 1936, care a prezis greșit alegerile din SUA. | Selection bias
+Doar cei care vor răspund la sondaj, de exemplu cei foarte supărați | Auto-selecție | Sondajele online deschise tuturor au des această problemă. | Self-selection bias
+Felul în care e pusă întrebarea influențează răspunsul | Întrebare tendențioasă | „Nu-i așa că ești de acord că...?" | Leading question
+Oamenii dau răspunsul care pare acceptat social, nu pe cel adevărat | Dezirabilitate socială | De exemplu, declară că citesc mai mult decât citesc de fapt. | Social desirability bias
+Procentul de oameni contactați care au răspuns la sondaj | Rata de răspuns | O rată mică poate distorsiona rezultatele. | Response rate
+Sondajul făcut la ieșirea de la vot | Exit poll | Se publică după închiderea urnelor. | Exit poll
+Împărțirea populației în grupuri, apoi alegerea aleatoare din fiecare grup | Eșantionare stratificată | Asigură că fiecare grup e reprezentat. | Stratified sampling
+Urmărirea acelorași persoane de-a lungul mai multor ani | Studiu longitudinal | Arată cum se schimbă lucrurile în timp. | Longitudinal study
+Studiu făcut la un singur moment, pe oameni diferiți | Studiu transversal | O „fotografie" a populației. | Cross-sectional study
+Întrebare cu variante de răspuns de la „total dezacord" la „total acord" | Scala Likert | Numită după psihologul Rensis Likert. | Likert scale
+Date care pot fi numărate sau măsurate | Date cantitative | Exemple: înălțimea, nota, temperatura. | Quantitative data
+Date care descriu categorii sau calități | Date calitative | Exemple: culoarea preferată, orașul. | Qualitative data | | | Date categoriale
+Rezultatele unui sondaj ajustate ca eșantionul să semene cu populația | Ponderare | Weighting. Dacă au răspuns prea puțini tineri, răspunsurile lor primesc pondere mai mare. | Weighting
+Un sondaj doar cu prietenii tăi, care dă o imagine falsă despre toată lumea | Eșantion de conveniență | Ușor de făcut, dar rar reprezentativ. | Convenience sample
+Testul în care o variantă A și o variantă B sunt arătate la grupuri diferite ca să vezi care merge mai bine | Test AB | Scris de obicei „test A/B". Folosit mult de site-uri și aplicații. | A/B testing
+Datele adunate direct de tine, pentru studiul tău | Date primare | Datele folosite de la alții se numesc date secundare. | Primary data
+Formularul cu întrebări folosit într-un sondaj | Chestionar | Întrebările clare și neutre dau date mai bune. | Questionnaire
+## Știința datelor | Ce termen este?
+Domeniul care extrage cunoștințe din date folosind statistică, programare și cunoștințe din domeniu | Știința datelor | Data science în engleză. | Data science
+Curățarea datelor: eliminarea erorilor, dublurilor și valorilor lipsă | Curățarea datelor | Ocupă adesea cea mai mare parte din munca unui analist. | Data cleaning
+Valoare care lipsește dintr-un set de date | Valoare lipsă | Se poate elimina rândul sau se poate estima valoarea. | Missing value
+Datele organizate în tabele cu rânduri și coloane | Date structurate | Textul liber, imaginile și sunetul sunt date nestructurate. | Structured data
+Analiza care descrie ce s-a întâmplat | Analiză descriptivă | Următoarele trepte: de ce s-a întâmplat, ce se va întâmpla, ce trebuie făcut. | Descriptive analytics
+Analiza care încearcă să prezică ce se va întâmpla | Analiză predictivă | Folosește modele statistice și învățare automată. | Predictive analytics
+Program de calcul tabelar, cu celule, formule și grafice | Foaie de calcul | Exemple: Excel, Google Sheets, LibreOffice Calc. | Spreadsheet
+Funcția din foile de calcul care adună valorile unui interval | SUM | Exemplu: =SUM(A1:A10). | SUM | | | SUMA
+Tabel care rezumă datele grupându-le după categorii | Tabel pivot | Pivot table. Util ca să vezi totaluri pe luni sau pe regiuni. | Pivot table
+Bibliotecă Python foarte folosită pentru tabele de date | pandas | Numele vine de la „panel data". | pandas
+Etapa de explorare a datelor cu grafice și statistici simple, înainte de modelare | Analiză exploratorie | Prescurtat EDA. | Exploratory data analysis | | | EDA
+Șir de valori măsurate la intervale regulate de timp | Serie de timp | Exemple: temperatura zilnică, cursul valutar. | Time series
+Variația care se repetă regulat, de exemplu în fiecare vară sau de sărbători | Sezonalitate | Vânzările de jucării cresc în decembrie. | Seasonality
+Regula care spune că din date proaste ies rezultate proaste | Garbage in, garbage out | Prescurtat GIGO. | Garbage in, garbage out | | | GIGO
+Date personale prelucrate astfel încât persoana să nu mai poată fi identificată | Date anonimizate | Anonimizarea reală e mai grea decât pare. | Anonymized data
+Datele publicate liber, ca oricine să le poată folosi | Date deschise | Open data. În România, multe sunt pe data.gov.ro. | Open data
+Afișarea unei mărimi raportate la populație, ca să compari corect | Normalizare | 100 de cazuri într-un oraș mic nu e același lucru ca în București. | Normalization
+Gruparea datelor pe zile, luni sau regiuni, cu totaluri sau medii | Agregare | Aggregation. | Aggregation
+Persoana care analizează date ca să ajute la decizii | Analist de date | Data analyst. | Data analyst
+Diferența dintre valoarea reală și cea prezisă de model | Reziduu | Reziduurile mari arată unde greșește modelul. | Residual
+Informațiile despre date: cine le-a adunat, când, cum și în ce unități | Metadate | Fără metadate, un tabel de numere poate fi greu de înțeles. | Metadata
+Un singur caz dintr-un set de date, de obicei un rând dintr-un tabel | Observație | Coloanele sunt variabilele, rândurile sunt observațiile. | Observation
+Funcția din foile de calcul care calculează media unui interval | AVERAGE | Exemplu: =AVERAGE(B2:B30). În versiunea în română se numește MEDIE. | AVERAGE |  |  | MEDIE
+Instrumentul care arată cât de des a fost căutat un termen pe Google de-a lungul timpului | Google Trends | Valorile sunt relative (0-100), nu numere absolute de căutări. | Google Trends
+Povestea construită în jurul datelor, ca să explici clar ce arată | Data storytelling | Un grafic + o concluzie clară + contextul. | Data storytelling
+~ Media aritmetică ~ Mediana ~ Media e trasă de valorile extreme. Mediana e valoarea din mijloc și rezistă la ele.
+~ Corelație ~ Cauzalitate ~ Corelația: merg împreună. Cauzalitatea: una o provoacă pe cealaltă.
+~ Populație ~ Eșantion ~ Populația e tot grupul. Eșantionul e partea studiată.
+~ Grafic cu bare ~ Histogramă ~ Barele compară categorii. Histograma arată cum sunt distribuite valori numerice pe intervale.
+~ Permutări ~ Combinări ~ La permutări contează ordinea. La combinări nu.
+~ Independente ~ Incompatibile ~ Independente: unul nu-l influențează pe celălalt. Incompatibile: nu se pot întâmpla împreună.
+~ Abaterea standard ~ Varianța ~ Varianța e pătratul abaterii standard. Abaterea standard are aceeași unitate ca datele.
+~ Puncte procentuale ~ Creștere procentuală ~ De la 10% la 15%: +5 puncte procentuale, dar o creștere de 50%.
+~ Studiu randomizat ~ Studiu observațional ~ Randomizat: tu împarți grupurile la întâmplare. Observațional: doar privești ce se întâmplă.
+~ Studiu longitudinal ~ Studiu transversal ~ Longitudinal: aceiași oameni, ani la rând. Transversal: oameni diferiți, un singur moment.
+~ Date cantitative ~ Date calitative ~ Cantitative: numere. Calitative: categorii.
+~ Variabila independentă ~ Variabila dependentă ~ Pe cea independentă o schimbi. Pe cea dependentă o măsori.
