@@ -1,0 +1,179 @@
+@id securitate
+@title Securitate cibernetică
+@sub Atacuri, parole, criptare, rețele, siguranță online
+@icon lock
+@hue 355
+@source Pachet scris și verificat de Claude împreună cu Ciprian (noiembrie 2026), pe baza surselor enciclopedice publice și a informațiilor oficiale DNSC.
+@prompt Ce termen este?
+@intrus {"by": "sub", "item": "a", "skip": ["Istorie, incidente și instituții"]}
+## Atacuri și înșelătorii | Ce termen este?
+Mesaj fals, care pare trimis de o bancă sau de un magazin, ca să-ți fure datele sau parola | Phishing | Semne: grabă („contul se închide azi"), adresă ciudată a expeditorului, link care nu duce unde pare. | Phishing | | | Fișing
+Phishing făcut prin SMS | Smishing | Exemplu des întâlnit: „Coletul tău nu poate fi livrat, plătește taxa aici". | Smishing
+Phishing făcut prin apel telefonic | Vishing | Atacatorul se dă drept bancă, poliție sau suport tehnic. | Vishing
+Phishing țintit pe o singură persoană, cu detalii personale ca să pară credibil | Spear phishing | Atacatorul își documentează victima înainte, de exemplu din rețelele sociale. | Spear phishing
+Phishing îndreptat spre șefii unei firme | Whaling | „Balenele" sunt țintele importante. | Whaling
+Manipularea oamenilor ca să dezvăluie informații sau să facă greșeli de securitate | Inginerie socială | Atacă încrederea oamenilor, nu calculatorul. | Social engineering
+Program creat ca să facă rău unui sistem | Malware | Termen-umbrelă pentru viruși, viermi, troieni, ransomware, spyware. | Malware | | | Program malițios
+Program care se atașează de alte fișiere și se răspândește când sunt deschise | Virus | Are nevoie de o acțiune a utilizatorului ca să se răspândească. | Computer virus
+Program care se răspândește singur prin rețea, fără ajutorul utilizatorului | Vierme | Viermele Morris (1988) a fost unul dintre primele care au afectat internetul. | Worm
+Program care pare util, dar ascunde o funcție dăunătoare | Troian | Numit după calul troian din mitologia greacă. | Trojan horse | | | Cal troian
+Malware care blochează sau criptează fișierele și cere bani pentru deblocare | Ransomware | Recomandarea oficială: nu plăti; ai backup și anunță autoritățile. | Ransomware
+Program care te spionează în secret: ce tastezi, ce vizitezi, unde ești | Spyware | Poate ajunge pe telefon prin aplicații din surse nesigure. | Spyware
+Program care înregistrează tot ce tastezi, inclusiv parolele | Keylogger | Poate fi software sau chiar un mic dispozitiv fizic. | Keylogger
+Rețea de dispozitive infectate, controlate de la distanță de un atacator | Botnet | Dispozitivele infectate se numesc „boți" sau „zombi". | Botnet
+Atac care blochează un site trimițându-i un val uriaș de cereri din multe surse | DDoS | Distributed Denial of Service. | Distributed denial of service
+Atacatorul se pune în secret între tine și site, citind sau modificând datele | Om la mijloc | Riscul crește în rețelele Wi-Fi publice nesecurizate. | Man-in-the-middle | | | MITM
+Introducerea de comenzi pentru baza de date într-un câmp de formular | Injecție SQL | Apărare: programele nu trebuie să lipească direct textul utilizatorului în comenzi. | SQL injection
+Încercarea tuturor parolelor posibile până găsești una bună | Forță brută | Apărare: parole lungi, blocarea după mai multe încercări greșite. | Brute-force attack
+Folosirea parolelor furate de pe un site ca să intri în conturi de pe alte site-uri | Credential stuffing | Funcționează pentru că mulți oameni folosesc aceeași parolă peste tot. | Credential stuffing
+Greșeală necunoscută producătorului, pentru care nu există încă reparație | Zero-day | „Zero zile" de când producătorul a aflat de ea. | Zero-day vulnerability
+Slăbiciune într-un program care poate fi folosită de un atacator | Vulnerabilitate | Actualizările repară vulnerabilitățile descoperite. | Vulnerability
+Codul sau metoda prin care cineva profită de o vulnerabilitate | Exploit | Vulnerabilitatea e ușa stricată; exploitul e felul în care intri pe ea. | Exploit
+Atacul ajunge la tine prin furnizorul unui program sau al unei componente în care ai încredere | Atac asupra lanțului de aprovizionare | Exemplu: incidentul SolarWinds din 2020. | Supply chain attack | | | Supply chain attack
+Mesaj care te sperie că ai un virus și te îndeamnă să instalezi un „antivirus" fals | Scareware | Ferestrele care țipă „Telefonul tău e infectat!" sunt aproape mereu false. | Scareware
+Înșelătorie în care cineva se dă drept CEO-ul firmei și cere un transfer urgent de bani | Frauda CEO | Apărare: verifici cererea pe alt canal, de exemplu sunând direct persoana. | CEO fraud
+Stick USB lăsat intenționat la vedere, în speranța că cineva îl va conecta | Momeala USB | Nu conecta niciodată un stick găsit. | USB baiting | | | Baiting
+Folosirea identității altcuiva pentru fraude, de exemplu pentru credite | Furt de identitate | Protejează-ți copia actului de identitate și datele personale. | Identity theft
+Site fals cu o adresă aproape identică cu a unuia real, de exemplu cu o literă schimbată | Typosquatting | Verifică atent adresa înainte să introduci date. | Typosquatting
+Cineva se uită peste umărul tău ca să-ți vadă PIN-ul sau parola | Shoulder surfing | Acoperă tastatura când introduci PIN-ul. | Shoulder surfing
+Atacatorul intră după tine pe o ușă securizată, profitând de politețea ta | Tailgating | Securitate fizică: nu ține ușa deschisă unor necunoscuți în zone protejate. | Tailgating | | | Piggybacking
+Înșelătorie în care primești bani „din greșeală" și ți se cere să-i trimiți înapoi altcuiva | Spălare de bani prin tine | Persoanele folosite așa se numesc „money mules" și pot răspunde penal. | Money mule | | | Money mule
+Atac în care un mesaj pare trimis dintr-o adresă de încredere, dar e falsificat | Spoofing | Se pot falsifica adrese de e-mail, numere de telefon sau adrese web. | Spoofing
+## Parole și autentificare | Ce termen sau ce sfat este?
+Parolă formată din mai multe cuvinte întâmplătoare, ușor de ținut minte și greu de ghicit | Frază de acces | Exemplu de stil: „cartof-nor-trompetă-galben". Lungimea contează mai mult decât simbolurile. | Passphrase
+Ce contează cel mai mult la tăria unei parole | Lungimea | Fiecare caracter în plus înmulțește numărul de combinații. | Length
+Program care generează, păstrează și completează parole diferite pentru fiecare cont | Manager de parole | Ții minte o singură parolă principală, puternică. | Password manager
+Pe câte conturi ai voie să folosești aceeași parolă | Pe unul singur | Fiecare cont are parola lui. Dacă un site e spart, restul conturilor rămân în siguranță. | Unique passwords | | | Unul singur / Unul
+Confirmarea identității cu două dovezi diferite, de exemplu parola și un cod pe telefon | Autentificare în doi pași | Prescurtat 2FA. Oprește majoritatea atacurilor cu parole furate. | Two-factor authentication | | | 2FA / Autentificare în doi factori
+Autentificare cu mai mulți factori, în general | MFA | Multi-Factor Authentication. | Multi-factor authentication
+Cele trei tipuri de factori: ceva ce știi, ceva ce ai și... | Ceva ce ești | Biometria: amprenta, fața, vocea. | Something you are
+Cod valabil o singură dată, generat de o aplicație sau primit prin SMS | OTP | One-Time Password. Nu-l spune nimănui, nici celor care pretind că sunt de la bancă. | One-time password | | | Cod unic
+Aplicație care generează coduri noi la fiecare 30 de secunde | Aplicație de autentificare | Mai sigură decât codurile prin SMS. | Authenticator app
+Autentificare cu amprenta, fața sau irisul | Biometrie | Comodă, dar o amprentă nu se poate schimba ca o parolă. | Biometrics
+Metodă nouă de logare fără parolă, bazată pe o cheie criptografică păstrată pe dispozitivul tău | Passkey | Nu poate fi furată prin phishing, pentru că funcționează doar pe site-ul real. | Passkey | | | Cheie de acces
+Dispozitiv fizic mic, cu USB sau NFC, folosit ca al doilea factor | Cheie de securitate | Una dintre cele mai sigure metode de 2FA. | Security key
+Coduri de rezervă primite când activezi 2FA, pentru cazul în care pierzi telefonul | Coduri de recuperare | Păstrează-le într-un loc sigur, offline. | Recovery codes
+Transformarea parolei într-un șir fix de caractere, din care nu se poate reconstrui parola | Hash | Site-urile serioase păstrează doar hash-ul parolei, nu parola. | Hash | | | Funcție hash
+Date aleatoare adăugate la parolă înainte de hash, ca două parole identice să dea rezultate diferite | Salt | Împiedică folosirea tabelelor cu hash-uri precalculate. | Salt
+Te loghezi o singură dată și ai acces la mai multe aplicații | Autentificare unică | Prescurtat SSO (Single Sign-On). | Single sign-on | | | SSO
+„Continuă cu Google" sau „Continuă cu Apple" | Logare prin terț | Comodă, dar dacă acel cont principal e compromis, sunt expuse și celelalte. | Social login
+Ce faci imediat dacă afli că o parolă a ta a apărut într-o scurgere de date | O schimbi | Și o schimbi oriunde ai mai folosit-o. Activează 2FA. | Change it
+Site care îți arată dacă adresa ta de e-mail a apărut în scurgeri de date cunoscute | Have I Been Pwned | Creat de cercetătorul în securitate Troy Hunt. | Have I Been Pwned
+Întrebări de tipul „Cum o cheamă pe mama ta?", slabe pentru că răspunsurile se pot afla ușor | Întrebări de securitate | Poți da răspunsuri false, păstrate în managerul de parole. | Security questions
+Principiul ca fiecare om sau program să aibă doar drepturile strict necesare | Privilegiul minim | Un cont de copil nu are nevoie de drepturi de administrator. | Least privilege
+Ce faci cu parolele de pe dispozitivele noi, ca routerul sau camera | Le schimbi | Parolele implicite din fabrică sunt publice pe internet. | Change default passwords
+## Criptare | Ce termen este?
+Transformarea unui mesaj astfel încât să poată fi citit doar de cine are cheia | Criptare | Mesajul ilizibil se numește text cifrat. | Encryption
+Mesajul original, înainte de criptare | Text clar | Plaintext în engleză. | Plaintext
+Mesajul după criptare, de neînțeles fără cheie | Text cifrat | Ciphertext în engleză. | Ciphertext
+Informația secretă folosită la criptare și decriptare | Cheie | Securitatea depinde de păstrarea cheii, nu de ascunderea metodei. | Key
+Criptare în care aceeași cheie criptează și decriptează | Criptare simetrică | Rapidă. Problema: cum îi trimiți cheia celuilalt în siguranță? | Symmetric encryption
+Criptare cu două chei: una publică, pentru criptare, și una privată, pentru decriptare | Criptare asimetrică | Numită și criptare cu cheie publică. | Asymmetric encryption | | | Criptare cu cheie publică
+Cheia pe care o poți da oricui | Cheia publică | Oricine o poate folosi ca să-ți trimită un mesaj criptat. | Public key
+Cheia pe care o păstrezi doar tu | Cheia privată | Dacă o pierzi sau ți-o fură cineva, securitatea dispare. | Private key
+Criptare în care doar expeditorul și destinatarul pot citi mesajul, nu și firma care îl transmite | Criptare end-to-end | Folosită de multe aplicații de mesagerie. | End-to-end encryption | | | Criptare de la un capăt la altul / E2EE
+Standardul de criptare simetrică adoptat de NIST în 2001, folosit azi peste tot | AES | Advanced Encryption Standard, creat de belgienii Joan Daemen și Vincent Rijmen. | Advanced Encryption Standard
+Algoritm de criptare asimetrică publicat în 1977 și numit după inițialele autorilor | RSA | Rivest, Shamir și Adleman. | RSA
+Dovada criptografică că un mesaj sau un fișier vine de la cine pretinde și nu a fost modificat | Semnătură digitală | Se face cu cheia privată și se verifică cu cheia publică. | Digital signature
+Document electronic care leagă o cheie publică de identitatea unui site | Certificat digital | Emis de o autoritate de certificare. | Digital certificate
+Versiunea securizată a protocolului web, cu lacătul din bara browserului | HTTPS | Lacătul arată că legătura e criptată, nu că site-ul e cinstit. | HTTPS
+Protocolul care criptează legătura dintre browser și site | TLS | Transport Layer Security, urmașul lui SSL. | Transport Layer Security | | | SSL
+Cifru antic în care fiecare literă e înlocuită cu cea aflată la 3 poziții mai departe în alfabet | Cifrul lui Cezar | A devine D, B devine E. Se sparge foarte ușor. | Caesar cipher
+Arta ascunderii unui mesaj chiar în existența lui, de exemplu într-o imagine | Steganografie | Criptarea ascunde sensul; steganografia ascunde faptul că există un mesaj. | Steganography
+Știința care studiază metodele de criptare | Criptografie | Din grecește: kryptos (ascuns) și graphein (a scrie). | Cryptography
+Știința spargerii codurilor | Criptanaliză | Așa a fost spartă mașina Enigma. | Cryptanalysis
+Criptarea întregului disc al unui telefon sau laptop, ca datele să nu poată fi citite dacă e furat | Criptarea discului | Telefoanele moderne o au de obicei activată implicit, protejată de codul de deblocare. | Full-disk encryption
+Rezultat scurt și fix calculat dintr-un fișier, care se schimbă complet la cea mai mică modificare | Amprentă criptografică | Folosită ca să verifici că un fișier descărcat nu a fost modificat. | Checksum | | | Checksum / Hash
+Criptare care ar trebui să reziste și calculatoarelor cuantice | Criptografie post-cuantică | NIST a publicat primele standarde de acest tip în 2024. | Post-quantum cryptography
+Metodă din 1976 prin care două părți stabilesc o cheie secretă comună printr-un canal public | Diffie-Hellman | Publicată de Whitfield Diffie și Martin Hellman. | Diffie-Hellman key exchange
+Număr folosit o singură dată într-un protocol criptografic, ca să împiedice reluarea unui mesaj | Nonce | Number used once. | Nonce
+## Rețele și protecție | Ce termen este?
+Sistem care filtrează traficul de rețea după reguli, ca un portar | Firewall | Poate fi program sau dispozitiv separat. | Firewall | | | Paravan de protecție
+Program care detectează și elimină malware | Antivirus | Merge cel mai bine cu actualizări la zi. | Antivirus
+Tunel criptat între dispozitivul tău și un server, care îți ascunde traficul de rețeaua locală | VPN | Virtual Private Network. Util în Wi-Fi public; nu te face anonim complet. | Virtual private network
+Ce faci cu actualizările de sistem și aplicații | Le instalezi repede | Multe atacuri folosesc vulnerabilități deja reparate, la dispozitive neactualizate. | Install updates
+Reparație publicată de producător pentru o vulnerabilitate | Patch | „Patch Tuesday": a doua zi de marți a lunii, Microsoft publică actualizări. | Patch | | | Petic
+Copie a datelor păstrată separat, ca să le poți recupera | Backup | Cea mai bună apărare contra ransomware. | Backup | | | Copie de siguranță
+Regula backup-ului: 3 copii, pe 2 tipuri de suport, din care 1 în alt loc | Regula 3-2-1 | De exemplu: laptop, disc extern și o copie în cloud. | 3-2-1 backup rule
+Modelul de securitate în care nu ai încredere în nimic din oficiu și verifici fiecare acces | Zero Trust | „Nu ai încredere, verifică mereu." | Zero trust
+Mai multe straturi de protecție, ca dacă unul cade să rămână celelalte | Apărare în adâncime | Ca un castel cu șanț, zid și turn. | Defense in depth
+Mediu izolat în care rulezi un program suspect ca să nu poată afecta restul sistemului | Sandbox | Ca o groapă cu nisip în care copiii se joacă fără să deranjeze curtea. | Sandbox
+Sistem care detectează activitățile suspecte într-o rețea | IDS | Intrusion Detection System. | Intrusion detection system
+Echipa care apără și monitorizează sistemele unei organizații | Echipa albastră | Red team atacă (în test), blue team apără. | Blue team
+Atac simulat, autorizat, ca să găsești punctele slabe înainte de infractori | Test de penetrare | Prescurtat pentest. | Penetration test | | | Pentest
+Hacker care caută vulnerabilități cu permisiune, ca să ajute la repararea lor | Hacker etic | Numit și „white hat" (pălărie albă). | Ethical hacker | | | White hat
+Recompensă oferită de firme celor care raportează responsabil vulnerabilități | Bug bounty | Multe firme mari au astfel de programe. | Bug bounty
+Echipa care răspunde la incidentele de securitate cibernetică | CSIRT | Computer Security Incident Response Team; numită și CERT. | CSIRT | | | CERT
+Centrul care supraveghează permanent securitatea unei organizații | SOC | Security Operations Center. | Security operations center
+Rețea Wi-Fi falsă, cu nume credibil, creată ca să intercepteze traficul | Rețea geamănă malefică | „Evil twin". De aceea nu te conecta la orice Wi-Fi gratuit. | Evil twin
+Standardul actual de securitate pentru rețelele Wi-Fi | WPA3 | Urmașul lui WPA2. WEP e vechi și nesigur. | WPA3
+Lista echipamentelor și programelor unei organizații, ca să știi ce ai de protejat | Inventar | Nu poți apăra ce nu știi că ai. | Asset inventory
+Jurnalele în care sistemele notează ce s-a întâmplat | Loguri | Sunt esențiale ca să înțelegi un incident după ce a avut loc. | Logs
+Codul de identificare unic al unei vulnerabilități cunoscute, de forma CVE-an-număr | CVE | Common Vulnerabilities and Exposures. | Common Vulnerabilities and Exposures
+Separarea rețelei în zone, ca un atac într-o zonă să nu ajungă peste tot | Segmentare | De exemplu, camerele și televizorul inteligent într-o rețea separată de laptop. | Network segmentation
+Analiza unui program suspect ca să afli ce face | Analiză malware | Se face în sandbox, de specialiști. | Malware analysis
+Măsuri care protejează clădirile și echipamentele: uși încuiate, camere, acces cu card | Securitate fizică | Un laptop furat e o breșă de securitate. | Physical security
+## Telefon, rețele sociale și viața de zi cu zi | Ce termen sau ce sfat este?
+De unde instalezi aplicațiile pe telefon | Magazinul oficial | Google Play sau App Store. Fișierele APK din surse necunoscute pot conține malware. | Official app store
+Ce verifici înainte să-i dai o permisiune unei aplicații | Dacă îi trebuie | O lanternă nu are nevoie de contacte sau de microfon. | Check permissions
+Ce faci cu un link primit pe neașteptate, chiar de la un prieten | Nu-l deschizi direct | Contul prietenului poate fi spart. Verifică cu el pe alt canal. | Don't click
+Ce nu-i spui niciodată cuiva care te sună „de la bancă" | Codul primit prin SMS | Banca nu îți cere niciodată codurile, PIN-ul sau parola. | Never share codes
+Informațiile pe care nu le publici: adresa, școala, programul zilnic, locația în timp real | Date personale | Pot fi folosite pentru furt de identitate sau chiar pentru a te găsi. | Personal information
+Totalitatea urmelor pe care le lași online: postări, comentarii, poze | Amprentă digitală | Internetul ține minte: ce postezi azi poate fi găsit peste ani. | Digital footprint
+Hărțuire, umilire sau amenințare repetată prin internet | Cyberbullying | Nu răspunde, salvează dovezile, blochează și vorbește cu un adult de încredere. | Cyberbullying | | | Hărțuire online
+Un adult care câștigă încrederea unui copil online cu scopul de a-l exploata | Grooming | Semnal de alarmă: cere secrete, poze sau întâlniri. Spune imediat unui adult de încredere. | Grooming
+Șantaj cu poze sau informații intime | Sextorsiune | Nu plăti și nu trimite nimic; păstrează dovezile și anunță un adult și poliția. | Sextortion
+Setarea care decide cine îți vede postările | Confidențialitate | Verific-o periodic: rețelele își mai schimbă setările. | Privacy settings
+Informația ascunsă din poze, precum locul și data, care poate dezvălui unde locuiești | Metadate | Multe aplicații o șterg la încărcare, dar nu toate. | Metadata | | | Date EXIF
+Ce faci cu Wi-Fi-ul public la o cafenea | Eviți date sensibile | Nu face plăți sau logări importante; folosește datele mobile sau un VPN. | Avoid sensitive tasks
+Blocarea ecranului cu PIN, amprentă sau față | Blocare ecran | Fără ea, oricine îți ia telefonul îți vede tot. | Screen lock
+Funcția care îți permite să găsești, să blochezi sau să ștergi de la distanță un telefon pierdut | Găsește-mi dispozitivul | Activeaz-o înainte să ai nevoie de ea. | Find my device
+Ofertă „prea bună ca să fie adevărată": telefon de ultimă generație la jumătate de preț | Înșelătorie | Dacă pare prea bun ca să fie adevărat, probabil nu e. | Scam
+Magazin online care nu există, creat doar ca să încaseze bani | Magazin fals | Verifică recenzii, date de contact și vechimea site-ului. | Fake shop
+Numărul unic din România la care raportezi incidente de securitate cibernetică | 1911 | Gestionat de DNSC; funcționează din 2019. | 1911
+Primii pași dacă ți-ai dat datele cardului pe un site fals | Suni la bancă | Ceri blocarea cardului, apoi raportezi incidentul (de exemplu la 1911). | Call the bank
+Cont fals care imită o persoană sau o firmă cunoscută | Cont de impostor | Verifică bifa de verificare și istoricul contului. | Impersonation account
+Aplicații de mesagerie care criptează mesajele end-to-end | Mesagerie criptată | Nici firma care o administrează nu îți poate citi mesajele. | Encrypted messaging
+Captură de ecran care pare o conversație reală, dar e falsificată | Captură falsă | Capturile de ecran se falsifică ușor; nu sunt o dovadă sigură. | Fake screenshot
+Ce faci înainte să dai mai departe o știre șocantă | O verifici | Caută-o și în alte surse serioase. | Verify before sharing
+Ce faci cu un dispozitiv vechi înainte să-l vinzi | Resetare din fabrică | Fă backup, ieși din conturi, apoi șterge tot. | Factory reset
+Cod de bare pătrat care te poate trimite pe un site fals | Cod QR | Verifică adresa afișată înainte să deschizi. Atacul se numește „quishing". | QR code
+Dispozitive inteligente din casă (camere, becuri, boxe) care pot fi o poartă de intrare | Internetul lucrurilor | Prescurtat IoT. Schimbă parolele implicite și actualizează-le. | Internet of Things | | | IoT
+## Istorie, incidente și instituții | Răspunde la întrebare
+Mașina germană de criptare din Al Doilea Război Mondial, spartă de aliați | Enigma | Lucrul de la Bletchley Park, la care a contribuit Alan Turing, a scurtat probabil războiul. | Enigma machine
+Matematicianul polonez care a spart primul codul Enigma, în 1932 | Marian Rejewski | Polonezii au predat metodele britanicilor și francezilor în 1939. | Marian Rejewski
+Locul din Anglia unde s-a lucrat la spargerea codurilor germane în al Doilea Război Mondial | Bletchley Park | Azi este muzeu. | Bletchley Park
+Considerat primul program care se copia singur în rețea, creat în 1971 | Creeper | Afișa mesajul „I'm the creeper, catch me if you can!". Programul Reaper a fost creat ca să-l elimine. | Creeper | An=1971
+Considerat primul virus pentru PC-urile IBM, creat în 1986 în Pakistan | Brain | Creat de frații Basit și Amjad Farooq Alvi. | Brain | An=1986
+Anul în care viermele Morris a afectat o parte importantă a internetului de atunci | 1988 | Creat de Robert Tappan Morris, student la Cornell. | | An=1988
+Virusul răspândit în 2000 prin e-mailuri cu subiectul „ILOVEYOU" | ILOVEYOU | A pornit din Filipine și a infectat milioane de calculatoare. | ILOVEYOU | An=2000
+Viermele descoperit în 2010, creat să saboteze centrifugele nucleare ale Iranului | Stuxnet | Considerat prima armă cibernetică cu efecte fizice. | Stuxnet | An=2010
+Atacul ransomware din mai 2017 care a afectat sute de mii de calculatoare, inclusiv din spitalele britanice | WannaCry | Folosea o vulnerabilitate Windows numită EternalBlue. | WannaCry | An=2017
+Atacul din iunie 2017 care a pornit din Ucraina, printr-un program de contabilitate, și a făcut pagube uriașe în lume | NotPetya | Arăta ca ransomware, dar de fapt distrugea datele. | NotPetya | An=2017
+Firma americană de software ale cărei actualizări au fost compromise în 2020, afectând mii de organizații | SolarWinds | Un exemplu clasic de atac asupra lanțului de aprovizionare. | SolarWinds | An=2020
+Conducta de combustibil din SUA oprită în 2021 de un atac ransomware | Colonial Pipeline | A dus la lipsă de benzină pe Coasta de Est a SUA. | Colonial Pipeline | An=2021
+Vulnerabilitatea gravă din 2014 în biblioteca OpenSSL, care putea scurge date din memoria serverelor | Heartbleed | A fost printre primele vulnerabilități cu nume și logo propriu. | Heartbleed | An=2014
+Vulnerabilitatea critică din decembrie 2021 în biblioteca Java Log4j | Log4Shell | A afectat un număr enorm de aplicații și servere. | Log4Shell | An=2021
+Firma de raportare a creditelor din SUA spartă în 2017, cu datele a aproximativ 147 de milioane de oameni | Equifax | Atacatorii au folosit o vulnerabilitate pentru care exista deja un patch. | Equifax | An=2017
+Hackerul american celebru pentru ingineria socială, arestat în 1995, devenit apoi consultant în securitate | Kevin Mitnick | A murit în 2023. | Kevin Mitnick
+Anul în care Diffie și Hellman au publicat ideea criptografiei cu cheie publică | 1976 | Articolul „New Directions in Cryptography". | | An=1976
+Anul publicării algoritmului RSA | 1977 | Rivest, Shamir și Adleman, de la MIT. | | An=1977
+Anul în care NIST a adoptat AES ca standard | 2001 | A înlocuit vechiul standard DES. | | An=2001
+Instituția română responsabilă de securitatea cibernetică civilă | DNSC | Directoratul Național de Securitate Cibernetică, fostul CERT-RO. | National Cyber Security Directorate | | | Directoratul Național de Securitate Cibernetică
+Anul lansării numărului 1911 pentru raportarea incidentelor cibernetice în România | 2019 | Lansat la 2 mai 2019, pe atunci de CERT-RO. | | An=2019
+Directiva UE care stabilește reguli de securitate cibernetică pentru sectoarele importante | NIS2 | Transpusă în România prin OUG 155/2024. | NIS2 Directive
+Agenția Uniunii Europene pentru securitate cibernetică | ENISA | European Union Agency for Cybersecurity, cu sediul principal la Atena. | ENISA
+Luna dedicată conștientizării securității cibernetice în UE și SUA | Octombrie | European Cybersecurity Month în UE, Cybersecurity Awareness Month în SUA. | October
+Ziua dedicată unui internet mai sigur pentru copii și tineri, sărbătorită în februarie | Safer Internet Day | Ziua Siguranței pe Internet. | Safer Internet Day | | | Ziua Siguranței pe Internet
+~ Virus ~ Vierme ~ Virusul are nevoie să deschizi un fișier. Viermele se răspândește singur prin rețea.
+~ Phishing ~ Spear phishing ~ Phishing: mesaj trimis la mulți. Spear phishing: mesaj făcut pe măsura unei singure ținte.
+~ Smishing ~ Vishing ~ Smishing: prin SMS. Vishing: prin apel vocal.
+~ Vulnerabilitate ~ Exploit ~ Vulnerabilitatea e slăbiciunea. Exploitul e metoda de a o folosi.
+~ Criptare simetrică ~ Criptare asimetrică ~ Simetrică: o singură cheie, comună. Asimetrică: o cheie publică și una privată.
+~ Cheia publică ~ Cheia privată ~ Publica o dai oricui. Privata o păstrezi doar tu.
+~ Criptare ~ Steganografie ~ Criptarea ascunde sensul mesajului. Steganografia ascunde existența lui.
+~ Hash ~ Criptare ~ Criptarea se poate inversa cu cheia. Hash-ul nu se poate inversa.
+~ Firewall ~ Antivirus ~ Firewall-ul filtrează traficul de rețea. Antivirusul caută programe malițioase pe dispozitiv.
+~ Echipa albastră ~ Hacker etic ~ Echipa albastră apără. Hackerul etic atacă, cu permisiune, ca să găsească slăbiciuni.
+~ Ransomware ~ Spyware ~ Ransomware-ul se vede: îți blochează fișierele și cere bani. Spyware-ul se ascunde și te spionează.
+~ WannaCry ~ NotPetya ~ WannaCry: ransomware care cerea răscumpărare (mai 2017). NotPetya: părea ransomware, dar distrugea datele (iunie 2017).

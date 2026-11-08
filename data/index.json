@@ -352,6 +352,23 @@
 },
 "map": null,
 "count": 163
+},
+{
+"id": "securitate",
+"title": "Securitate cibernetică",
+"sub": "Atacuri, parole, criptare, rețele, siguranță online",
+"icon": "lock",
+"source": "Pachet scris și verificat de Claude împreună cu Ciprian (noiembrie 2026), pe baza surselor enciclopedice publice și a informațiilor oficiale DNSC.",
+"hue": 355,
+"intrus": {
+"by": "sub",
+"item": "a",
+"skip": [
+"Istorie, incidente și instituții"
+]
+},
+"map": null,
+"count": 153
 }
 ]
 }
