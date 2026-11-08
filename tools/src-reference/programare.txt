@@ -1,0 +1,177 @@
+@id programare
+@title Programare
+@sub Concepte, algoritmi, structuri de date, limbaje, Git, web
+@icon code
+@hue 355
+@source Pachet scris și verificat de Claude împreună cu Ciprian (noiembrie 2026), pe baza surselor enciclopedice publice și a documentației oficiale a limbajelor.
+@prompt Ce termen este?
+@intrus {"by": "sub", "item": "a", "skip": []}
+## Concepte de bază | Ce termen este?
+Instrucțiunile scrise de un programator, într-un limbaj de programare | Cod sursă | Calculatorul nu îl înțelege direct: trebuie compilat sau interpretat. | Source code
+Un nume care păstrează o valoare ce se poate schimba | Variabilă | Ca o cutie cu etichetă: varsta = 15. | Variable
+O valoare care nu se schimbă după ce a fost stabilită | Constantă | De exemplu, numărul pi. | Constant
+Felul unei valori: număr, text, adevărat/fals | Tip de date | Data type. | Data type
+Tipul de date pentru text | String | Se scrie de obicei între ghilimele: "Salut". | String | | | Șir de caractere
+Tipul de date care poate fi doar adevărat sau fals | Boolean | Numit după matematicianul George Boole. | Boolean
+Număr fără zecimale | Întreg | Integer în engleză (int). | Integer
+Număr cu virgulă, reprezentat aproximativ în calculator | Float | De aceea 0,1 + 0,2 nu dă exact 0,3 în multe limbaje. | Floating-point number | | | Număr cu virgulă mobilă
+Bloc de cod cu nume, care face o sarcină și poate fi reutilizat | Funcție | Primește parametri și poate întoarce un rezultat. | Function
+Valorile pe care le primește o funcție când e apelată | Argumente | În definiția funcției se numesc parametri. | Arguments | | | Parametri
+Instrucțiunea care alege ce cod rulează în funcție de o condiție | If | „Dacă plouă, ia umbrela, altfel ia ochelarii." | If statement | | | Condiție / Dacă
+Repetarea unui bloc de cod de mai multe ori | Buclă | Tipuri obișnuite: for și while. | Loop
+Bucla care se repetă cât timp o condiție e adevărată | While | Dacă condiția nu devine niciodată falsă, bucla nu se oprește. | While loop
+Buclă care nu se mai termină | Buclă infinită | Programul „îngheață". | Infinite loop
+Funcție care se apelează pe ea însăși | Recursivitate | Are nevoie de un caz de oprire, altfel nu se mai termină. | Recursion
+Text din cod ignorat de calculator, scris pentru oameni | Comentariu | În Python începe cu #, în JavaScript cu //. | Comment
+Greșeală într-un program | Bug | Termenul e mai vechi, dar a devenit celebru după o molie găsită într-un calculator în 1947. | Bug
+Găsirea și repararea greșelilor dintr-un program | Depanare | Debugging în engleză. | Debugging
+Greșeală de scriere a codului, care împiedică programul să pornească | Eroare de sintaxă | De exemplu, o paranteză uitată. | Syntax error
+Greșeală care apare doar în timp ce programul rulează | Eroare la rulare | De exemplu, împărțirea la zero. | Runtime error
+Programul rulează, dar dă un rezultat greșit | Eroare de logică | Cea mai greu de găsit, pentru că nu apare niciun mesaj. | Logic error
+Program care traduce tot codul în limbaj mașină înainte de rulare | Compilator | Limbaje compilate: C, C++, Rust, Go. | Compiler
+Program care citește și execută codul linie cu linie, în timp ce rulează | Interpretor | Python este de obicei interpretat. | Interpreter
+Stilul de programare cu obiecte care au date și comportamente | Programare orientată pe obiecte | Prescurtat OOP. | Object-oriented programming | | | OOP
+„Șablonul" după care se creează obiectele | Clasă | Clasa „Câine"; obiectele: Rex, Azor. | Class
+Un exemplu concret creat după o clasă | Obiect | Numit și instanță. | Object | | | Instanță
+O clasă preia proprietățile și metodele altei clase | Moștenire | „Câine" moștenește de la „Animal". | Inheritance
+Cod scris de alții, gata de folosit în programul tău | Bibliotecă | Library în engleză. Nu reinventa roata. | Library
+Codul se scrie ușor de citit, cu nume clare și funcții mici | Cod curat | Codul e citit de oameni mult mai des decât e scris. | Clean code
+Valoarea care înseamnă „nimic" sau „lipsă" | Null | În Python se numește None. | Null | | | None
+Ce întoarce o funcție după ce își termină treaba | Valoare returnată | Cuvântul cheie return. | Return value
+## Algoritmi | Ce termen este?
+Căutarea unui element verificând, pe rând, fiecare element | Căutare liniară | Simplă, dar lentă pe liste mari. | Linear search
+Căutare într-o listă sortată, înjumătățind de fiecare dată zona de căutare | Căutare binară | Ca atunci când cauți un cuvânt în dicționar. | Binary search
+Câte pași îi trebuie, cel mult, căutării binare într-o listă de 1.000.000 de elemente | 20 | 2 la puterea 20 este puțin peste un milion. | 20 | | | Douăzeci
+Sortare care compară repetat elementele vecine și le inversează dacă nu sunt în ordine | Bubble sort | Foarte simplă, dar lentă pe liste mari. | Bubble sort | | | Sortarea prin bule
+Sortare care împarte lista în jumătăți, le sortează și apoi le interclasează | Merge sort | Sortare prin interclasare. Mereu rapidă. | Merge sort | | | Sortare prin interclasare
+Sortare care alege un pivot și împarte elementele în mai mici și mai mari decât el | Quicksort | Inventat de Tony Hoare în 1959-1960. | Quicksort | | | Sortare rapidă
+Notația care arată cum crește timpul unui algoritm când crește volumul datelor | O mare | Big O. De exemplu O(n) sau O(n²). | Big O notation | | | Big O
+Complexitatea unui algoritm al cărui timp crește proporțional cu numărul de elemente | Timp liniar | Se scrie O(n). Exemplu: căutarea liniară. | Linear time, O(n) | | | Liniar
+Complexitatea căutării binare | Timp logaritmic | Se scrie O(log n): dublarea datelor adaugă doar un pas. | Logarithmic time, O(log n) | | | Logaritmic
+Complexitatea unui algoritm care face aceeași operație indiferent de mărimea datelor | Timp constant | Se scrie O(1). Exemplu: accesarea unui element dintr-un vector după index. | Constant time, O(1)
+Strategia de a împărți o problemă în probleme mai mici, a le rezolva și a combina rezultatele | Divide et impera | Folosită de merge sort și quicksort. | Divide and conquer | | | Împarte și stăpânește
+Strategia care alege la fiecare pas varianta care pare cea mai bună în acel moment | Greedy | Algoritm lacom. Nu dă mereu soluția optimă. | Greedy algorithm | | | Lacom
+Metoda care salvează rezultatele subproblemelor ca să nu le calculeze de mai multe ori | Programare dinamică | Exemplu clasic: șirul lui Fibonacci calculat rapid. | Dynamic programming
+Încercarea tuturor variantelor posibile | Forță brută | Sigur, dar adesea foarte lent. | Brute force
+Încercarea unei variante și întoarcerea înapoi când nu duce la soluție | Backtracking | Folosit la sudoku sau la problema celor 8 regine. | Backtracking
+Algoritm care găsește cel mai scurt drum într-un graf cu distanțe pozitive | Dijkstra | Publicat de Edsger Dijkstra în 1959. Folosit și de aplicațiile de navigație. | Dijkstra's algorithm
+Parcurgerea unui graf nivel cu nivel, întâi vecinii apropiați | BFS | Breadth-First Search - parcurgere în lățime. | Breadth-first search | | | Parcurgere în lățime
+Parcurgerea unui graf mergând cât mai adânc pe o ramură înainte de a reveni | DFS | Depth-First Search - parcurgere în adâncime. | Depth-first search | | | Parcurgere în adâncime
+Algoritmul antic pentru cel mai mare divizor comun a două numere | Algoritmul lui Euclid | Descris de Euclid în jurul anului 300 î.Hr. | Euclidean algorithm
+Șirul în care fiecare termen e suma celor doi dinainte: 0, 1, 1, 2, 3, 5, 8... | Fibonacci | Exemplu clasic de recursivitate. | Fibonacci sequence | | | Șirul lui Fibonacci
+Pseudocod: o descriere a unui algoritm în cuvinte simple, fără un limbaj anume | Pseudocod | Util ca să gândești soluția înainte să scrii cod. | Pseudocode
+Desen cu forme și săgeți care arată pașii unui algoritm | Schemă logică | Flowchart în engleză. | Flowchart
+Problema în care încerci să găsești un traseu cât mai scurt prin mai multe orașe, revenind la start | Problema comis-voiajorului | Un exemplu celebru de problemă foarte grea pentru calculatoare. | Travelling salesman problem
+Un algoritm care dă mereu același rezultat pentru aceleași date de intrare | Determinist | Generatoarele de numere aleatoare din calculator sunt de fapt pseudo-aleatoare. | Deterministic
+Calculul care transformă o cheie într-o poziție dintr-un tabel, pentru acces rapid | Funcție de dispersie | Folosită de tabelele hash (dicționare). | Hash function
+## Structuri de date | Ce termen este?
+Colecție ordonată de elemente, accesate după poziție | Vector | Array în engleză. În multe limbaje, numărătoarea începe de la 0. | Array | | | Array / Tablou
+Poziția unui element într-un vector | Index | Primul element are de obicei indexul 0. | Index
+Structură în care ultimul element pus este primul scos | Stivă | LIFO: Last In, First Out. Ca o stivă de farfurii. | Stack
+Structură în care primul element pus este primul scos | Coadă | FIFO: First In, First Out. Ca o coadă la casă. | Queue
+Colecție de perechi cheie-valoare | Dicționar | Numit și hash map sau obiect. Exemplu: {"nume": "Matei"}. | Dictionary | | | Hash map / Map
+Listă în care fiecare element arată spre următorul | Listă înlănțuită | Ușor de inserat la mijloc, dar lentă la accesul după poziție. | Linked list
+Structură ierarhică, cu o rădăcină și noduri copil | Arbore | Exemplu: folderele de pe calculator. | Tree
+Arbore în care fiecare nod are cel mult doi copii | Arbore binar | Într-un arbore binar de căutare, stânga e mai mic, dreapta e mai mare. | Binary tree
+Mulțime de noduri legate prin muchii | Graf | Exemple: rețeaua de prieteni, harta orașelor. | Graph
+Legătura dintre două noduri dintr-un graf | Muchie | Edge în engleză. | Edge
+Colecție de elemente unice, fără dubluri | Mulțime | Set în engleză. | Set
+Tabel cu rânduri și coloane | Matrice | Tablou bidimensional. Imaginile sunt matrici de pixeli. | Matrix
+Structură în care elementul cu prioritatea cea mai mare iese primul | Coadă cu priorități | Folosită de algoritmul lui Dijkstra. | Priority queue
+Format de text pentru date, cu acolade și perechi cheie-valoare, folosit mult pe web | JSON | JavaScript Object Notation. Și aplicația asta își ține domeniile în JSON. | JSON
+Format de date în care valorile sunt separate prin virgule | CSV | Comma-Separated Values. Se deschide și în Excel. | CSV
+Sistem organizat de stocare a datelor, interogat cu un limbaj special | Bază de date | Exemple: PostgreSQL, MySQL, SQLite. | Database
+Limbajul cu care interoghezi bazele de date relaționale | SQL | SELECT nume FROM elevi WHERE clasa = 9. | SQL
+Identificatorul unic al fiecărui rând dintr-un tabel | Cheie primară | Primary key. | Primary key
+Un nod fără copii, la capătul unui arbore | Frunză | Leaf în engleză. | Leaf node
+Primul nod al unui arbore | Rădăcină | Root în engleză. | Root
+Copie a datelor organizată pentru căutări rapide, ca cuprinsul unei cărți | Indexare | Bazele de date folosesc indecși ca să găsească repede rândurile. | Database index
+Valoarea care nu se poate modifica după creare | Imuabil | În Python, tuplurile și șirurile de caractere sunt imuabile. | Immutable
+Tipul de date din Python pentru o listă ordonată care nu se poate modifica | Tuplu | Se scrie cu paranteze rotunde: (1, 2, 3). | Tuple
+## Limbaje și la ce folosesc | Ce limbaj sau ce termen este?
+Limbaj creat de Guido van Rossum, lansat în 1991, foarte folosit în AI și știința datelor | Python | Numit după grupul de comedie Monty Python, nu după șarpe. | Python
+Limbajul care rulează în toate browserele web, creat în 1995 de Brendan Eich | JavaScript | Prima versiune a fost scrisă în aproximativ 10 zile, la Netscape. Nu are legătură cu Java. | JavaScript
+Limbaj lansat de Sun Microsystems în 1995, cu deviza „scrie o dată, rulează oriunde" | Java | Creat de echipa lui James Gosling. | Java
+Limbaj creat de Dennis Ritchie la Bell Labs, la începutul anilor '70, folosit pentru sisteme de operare | C | Sistemul Unix a fost rescris în C. | C
+Extensia limbajului C cu obiecte, creată de Bjarne Stroustrup | C++ | Folosit în jocuri, browsere și programe care cer viteză mare. | C++
+Limbajul creat de Microsoft pentru platforma .NET, folosit și în jocurile făcute cu Unity | C# | Se pronunță „C sharp". | C#
+Limbajul Apple pentru aplicații iPhone, lansat în 2014 | Swift | A înlocuit treptat Objective-C. | Swift
+Limbajul creat de JetBrains, preferat de Google pentru aplicații Android din 2019 | Kotlin | Compatibil cu Java. | Kotlin
+Limbaj apărut la Mozilla, cu versiunea 1.0 în 2015, cunoscut pentru siguranța memoriei | Rust | Previne la compilare multe erori de memorie. | Rust
+Limbajul creat la Google, prezentat în 2009, folosit pentru servere | Go | Numit și Golang. | Go | | | Golang
+JavaScript cu tipuri de date verificate, creat de Microsoft | TypeScript | Se transformă în JavaScript ca să ruleze în browser. | TypeScript
+Limbaj vizual cu blocuri colorate, creat la MIT pentru copii | Scratch | Programezi trăgând blocuri, fără să scrii cod. | Scratch
+Unul dintre primele limbaje de nivel înalt, creat la IBM în 1957 pentru calcule științifice | Fortran | Echipa a fost condusă de John Backus. | Fortran
+Limbaj din 1959 pentru aplicații de afaceri, încă folosit în bănci | COBOL | La crearea lui a contribuit Grace Hopper. | COBOL
+Limbajul folosit pentru analiză statistică și grafice științifice | R | Popular printre statisticieni și cercetători. | R
+Limbajul din linia de comandă din Linux și macOS, folosit pentru scripturi | Bash | Bourne Again Shell. | Bash
+Limbaje apropiate de felul în care gândesc oamenii | De nivel înalt | Python, JavaScript. Opusul: limbaje de nivel jos, apropiate de procesor. | High-level language
+Limbaj foarte apropiat de instrucțiunile procesorului, cu comenzi scurte | Asamblare | Assembly. Fiecare tip de procesor are limbajul lui de asamblare. | Assembly language
+Considerată prima programatoare, pentru notele din 1843 despre Mașina Analitică a lui Babbage | Ada Lovelace | Un limbaj de programare poartă numele ei: Ada. | Ada Lovelace
+Pionieră a programării, care a creat unul dintre primele compilatoare, în 1952 | Grace Hopper | A popularizat termenul „bug" după molia găsită într-un calculator în 1947. | Grace Hopper
+Primul program pe care îl scrii de obicei într-un limbaj nou | Hello, World! | Tradiția a fost popularizată de cartea despre limbajul C a lui Kernighan și Ritchie. | Hello, World! | | | Hello World
+Python: ce determină unde începe și unde se termină un bloc de cod | Indentarea | Spațiile de la începutul rândului contează în Python. | Indentation
+Cel mai mare depozit public de pachete pentru Python | PyPI | Pachetele se instalează cu comanda pip. | Python Package Index
+Programul cu care instalezi pachete JavaScript | npm | Node Package Manager. | npm
+Mediul care permite rularea JavaScript în afara browserului, pe servere | Node.js | Lansat în 2009. | Node.js
+## Unelte: Git, terminal, depanare | Ce termen este?
+Sistemul de control al versiunilor creat de Linus Torvalds în 2005 | Git | Păstrează istoricul tuturor modificărilor din cod. | Git
+Platforma online pentru proiecte Git, lansată în 2008 și cumpărată de Microsoft în 2018 | GitHub | Și codul acestei aplicații e pe GitHub. | GitHub
+Folderul unui proiect urmărit de Git, cu tot istoricul lui | Repository | Prescurtat repo. | Repository | | | Repo / Depozit
+O „fotografie" salvată a modificărilor, cu un mesaj care le descrie | Commit | Mesajul bun spune ce s-a schimbat și de ce. | Commit
+O linie de lucru separată, ca să încerci ceva fără să strici varianta principală | Ramură | Branch în engleză. Ramura principală se numește de obicei main. | Branch
+Cererea de a uni modificările dintr-o ramură în ramura principală, după ce sunt verificate | Pull request | Prescurtat PR. Altcineva citește codul înainte de unire. | Pull request | | | PR
+Unirea a două ramuri | Merge | Comanda git merge. | Merge | | | Unire
+Situația în care două ramuri au schimbat aceleași linii diferit | Conflict | Un om trebuie să aleagă varianta corectă. | Merge conflict
+Comanda care trimite commit-urile locale pe server | git push | Opusul ei, git pull, aduce modificările de pe server. | git push | | | push
+Comanda care creează o copie locală a unui repository de pe server | git clone | O folosești o singură dată, la început. | git clone | | | clone
+Comanda care arată ce fișiere ai modificat și încă nu ai salvat în commit | git status | Cea mai folosită comandă Git. | git status
+Fereastra în care dai comenzi scrise calculatorului | Terminal | Numită și linie de comandă sau consolă. | Terminal | | | Linia de comandă / Consolă
+Comanda din terminal care schimbă folderul curent | cd | Change directory. | cd
+Comanda din terminal care listează fișierele din folder | ls | Pe Windows, comanda echivalentă e dir. | ls
+Program pentru scris cod, cu culori, completare automată și depanare | Editor de cod | Exemplu popular: Visual Studio Code. | Code editor | | | IDE
+Mediu complet de dezvoltare, cu editor, compilator și depanator | IDE | Integrated Development Environment. | Integrated development environment
+Punct în cod unde programul se oprește ca să poți inspecta variabilele | Breakpoint | Punct de întrerupere. | Breakpoint | | | Punct de întrerupere
+Afișarea valorilor în timpul rulării, ca să înțelegi ce se întâmplă | Logare | În Python print(), în JavaScript console.log(). | Logging
+Cod care verifică automat dacă alt cod funcționează corect | Test automat | Și această aplicație are teste care rulează înainte de fiecare publicare. | Automated test
+Test care verifică o singură funcție, separat de restul programului | Test unitar | Unit test. | Unit test
+Explicarea problemei, rând cu rând, unei rățuște de cauciuc, până găsești singur greșeala | Rubber duck debugging | Funcționează surprinzător de des. | Rubber duck debugging | | | Rățușca de cauciuc
+Verificarea codului cuiva de către alt programator | Code review | Revizuire de cod. | Code review | | | Revizuire de cod
+Site celebru de întrebări și răspunsuri pentru programatori, lansat în 2008 | Stack Overflow | Numele vine de la o eroare: depășirea stivei. | Stack Overflow
+Fișierul în care descrii un proiect: ce face, cum se instalează, cum se folosește | README | Primul fișier citit de cineva care descoperă proiectul. | README
+Rescrierea codului ca să fie mai clar, fără să-i schimbi comportamentul | Refactorizare | Refactoring în engleză. | Refactoring
+## Web: HTML, CSS, JavaScript | Ce termen este?
+Limbajul care descrie structura unei pagini: titluri, paragrafe, imagini | HTML | HyperText Markup Language. | HTML
+Limbajul care descrie aspectul unei pagini: culori, fonturi, așezare | CSS | Cascading Style Sheets. Propus de Håkon Wium Lie în 1994. | CSS
+Elementul HTML prin care utilizatorul trimite date, de exemplu numele sau o căutare | Formular | Eticheta <form>, cu câmpuri <input> și un buton de trimitere. | Form
+Marcaje HTML scrise între paranteze unghiulare, ca <p> sau <h1> | Etichete | Tags în engleză. | Tags | | | Taguri
+Eticheta HTML pentru un link, scrisă <a> | Ancoră | Atributul href spune unde duce: <a href="...">. | Anchor tag | | | Eticheta ancoră / Link
+Eticheta HTML pentru o imagine | <img> | Atributul alt descrie imaginea pentru cei care nu o văd. | Image tag | | | img
+Structura de obiecte prin care JavaScript vede și modifică pagina | DOM | Document Object Model. | Document Object Model
+Pagina se adaptează la ecrane de mărimi diferite | Design responsiv | Responsive design. Și această aplicație e responsivă. | Responsive design
+Regulile CSS care se aplică doar pe anumite ecrane, de exemplu doar pe telefoane | Media queries | @media (max-width: 600px). | Media queries
+Sistemul CSS care așază elementele pe un rând sau pe o coloană | Flexbox | Pentru grile cu rânduri și coloane se folosește CSS Grid. | Flexbox
+Partea unui site care rulează în browser, la utilizator | Front-end | Ce vezi și cu ce interacționezi. | Front-end
+Partea unui site care rulează pe server: date, conturi, logică | Back-end | Utilizatorul nu o vede direct. | Back-end
+Programator care lucrează și la front-end, și la back-end | Full-stack | Full-stack developer. | Full-stack
+Bibliotecă JavaScript creată la Meta pentru interfețe, construită din componente | React | Folosită de multe aplicații web mari. | React
+Aplicație web care se poate instala pe ecranul telefonului și merge și offline | PWA | Progressive Web App. Așa funcționează și OpenMind. | Progressive web app
+Instrumentele din browser care arată codul paginii, erorile și traficul | DevTools | Se deschid de obicei cu tasta F12. | Developer tools | | | Instrumente pentru dezvoltatori
+Accesibilitate: site-ul poate fi folosit și de oameni cu dizabilități | Accesibilitate | Contrast bun, texte alternative la imagini, navigare cu tastatura. | Accessibility | | | a11y
+Codul din pagina web care se execută când utilizatorul face ceva, de exemplu un clic | Eveniment | addEventListener('click', ...). | Event
+Cerere făcută de JavaScript către un server fără reîncărcarea paginii | fetch | Și această aplicație își încarcă domeniile cu fetch. | fetch
+Publicarea gratuită a unui site direct dintr-un repository GitHub | GitHub Pages | Așa e publicată și aplicația OpenMind. | GitHub Pages
+Culoare scrisă ca #RRGGBB, cu cifre hexazecimale | Cod hex | Morlet Red este #562025. | Hex color
+Unitate CSS relativă la mărimea fontului | rem | 1rem = mărimea fontului elementului rădăcină. | rem
+~ Compilator ~ Interpretor ~ Compilatorul traduce tot programul înainte. Interpretorul execută linie cu linie.
+~ Stivă ~ Coadă ~ Stiva: ultimul intrat iese primul (LIFO). Coada: primul intrat iese primul (FIFO).
+~ Căutare liniară ~ Căutare binară ~ Liniară: verifici pe rând, merge pe orice listă. Binară: înjumătățești, dar lista trebuie sortată.
+~ Clasă ~ Obiect ~ Clasa e șablonul. Obiectul e exemplul concret creat după el.
+~ BFS ~ DFS ~ BFS: nivel cu nivel. DFS: cât mai adânc pe o ramură.
+~ Merge sort ~ Quicksort ~ Merge sort împarte în jumătăți și interclasează. Quicksort alege un pivot și împarte după el.
+~ Eroare de sintaxă ~ Eroare de logică ~ Sintaxa greșită oprește programul. Logica greșită dă rezultate greșite, fără mesaj.
+~ HTML ~ CSS ~ HTML: structura (ce e pe pagină). CSS: aspectul (cum arată).
+~ Front-end ~ Back-end ~ Front-end: în browser. Back-end: pe server.
+~ Java ~ JavaScript ~ Limbaje diferite, cu nume asemănătoare. Java: aplicații și servere. JavaScript: paginile web.
+~ Commit ~ git push ~ Commit-ul salvează local. Push-ul trimite pe server.
+~ Vector ~ Listă înlănțuită ~ Vectorul: acces rapid după poziție. Lista înlănțuită: inserare ușoară la mijloc.
