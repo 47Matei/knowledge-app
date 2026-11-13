@@ -13,7 +13,7 @@ Fișierele `img/*.jpg` sunt imaginile individuale; `img/pack-<domeniu>-<n>.json`
 
 ## Imagini
 
-Total: 619 imagini.
+Total: 650 imagini.
 
 ## Arhitectură
 
@@ -663,3 +663,40 @@ Total: 619 imagini.
 | Versailles | `monu-versailles.jpg` | Myrabella | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Chateau_Versailles_Galerie_des_Glaces.jpg) |
 | Viaductul Millau | `monu-viaductul-millau.jpg` | Richard Leeming from London, UK | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Millau_Viaduct_(2724128971).jpg) |
 | Zidul Plângerii | `monu-zidul-plangerii.jpg` | Rhododendrites | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Western_Wall_at_night_(20081).jpg) |
+
+
+## ceasuri (adăugate 2026-11-13)
+
+| Card | Fișier | Autor | Licență | Sursă |
+|---|---|---|---|---|
+| Banda de oțel răsucită în spirală care stochează energia unui ceas mecanic | `pack-ceasuri / ceas-arcul-motor` | Hustvedt | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mainspring_Chinese_uncoiled.jpg) |
+| Cilindrul dințat în care stă închis arcul motor | `pack-ceasuri / ceas-butoiasul` | Frederick J. Britten | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Going_barrel.png) |
+| Roata care oscilează înainte și înapoi, de obicei de 8 ori pe secundă, și dă ritmul ceasului | `pack-ceasuri / ceas-balansierul` | Chris Burks (Chetvorno) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Pocket_Watch_Balance_Wheel_a.JPG) |
+| Greutatea semicirculară care se rotește liber și întoarce singură arcul unui ceas automatic | `pack-ceasuri / ceas-rotorul` | Zenith El Primero | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Breitling_rotor_Valjoux_7750.jpg) |
+| Butonul de pe marginea carcasei cu care întorci arcul și potrivești ora | `pack-ceasuri / ceas-coroana` | Pittigrilli | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Crown_and_chronograph_pushers_of_a_Montblanc_Timewalker_wristwatch_V2.jpg) |
+| Placa de bază pe care se montează toate piesele mecanismului | `pack-ceasuri / ceas-platina` | Kaffe42 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:ETA-ESA_955.412,_main_plate_2.png) |
+| Ceas electric din 1960 care folosea un diapazon ce vibra de 360 de ori pe secundă | `pack-ceasuri / ceas-bulova-accutron` | 名古屋太郎 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bulova_accutron_sv_1963.jpg) |
+| Afișează în ferestre atât ziua săptămânii, cât și data | `pack-ceasuri / ceas-zi-si-data-day-date` | Clyde94 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rolex_Oysterquartz_Day-Date_in_oro.jpg) |
+| Scală care calculează pulsul după ce numeri un anumit număr de bătăi (de obicei 15 sau 30) | `pack-ceasuri / ceas-pulsometru` | EMore98 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Longines_Column_Wheel_Single_Push_Piece_Pulsometer_Chronograph_ref._L2.801.4.23.2.jpg) |
+| Scală rotativă cu care piloții calculează viteza, consumul de combustibil și conversii | `pack-ceasuri / ceas-rigla-de-calcul-circulara` | Torsten Bolten | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Breitling_Navitimer_chronograph_watch.jpg) |
+| Tourbillon fără punte deasupra, susținut doar de jos, ca și cum ar pluti | `pack-ceasuri / ceas-tourbillon-zburator` | Imperiali Genève | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Flying_tourbillon.jpg) |
+| Piesa care coordonează pornirea, oprirea și resetarea la cronografele de calitate | `pack-ceasuri / ceas-roata-cu-coloane` | Shane Lin | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Omega_Cal._321_Chronograph_movement_(detail).jpg) |
+| Brățară Rolex cu trei zale mari și plate pe fiecare rând | `pack-ceasuri / ceas-oyster` | hypo.physe | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rolex_Datejust_II_116334_-_2.jpg) |
+| Brățară Rolex cu cinci zale pe rând: trei mici și lustruite la mijloc, două mari la margini | `pack-ceasuri / ceas-jubilee` | ajay_suresh | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rolex_Datejust_126234.jpg) |
+| Plasă metalică groasă, cu zale ca niște solzi, făcută pentru ceasurile de scufundări | `pack-ceasuri / ceas-shark-mesh` | Cohiba Jack | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Stainless_steel_shark_mesh_bracelet.jpg) |
+| Curea textilă ca NATO, dar mai groasă, cu inele metalice rotunde și grele | `pack-ceasuri / ceas-zulu` | Francis Flinch | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Qimei_watch_on_Zulu_strap.jpg) |
+| Curea lată de piele pusă sub ceas, care protejează încheietura, venită din aviația germană | `pack-ceasuri / ceas-curea-bund` | AfterMinute | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Pilot_watch_on_a_bund_strap.jpg) |
+| Închizătoare pliabilă care se deschide în două sau trei bucăți și nu lasă ceasul să cadă | `pack-ceasuri / ceas-inchizatoare-deployanta` | Francis Flinch | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Clasp_2.jpg) |
+| Brățară care continuă forma carcasei, fără niciun spațiu între ele | `pack-ceasuri / ceas-bratara-integrata` | Myles Gray | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Royal_Oak_bracelet.jpg) |
+| Metal cu circa 40% mai ușor decât oțelul, hipoalergenic, de culoare gri mai închis | `pack-ceasuri / ceas-titan` | Guillaume PILLET, derivative work: Pittigrilli | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Citizen_%22Orca%22_200m_titanium_Diver_watch_(turned,_without_background).jpg) |
+| Material negru, cu model ca marmura, foarte ușor, făcut din fibre de carbon presate | `pack-ceasuri / ceas-carbon-forjat` | Crateecount | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Bespoke_Design_Forged_Carbon_Fiber_Watch_Sport.jpg) |
+| Aur aliat cu mai mult cupru, care capătă o nuanță rozalie | `pack-ceasuri / ceas-aur-roz` | GreenDesktopTea1229 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rose_Gold_Amalgam_with_engraving.jpg) |
+| Vopsea radioactivă folosită pe cadrane la începutul secolului XX, interzisă pentru că era periculoasă | `pack-ceasuri / ceas-radiu` | Leslie Cardew, Daily Herald Archive | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Las_chicas_del_radio_pintando.jpg) |
+| Amestec de ceramică și material obținut din ulei de ricin, folosit la MoonSwatch (2022) | `pack-ceasuri / ceas-bioceramica` | EMore98 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Omega_x_Swatch_%22MoonSwatch%22_Mission_to_Jupiter.jpg) |
+| Două aripioare metalice de o parte și de alta a coroanei, care o feresc de lovituri | `pack-ceasuri / ceas-protectie-de-coroana` | Daniel Zimmermann from Bayern, Deutschland (Germany) | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:CROWN_GUARD_(29728851024).jpg) |
+| Butoanele unui cronograf, de obicei la ora 2 și la ora 4 | `pack-ceasuri / ceas-pushere` | Pittigrilli | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Crown_and_chronograph_pushers_of_a_Montblanc_Timewalker_wristwatch_V2.jpg) |
+| Supapă care lasă să iasă heliul din ceas la scafandrii care stau zile întregi în camere sub presiune | `pack-ceasuri / ceas-valva-de-heliu` | Thomas Quine | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Helium_escape_(or_release)_valve_on_Omega_Seamaster_Diver_chronograph_watch_300_m_water_resist.jpg) |
+| Cadran mic, în interiorul cadranului principal, pentru secunde sau pentru cronograf | `pack-ceasuri / ceas-subcadran` | gcardinal from Norway | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Small_sub-dial_on_Seiko_quartz_chronograph_watch_which_indicates_the_seconds_of_normal_time.jpg) |
+| Ac de oră cu un pătrat mare la vârf, semnătura lui Tudor | `pack-ceasuri / ceas-ac-snowflake` | Thierry Mostra-store | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:263-tudor-76100-submariner-marine-nationale-1979-mostra-store-aix-en-provence-27.jpg) |
+| Ac în formă de săgeată lată, ca pe primul Speedmaster (1957) | `pack-ceasuri / ceas-broad-arrow` | autor necunoscut | CC BY 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Hands_of_OMEGA_Speedmaster_CK2915.jpg) |
+| Carcasă cu formă de pernă, între pătrat și rotund | `pack-ceasuri / ceas-carcasa-cushion` | Piero7 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Radiomircalifornia.jpg) |
