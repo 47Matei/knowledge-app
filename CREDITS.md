@@ -13,7 +13,7 @@ Fișierele `img/*.jpg` sunt imaginile individuale; `img/pack-<domeniu>-<n>.json`
 
 ## Imagini
 
-Total: 650 imagini.
+Total: 619 imagini.
 
 ## Arhitectură
 
@@ -337,23 +337,15 @@ Total: 650 imagini.
 | Card | Fișier | Autor | Licență | Sursă |
 |---|---|---|---|---|
 | 1300 | `masi-1300.jpg` | Tobias Nordhausen from Sondershausen, Deutschland | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dacia_1300_(7526054820).jpg) |
-| 205 | `masi-205.jpg` | SunflowerYuri | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Peugeot_205_at_the_2005_Abreschviller_hillclimb.jpg) |
 | 208 | `masi-208.jpg` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Peugeot_e-208_facelift_Auto_Zuerich_2023_1X7A1209.jpg) |
-| 240 | `masi-240.jpg` | Lothar Spurzem | CC BY-SA 2.0 de | [Commons](https://commons.wikimedia.org/wiki/File:Volvo_240_Turbo,_Anders_Olofsson_19850706-1.jpg) |
 | 250 GTO | `masi-250-gto.jpg` | PSParrot from England | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Goodwood_Revival_2012_-_Ferrari_250_GTO%60s_(7991993945).jpg) |
 | 2CV | `masi-2cv.jpg` | Lothar Spurzem | CC BY-SA 2.0 de | [Commons](https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_2_CV_Charleston_(2015-08-29_3174_b).jpg) |
-| 300 SL Gullwing | `masi-300-sl-gullwing.jpg` | Ermell | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:W%C3%BCrgauer_Bergrennen_2022_Daimler_Benz_300_SL-20220911-RM-114041.jpg) |
 | 500 | `masi-500.jpg` | böhringer friedrich | CC BY-SA 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Fiat_Nuova_500_20.JPG) |
-| 911 | `masi-911.jpg` | Lothar Spurzem | CC BY-SA 2.0 de | [Commons](https://commons.wikimedia.org/wiki/File:Porsche_911_Carrera_RSR,_Bj._1974_(2011-08-13_Sp).JPG) |
-| A4 | `masi-a4.jpg` | Green Yoshi | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Joakim_Ahlberg_Audi_A4_STCC_Ring_Knutstorp_2012.jpg) |
 | ARO 24 | `masi-aro-24.jpg` | ROCostiTheBunnyCZ | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:ARO_242_(1985-1998).jpg) |
 | Astra | `masi-astra.jpg` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Opel_Astra_L_Electric_Auto_Zuerich_2023_1X7A1005.jpg) |
 | Atto 3 | `masi-atto-3.jpg` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:BYD_Atto_3_1X7A6495.jpg) |
-| Aventador | `masi-aventador.jpg` | Calreyn88 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lamborghini_Aventador_12.jpg) |
-| Beetle (Käfer) | `masi-beetle-kafer.jpg` | Renée Kools | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Red_Volkswagen_Beetle_three-quarter_front_view.jpg) |
 | Boxster | `masi-boxster.jpg` | Matti Blume | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Porsche_Boxster_Concept,_Berlin_(1X7A3901).jpg) |
 | Camaro | `masi-camaro.jpg` | Ermell | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Chevrolet_Camaro_Z28_Hirschaid-20220709-RM-115030.jpg) |
-| Cayenne | `masi-cayenne.jpg` | Yu Chu Chin | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Porsche_Cayenne_(Medical_Car)_at_the_2025_Adelaide_Grand_Final_Parade_-_02.jpg) |
 | Chiron | `masi-chiron.jpg` | Matti Blume | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bugatti_Chiron,_GIMS_2018,_Le_Grand-Saconnex_(1X7A1765).jpg) |
 | Civic | `masi-civic.jpg` | JustAnotherCarDesigner | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Honda_Civic_XI_hatchback_001.jpg) |
 | Clasa E | `masi-clasa-e.jpg` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mercedes-Benz_E-Class_1X7A5838.jpg) |
@@ -364,12 +356,10 @@ Total: 650 imagini.
 | Countach | `masi-countach.jpg` | Palauenc05 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lamborghini_Countach_LP_5000S_1983.jpg) |
 | CR-V | `masi-cr-v.jpg` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Honda_CR-V_(6th_generation)_e-PHEV_Auto_Zuerich_2023_1X7A1066.jpg) |
 | Cybertruck | `masi-cybertruck.jpg` | Phillip Pessar | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tesla_Cybertruck_in_West_Miami_FL_1.jpg) |
-| Dacia 1310 | `masi-dacia-1310.jpg` | TrainSimFan | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:1982_Dacia_1310_(police_car)_in_Bucharest.jpg) |
 | Dacia Bigster | `masi-dacia-bigster.png` | Ubi-testet | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dacia_Bigster_rear.png) |
 | Dacia Nova | `masi-dacia-nova.jpg` | MaxFerrari2 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dacia_Nova_Bucarest_(1).jpg) |
 | DB5 | `masi-db5.jpg` | MrWalkr | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:2020_Aston_Martin_DB5_Goldfinger_Continuation_LCCS20.jpg) |
 | Defender | `masi-defender.jpg` | DeFacto | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Land_Rover_Defender_110_Station_Wagon_2016_-_rear.jpg) |
-| Delta Integrale | `masi-delta-integrale.jpg` | Ermell | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:W%C3%BCrgauer_Bergrennen_Lancia_Delta_HF_Integrale-20220911-RM-114807.jpg) |
 | Duster | `masi-duster.jpg` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dacia_Duster_III_IMG_8961.jpg) |
 | e-tron GT | `masi-e-tron-gt.jpg` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Audi_RS_e-tron_GT_Auto_Zuerich_2023_1X7A1112.jpg) |
 | E-Type | `masi-e-type.jpg` | DeFacto | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Jaguar_E-Type_series_2_coup%C3%A9_1968.jpg) |
@@ -378,29 +368,21 @@ Total: 650 imagini.
 | F1 | `masi-f1.jpg` | Chelsea Jay | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:1996_McLaren_F1_Chassis_No_63_6.1_Front.jpg) |
 | F40 | `masi-f40.jpg` | Will ainsworth | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:F40_Ferrari_20090509.jpg) |
 | Golf | `masi-golf.jpg` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Volkswagen_Golf_VIII_R_20_Years_Auto_Zuerich_2023_1X7A1358.jpg) |
-| GT-R | `masi-gt-r.jpg` | Nimda01 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nissan_GT-RC.jpg) |
 | GT40 | `masi-gt40.jpg` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ford_GT40_(1966)_Solitude_Revival_2022_1X7A0005.jpg) |
 | i3 | `masi-i3.jpg` | Dietmar Rabich | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_Visbeck,_BMW_i3_--_2016_--_1581-7.jpg) |
 | ID.3 | `masi-id-3.jpg` | Vauxford | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:2020_Volkswagen_ID.3_1st_Front.jpg) |
 | Impreza WRX | `masi-impreza-wrx.jpg` | Retired electrician | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Moscow_car_show_2025-08-03_Subaru_WRX_01.jpg) |
-| Ioniq 5 | `masi-ioniq-5.jpg` | Damian B Oh | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hyundai_IONIQ_5_N_eN1_Cup_Car_(5).jpg) |
 | LaFerrari | `masi-laferrari.jpg` | Yanko Malinov | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:LaFerrari_front.jpg) |
-| Lancer Evolution | `masi-lancer-evolution.jpg` | Globaltechzone | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Evolution_9_Modified_Track_car_Sri_Lanka_Katukurunda.jpg) |
 | Leaf | `masi-leaf.jpg` | EurovisionNim | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:2017_Nissan_LEAF_(ZE0_MY17)_hatchback_(2018-11-02)_01.jpg) |
 | Logan | `masi-logan.jpg` | JanekJankowski | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dacia_Logan_III.jpg) |
-| M3 | `masi-m3.jpg` | MB-one | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:EMS_2023,_Essen_(P1160984).jpg) |
-| Mégane | `masi-megane.jpg` | SunflowerYuri | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Renault_Megane_at_the_2019_Mouzon-Frezelle_rally.jpg) |
 | MG4 | `masi-mg4.jpg` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:MG4_EV_Automesse_Ludwigsburg_2022_1X7A5920.jpg) |
 | Mini Cooper | `masi-mini-cooper.jpg` | Dietmar Rabich | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Dernekamp,_Mini_Hatch_Cooper_--_2018_--_1545-51.jpg) |
-| Miura | `masi-miura.jpg` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lamborghini_Miura_P400_(1967)_Classic-Gala_2022_1X7A0082.jpg) |
 | Model 3 | `masi-model-3.jpg` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tesla_Model_3_(2023)_Auto_Zuerich_2023_1X7A1313.jpg) |
 | Model S | `masi-model-s.jpg` | Charlie from United Kingdom | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:2014_Tesla_Model_S_P85_(14595148594).jpg) |
 | Model Y | `masi-model-y.jpg` | JustAnotherCarDesigner | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_L_002.jpg) |
 | Moskvich 412 | `masi-moskvich-412.jpg` | Nikolai Bulykin | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BD%D0%B0%D0%B5%D0%B2,_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D1%80%D0%B5%D1%82%D1%80%D0%BE-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D0%B5%D0%B9,_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B8%D1%87_412_(2).jpg) |
 | Mustang | `masi-mustang.jpg` | Dietmar Rabich | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Prag,_Wenzelsplatz,_Ford_Mustang_--_2019_--_101913.jpg) |
 | MX-5 | `masi-mx-5.jpg` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mazda_MX-5_(ND)_1X7A7471.jpg) |
-| NSX | `masi-nsx.jpg` | TTTNIS | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:1995_Honda_NSX_Type_T.jpg) |
-| Octavia | `masi-octavia.jpg` | jiazi | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C5%A0koda_OctaviaIIchinasafety.jpg) |
 | Oltcit Club | `masi-oltcit-club.jpg` | FOTO:Fortepan — ID 31999: Adományozó/Donor: Urbán Tamás. | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dacia-brand,_Oltcit-brand,_Romanian_make,_colorful,_car_dealer_Fortepan_31999.jpg) |
 | Panda | `masi-panda.jpg` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Fiat_Panda_4x40%C2%BA_Auto_Zuerich_2023_1X7A1298.jpg) |
 | Passat | `masi-passat.jpg` | Lothar Spurzem | CC BY-SA 2.0 de | [Commons](https://commons.wikimedia.org/wiki/File:VW_Passat_GL_1980-85_(2019-11-24_Sp_r).JPG) |
@@ -413,26 +395,17 @@ Total: 650 imagini.
 | Quattroporte | `masi-quattroporte.jpg` | Dietmar Rabich | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Automeile_auf_dem_Kartoffelmarkt,_Maserati_Quattroporte_--_2019_--_9882.jpg) |
 | R8 | `masi-r8.jpg` | Ddoherty958 | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:2013_Audi_R8_Quattro_V10.jpg) |
 | Renault 4 | `masi-renault-4.jpg` | DeFacto | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Renault_R4_GTL_1982.jpg) |
-| RX-7 | `masi-rx-7.jpg` | TTTNIS | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:1983_Mazda_RX-7_Group_B.jpg) |
 | Sandero | `masi-sandero.jpg` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dacia_Sandero_III_1X7A6451.jpg) |
 | Seal | `masi-seal.jpg` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:BYD_Seal_IAA_2023_1X7A0371.jpg) |
-| Seria 3 | `masi-seria-3.jpg` | Calreyn88 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:2025_BMW_3_Series_320e_BTCC_Car.jpg) |
-| Spring | `masi-spring.jpg` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dacia_Spring_IAA_2021_1X7A0215.jpg) |
 | Stratos | `masi-stratos.jpg` | Ermell | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lancia_Stratos_HF_W%C3%BCrgau-20190922-RM-121808.jpg) |
 | SU7 | `masi-su7.jpg` | S5A-0043 | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:(CHN-Shanghai)_Private_Xiaomi_SU7_%E6%B2%AAA7WE106_2024-11-24.jpg) |
 | Superb | `masi-superb.jpg` | © Michel de Vries | CC BY-SA 3.0 de | [Commons](https://commons.wikimedia.org/wiki/File:SkodaSuperbII.jpg) |
-| Supra | `masi-supra.jpg` | SmackJam | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:TGR_Riley_Supra_GT4_WGI22.jpg) |
-| Taycan | `masi-taycan.jpg` | Yu Chu Chin | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Porsche_Taycan_GTS_(Safety_Car)_at_the_2025_Adelaide_Grand_Final_Parade_-_08.jpg) |
 | Testarossa | `masi-testarossa.jpg` | Arnaud 25 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ferrari_Testarossa_-_Johnny_Hallyday_002.jpg) |
 | Tiguan | `masi-tiguan.jpg` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Volkswagen_Tiguan_III_eHybrid_Auto_Zuerich_2023_1X7A1001.jpg) |
 | Trabant 601 | `masi-trabant-601.jpg` | Ermell | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Trabbi_601_mit_Wohnwagen_QEK_Junior_6170662.jpg) |
-| TT | `masi-tt.jpg` | Matti Blume | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Audi_TT,_TWB_2018,_Friedrichshafen_(OW1A0574).jpg) |
 | Tucson | `masi-tucson.jpg` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hyundai_Tucson_Plug-in_N-Line_Auto_Zuerich_2021_IMG_0366.jpg) |
-| Urus | `masi-urus.jpg` | Matti Blume | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lamborghini_Urus,_BAS_24,_Brussels_(P1170506).jpg) |
 | Veyron | `masi-veyron.jpg` | Axion23 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Red_Bugatti_Veyron_on_the_road_(7559997596).jpg) |
-| Volga GAZ-24 | `masi-volga-gaz-24.jpg` | Svetlov Artem | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:GAZ-24-02_Volga_Chernyakhovsk_20250506_145137.jpg) |
 | Wartburg 353 | `masi-wartburg-353.jpg` | Fototrommer | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Wartburg_353_in_Osek_Tschechien_15.08.2020-2.jpg) |
-| Wrangler | `masi-wrangler.jpg` | Retired electrician | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Moscow,_Jeep_Wrangler_Unlimited_red,_Oct_2025_03.jpg) |
 | X5 | `masi-x5.jpg` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:BMW_X5_M_(G05)_1X7A7047.jpg) |
 | XC90 | `masi-xc90.jpg` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:2025_Volvo_XC90_II_DSC_7423.jpg) |
 | Zastava 101 | `masi-zastava-101.jpg` | Giffob | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Zastava_101_skala_55.jpg) |
@@ -460,7 +433,6 @@ Total: 650 imagini.
 | Corvette | `mm-chevrolet-corvette` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:1962_Chevrolet_Corvette_IMG_3669.jpg) |
 | Impala | `mm-chevrolet-impala` | Dllu | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:1961_Chevrolet_Impala_convertible_in_San_Francisco.jpg) |
 | C4 | `mm-citroen-c4` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:2025_Citro%C3%ABn_C4_DSC_9296.jpg) |
-| SM | `mm-citroen-citroen-sm` | Lothar Spurzem | CC BY-SA 2.0 de | [Commons](https://commons.wikimedia.org/wiki/File:2013-05-04_(9591b)_Citro%C3%ABn_SM,_Bj._1973.JPG) |
 | DS | `mm-citroen-ds` | Slaunger | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_DS_21_27_Quai_Anatole_France_license_plate_blanked_2012-06-02_cropped.jpg) |
 | Traction Avant | `mm-citroen-traction-avant` | Lothar Spurzem | CC BY-SA 2.0 de | [Commons](https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Traction_Avant_11B,_Bj._1938_(2008-06-28_Sp).JPG) |
 | Guarà | `mm-de-tomaso-guara` | Brian Snelson | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:1999_De_Tomaso_Guar%C3%A0_Spider.jpg) |
@@ -499,7 +471,6 @@ Total: 650 imagini.
 | Emira | `mm-lotus-emira` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lotus_Emira_IMG_8027.jpg) |
 | Esprit | `mm-lotus-esprit` | Lothar Spurzem | CC BY-SA 2.0 de | [Commons](https://commons.wikimedia.org/wiki/File:Lotus_Esprit_Turbo_S3,_Heck_(2018-04-29_Sp_r).JPG) |
 | Evija | `mm-lotus-evija` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lotus_Evija_MYLE_Festival_2025_DSC_9429.jpg) |
-| Evora | `mm-lotus-evora` | Allions | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lotus_Evora_CC_Roma.JPG) |
 | Exige | `mm-lotus-exige` | Matti Blume | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lotus_Exige,_TWB_2018,_Friedrichshafen_(OW1A0499).jpg) |
 | Gravity | `mm-lucid-gravity` | Matti Blume | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lucid_Gravity_Grand_Touring,_GIMS_2024,_Le_Grand-Saconnex_(GIMS0090-3).jpg) |
 | Bora | `mm-maserati-bora` | nakhon100 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Maserati_Bora_(3855042131)_(cropped).jpg) |
@@ -523,7 +494,6 @@ Total: 650 imagini.
 | Zonda | `mm-pagani-zonda` | Matti Blume | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Pagani_Zonda,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0014).jpg) |
 | 3008 | `mm-peugeot-3008` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Peugeot_3008_C_DSC_8318.jpg) |
 | 406 | `mm-peugeot-406` | Kilyann Le Hen | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Peugeot_406_Coup%C3%A9_V6_(1998),_Bleu_Byzance_(Abricot).jpg) |
-| 504 | `mm-peugeot-504` | Marc Ryckaert | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Peugeot_504_R01.jpg) |
 | Polestar 1 | `mm-polestar-polestar-1` | Matti Blume | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Polestar_1,_GIMS_2018,_Le_Grand-Saconnex_(1X7A1271).jpg) |
 | Polestar 4 | `mm-polestar-polestar-4` | Alexander Migl | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Polestar_4_DSC_8232_(cropped).jpg) |
 | Bohema | `mm-praga-bohema` | Calreyn88 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Praga_Bohema_(28919).jpg) |
@@ -531,7 +501,6 @@ Total: 650 imagini.
 | Concept One | `mm-rimac-concept-one` | The Car Spy | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rimac_Concept_One_-_Salon_Priv%C3%A9_London_2012_(7956529248).jpg) |
 | Nevera | `mm-rimac-nevera` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rimac_Nevera_R_Auto_Zuerich_2024_DSC_6340.jpg) |
 | R1S | `mm-rivian-r1s` | Kevauto | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:2023_Rivian_R1S_Adventure,_front_1.29.23.jpg) |
-| S7 | `mm-saleen-s7` | Alexandre Prevot from Nancy, France | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Saleen_S7-R_(51197128096).jpg) |
 | Porsche 911 reimaginat de Singer | `mm-singer-911` | Matti Blume | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Singer_911,_Auto_2024,_Zurich_(PANA0953).jpg) |
 | Fabia | `mm-skoda-fabia` | Alexander-93 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C5%A0koda_Fabia_IV_1X7A7108_(cropped).jpg) |
 | Felicia | `mm-skoda-felicia` | Raf24~commonswiki | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%C5%A0koda_Felicia,_PIA.jpg) |
