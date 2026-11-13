@@ -3,7 +3,7 @@
   "private": true,
   "description": "Build, image and test tools for Cartoteca lui Matei (the app itself has no build step).",
   "scripts": {
-    "test": "node test/test_decks.js && node test/test_answers.js && node test/test_models.js && node test/test_pwa.js",
+    "test": "node test/test_decks.js && node test/test_answers.js && node test/test_models.js && node test/test_pwa.js && node test/test_sessions.js",
     "test:ui": "node test/ui_test.js && node test/ui_pwa_test.js && node test/ui_keyboard_test.js"
   },
   "devDependencies": {
