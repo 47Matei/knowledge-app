@@ -26,11 +26,11 @@
 {
 "id": "ceasuri",
 "title": "Ceasuri",
-"sub": "Mărci, modele, mecanisme, complicații, termeni",
+"sub": "Mărci, modele, mecanisme, complicații, brățări, materiale",
 "icon": "watch",
 "hue": 38,
-"source": "Pachet generat și verificat de Claude (octombrie 2026), pe baza surselor enciclopedice publice.",
-"count": 284,
+"source": "Pachet generat și verificat de Claude (octombrie-noiembrie 2026), pe baza surselor enciclopedice publice.",
+"count": 389,
 "intrus": {
 "by": "sub",
 "item": "auto",

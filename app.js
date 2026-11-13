@@ -61,10 +61,12 @@ const ic = (name, cls = '') => `<svg class="${cls}" viewBox="0 0 24 24" fill="no
 
 // ---------- stare persistentă ----------
 const KEY = 'cartoteca.v1';
-const DEFAULTS = { name: 'Matei', goalMin: 30, newPerDay: 30, sessionSize: 20, notifyAt: '19:00', notify: true, showEn: true, theme: 'system' };
+const DEFAULTS = { name: 'Matei', goalMin: 30, newPerDay: 30, sessionSize: 25, quizSize: 25, notifyAt: '19:00', notify: true, showEn: true, theme: 'system' };
 let S, storageOK = true;
 function freshState() { return { v: 1, cards: {}, days: {}, xp: 0, streak: { cur: 0, best: 0, last: null, freezes: 1 }, badges: {}, conf: {}, quiz: { best: {} }, cotd: {}, settings: {}, created: Date.now() }; }
 function normalize(s) {
+  // noiembrie 2026: lecțiile au crescut de la 20 la 25 de carduri; cine avea vechea valoare implicită (20) trece o singură dată la 25
+  if (s.settings && !s.settings.len25) { if (s.settings.sessionSize === 20) s.settings.sessionSize = 25; s.settings.len25 = 1; }
   s.settings = { ...DEFAULTS, ...s.settings }; s.quiz = { best: {}, ...s.quiz }; s.cotd = s.cotd || {}; s.conf = s.conf || {}; s.badges = s.badges || {};
   s.streak = { cur: 0, best: 0, last: null, freezes: 1, ...s.streak }; s.days = s.days || {}; s.cards = s.cards || {};
   return s;
@@ -264,9 +266,15 @@ const DECAY = -0.5, FACTOR = 19 / 81;
 // Setări repetiție - toate într-un singur loc
 const SRS = {
   WRONG_DELAY_MIN: 60,   // „Greșit": cardul revine după cel puțin atâtea minute
-  WRONG_GAP_CARDS: 10,   // ...și, în aceeași sesiune, doar după cel puțin atâtea alte carduri
-  WRONG_MAX_REQUEUE: 1   // de câte ori poate reveni un card greșit în aceeași sesiune
+  WRONG_GAP_CARDS: 10,   // într-o lecție pe domeniu, cardul greșit revine la finalul lecției, doar dacă au fost cel puțin atâtea alte carduri între ele
+  WRONG_MAX_REQUEUE: 1,  // de câte ori poate reveni un card greșit în aceeași lecție
+  NO_REQUEUE_MODES: ['quick', 'mix'] // sesiunea rapidă și amestecul: fără repetare în sesiune, cardul greșit revine după WRONG_DELAY_MIN
 };
+// unde revine (indexul în coadă) un card greșit în sesiunea curentă; -1 = nu revine în această sesiune
+function requeuePos(mode, queueLen, idx, timesRequeued) {
+  if (SRS.NO_REQUEUE_MODES.includes(mode) || timesRequeued >= SRS.WRONG_MAX_REQUEUE) return -1;
+  return queueLen - (idx + 1) >= SRS.WRONG_GAP_CARDS ? queueLen : -1;
+}
 // în sesiuni intră cardurile de repetat azi; cele greșite recent intră doar după ce le-a trecut pauza
 const dueForSession = (st, eot) => st && (st.st === 1 ? st.due <= Date.now() : st.due <= eot);
 const clampD = d => Math.min(10, Math.max(1, d));
@@ -418,7 +426,8 @@ const ANS_ALIAS = {
   'coreea de sud': ['south korea', 'coreea'], 'emiratele arabe unite': ['eau', 'uae', 'emirate'], 'republica ceha': ['cehia', 'czechia', 'czech republic'], 'cehia': ['republica ceha', 'czechia', 'czech republic'],
   'tag heuer': ['tagheuer', 'tag'], 'jaeger lecoultre': ['jlc', 'jaeger'], 'audemars piguet': ['ap', 'audemars'], 'patek philippe': ['patek'], 'a lange sohne': ['lange', 'a lange'], 'rolls royce': ['rolls', 'rr'], 'alfa romeo': ['alfa']
 };
-const tolFor = n => n <= 3 ? 0 : n <= 7 ? 1 : 2;
+// câte greșeli de scriere (literă lipsă, în plus, schimbată sau inversată) acceptăm într-un cuvânt, după lungimea lui
+const tolFor = n => n <= 3 ? 0 : n <= 5 ? 1 : n <= 10 ? 2 : 3;
 function dlev(a, b) { // distanță Damerau-Levenshtein (literă lipsă, în plus, schimbată sau inversată = 1)
   if (a === b) return 0; const m = a.length, n = b.length; if (!m) return n; if (!n) return m;
   const D = Array.from({ length: m + 1 }, (_, i) => { const r = new Array(n + 1).fill(0); r[0] = i; return r; }); for (let j = 0; j <= n; j++) D[0][j] = j;
@@ -464,10 +473,10 @@ function optAliases(o) { // forme echivalente ale unei opțiuni (fără cuvinte 
   for (const x of [o, core]) { (ANS_ALIAS[x] || []).forEach(a => out.add(norm(a))); (syn[x] || []).forEach(a => out.add(a)); }
   return [...out];
 }
-function matchTok(inp, exp, vocab) { // 0 = exact, 1 = cu greșeli mici, -1 = nu se potrivește
+function matchTok(inp, exp, vocab, maxTol = 9) { // 0 = exact, 1 = cu greșeli mici, -1 = nu se potrivește
   if (inp === exp) return 0;
   if (/\d/.test(exp) || /\d/.test(inp)) return -1;
-  const dd = dlev(inp, exp); if (dd > tolFor(exp.length)) return -1;
+  const dd = dlev(inp, exp); if (dd > Math.min(maxTol, tolFor(exp.length))) return -1;
   if (vocab.has(inp)) return -1; // e alt cuvânt valid (ex. „austria" când se cere „australia")
   for (const w of vocab) if (w !== exp && Math.abs(w.length - inp.length) <= 2 && dlev(inp, w) < dd) return -1;
   return 1;
@@ -481,7 +490,7 @@ function matchOpt(toks, used, opt, vocab) { // potrivește toate token-urile op�
     if (bi < 0) { // poate a scris lipit („mercedesbenz") sau separat
       if (ot.length < 2 && toks.length < 2) return null;
       const joined = ot.join(''); let hit = null;
-      for (let i = 0; i < toks.length && !hit; i++) for (let L = ot.length > 1 ? 1 : 2; L <= 3 && i + L <= toks.length; L++) { const idx = [...Array(L).keys()].map(k => i + k); if (idx.some(j => used.has(j))) continue; const r = matchTok(idx.map(j => toks[j]).join(''), joined, vocab); if (r >= 0) { hit = { idx, r }; break; } }
+      for (let i = 0; i < toks.length && !hit; i++) for (let L = ot.length > 1 ? 1 : 2; L <= 3 && i + L <= toks.length; L++) { const idx = [...Array(L).keys()].map(k => i + k); if (idx.some(j => used.has(j))) continue; const r = matchTok(idx.map(j => toks[j]).join(''), joined, vocab, 1); if (r >= 0) { hit = { idx, r }; break; } }
       if (!hit) return null; hit.idx.forEach(j => take.add(j)); return { take, fuzzy: fuzzy || hit.r > 0 };
     }
     take.add(bi); if (best > 0) fuzzy = true;
@@ -489,16 +498,19 @@ function matchOpt(toks, used, opt, vocab) { // potrivește toate token-urile op�
   return { take, fuzzy };
 }
 function matchParsed(toks, P, vocab) {
-  const used = new Set(); let fuzzy = false, matched = 0;
+  const used = new Set(); let fuzzy = false, matched = 0, partial = false;
   const comps = P.any ? P.comps : P.comps.filter(c => c.kind !== 'desc' || P.comps.every(x => x.kind === 'desc'));
+  const hasWords = comps.some(c => c.kind !== 'num');
   for (const comp of comps) {
     let got = null;
     for (const o of comp.opts) { for (const a of optAliases(o)) { got = matchOpt(toks, used, a, vocab); if (got) break; } if (got) break; }
-    if (got) { got.take.forEach(i => used.add(i)); fuzzy = fuzzy || got.fuzzy; matched++; if (P.any) break; }
+    if (got) { got.take.forEach(i => used.add(i)); fuzzy = fuzzy || got.fuzzy; if (comp.kind !== 'num' || !hasWords) matched++; if (P.any) break; }
+    // anul sau un număr lipsă / greșit nu mai respinge răspunsul, dacă restul e corect (ex. „Elveția" pentru „Elveția, 1905")
+    else if (!P.any && comp.kind === 'num' && hasWords) partial = true;
     else if (!P.any) return null;
   }
   if (!matched) return null;
-  return { used, fuzzy };
+  return { used, fuzzy, partial };
 }
 function checkAnswerDetail(c, input) {
   const x = norm(input); if (!x) return null;
@@ -515,11 +527,13 @@ function checkAnswerDetail(c, input) {
   let best = null;
   for (const P of parsed) {
     const m = matchParsed(toks, P, vocab); if (!m) continue;
-    const extra = toks.filter((t, i) => !m.used.has(i) && !ANS_STOP.has(t) && t.length > 2 && !ctx.has(t) && ![...ctx].some(w => w.length > 3 && matchTok(t, w, new Set()) >= 0));
+    const extra = toks.filter((t, i) => !m.used.has(i) && !ANS_STOP.has(t) && !(m.partial && /^\d+$/.test(t)) && t.length > 2 && !ctx.has(t) && ![...ctx].some(w => w.length > 3 && matchTok(t, w, new Set()) >= 0));
     if (extra.length) continue; // a adăugat altceva (ex. altă țară) - nu acceptăm
-    const r = m.fuzzy ? 'close' : 'ok'; if (!best || r === 'ok') best = r; if (r === 'ok') break;
+    // 'part' = corect, dar fără an/număr sau cu alt an: e acceptat și îi arătăm răspunsul complet
+    const r = m.partial ? 'part' : m.fuzzy ? 'close' : 'ok', rank = { ok: 0, close: 1, part: 2 };
+    if (!best || rank[r] < rank[best]) best = r; if (r === 'ok') break;
   }
-  if (best) return { r: best };
+  if (best) return { r: best === 'part' ? 'close' : best, partial: best === 'part' };
   // răspunsuri lungi, descriptive: comparație pe tot textul
   for (const f of forms) { const v = norm(f); if (v.length > 28) { const sim = 1 - dlev(x, v) / Math.max(x.length, v.length); if (sim >= 0.9) return { r: 'ok' }; if (sim >= 0.8) return { r: 'close' }; } }
   return { r: 'bad' };
@@ -966,7 +980,7 @@ function interleave(rev, fresh) {
 function buildQueue(d, sub, extraNew = 0, practice = false) {
   const eot = endOfToday(); const size = S.settings.sessionSize;
   const cards = d.cards.filter(c => !sub || c.sub === sub);
-  if (practice) return shuffle(cards.filter(c => S.cards[c.id]).sort((a, b) => S.cards[a.id].s - S.cards[b.id].s).slice(0, 10)).map(c => ({ k: c.k, id: c.id }));
+  if (practice) return shuffle(cards.filter(c => S.cards[c.id]).sort((a, b) => S.cards[a.id].s - S.cards[b.id].s).slice(0, size)).map(c => ({ k: c.k, id: c.id }));
   const due = cards.filter(c => dueForSession(S.cards[c.id], eot)).sort((a, b) => S.cards[a.id].due - S.cards[b.id].due).slice(0, size);
   const newLeft = newLeftFor(d.meta.id) + extraNew;
   const fresh = cards.filter(c => !S.cards[c.id]).slice(0, Math.min(newLeft, Math.max(extraNew, size - due.length)));
@@ -1037,8 +1051,8 @@ function learnSummary() {
       : `Ai parcurs toate cardurile din ${esc(where)} și nu ai repetări programate azi. Următoarele repetări apar în zilele care vin.`}</p></div>`));
   }
   const btns = el('<div class="stack"></div>');
-  if (v.mode === 'quick') btns.appendChild(el(`<button class="btn primary block" data-b="again">${ic('play')}Încă 5 minute</button>`));
-  else if (v.mode === 'mix') btns.appendChild(el(`<button class="btn primary block" data-b="mix">${ic('shuffle')}Încă o rundă de amestec</button>`));
+  if (v.mode === 'quick') btns.appendChild(el(`<button class="btn primary block" data-b="again">${ic('play')}Continuă</button>`));
+  else if (v.mode === 'mix') btns.appendChild(el(`<button class="btn primary block" data-b="mix">${ic('shuffle')}Continuă</button>`));
   else {
     if (nextN) btns.appendChild(el(`<button class="btn primary block" data-b="next">${ic('play')}Continuă cu următoarele ${nextN} carduri</button>`));
     else if (freshLeft) btns.appendChild(el(`<button class="btn primary block" data-b="extra">${ic('play')}Continuă oricum: ${Math.min(10, freshLeft)} carduri noi</button>`));
@@ -1084,8 +1098,9 @@ function renderLearnBody() {
     const chk = typed ? checkAnswerDetail(c, typed) : null, verdict = chk ? chk.r : null;
     const res = verdict ? (verdict === 'bad' ? 'bad' : 'ok') : null;
     body.appendChild(answerEl(c, d, false, res)); revealMaps(body); markResult(card, res);
-    const vtxt = { ok: 'Corect!', close: `Aproape: ai scris „${typed}", corect e „${c.a}"`, bad: `Ai scris „${typed}"` };
-    const suggested = verdict === 'ok' ? 3 : verdict === 'close' ? 2 : verdict === 'bad' ? 1 : 0;
+    const part = chk && chk.partial;
+    const vtxt = { ok: 'Corect!', close: part ? `Corect! Răspunsul complet: „${c.a}"` : `Aproape: ai scris „${typed}", corect e „${c.a}"`, bad: `Ai scris „${typed}"` };
+    const suggested = verdict === 'ok' || part ? 3 : verdict === 'close' ? 2 : verdict === 'bad' ? 1 : 0;
     ctl.replaceChildren();
     if (verdict) ctl.appendChild(el(`<div class="verdict ${res}">${esc(vtxt[verdict])}</div>`));
     const g = el(`<div class="stickyact"><div class="label" style="margin-bottom:6px">Cât de bine ai știut?</div><div class="grades">
@@ -1108,8 +1123,8 @@ function rate(g, c) {
   const n = schedule(prev, g, Date.now()); n.k = c.k; S.cards[c.id] = n;
   const dd = day(); dd.rev++; if (!prev) countNew(c.k); if (g === 1) dd.bad++; else dd.ok++;
   tick(); addXP([0, 2, 5, 8, 10][g] + (prev ? 0 : 3)); s.res[g]++;
-  // un card greșit revine în sesiune doar dacă mai urmează cel puțin WRONG_GAP_CARDS alte carduri; altfel îl vede la următoarea sesiune
-  if (g === 1 && (s.requeued[c.id] || 0) < SRS.WRONG_MAX_REQUEUE && s.queue.length - (s.idx + 1) >= SRS.WRONG_GAP_CARDS) { s.requeued[c.id] = (s.requeued[c.id] || 0) + 1; s.queue.splice(s.idx + 1 + SRS.WRONG_GAP_CARDS, 0, ref); }
+  // lecție pe domeniu: cardul greșit revine la final (dacă au trecut destule carduri); sesiune rapidă și amestec: nu revine, îl vezi peste o oră
+  if (g === 1) { const pos = requeuePos(s.v.mode || 'domain', s.queue.length, s.idx, s.requeued[c.id] || 0); if (pos >= 0) { s.requeued[c.id] = (s.requeued[c.id] || 0) + 1; s.queue.splice(pos, 0, ref); } }
   s.idx++; save();
   if (s.idx % 5 === 0) checkBadges();
   setTimeout(() => { if (view.name === 'learn' && sess === s) { const node = renderLearnBody(); app().replaceChildren(node); window.scrollTo(0, 0); } }, 350);
@@ -1191,6 +1206,17 @@ function makeQuestion(mode, d, pool, used) {
   return { mode, c, opts: shuffle([c, ...ds].map(x => ({ c: x, t: x.a }))), correct: c.a };
 }
 let qz = null;
+// câte întrebări diferite se pot pune într-un mod de test (pentru a nu cere mai multe decât există)
+function quizEligible(mode, d, pool) {
+  if (mode === 'intrus') return Infinity;
+  if (mode === 'write') return pool.filter(writable).length;
+  if (mode === 'img') { const mg = modelGroups(d); return pool.filter(c => mg ? mg.ok.has(c.id) : c.img).length; }
+  return pool.length;
+}
+const quizLen = (mode, d, pool) => Math.max(1, Math.min(S.settings.quizSize || 25, quizEligible(mode, d, pool)));
+// „Continuă" pornește o rundă nouă fără întrebările din rundele de dinainte (până se epuizează)
+const quizSeen = {};
+const quizSeenKey = v => `${v.id}|${v.sub || ''}|${v.mode}`;
 VIEWS.quiz = async v => {
   const d = await deck(v.id);
   await mapsFor(d.cards);
@@ -1198,7 +1224,13 @@ VIEWS.quiz = async v => {
   if (!qz || qz.key !== JSON.stringify(v)) {
     const pool = d.cards.filter(c => !v.sub || c.sub === v.sub);
     const pairPool = v.pair ? v.pair.map(id => d.byId[id]) : null;
-    qz = { key: JSON.stringify(v), v, d, pool, pairPool, used: new Set(), n: 0, score: 0, total: v.mode === 'timed' ? Infinity : (v.pair ? 6 : 10), wrong: [], q: null, answered: false, xp0: S.xp, ends: v.mode === 'timed' ? Date.now() + 60000 : 0, over: false };
+    const total = v.mode === 'timed' ? Infinity : v.pair ? 6 : quizLen(v.mode, d, pool);
+    const carried = v.cont && quizSeen[quizSeenKey(v)] ? quizSeen[quizSeenKey(v)] : new Set();
+    const used = new Set(carried);
+    // dacă au rămas prea puține întrebări nevăzute pentru o rundă întreagă, o luăm de la capăt
+    if (v.mode !== 'intrus' && Number.isFinite(total) && quizEligible(v.mode, d, pool) - used.size < total) used.clear();
+    qz = { key: JSON.stringify(v), v, d, pool, pairPool, used, n: 0, score: 0, total, wrong: [], q: null, answered: false, xp0: S.xp, ends: v.mode === 'timed' ? Date.now() + 60000 : 0, over: false };
+    quizSeen[quizSeenKey(v)] = used;
     nextQuestion();
   }
   return renderQuiz();
@@ -1209,8 +1241,8 @@ function quizSetup(d, v) {
   const ig = intrusGroups(d); const best = S.quiz.best || {};
   const nWrite = d.cards.filter(c => (!v.sub || c.sub === v.sub) && writable(c)).length;
   const modes = [
-    ['mc', 'test', 'Alegere multiplă', '10 întrebări, 4 variante', true],
-    ['write', 'pen', 'Răspuns scris', '10 întrebări, scrii tu răspunsul', nWrite >= 4],
+    ['mc', 'test', 'Alegere multiplă', `${plural(Math.min(S.settings.quizSize || 25, d.cards.filter(c => !v.sub || c.sub === v.sub).length), 'întrebare', 'întrebări')}, 4 variante`, true],
+    ['write', 'pen', 'Răspuns scris', `${plural(Math.min(S.settings.quizSize || 25, nWrite), 'întrebare', 'întrebări')}, scrii tu răspunsul`, nWrite >= 4],
     ['timed', 'clock', 'Cronometrat', 'Câte poți în 60 de secunde?', true],
     ['intrus', 'target', 'Găsește intrusul', ig ? '3 au ceva în comun, 1 nu' : 'Indisponibil pentru acest domeniu', !!ig && !v.sub],
   ];
@@ -1235,8 +1267,9 @@ function nextQuestion() {
     z.q = { mode: 'mc', c, opts: shuffle(z.pairPool.map(x => ({ c: x, t: x.a }))), correct: c.a };
   } else {
     let mode = z.v.mode === 'timed' ? 'mc' : z.v.mode;
-    if (z.used.size >= z.pool.length) z.used.clear();
+    if (z.v.mode !== 'intrus' && z.used.size >= quizEligible(mode, z.d, z.pool)) z.used.clear();
     z.q = makeQuestion(mode, z.d, z.pool, z.used);
+    if (!z.q && z.used.size) { z.used.clear(); z.q = makeQuestion(mode, z.d, z.pool, z.used); }
     if (!z.q) { z.over = true; return; }
   }
   z.answered = false; z.n++;
@@ -1265,8 +1298,8 @@ function finishQuiz() {
     });
     root.appendChild(p);
   }
-  const btns = el(`<div class="stack"><button class="btn primary block" data-b="again">${ic('play')}Încă o dată</button><button class="btn block" data-b="other">Alt tip de test</button><button class="btn ghost block" data-b="back">Înapoi la domeniu</button></div>`);
-  $('[data-b=again]', btns).onclick = () => { qz = null; const p = { ...v, t: Date.now() }; view = { name: 'quiz', ...p }; try { history.replaceState({ n: 'quiz', p }, ''); } catch (e) { } render(); };
+  const btns = el(`<div class="stack"><button class="btn primary block" data-b="again">${ic('play')}Continuă</button><button class="btn block" data-b="other">Alt tip de test</button><button class="btn ghost block" data-b="back">Înapoi la domeniu</button></div>`);
+  $('[data-b=again]', btns).onclick = () => { qz = null; const p = { ...v, cont: 1, t: Date.now() }; view = { name: 'quiz', ...p }; try { history.replaceState({ n: 'quiz', p }, ''); } catch (e) { } render(); };
   $('[data-b=other]', btns).onclick = () => { qz = null; const p = { id: v.id, sub: v.sub }; view = { name: 'quiz', ...p }; try { history.replaceState({ n: 'quiz', p }, ''); } catch (e) { } render(); };
   $('[data-b=back]', btns).onclick = () => { qz = null; go('domain', { id: v.id }); };
   root.appendChild(btns);
@@ -1313,8 +1346,8 @@ function renderQuiz() {
     ctl.appendChild(f);
     f.onsubmit = e => {
       e.preventDefault(); if (z.answered) return; const t = $('#ans', f).value.trim(); if (!t) return;
-      const r = checkAnswer(c, t); f.remove();
-      ctl.appendChild(el(`<div class="verdict ${r === 'bad' ? 'bad' : 'ok'}">${r === 'ok' ? 'Corect!' : r === 'close' ? `Aproape: ai scris „${esc(t)}", corect e „${esc(c.a)}" - îl punctăm` : `Greșit: ai scris „${esc(t)}"`}</div>`));
+      const chk = checkAnswerDetail(c, t), r = chk.r; f.remove();
+      ctl.appendChild(el(`<div class="verdict ${r === 'bad' ? 'bad' : 'ok'}">${r === 'ok' ? 'Corect!' : chk.partial ? `Corect! Răspunsul complet: „${esc(c.a)}"` : r === 'close' ? `Aproape: ai scris „${esc(t)}", corect e „${esc(c.a)}" - îl punctăm` : `Greșit: ai scris „${esc(t)}"`}</div>`));
       finish(r !== 'bad', null, r === 'bad' ? t : null);
     };
     $('[data-skip]', f).onclick = () => { if (z.answered) return; f.remove(); finish(false, null, null); };
@@ -1552,7 +1585,7 @@ VIEWS.map = async v => {
     const perfect = game.first === game.list.length && game.list.length >= 10;
     if (perfect) { S.quiz.mapPerfect = true; addXP(50); }
     save(); checkBadges();
-    status.replaceChildren(el(`<div class="stack"><div style="font-weight:700;font-size:17px">${game.first} din ${game.list.length} din prima încercare${perfect ? ' · perfect!' : ''}</div><button class="btn primary">${ic('play')}Încă o rundă</button></div>`));
+    status.replaceChildren(el(`<div class="stack"><div style="font-weight:700;font-size:17px">${game.first} din ${game.list.length} din prima încercare${perfect ? ' · perfect!' : ''}</div><button class="btn primary">${ic('play')}Continuă</button></div>`));
     $('button', status).onclick = mode === 'write' ? startWrite : startGame;
   }
   // --- modul „Scrie numele" ---
@@ -1935,7 +1968,8 @@ VIEWS.settings = async (v = {}) => {
   p1.append(nameF,
     segField('goalMin', 'Obiectiv zilnic', [[15, '15 min'], [30, '30 min'], [45, '45 min'], [60, '60 min']], 'Timpul activ de studiu pe care vrei să-l atingi în fiecare zi.'),
     segField('newPerDay', 'Carduri noi pe zi, în fiecare domeniu', [[10, '10'], [20, '20'], [30, '30'], [50, '50']], 'Câte carduri noi intră zilnic în repetiție, separat pentru fiecare domeniu. Mai multe înseamnă și mai multe repetări în zilele următoare.'),
-    segField('sessionSize', 'Mărimea unei sesiuni', [[10, '10'], [20, '20'], [30, '30']]),
+    segField('sessionSize', 'Carduri într-o lecție', [[10, '10'], [20, '20'], [25, '25'], [30, '30']], 'Câte carduri are o lecție de învățare într-un domeniu.'),
+    segField('quizSize', 'Întrebări într-un test', [[10, '10'], [20, '20'], [25, '25'], [30, '30']], 'Câte întrebări are un test (alegere multiplă, răspuns scris, intrus, imagini). Dacă un capitol are mai puține, testul le folosește pe toate.'),
     segField('theme', 'Temă', [['system', 'Ca telefonul'], ['light', 'Luminoasă'], ['dark', 'Întunecată']]));
   const en = el(`<label class="switch"><span><b>Arată termenii în engleză</b><br><small class="muted">Pe spatele cardului, ca „EN · …"</small></span><input type="checkbox" id="en" ${s.showEn ? 'checked' : ''}></label>`);
   $('input', en).onchange = e => { s.showEn = e.target.checked; touchSettings(); };
