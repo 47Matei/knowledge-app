@@ -8,9 +8,9 @@ const dom = new JSDOM(`<!doctype html><html><head></head><body>${html}</body></h
 const w = dom.window;
 w.fetch = async u => { const p = path.join(ROOT, u); if (!fs.existsSync(p)) return { ok: false }; const txt = fs.readFileSync(p, 'utf8'); return { ok: true, json: async () => JSON.parse(txt) }; };
 w.scrollTo = () => { }; w.HTMLElement.prototype.focus = function () { };
-w.eval(fs.readFileSync(path.join(ROOT, 'app.js'), 'utf8') + '\n;window.__T={checkAnswer,deck,DECKS};');
+w.eval(fs.readFileSync(path.join(ROOT, 'app.js'), 'utf8') + '\n;window.__T={checkAnswer,checkAnswerDetail,deck,DECKS};');
 const T = w.__T;
-let pass = 0, fail = 0;
+let pass = 0, fail = 0, ok_partial;
 const card = (k, q) => T.DECKS[k].cards.find(c => c.q === q);
 function expect(name, c, input, want) {
   const got = T.checkAnswer(c, input);
@@ -31,14 +31,25 @@ function expect(name, c, input, want) {
   expect('fără diacritice', breguet, 'franta / elvetia - 1775', 'ok');
   expect('diacritice cu sedilă', breguet, 'Elveţia Franţa 1775', 'ok');
   expect('spații multiple', breguet, '  ELVEȚIA    1775  ', 'ok');
-  // 3. anii trebuie exacți
-  expect('an greșit', breguet, 'Franța 1776', 'bad');
-  expect('lipsește anul', breguet, 'Franța', 'bad');
+  // 3. anul (sau alt număr) lipsă ori greșit nu mai respinge răspunsul, dacă restul e corect (Ciprian, 13 noiembrie 2026)
+  expect('an greșit', breguet, 'Franța 1776', 'close');
+  expect('lipsește anul', breguet, 'Franța', 'close');
+  const rolex = card('ceasuri', 'Rolex');
+  expect('Rolex: elveția fără an', rolex, 'elveția', 'close');
+  expect('Rolex: elvatia (o literă greșită), fără an', rolex, 'elvatia', 'close');
+  expect('Rolex: elvetia 1905', rolex, 'elvetia 1905', 'ok');
+  expect('Rolex: elveia, o literă omisă', rolex, 'elveia', 'close');
+  expect('Rolex: an greșit', rolex, 'Elveția 1950', 'close');
+  expect('Rolex: altă țară', rolex, 'Germania', 'bad');
+  expect('Rolex: doar anul', rolex, '1905', 'bad');
+  ok_partial = T.checkAnswerDetail(rolex, 'Elveția').partial === true && !T.checkAnswerDetail(rolex, 'Elveția 1905').partial;
+  if (ok_partial) pass++; else { fail++; console.log('FAIL partial flag'); }
   // 4. greșeli de scriere
   expect('o literă inversată', breguet, 'Frnața 1775', 'close');
   expect('o literă lipsă (8+)', merc, 'Germnia Mercedes-Benz', 'close');
   expect('două greșeli la cuvânt lung', vw, 'Germaina Volksvagen', 'close');
-  expect('prea multe greșeli', breguet, 'Frnzta 1775', 'bad');
+  expect('două greșeli la cuvânt de 6 litere', breguet, 'Frnzta 1775', 'close');
+  expect('prea multe greșeli', breguet, 'Frnzza 1775', 'bad');
   // 5. componente obligatorii + alias-uri
   expect('alias Mercedes', merc, 'Germania Mercedes', 'ok');
   expect('alias MB', merc, 'Germania MB', 'ok');

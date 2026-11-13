@@ -426,7 +426,8 @@ const ANS_ALIAS = {
   'coreea de sud': ['south korea', 'coreea'], 'emiratele arabe unite': ['eau', 'uae', 'emirate'], 'republica ceha': ['cehia', 'czechia', 'czech republic'], 'cehia': ['republica ceha', 'czechia', 'czech republic'],
   'tag heuer': ['tagheuer', 'tag'], 'jaeger lecoultre': ['jlc', 'jaeger'], 'audemars piguet': ['ap', 'audemars'], 'patek philippe': ['patek'], 'a lange sohne': ['lange', 'a lange'], 'rolls royce': ['rolls', 'rr'], 'alfa romeo': ['alfa']
 };
-const tolFor = n => n <= 3 ? 0 : n <= 7 ? 1 : 2;
+// câte greșeli de scriere (literă lipsă, în plus, schimbată sau inversată) acceptăm într-un cuvânt, după lungimea lui
+const tolFor = n => n <= 3 ? 0 : n <= 5 ? 1 : n <= 10 ? 2 : 3;
 function dlev(a, b) { // distanță Damerau-Levenshtein (literă lipsă, în plus, schimbată sau inversată = 1)
   if (a === b) return 0; const m = a.length, n = b.length; if (!m) return n; if (!n) return m;
   const D = Array.from({ length: m + 1 }, (_, i) => { const r = new Array(n + 1).fill(0); r[0] = i; return r; }); for (let j = 0; j <= n; j++) D[0][j] = j;
@@ -472,10 +473,10 @@ function optAliases(o) { // forme echivalente ale unei opțiuni (fără cuvinte 
   for (const x of [o, core]) { (ANS_ALIAS[x] || []).forEach(a => out.add(norm(a))); (syn[x] || []).forEach(a => out.add(a)); }
   return [...out];
 }
-function matchTok(inp, exp, vocab) { // 0 = exact, 1 = cu greșeli mici, -1 = nu se potrivește
+function matchTok(inp, exp, vocab, maxTol = 9) { // 0 = exact, 1 = cu greșeli mici, -1 = nu se potrivește
   if (inp === exp) return 0;
   if (/\d/.test(exp) || /\d/.test(inp)) return -1;
-  const dd = dlev(inp, exp); if (dd > tolFor(exp.length)) return -1;
+  const dd = dlev(inp, exp); if (dd > Math.min(maxTol, tolFor(exp.length))) return -1;
   if (vocab.has(inp)) return -1; // e alt cuvânt valid (ex. „austria" când se cere „australia")
   for (const w of vocab) if (w !== exp && Math.abs(w.length - inp.length) <= 2 && dlev(inp, w) < dd) return -1;
   return 1;
@@ -489,7 +490,7 @@ function matchOpt(toks, used, opt, vocab) { // potrivește toate token-urile op�
     if (bi < 0) { // poate a scris lipit („mercedesbenz") sau separat
       if (ot.length < 2 && toks.length < 2) return null;
       const joined = ot.join(''); let hit = null;
-      for (let i = 0; i < toks.length && !hit; i++) for (let L = ot.length > 1 ? 1 : 2; L <= 3 && i + L <= toks.length; L++) { const idx = [...Array(L).keys()].map(k => i + k); if (idx.some(j => used.has(j))) continue; const r = matchTok(idx.map(j => toks[j]).join(''), joined, vocab); if (r >= 0) { hit = { idx, r }; break; } }
+      for (let i = 0; i < toks.length && !hit; i++) for (let L = ot.length > 1 ? 1 : 2; L <= 3 && i + L <= toks.length; L++) { const idx = [...Array(L).keys()].map(k => i + k); if (idx.some(j => used.has(j))) continue; const r = matchTok(idx.map(j => toks[j]).join(''), joined, vocab, 1); if (r >= 0) { hit = { idx, r }; break; } }
       if (!hit) return null; hit.idx.forEach(j => take.add(j)); return { take, fuzzy: fuzzy || hit.r > 0 };
     }
     take.add(bi); if (best > 0) fuzzy = true;
@@ -497,16 +498,19 @@ function matchOpt(toks, used, opt, vocab) { // potrivește toate token-urile op�
   return { take, fuzzy };
 }
 function matchParsed(toks, P, vocab) {
-  const used = new Set(); let fuzzy = false, matched = 0;
+  const used = new Set(); let fuzzy = false, matched = 0, partial = false;
   const comps = P.any ? P.comps : P.comps.filter(c => c.kind !== 'desc' || P.comps.every(x => x.kind === 'desc'));
+  const hasWords = comps.some(c => c.kind !== 'num');
   for (const comp of comps) {
     let got = null;
     for (const o of comp.opts) { for (const a of optAliases(o)) { got = matchOpt(toks, used, a, vocab); if (got) break; } if (got) break; }
-    if (got) { got.take.forEach(i => used.add(i)); fuzzy = fuzzy || got.fuzzy; matched++; if (P.any) break; }
+    if (got) { got.take.forEach(i => used.add(i)); fuzzy = fuzzy || got.fuzzy; if (comp.kind !== 'num' || !hasWords) matched++; if (P.any) break; }
+    // anul sau un număr lipsă / greșit nu mai respinge răspunsul, dacă restul e corect (ex. „Elveția" pentru „Elveția, 1905")
+    else if (!P.any && comp.kind === 'num' && hasWords) partial = true;
     else if (!P.any) return null;
   }
   if (!matched) return null;
-  return { used, fuzzy };
+  return { used, fuzzy, partial };
 }
 function checkAnswerDetail(c, input) {
   const x = norm(input); if (!x) return null;
@@ -523,11 +527,13 @@ function checkAnswerDetail(c, input) {
   let best = null;
   for (const P of parsed) {
     const m = matchParsed(toks, P, vocab); if (!m) continue;
-    const extra = toks.filter((t, i) => !m.used.has(i) && !ANS_STOP.has(t) && t.length > 2 && !ctx.has(t) && ![...ctx].some(w => w.length > 3 && matchTok(t, w, new Set()) >= 0));
+    const extra = toks.filter((t, i) => !m.used.has(i) && !ANS_STOP.has(t) && !(m.partial && /^\d+$/.test(t)) && t.length > 2 && !ctx.has(t) && ![...ctx].some(w => w.length > 3 && matchTok(t, w, new Set()) >= 0));
     if (extra.length) continue; // a adăugat altceva (ex. altă țară) - nu acceptăm
-    const r = m.fuzzy ? 'close' : 'ok'; if (!best || r === 'ok') best = r; if (r === 'ok') break;
+    // 'part' = corect, dar fără an/număr sau cu alt an: e acceptat și îi arătăm răspunsul complet
+    const r = m.partial ? 'part' : m.fuzzy ? 'close' : 'ok', rank = { ok: 0, close: 1, part: 2 };
+    if (!best || rank[r] < rank[best]) best = r; if (r === 'ok') break;
   }
-  if (best) return { r: best };
+  if (best) return { r: best === 'part' ? 'close' : best, partial: best === 'part' };
   // răspunsuri lungi, descriptive: comparație pe tot textul
   for (const f of forms) { const v = norm(f); if (v.length > 28) { const sim = 1 - dlev(x, v) / Math.max(x.length, v.length); if (sim >= 0.9) return { r: 'ok' }; if (sim >= 0.8) return { r: 'close' }; } }
   return { r: 'bad' };
@@ -1092,8 +1098,9 @@ function renderLearnBody() {
     const chk = typed ? checkAnswerDetail(c, typed) : null, verdict = chk ? chk.r : null;
     const res = verdict ? (verdict === 'bad' ? 'bad' : 'ok') : null;
     body.appendChild(answerEl(c, d, false, res)); revealMaps(body); markResult(card, res);
-    const vtxt = { ok: 'Corect!', close: `Aproape: ai scris „${typed}", corect e „${c.a}"`, bad: `Ai scris „${typed}"` };
-    const suggested = verdict === 'ok' ? 3 : verdict === 'close' ? 2 : verdict === 'bad' ? 1 : 0;
+    const part = chk && chk.partial;
+    const vtxt = { ok: 'Corect!', close: part ? `Corect! Răspunsul complet: „${c.a}"` : `Aproape: ai scris „${typed}", corect e „${c.a}"`, bad: `Ai scris „${typed}"` };
+    const suggested = verdict === 'ok' || part ? 3 : verdict === 'close' ? 2 : verdict === 'bad' ? 1 : 0;
     ctl.replaceChildren();
     if (verdict) ctl.appendChild(el(`<div class="verdict ${res}">${esc(vtxt[verdict])}</div>`));
     const g = el(`<div class="stickyact"><div class="label" style="margin-bottom:6px">Cât de bine ai știut?</div><div class="grades">
@@ -1339,8 +1346,8 @@ function renderQuiz() {
     ctl.appendChild(f);
     f.onsubmit = e => {
       e.preventDefault(); if (z.answered) return; const t = $('#ans', f).value.trim(); if (!t) return;
-      const r = checkAnswer(c, t); f.remove();
-      ctl.appendChild(el(`<div class="verdict ${r === 'bad' ? 'bad' : 'ok'}">${r === 'ok' ? 'Corect!' : r === 'close' ? `Aproape: ai scris „${esc(t)}", corect e „${esc(c.a)}" - îl punctăm` : `Greșit: ai scris „${esc(t)}"`}</div>`));
+      const chk = checkAnswerDetail(c, t), r = chk.r; f.remove();
+      ctl.appendChild(el(`<div class="verdict ${r === 'bad' ? 'bad' : 'ok'}">${r === 'ok' ? 'Corect!' : chk.partial ? `Corect! Răspunsul complet: „${esc(c.a)}"` : r === 'close' ? `Aproape: ai scris „${esc(t)}", corect e „${esc(c.a)}" - îl punctăm` : `Greșit: ai scris „${esc(t)}"`}</div>`));
       finish(r !== 'bad', null, r === 'bad' ? t : null);
     };
     $('[data-skip]', f).onclick = () => { if (z.answered) return; f.remove(); finish(false, null, null); };
