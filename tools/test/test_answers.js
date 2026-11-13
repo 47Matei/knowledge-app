@@ -55,7 +55,19 @@ function expect(name, c, input, want) {
   expect('alias MB', merc, 'Germania MB', 'ok');
   expect('scris lipit', merc, 'germania mercedesbenz', 'ok');
   expect('fără „Group"', merc, 'Germania, Mercedes Benz', 'ok');
-  expect('componentă lipsă', merc, 'Germania', 'bad');
+  // la „Țara de origine și grupul" ajunge țara (Ciprian, 13 noiembrie 2026)
+  expect('marcă: doar țara, fără grup', merc, 'Germania', 'close');
+  const alfa = card('masini', 'Alfa Romeo'), ferrari = card('masini', 'Ferrari');
+  expect('Alfa Romeo: Italia', alfa, 'Italia', 'close');
+  expect('Alfa Romeo: italia mic', alfa, 'italia', 'close');
+  expect('Alfa Romeo: Itaila (litere inversate)', alfa, 'Itaila', 'close');
+  expect('Alfa Romeo: Itala (literă lipsă)', alfa, 'Itala', 'close');
+  expect('Alfa Romeo: complet', alfa, 'Italia - Stellantis', 'ok');
+  expect('Alfa Romeo: complet cu greșeli', alfa, 'Itlia Stelantis', 'close');
+  expect('Alfa Romeo: doar grupul', alfa, 'Stellantis', 'bad');
+  expect('Alfa Romeo: altă țară', alfa, 'Franța', 'bad');
+  expect('Ferrari: Italia', ferrari, 'Italia', 'ok');
+  if (T.checkAnswerDetail(alfa, 'Italia').partial === true) pass++; else { fail++; console.log('FAIL partial Alfa'); }
   expect('nume EN al țării', merc, 'Germany Mercedes-Benz Group', 'ok');
   expect('alias VW', vw, 'Germania VW', 'ok');
   // 6. fără false pozitive

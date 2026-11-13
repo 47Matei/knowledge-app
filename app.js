@@ -500,13 +500,15 @@ function matchOpt(toks, used, opt, vocab) { // potrivește toate token-urile op�
 function matchParsed(toks, P, vocab) {
   const used = new Set(); let fuzzy = false, matched = 0, partial = false;
   const comps = P.any ? P.comps : P.comps.filter(c => c.kind !== 'desc' || P.comps.every(x => x.kind === 'desc'));
-  const hasWords = comps.some(c => c.kind !== 'num');
+  // obligatorii: componentele cu cuvinte; anul/numerele și componentele marcate „opt" (ex. grupul unei mărci) pot lipsi
+  const soft = c => c.kind === 'num' || c.opt;
+  const hasReq = comps.some(c => !soft(c)), isReq = c => !hasReq || !soft(c);
   for (const comp of comps) {
     let got = null;
     for (const o of comp.opts) { for (const a of optAliases(o)) { got = matchOpt(toks, used, a, vocab); if (got) break; } if (got) break; }
-    if (got) { got.take.forEach(i => used.add(i)); fuzzy = fuzzy || got.fuzzy; if (comp.kind !== 'num' || !hasWords) matched++; if (P.any) break; }
-    // anul sau un număr lipsă / greșit nu mai respinge răspunsul, dacă restul e corect (ex. „Elveția" pentru „Elveția, 1905")
-    else if (!P.any && comp.kind === 'num' && hasWords) partial = true;
+    if (got) { got.take.forEach(i => used.add(i)); fuzzy = fuzzy || got.fuzzy; if (isReq(comp)) matched++; if (P.any) break; }
+    // anul, un număr sau grupul lipsă ori greșit nu mai respinge răspunsul, dacă restul e corect (ex. „Elveția" pentru „Elveția, 1905", „Italia" pentru „Italia - Stellantis")
+    else if (!P.any && !isReq(comp)) partial = true;
     else if (!P.any) return null;
   }
   if (!matched) return null;
@@ -523,6 +525,8 @@ function checkAnswerDetail(c, input) {
   // cuvinte permise în plus: orice apare în răspuns sau în contextul cardului
   const ctx = new Set(norm([c.a, ...(c.alt || []), c.q, c.en, c.d, ...Object.values(c.f || {})].join(' ')).split(' '));
   const parsed = forms.map(f => parseAnswer(f, c.k));
+  // la întrebările „Țara de origine ..." ajunge țara (prima componentă); grupul, anul etc. sunt un bonus
+  const dk = DECKS[c.k]; if (dk && /^Țara de origine/i.test(promptOf(c, dk))) parsed.forEach(P => P.comps.slice(1).forEach(cp => { cp.opt = true; }));
   parsed.forEach(P => P.comps.forEach(cp => cp.opts.forEach(o => optAliases(o).forEach(a => a.split(' ').forEach(t => ctx.add(t))))));
   let best = null;
   for (const P of parsed) {
